@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}搜索{% if query %}：{{ query }}{% endif %}{% endblock %}
+{% block content %}
+  <h1>搜索{% if query %}：{{ query }}{% endif %}</h1>
+
+  {% if query %}
+    <p class="hint">共找到 {{ results|length }} 条结果</p>
+    <ul class="search-results">
+      {% for result in results %}
+        <li class="search-result">
+          {% if result.kind == "neijing" %}
+            <a href="{{ url_for('neijing_chapter', book_slug=result.url_book_slug, number=result.url_number) }}">{{ result.source }}</a>
+          {% else %}
+            <a href="{{ url_for('bencao_juan', juan_slug=result.url_juan_slug) }}">{{ result.source }}</a>
+          {% endif %}
+          <p class="snippet">{{ result.snippet }}</p>
+        </li>
+      {% else %}
+        <li class="hint">没有找到相关内容。</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="hint">请输入搜索词。</p>
+  {% endif %}
+{% endblock %}

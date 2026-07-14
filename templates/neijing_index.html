@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}黄帝内经{% endblock %}
+{% block content %}
+  <h1>黄帝内经</h1>
+
+  {% for book in books %}
+    <section class="toc-section">
+      <h2>{{ book.name }}</h2>
+      <ol class="toc-grid">
+        {% for chapter in book.chapters %}
+          <li>
+            <a href="{{ url_for('neijing_chapter', book_slug=book.slug, number=chapter.number) }}">
+              {{ chapter.number }}. {{ chapter.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+{% endblock %}

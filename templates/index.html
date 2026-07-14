@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}中医典籍{% endblock %}
+{% block content %}
+  <h1>中医典籍</h1>
+  <p class="hint">阅读并搜索中医经典原文。</p>
+
+  <div class="text-cards">
+    <a class="text-card" href="{{ url_for('neijing_index') }}">
+      <h2>黄帝内经</h2>
+      <p>《素问》八十一篇 · 《灵枢经》八十一篇</p>
+    </a>
+    <a class="text-card" href="{{ url_for('bencao_index') }}">
+      <h2>神农本草经</h2>
+      <p>上卷 · 中卷 · 下卷</p>
+    </a>
+  </div>
+{% endblock %}

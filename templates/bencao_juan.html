@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ juan_name }} - 神农本草经{% endblock %}
+{% block content %}
+  <p class="breadcrumb no-print">
+    <a href="{{ url_for('bencao_index') }}">神农本草经</a> / {{ juan_name }}
+  </p>
+
+  <article class="reading">
+    <button type="button" class="print-btn no-print" onclick="window.print()">打印本卷</button>
+    <h1>神农本草经·{{ juan_name }}</h1>
+
+    {% for entry in entries %}
+      {% if entry.is_header %}
+        <h3 class="bencao-header">{{ entry.text }}</h3>
+      {% else %}
+        <p class="bencao-entry">{{ entry.text }}</p>
+      {% endif %}
+    {% endfor %}
+  </article>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ chapter.title }} - {{ book_name }}{% endblock %}
+{% block content %}
+  <p class="breadcrumb no-print">
+    <a href="{{ url_for('neijing_index') }}">黄帝内经</a> / {{ book_name }}
+  </p>
+
+  <article class="reading">
+    <button type="button" class="print-btn no-print" onclick="window.print()">打印本篇</button>
+    <h1>{{ book_name }}·{{ chapter.title }}</h1>
+    <p class="chapter-meta">第 {{ chapter.number }} 篇 / 共 {{ total }} 篇</p>
+
+    {% for paragraph in chapter.paragraphs %}
+      <p>{{ paragraph }}</p>
+    {% endfor %}
+  </article>
+
+  <nav class="chapter-nav no-print">
+    {% if chapter.number > 1 %}
+      <a href="{{ url_for('neijing_chapter', book_slug=book_slug, number=chapter.number - 1) }}">← 上一篇</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if chapter.number < total %}
+      <a href="{{ url_for('neijing_chapter', book_slug=book_slug, number=chapter.number + 1) }}">下一篇 →</a>
+    {% endif %}
+  </nav>
+{% endblock %}
