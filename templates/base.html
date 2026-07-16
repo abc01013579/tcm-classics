@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}中医典籍{% endblock %}</title>
+  <title>{% block title %}中华典籍{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
   <header class="site-header no-print">
     <nav class="site-nav">
-      <a href="{{ url_for('index') }}" class="site-title">中医典籍</a>
+      <a href="{{ url_for('index') }}" class="site-title">中华典籍</a>
       <a href="{{ url_for('neijing_index') }}">黄帝内经</a>
       <a href="{{ url_for('bencao_index') }}">神农本草经</a>
       <a href="{{ url_for('zhouyi_index') }}">周易</a>

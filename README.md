@@ -1,4 +1,4 @@
-# 中医典籍 (TCM Classics Reader)
+# 中华典籍 (Chinese Classics Reader)
 
 A Flask web app for browsing and searching two Traditional Chinese Medicine classics: 《黄帝内经》(Huangdi Neijing, both 素问 and 灵枢经) and 《神农本草经》(Shennong Bencao Jing).
 
