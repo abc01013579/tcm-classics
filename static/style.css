@@ -253,6 +253,16 @@ h1 {
   background: linear-gradient(to right, var(--muted) 40%, transparent 40%, transparent 60%, var(--muted) 60%);
 }
 
+.text-card-icon {
+  width: 44px;
+  gap: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.text-card-icon .line {
+  height: 4px;
+}
+
 .toc-grid a.zhouyi-toc-link {
   display: flex;
   align-items: center;

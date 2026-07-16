@@ -14,6 +14,11 @@
       <p>上卷 · 中卷 · 下卷</p>
     </a>
     <a class="text-card" href="{{ url_for('zhouyi_index') }}">
+      <span class="hexagram-mini text-card-icon">
+        {% for bit in zhouyi_icon.bits_bottom_up|reverse %}
+          <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
+        {% endfor %}
+      </span>
       <h2>周易</h2>
       <p>六十四卦 · 中英对照</p>
     </a>
