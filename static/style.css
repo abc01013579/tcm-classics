@@ -211,6 +211,54 @@ h1 {
   margin: 0 0 1.1rem;
 }
 
+.hexagram-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 140px;
+  margin: 0 auto 1.5rem;
+}
+
+.hexagram-diagram .line {
+  height: 10px;
+  border-radius: 2px;
+}
+
+.hexagram-diagram .line.yang {
+  background: var(--line);
+}
+
+.hexagram-diagram .line.yin {
+  background: linear-gradient(to right, var(--line) 42%, transparent 42%, transparent 58%, var(--line) 58%);
+}
+
+.hexagram-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.hexagram-mini .line {
+  height: 3px;
+  border-radius: 1px;
+}
+
+.hexagram-mini .line.yang {
+  background: var(--muted);
+}
+
+.hexagram-mini .line.yin {
+  background: linear-gradient(to right, var(--muted) 40%, transparent 40%, transparent 60%, var(--muted) 60%);
+}
+
+.toc-grid a.zhouyi-toc-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .zhouyi-en-hint {
   color: var(--muted);
   font-size: 0.8em;
@@ -351,5 +399,13 @@ h1 {
   .zhouyi-en,
   .zhouyi-en-hint {
     color: #333;
+  }
+
+  .hexagram-diagram .line.yang {
+    background: #000;
+  }
+
+  .hexagram-diagram .line.yin {
+    background: linear-gradient(to right, #000 42%, transparent 42%, transparent 58%, #000 58%);
   }
 }

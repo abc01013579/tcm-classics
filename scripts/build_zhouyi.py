@@ -20,8 +20,12 @@ YIJING_APP = ROOT.parent / "yijing_app"
 sys.path.insert(0, str(YIJING_APP))
 import cs001
 import cs001_en
+import yijing_core
 
 NAME_EN_RE = re.compile(r"^(.+?) \((.+?)\): (.*)$")
+
+# yijing_core.HEXAGRAM_KEYS maps (bottom-to-top 0/1 tuple) -> "dataNN"; invert it.
+BITS_BY_INDEX = {name: key for key, name in yijing_core.HEXAGRAM_KEYS}
 
 
 def build():
@@ -37,6 +41,9 @@ def build():
             raise ValueError(f"Unexpected en name format for {idx}: {en['name']!r}")
         chinese_en, title_en, judgment_en = m.groups()
 
+        # bottom-to-top (初爻 first), 1 = yang (solid), 0 = yin (broken)
+        bits_bottom_up = list(BITS_BY_INDEX[idx])
+
         hexagrams.append({
             "number": n,
             "chinese": chinese,
@@ -45,6 +52,7 @@ def build():
             "judgment_en": judgment_en,
             "lines_zh": [zh[f"y{i:02d}"] for i in range(1, 7)],
             "lines_en": [en[f"y{i:02d}"] for i in range(1, 7)],
+            "bits_bottom_up": bits_bottom_up,
         })
 
     assert len(hexagrams) == 64

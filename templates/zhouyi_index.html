@@ -8,8 +8,13 @@
     <ol class="toc-grid">
       {% for h in hexagrams %}
         <li>
-          <a href="{{ url_for('zhouyi_chapter', number=h.number) }}">
-            {{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span>
+          <a class="zhouyi-toc-link" href="{{ url_for('zhouyi_chapter', number=h.number) }}">
+            <span class="hexagram-mini">
+              {% for bit in h.bits_bottom_up|reverse %}
+                <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
+              {% endfor %}
+            </span>
+            <span>{{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span></span>
           </a>
         </li>
       {% endfor %}

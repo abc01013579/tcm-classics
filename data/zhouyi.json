@@ -20,6 +20,14 @@
       "Fourth line: Perhaps leaping in the abyss, no blame. A moment of transition or a bold step, which if taken with the right intention will not lead to blame.",
       "Fifth line: Flying dragon in the heavens; it is beneficial to see the great man. The potential has fully manifested at its peak of success, and it is still wise to seek counsel from capable people.",
       "Top line: The arrogant dragon will have cause to repent — a warning against overreaching even at the height of success. (Use of Nines: seeing a group of dragons with no single leader brings good fortune, valuing collaboration and shared leadership.)"
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -43,6 +51,14 @@
       "Fourth line: Tying up the sack; no blame, no praise — keeping things contained and avoiding extremes.",
       "Fifth line: A yellow skirt brings great good fortune — yellow, a central color symbolizing balance and harmony, leads to great fortune.",
       "Top line: Dragons fight in the wilderness, their blood black and yellow — a significant conflict with profound consequences. (Use of Sixes: beneficial to be perpetually steadfast — continuous perseverance is advantageous.)"
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -66,6 +82,14 @@
       "Fourth line: Riding a horse in disorderly fashion, seeking a marriage alliance; going forward is auspicious with nothing unfavorable — despite initial disorder, seeking alliances brings positive outcomes.",
       "Fifth line: Accumulating resources; modest correctness is auspicious, but excessive rigidity is inauspicious — moderation is favored over overreach.",
       "Top line: Riding a horse in disorderly fashion, weeping tears of blood — extreme distress as difficulties reach their peak."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -89,6 +113,14 @@
       "Fourth line: Trapped in ignorance brings regret and difficulty.",
       "Fifth line: Childlike inexperience brings good fortune when properly guided.",
       "Top line: Striking down ignorance; not beneficial to act as a robber, but beneficial to defend against robbers — one should not exploit the ignorant, but should guard against being exploited."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -112,6 +144,14 @@
       "Fourth line: Waiting in blood, emerging from the cave — a dangerous situation involving conflict or injury, yet there is a way out.",
       "Fifth line: Waiting with wine and food; perseverance brings good fortune — a comfortable, stable stage where continued perseverance leads to good outcomes.",
       "Top line: Entering the cave, three unexpected guests arrive; treating them with respect brings good fortune in the end."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -135,6 +175,14 @@
       "Fourth line: Unable to win the lawsuit, one returns and changes course; peace and perseverance bring good fortune.",
       "Fifth line: The conflict, rightly handled, ends in great good fortune.",
       "Top line: One may be awarded a belt of honor, only to have it stripped away three times before the morning ends — honors won in conflict prove unstable and fleeting."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -158,6 +206,14 @@
       "Fourth line: The army camps on the left flank, a strategic move made without blame.",
       "Fifth line: There are birds in the field, so it is beneficial to speak out, no blame; the eldest son leads the army while the younger carries the dead — perseverance in this brings misfortune if leadership falters.",
       "Top line: The great leader has a mandate to found the state and continue the family line; petty, unworthy people should not be employed."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -181,6 +237,14 @@
       "Fourth line: Union with those outside one's immediate circle, perseverance brings good fortune.",
       "Fifth line: Manifest union: the king uses a three-sided hunt and lets the game escape from the front; the townspeople are not alarmed, and it is auspicious — even an apparent loss can yield a positive result for the group.",
       "Top line: Union without a leader ends in misfortune, warning of the need for clear direction."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -204,6 +268,14 @@
       "Fourth line: There is sincerity; blood vanishes and fear departs, no blame. Sincerity and trust resolve conflict and remove fear.",
       "Fifth line: There is sincerity, like a binding cord; it brings wealth to its neighbor. Strong bonds of sincerity lead to mutual benefit and prosperity.",
       "Top line: After the rain has fallen and settled, virtue is still esteemed; the woman remains chaste and firm. The moon is almost full — the noble one who goes on an expedition meets misfortune, warning that challenges remain even after success."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -227,6 +299,14 @@
       "Fourth line: Treading on the tiger's tail, cautious and apprehensive — in the end, good fortune. Vigilance in a dangerous situation ultimately brings good fortune.",
       "Fifth line: Resolute treading, perseverance brings danger. Determined action carries the risk of danger and calls for careful consideration.",
       "Top line: Observing the treading, examining the signs — in the end, great good fortune. Careful reflection on one's actions and their consequences ensures a very good outcome."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -250,6 +330,14 @@
       "Fourth line: Light and graceful, not wealthy, but with neighbors; no need for warnings, trust is present. A modest life built on community and mutual trust rather than wealth.",
       "Fifth line: Emperor Yi marries off his sister, bringing great blessings and supreme good fortune. A symbolic auspicious union brings prosperity and harmony.",
       "Top line: The city wall returns to the moat — do not use the army; announce the mandate from the town, perseverance brings regret. A warning against military force; peaceful, internal action is better, though caution is still needed."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -273,6 +361,14 @@
       "Fourth line: There is a mandate, no blame; companions are separated from blessings.",
       "Fifth line: Ending of stagnation, the great person is auspicious. It is as if lost, but bound fast to mulberry trees, suggesting security amid apparent peril.",
       "Top line: Overturning stagnation — first there is stagnation, then there is joy."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -296,6 +392,14 @@
       "Fourth line: Riding on the wall, unable to attack — good fortune. A defensive, restrained stance rather than aggression brings good fortune.",
       "Fifth line: Fellowship with men, first weeping and lamenting, then laughing; the great leader meets with success. Initial hardship gives way to eventual triumph through perseverance.",
       "Top line: Fellowship with men in the outskirts, no regret. Seeking unity even in distant or unfamiliar places is without regret."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -319,6 +423,14 @@
       "Fourth line: Not his own strength, no fault. One should not rely solely on personal power; recognizing its limits and seeking support avoids fault.",
       "Fifth line: His trust is mutual, his majesty is awe-inspiring; good fortune. Mutual trust combined with a dignified presence leads to good fortune.",
       "Top line: Blessed by heaven, good fortune, nothing that is not beneficial. Divine favor brings overall good fortune and universal benefit."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -342,6 +454,14 @@
       "Fourth line: There is no disadvantage; maintain modesty. There are no downsides to continuing to uphold humility.",
       "Fifth line: Not rich, but with neighbors; it is favorable to undertake punitive expeditions, no disadvantage. Even without wealth, good relations with neighbors and just action bring no harm.",
       "Top line: Proclaiming modesty; it is favorable to lead an army and conquer the city-state. Openly displayed modesty can be advantageous even in leadership and conquest."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -365,6 +485,14 @@
       "Fourth line: Following enthusiasm, great gains; do not doubt, friends gather like hairpins. Pursuing enthusiasm without doubt leads to significant gains and attracts allies.",
       "Fifth line: Perseverance in illness, constant and not dying. Even amid adversity, perseverance and constancy ensure survival.",
       "Top line: Darkened enthusiasm, success brings change, no blame. At the highest point enthusiasm may become obscured, but the resulting change brings success without blame."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -388,6 +516,14 @@
       "Fourth line: Following brings gains, but steadfastness leads to misfortune; yet if there is sincerity in the path, with clarity, what blame could there be? Gains from following can turn to misfortune if one is too rigid, but sincerity and clarity avoid blame.",
       "Fifth line: Sincerity towards what is excellent brings good fortune.",
       "Top line: Binding and restraining, then following and supporting; the king offers sacrifices on the western mountain — initial restraint gives way to support, symbolizing a successful and auspicious outcome."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -411,6 +547,14 @@
       "Fourth line: Indulging the decay caused by the father. Going forward will lead to distress — failing to address inherited issues and instead indulging them leads to regret.",
       "Fifth line: Working on the decay caused by the father. This will bring praise — resolving inherited issues leads to recognition.",
       "Top line: Not serving kings and princes; he maintains his high principles — prioritizing personal integrity over serving those in power."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -434,6 +578,14 @@
       "Fourth line: Arriving approach, no blame — approaching or coming closer in a proper manner results in no blame.",
       "Fifth line: Wise approach, suitable for a great leader, auspicious.",
       "Top line: Respectful approach, auspicious and without blame."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -457,6 +609,14 @@
       "Fourth line: Contemplating the light (splendor) of the country; it is beneficial to be a guest of the king — observing the nation's splendor implies advantage in being in the presence of a wise ruler.",
       "Fifth line: Contemplating my life; the superior person has no blame — self-reflection leads a person of high moral standing to find no fault in themselves.",
       "Top line: Contemplating their (others') life; the superior person has no blame — observing the lives of others also leads to a fault-free state, emphasizing understanding and empathy."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -480,6 +640,14 @@
       "Fourth line: Biting into dried bones, one finds a golden arrow; it is beneficial to be firm and correct, good fortune — perseverance through difficulty can lead to valuable rewards.",
       "Fifth line: Biting into dried meat, one finds yellow gold; being correct is dangerous, but there is no blame — tough situations can yield valuable results, though maintaining correctness is risky.",
       "Top line: Wearing a wooden clog, one loses an ear. Misfortune — severe consequences from obstruction result in misfortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -503,6 +671,14 @@
       "Fourth line: Adorned as if white, a white horse with wings, not a bandit but a suitor — a situation that appears threatening is actually benign or beneficial; appearances can be deceiving.",
       "Fifth line: Adorned in the hills and gardens, a small bundle of silk; regret, but in the end good fortune — modesty and simplicity with small offerings bring initial regret but eventual good fortune.",
       "Top line: Pure adornment, no blame — a state of pure and simple beauty, with no fault."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -526,6 +702,14 @@
       "Fourth line: Splitting the bed at the skin, misfortune — the damage has reached the surface, now visible and severe.",
       "Fifth line: A string of fish, with the favor of the palace maid, nothing is unfavorable — despite disintegration, things are held together and there is support or benefit.",
       "Top line: The large fruit is not eaten; the noble person gets a carriage, the small person loses their house — a divergence in outcomes based on one's character and actions."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -549,6 +733,14 @@
       "Fourth line: Walking in the center, returning alone — a solitary return while maintaining a balanced path.",
       "Fifth line: Sincere return, no remorse — a sincere and earnest return, free from remorse.",
       "Top line: Lost return, misfortune, there is disaster and calamity. Using the army, there will be a great defeat, the ruler of the country will face misfortune; for ten years, it will not be possible to make an expedition — a misguided return leading to disaster; it advises against military action, predicting significant defeat and prolonged difficulties."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -572,6 +764,14 @@
       "Fourth line: Can remain steadfast; no blame. Being upright and steady leads to no fault.",
       "Fifth line: The illness of innocence; do not medicate, and there will be joy. A problem arising without real cause should be left untreated, as it will resolve naturally into a good outcome.",
       "Top line: Innocence; yet acting now brings misfortune, no advantage. Even in innocence, pressing forward at this point leads to misfortune, with nothing to be gained."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -595,6 +795,14 @@
       "Fourth line: The young ox's horns are bound; great good fortune. Control and restraint applied early lead to great fortune.",
       "Fifth line: The tusks of a castrated boar; auspicious. A lack of aggression makes the situation auspicious.",
       "Top line: What a heavenly path; success. Indicates a higher level of success and fulfillment."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -618,6 +826,14 @@
       "Fourth line: Upside-down nourishment, yet good fortune; the tiger watches intently, its desire pursuing relentlessly; no blame. Even an unconventional approach to nourishment can succeed if pursued with vigilance and focus, like a tiger.",
       "Fifth line: Deviating from the path, but remaining steadfast brings good fortune; do not cross the great river. Deviation from the norm can still bring good fortune if one stays steadfast, but one should avoid overly risky ventures.",
       "Top line: Following the source of nourishment; there is danger but good fortune; favorable to cross the great river. Following the correct path of nourishment despite danger leads to good fortune, favorable even for great undertakings."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -641,6 +857,14 @@
       "Fourth line: The ridgepole is raised up; good fortune; but there is something else to be cautious about. Strengthening the structure brings good fortune, though hidden concerns remain.",
       "Fifth line: A withered poplar produces flowers; an old woman takes a young husband; no blame, no praise. A surprising change that is neutral — neither praiseworthy nor blameworthy.",
       "Top line: Wading across until the water submerges the head; misfortune, yet no blame. Being overwhelmed leads to misfortune, but it is not one's own fault."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -664,6 +888,14 @@
       "Fourth line: A jar of wine and a pair of bowls, used simply, offered humbly through the window; no blame in the end. Simplicity and humility in accepting modest means avoid fault.",
       "Fifth line: The pit is not overflowing, only level; no blame. The danger has been managed to a stable, controlled state.",
       "Top line: Bound with cords and ropes, placed among thorn bushes; for three years finding no way out; ominous. Prolonged entrapment without resolution leads to misfortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -687,6 +919,14 @@
       "Fourth line: It comes on suddenly — flaring up, dying out, cast aside. Describes a sudden, intense event leading to destruction and abandonment.",
       "Fifth line: Tears flowing like a flood, sighing and lamenting; good fortune. Intense emotional release; despite the sorrow, it leads to a good outcome.",
       "Top line: The king uses this to go on campaign; there is great achievement, capturing the leaders but not the rank and file; no blame. A leader undertakes a mission and achieves a favorable outcome without fault."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -710,6 +950,14 @@
       "Fourth line: Steadfastness brings good fortune, regret vanishes; restless coming and going, friends follow your thoughts. A clear, thoughtful approach attracts like-minded companions.",
       "Fifth line: Influence felt in the back of the heart; no regret. A deep, settled influence bringing stability and support, with no cause for regret.",
       "Top line: Influence felt in the jaws, cheeks, and tongue. The influence reaches its fullest, most expressive stage, affecting speech and communication with others."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -733,6 +981,14 @@
       "Fourth line: In the field, no game is caught. Suggests a lack of results — effort spent may prove fruitless in this situation.",
       "Fifth line: Perseverance in virtue, remaining upright; favorable for a woman, unfavorable for a man. Constancy in virtue is judged differently depending on one's role.",
       "Top line: Shaking, unstable perseverance; misfortune. Inconsistency or instability in one's constancy leads to misfortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -756,6 +1012,14 @@
       "Fourth line: A good, well-executed retreat: the noble person finds good fortune, but the petty person does not.",
       "Fifth line: An excellent, highly favorable retreat; remaining correct brings good fortune.",
       "Top line: An abundant, well-resourced retreat; nothing is unfavorable."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -779,6 +1043,14 @@
       "Fourth line: Steadfastness brings good fortune and regret vanishes; the fence gives way and the ram is no longer entangled — strength is now well-placed, like the axle of a great wagon.",
       "Fifth line: Losing the ram in easy circumstances brings no regret.",
       "Top line: A ram butts against a fence, unable to retreat or advance, with no benefit in any direction; yet enduring the hardship will eventually bring good fortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -802,6 +1074,14 @@
       "Fourth line: Progressing like a large rat (in a sneaky, underhanded manner); persisting this way leads to danger.",
       "Fifth line: Regret vanishes; do not worry about loss or gain — moving forward brings good fortune, and nothing is unfavorable.",
       "Top line: Progressing with horns, used to attack a city; danger brings good fortune without blame, though persisting rigidly leads to distress."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -825,6 +1105,14 @@
       "Fourth line: Entering the left side of the belly, he grasps the heart of the darkening light, and emerges successfully into the courtyard.",
       "Fifth line: The darkening of the light of Prince Ji; it is beneficial to remain firm and correct.",
       "Top line: Not bright but dark: first ascending to heaven, then descending into the earth — the cyclical turn from success to obscurity."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -848,6 +1136,14 @@
       "Fourth line: The family is wealthy; great good fortune.",
       "Fifth line: The king approaches the family; there is no need for worry, and it is auspicious to proceed.",
       "Top line: There is sincerity and an awe-inspiring presence; ultimately good fortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -871,6 +1167,14 @@
       "Fourth line: Isolated in opposition, he meets a great man; through mutual trust, though there is danger, there is no blame.",
       "Fifth line: Regret vanishes; his kinsman bites through the skin, overcoming superficial issues — going forward, what blame could there be?",
       "Top line: Isolated in opposition, seeing a mud-covered pig and a cart full of ghosts; first drawing the bow as if for battle, then relaxing it — they are not bandits but a marriage party. Going forward and meeting rain is auspicious."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -894,6 +1198,14 @@
       "Fourth line: Going forward meets obstruction; coming back leads to new connections or opportunities.",
       "Fifth line: Great obstruction; but friends and allies come to help.",
       "Top line: Going forward meets obstruction; coming back leads to great achievement — auspicious. It is beneficial to meet a great person."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -917,6 +1229,14 @@
       "Fourth line: Untangling the big toe — resolving a minor issue; friends arrive and trust is established.",
       "Fifth line: The noble person achieves release — auspicious; trust extends even to lesser people.",
       "Top line: The duke shoots a hawk perched atop a high wall and captures it; nothing is unfavorable."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -940,6 +1260,14 @@
       "Fourth line: Decrease your faults, and you will quickly find joy; there will be no blame. Reducing one's negative traits brings swift happiness and avoids fault.",
       "Fifth line: Someone may increase it; the tortoise shell of ten friends cannot be opposed. Great fortune. The collective wisdom and support of friends is unassailable, bringing great fortune.",
       "Top line: If you do not decrease but increase, there will be no blame; steadfast and fortunate, there is somewhere to go, and you will gain followers without a fixed home."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -963,6 +1291,14 @@
       "Fourth line: Proceed in the middle way, announce it to the duke, and he will follow; it is beneficial to rely on this to move the state. A balanced, moderate approach wins support from higher authority for major change.",
       "Fifth line: With sincerity and a benevolent heart, do not ask for great fortune; with sincerity, it will benefit my virtue. Acting with a pure heart naturally leads to virtue and benefit without seeking excess.",
       "Top line: Do not increase it, or someone may strike it; if the mind is not constant, there will be misfortune. Unnecessary increase or a wavering mind provokes opposition and misfortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -986,6 +1322,14 @@
       "Fourth line: The buttocks have no flesh, walking is difficult; leading a sheep, regret disappears, but words are heard and not believed. Progress is hindered, though guidance removes regret; discernment is needed since words may not be trusted.",
       "Fifth line: Resolute like a plantain, walking the middle path brings no blame. A balanced, moderate approach ensures no fault.",
       "Top line: No proclamation; in the end, there is misfortune. Failing to take a decisive stand ultimately leads to misfortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1009,6 +1353,14 @@
       "Fourth line: The bag is empty of fish; rising brings misfortune. With nothing valuable at hand, taking action leads to misfortune.",
       "Fifth line: Using mulberry wood to wrap a melon; containing brilliance, there is a fall from heaven. Protecting something valuable with strength, yet warning of a sudden, unexpected downfall.",
       "Top line: Encountering its horns; regret, but no blame. Encountering something dangerous brings regret without fault."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
     ]
   },
   {
@@ -1032,6 +1384,14 @@
       "Fourth line: Great good fortune, no blame.",
       "Fifth line: Gathering together in a position of authority, no blame. Even without full sincerity, great and lasting correctness will make regret disappear.",
       "Top line: Lamenting and weeping tears and mucus, no blame."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1055,6 +1415,14 @@
       "Fourth line: The king makes offerings on Mount Qi, good fortune, no blame.",
       "Fifth line: Perseverance brings good fortune, ascending the steps. Steadfastness leads to good fortune, symbolized by ascending steps.",
       "Top line: Ascending in the dark, beneficial to be steadfast and unceasing. Even in uncertain times, remaining persistent is beneficial."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
     ]
   },
   {
@@ -1078,6 +1446,14 @@
       "Fourth line: Coming slowly, oppressed by a golden chariot; regret, but there is an end. A slow, burdened journey brings regret, but the hardship will eventually end.",
       "Fifth line: Nose and feet cut off, oppressed by red sashes; then slowly there is joy, beneficial to offer sacrifices. Severe suffering under authority eventually gives way to relief and joy.",
       "Top line: Oppressed by vines, in a precarious position, saying 'moving brings regret'; there is regret, but going forward brings good fortune. Despite entanglement and caution, taking action ultimately leads to good fortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1101,6 +1477,14 @@
       "Fourth line: The well is lined with bricks, no blame. A well that is properly constructed and maintained, signifying stability and reliability.",
       "Fifth line: The well is clear and cold; people drink from the cold spring. A pure, beneficial resource offering nourishment.",
       "Top line: The well is covered but not sealed; there is sincerity, and it brings great good fortune. A protected yet accessible resource, emphasizing sincerity and trust leading to great fortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -1124,6 +1508,14 @@
       "Fourth line: Regret vanishes; with sincerity one can change the mandate, bringing good fortune.",
       "Fifth line: The great person transforms like a tiger changing its stripes — the trust is evident even before divination.",
       "Top line: The noble person changes like a leopard changing its spots, while the petty person merely changes their face outwardly; pressing forward brings misfortune, but remaining steadfast at home brings good fortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1147,6 +1539,14 @@
       "Fourth line: The cauldron's legs snap, spilling the ruler's food and staining its form — misfortune.",
       "Fifth line: The cauldron has yellow handles and golden carrying rings; it is beneficial to remain steadfast and correct.",
       "Top line: The cauldron has jade carrying rings — great good fortune, nothing unfavorable."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -1170,6 +1570,14 @@
       "Fourth line: The shock of thunder sinks into the mud, becoming mired and ineffective.",
       "Fifth line: Thunder comes and goes dangerously, but nothing of value is lost — there is still work to be done.",
       "Top line: Thunder leaves one trembling and looking about in alarm; advancing brings misfortune. Since the thunder strikes one's neighbor and not oneself, there is no blame, though in marriage matters there will be talk."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -1193,6 +1601,14 @@
       "Fourth line: Keeping still with the whole body — no blame.",
       "Fifth line: Keeping still at the jaws, so that words come out orderly — regret disappears.",
       "Top line: Genuine, wholehearted stillness — good fortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
     ]
   },
   {
@@ -1216,6 +1632,14 @@
       "Fourth line: The wild goose gradually advances to a tree, perhaps finding a level branch to rest on — no blame.",
       "Fifth line: The wild goose gradually advances to the high hill; the wife does not conceive for three years, but in the end nothing can overcome her — good fortune.",
       "Top line: The wild goose gradually advances onto the plateau (or its flight path); its feathers can be used for ceremonial regalia — good fortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1239,6 +1663,14 @@
       "Fourth line: The maiden's marriage is delayed past its proper time, but a late marriage will still come in its own season.",
       "Fifth line: Emperor Yi marries off his younger sister/daughter; the principal wife's sleeves are not as fine as those of the attending sister — as the moon nears fullness, this is auspicious.",
       "Top line: The woman holds a basket that has nothing in it; the man stabs a sheep that yields no blood — nothing is advantageous."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -1262,6 +1694,14 @@
       "Fourth line: The abundance is screened over, so that at midday one sees the Dipper; meeting one's counterpart/equal brings good fortune.",
       "Fifth line: Bringing forth brilliance/talented help results in praise and honor — good fortune.",
       "Top line: The house is made abundant but the home is screened over; peering through the door, it is silent and no one is there — for three years no one is seen — misfortune."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -1285,6 +1725,14 @@
       "Fourth line: The wanderer finds a resting place and gains resources and tools, yet his heart is not at ease.",
       "Fifth line: In shooting a pheasant he loses a single arrow, but in the end this brings him praise and a mandate/position.",
       "Top line: The bird's nest burns; the wanderer laughs at first, then wails and cries — losing an ox at Yi with ease brings misfortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
     ]
   },
   {
@@ -1308,6 +1756,14 @@
       "Fourth line: Regret vanishes. In the field, three kinds of game are caught.",
       "Fifth line: Steadfast and upright, good fortune, regret vanishes. There is nothing that is not beneficial. No beginning, but there is an end. Three days before Geng, three days after Geng, auspicious.",
       "Top line: Xùn is under the bed. Losing one's tools and resources, steadfastness leads to misfortune."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1331,6 +1787,14 @@
       "Fourth line: Trading joy, not yet at peace, there is joy in overcoming difficulties.",
       "Fifth line: Sincerity towards stripping away, there is danger. Being sincere in removing superficial layers or falsehoods can be dangerous.",
       "Top line: Leading joy — guiding joy implies a higher level of understanding or mastery over joy."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1354,6 +1818,14 @@
       "Fourth line: Dispersion of the group, great fortune. Dispersion leads to a mound, beyond ordinary thoughts — breaking up a collective can lead to higher wisdom or success.",
       "Fifth line: Dispersion sweats its great command, the king's residence is dispersed, no blame. Even the highest authorities must sometimes undergo dissolution for renewal.",
       "Top line: Dispersion of blood, go far away and emerge, no blame. A complete and thorough transformation, necessary though drastic."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1377,6 +1849,14 @@
       "Fourth line: Peaceful restraint, success. A calm and balanced approach to moderation leads to success.",
       "Fifth line: Sweet restraint, good fortune; there is honor in going forward. Practicing restraint pleasantly brings good fortune.",
       "Top line: Bitter restraint, steadfastness leads to misfortune, regret disappears. Severe restraint leads to misfortune if persisted in, though the regret eventually fades."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -1400,6 +1880,14 @@
       "Fourth line: The moon is nearly full, the horse is lost, no blame. Nearing fulfillment, some losses may occur, but there is no fault.",
       "Fifth line: There is sincerity, like being bound together, no blame. Sincerity and unity bring about a situation free of fault.",
       "Top line: The sound of wings ascends to heaven, steadfastness leads to misfortune. Aspirations that reach too high may lead to misfortune despite good intentions."
+    ],
+    "bits_bottom_up": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1423,6 +1911,14 @@
       "Fourth line: No blame, not surpassing and encountering it. Going forward with caution is necessary; do not use eternal correctness — adapt rather than being overly rigid.",
       "Fifth line: Dense clouds but no rain, coming from our western outskirts. The duke shoots and catches it in the cave. This symbolizes potential not yet realized, and taking initiative to realize it.",
       "Top line: Not encountering and surpassing it, the flying bird leaves it, misfortune. This is called disaster and calamity — ignoring or surpassing problems can lead to disaster."
+    ],
+    "bits_bottom_up": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
     ]
   },
   {
@@ -1446,6 +1942,14 @@
       "Fourth line: There are clothes with patches; be cautious all day long. Advises vigilance even when things seem patched up or imperfect.",
       "Fifth line: The eastern neighbor slaughters a cow; it is not as good as the western neighbor's simple sacrifice; truly receive its blessing. Sincerity and simplicity are more effective than grand but insincere actions.",
       "Top line: Wetting its head; danger. At the end, there is a warning of danger — even after completion, one must remain cautious to avoid peril."
+    ],
+    "bits_bottom_up": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
     ]
   },
   {
@@ -1469,6 +1973,14 @@
       "Fourth line: Perseverance brings good fortune, regret vanishes. Thunder is used to attack the demon's realm; in three years there will be rewards in the great country. Bold, well-timed action leads to significant rewards.",
       "Fifth line: Perseverance brings good fortune, no regret. The light of the noble person, there is trust, good fortune.",
       "Top line: There is trust in drinking wine, no blame. Getting its head wet, there is trust but it is lost. Vigilance is necessary even in seemingly secure situations."
+    ],
+    "bits_bottom_up": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
     ]
   }
 ]

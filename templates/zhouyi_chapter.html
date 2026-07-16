@@ -10,6 +10,12 @@
     <h1>{{ hexagram.number }}. {{ hexagram.chinese }} <span class="zhouyi-en-hint">{{ hexagram.title_en }}</span></h1>
     <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
 
+    <div class="hexagram-diagram">
+      {% for bit in hexagram.bits_bottom_up|reverse %}
+        <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
+      {% endfor %}
+    </div>
+
     <div class="zhouyi-pair">
       <p class="zhouyi-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
       <p class="zhouyi-en">{{ hexagram.judgment_en }}</p>
