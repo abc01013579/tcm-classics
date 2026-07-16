@@ -62,6 +62,24 @@ def zhouyi_chapter(number):
     return render_template("zhouyi_chapter.html", hexagram=hexagram, total=len(core.ZHOUYI))
 
 
+@app.route("/journal")
+def journal_index():
+    return render_template("journal_index.html", entries=core.JOURNAL)
+
+
+@app.route("/journal/<slug>")
+def journal_entry(slug):
+    entry = core.get_journal_entry(slug)
+    if entry is None:
+        abort(404)
+    idx = core.JOURNAL.index(entry)
+    older_entry = core.JOURNAL[idx + 1] if idx + 1 < len(core.JOURNAL) else None
+    newer_entry = core.JOURNAL[idx - 1] if idx > 0 else None
+    return render_template(
+        "journal_entry.html", entry=entry, older_entry=older_entry, newer_entry=newer_entry
+    )
+
+
 @app.route("/search")
 def search():
     query = request.args.get("q", "").strip()

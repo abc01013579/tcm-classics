@@ -263,6 +263,65 @@ h1 {
   height: 4px;
 }
 
+.journal-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.journal-list-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.journal-list-item a {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.9rem 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.journal-list-item a:hover .journal-title {
+  color: var(--accent);
+}
+
+.journal-date {
+  color: var(--muted);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.journal-title {
+  font-size: 0.98rem;
+}
+
+.journal-body :is(h2, h3) {
+  color: var(--accent);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.journal-body ul,
+.journal-body ol {
+  padding-left: 1.4rem;
+  line-height: 1.9;
+}
+
+.journal-body blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.journal-body code {
+  background: var(--bg);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
 .toc-grid a.zhouyi-toc-link {
   display: flex;
   align-items: center;

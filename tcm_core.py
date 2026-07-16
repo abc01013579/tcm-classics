@@ -7,6 +7,9 @@ BENCAO = json.loads((DATA_DIR / "bencao.json").read_text(encoding="utf-8"))
 ZHOUYI = json.loads((DATA_DIR / "zhouyi.json").read_text(encoding="utf-8"))
 ZHOUYI_BY_NUMBER = {h["number"]: h for h in ZHOUYI}
 
+JOURNAL = json.loads((DATA_DIR / "journal.json").read_text(encoding="utf-8"))
+JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}
+
 NEIJING_BOOKS = [
     {"slug": "suwen", "name": "素问", "chapters": NEIJING["素问"]},
     {"slug": "lingshu", "name": "灵枢经", "chapters": NEIJING["灵枢经"]},
@@ -42,6 +45,10 @@ def get_bencao_juan(juan_slug):
 
 def get_zhouyi_hexagram(number):
     return ZHOUYI_BY_NUMBER.get(number)
+
+
+def get_journal_entry(slug):
+    return JOURNAL_BY_SLUG.get(slug)
 
 
 def _snippet(text, index, match_len):
@@ -90,5 +97,16 @@ def search(query):
                     "snippet": _snippet(text, idx, len(query)),
                 })
                 break
+
+    for entry in JOURNAL:
+        haystack = f"{entry['title']}\n{entry['body_text']}"
+        idx = haystack.find(query)
+        if idx != -1:
+            results.append({
+                "source": f"《随笔》{entry['title']} · {entry['date']}",
+                "url_slug": entry["slug"],
+                "kind": "journal",
+                "snippet": _snippet(haystack, idx, len(query)),
+            })
 
     return results

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}随笔{% endblock %}
+{% block content %}
+  <h1>随笔</h1>
+  <p class="hint">日常感悟与随想</p>
+
+  {% if entries %}
+    <ul class="journal-list">
+      {% for entry in entries %}
+        <li class="journal-list-item">
+          <a href="{{ url_for('journal_entry', slug=entry.slug) }}">
+            <span class="journal-date">{{ entry.date }}</span>
+            <span class="journal-title">{{ entry.title }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="hint">还没有随笔，敬请期待。</p>
+  {% endif %}
+{% endblock %}

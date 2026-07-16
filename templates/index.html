@@ -2,7 +2,7 @@
 {% block title %}中华典籍{% endblock %}
 {% block content %}
   <h1>中华典籍</h1>
-  <p class="hint">阅读并搜索中医经典原文。</p>
+  <p class="hint">阅读并搜索中华经典原文，记录日常随笔。</p>
 
   <div class="text-cards">
     <a class="text-card" href="{{ url_for('neijing_index') }}">
@@ -21,6 +21,10 @@
       </span>
       <h2>周易</h2>
       <p>六十四卦 · 中英对照</p>
+    </a>
+    <a class="text-card" href="{{ url_for('journal_index') }}">
+      <h2>随笔</h2>
+      <p>日常感悟与随想</p>
     </a>
   </div>
 {% endblock %}
