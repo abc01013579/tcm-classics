@@ -12,6 +12,7 @@
       <a href="{{ url_for('index') }}" class="site-title">中医典籍</a>
       <a href="{{ url_for('neijing_index') }}">黄帝内经</a>
       <a href="{{ url_for('bencao_index') }}">神农本草经</a>
+      <a href="{{ url_for('zhouyi_index') }}">周易</a>
     </nav>
     <form method="get" action="{{ url_for('search') }}" class="search-box">
       <input type="text" name="q" placeholder="搜索原文…" value="{{ request.args.get('q', '') }}">

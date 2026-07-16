@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ hexagram.number }}. {{ hexagram.chinese }} ({{ hexagram.title_en }}) - 周易{% endblock %}
+{% block content %}
+  <p class="breadcrumb no-print">
+    <a href="{{ url_for('zhouyi_index') }}">周易</a>
+  </p>
+
+  <article class="reading zhouyi-reading">
+    <button type="button" class="print-btn no-print" onclick="window.print()">打印本卦</button>
+    <h1>{{ hexagram.number }}. {{ hexagram.chinese }} <span class="zhouyi-en-hint">{{ hexagram.title_en }}</span></h1>
+    <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+
+    <div class="zhouyi-pair">
+      <p class="zhouyi-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
+      <p class="zhouyi-en">{{ hexagram.judgment_en }}</p>
+    </div>
+
+    {% for line_zh in hexagram.lines_zh %}
+      <div class="zhouyi-pair">
+        <p class="zhouyi-zh">{{ line_zh }}</p>
+        <p class="zhouyi-en">{{ hexagram.lines_en[loop.index0] }}</p>
+      </div>
+    {% endfor %}
+  </article>
+
+  <nav class="chapter-nav no-print">
+    {% if hexagram.number > 1 %}
+      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number - 1) }}">← 上一卦</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if hexagram.number < total %}
+      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number + 1) }}">下一卦 →</a>
+    {% endif %}
+  </nav>
+{% endblock %}

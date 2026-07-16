@@ -10,6 +10,8 @@
         <li class="search-result">
           {% if result.kind == "neijing" %}
             <a href="{{ url_for('neijing_chapter', book_slug=result.url_book_slug, number=result.url_number) }}">{{ result.source }}</a>
+          {% elif result.kind == "zhouyi" %}
+            <a href="{{ url_for('zhouyi_chapter', number=result.url_number) }}">{{ result.source }}</a>
           {% else %}
             <a href="{{ url_for('bencao_juan', juan_slug=result.url_juan_slug) }}">{{ result.source }}</a>
           {% endif %}

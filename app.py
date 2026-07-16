@@ -49,6 +49,19 @@ def bencao_juan(juan_slug):
     )
 
 
+@app.route("/zhouyi")
+def zhouyi_index():
+    return render_template("zhouyi_index.html", hexagrams=core.ZHOUYI)
+
+
+@app.route("/zhouyi/<int:number>")
+def zhouyi_chapter(number):
+    hexagram = core.get_zhouyi_hexagram(number)
+    if hexagram is None:
+        abort(404)
+    return render_template("zhouyi_chapter.html", hexagram=hexagram, total=len(core.ZHOUYI))
+
+
 @app.route("/search")
 def search():
     query = request.args.get("q", "").strip()

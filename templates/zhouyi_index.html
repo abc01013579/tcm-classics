@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}周易{% endblock %}
+{% block content %}
+  <h1>周易</h1>
+  <p class="hint">六十四卦 · 中英对照 The 64 Hexagrams · Chinese &amp; English</p>
+
+  <section class="toc-section">
+    <ol class="toc-grid">
+      {% for h in hexagrams %}
+        <li>
+          <a href="{{ url_for('zhouyi_chapter', number=h.number) }}">
+            {{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endblock %}

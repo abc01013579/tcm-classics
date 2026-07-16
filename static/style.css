@@ -211,6 +211,32 @@ h1 {
   margin: 0 0 1.1rem;
 }
 
+.zhouyi-en-hint {
+  color: var(--muted);
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.zhouyi-pair {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.zhouyi-pair:last-child {
+  border-bottom: none;
+}
+
+.zhouyi-zh {
+  margin-bottom: 0.4rem !important;
+}
+
+.zhouyi-en {
+  color: var(--muted);
+  font-size: 0.88rem !important;
+  margin-bottom: 0 !important;
+}
+
 .bencao-header {
   color: var(--accent);
   font-size: 1rem;
@@ -320,5 +346,10 @@ h1 {
 
   .bencao-header {
     color: #000;
+  }
+
+  .zhouyi-en,
+  .zhouyi-en-hint {
+    color: #333;
   }
 }
