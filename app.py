@@ -62,6 +62,11 @@ def zhouyi_chapter(number):
     return render_template("zhouyi_chapter.html", hexagram=hexagram, total=len(core.ZHOUYI))
 
 
+@app.route("/xinjing")
+def xinjing():
+    return render_template("xinjing.html", sutra=core.XINJING)
+
+
 @app.route("/journal")
 def journal_index():
     return render_template("journal_index.html", entries=core.JOURNAL)

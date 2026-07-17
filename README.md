@@ -1,6 +1,6 @@
 # 中华典籍 (Chinese Classics Reader)
 
-A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing, both 素问 and 灵枢经) and 《神农本草经》(Shennong Bencao Jing); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; and 随笔, a personal journal section. More classics are added over time.
+A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing, both 素问 and 灵枢经) and 《神农本草经》(Shennong Bencao Jing); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
 
 ## How it works
 
@@ -13,7 +13,9 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 
 **周易** is generated from the sibling `zhouyi-divination` app's hexagram data (`scripts/build_zhouyi.py` imports `cs001.py`/`cs001_en.py`/`yijing_core.py` from `../yijing_app`) into a self-contained `data/zhouyi.json`, including each hexagram's six-line bit pattern for rendering the yang/yin diagram.
 
-**随笔** entries are hand-written Markdown files under `journal/` (see "Adding a journal entry" below), parsed by `scripts/build_zhouyi.py`'s sibling `scripts/build_journal.py` into `data/journal.json`.
+**心经** (the Heart Sutra) is extracted from the same bundled-text quirk in `sources/huangdinijing.txt` that `build_data.py` already skips over — the raw scrape has the sutra's Chinese text sitting before the real 《黄帝内经》 content starts. `scripts/build_xinjing.py` pulls that block out and pairs it paragraph-by-paragraph with an original English translation (not parsed from any source) into `data/xinjing.json`.
+
+**随笔** entries are hand-written Markdown files under `journal/` (see "Adding a journal entry" below), parsed by `scripts/build_journal.py` into `data/journal.json`.
 
 `app.py` serves the parsed data through read-only routes: a landing page, per-book chapter/juan/hexagram/entry indexes, reading views with print support, and a substring search across all texts (Chinese and English).
 
@@ -23,6 +25,7 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - `tcm_core.py` — loads `data/*.json` at import time; chapter/juan/hexagram/entry lookup and search helpers.
 - `scripts/build_data.py` — one-time parser, `sources/*.txt` → `data/{neijing,bencao}.json`.
 - `scripts/build_zhouyi.py` — one-time parser, sibling `yijing_app`'s hexagram data → `data/zhouyi.json`.
+- `scripts/build_xinjing.py` — one-time parser, the bundled Heart Sutra text in `sources/huangdinijing.txt` → `data/xinjing.json`.
 - `scripts/build_journal.py` — one-time parser, `journal/*.md` → `data/journal.json`.
 - `sources/` — verbatim copies of the original TCM text dumps, kept for reproducibility.
 - `journal/` — hand-written Markdown journal entries (source of truth for 随笔).
@@ -43,6 +46,7 @@ Then open `http://127.0.0.1:5000`. To regenerate `data/*.json`:
 ```bash
 python scripts/build_data.py      # from sources/*.txt
 python scripts/build_zhouyi.py    # from the sibling yijing_app (must be checked out alongside this repo)
+python scripts/build_xinjing.py   # from sources/huangdinijing.txt
 python scripts/build_journal.py   # from journal/*.md
 ```
 

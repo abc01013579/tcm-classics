@@ -334,21 +334,21 @@ h1 {
   font-weight: 400;
 }
 
-.zhouyi-pair {
+.bilingual-pair {
   border-bottom: 1px solid var(--border);
   padding-bottom: 1rem;
   margin-bottom: 1.1rem;
 }
 
-.zhouyi-pair:last-child {
+.bilingual-pair:last-child {
   border-bottom: none;
 }
 
-.zhouyi-zh {
+.bilingual-zh {
   margin-bottom: 0.4rem !important;
 }
 
-.zhouyi-en {
+.bilingual-en {
   color: var(--muted);
   font-size: 0.88rem !important;
   margin-bottom: 0 !important;
@@ -465,7 +465,7 @@ h1 {
     color: #000;
   }
 
-  .zhouyi-en,
+  .bilingual-en,
   .zhouyi-en-hint {
     color: #333;
   }

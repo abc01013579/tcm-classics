@@ -16,15 +16,15 @@
       {% endfor %}
     </div>
 
-    <div class="zhouyi-pair">
-      <p class="zhouyi-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
-      <p class="zhouyi-en">{{ hexagram.judgment_en }}</p>
+    <div class="bilingual-pair">
+      <p class="bilingual-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
+      <p class="bilingual-en">{{ hexagram.judgment_en }}</p>
     </div>
 
     {% for line_zh in hexagram.lines_zh %}
-      <div class="zhouyi-pair">
-        <p class="zhouyi-zh">{{ line_zh }}</p>
-        <p class="zhouyi-en">{{ hexagram.lines_en[loop.index0] }}</p>
+      <div class="bilingual-pair">
+        <p class="bilingual-zh">{{ line_zh }}</p>
+        <p class="bilingual-en">{{ hexagram.lines_en[loop.index0] }}</p>
       </div>
     {% endfor %}
   </article>

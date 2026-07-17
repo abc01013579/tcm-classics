@@ -10,6 +10,8 @@ ZHOUYI_BY_NUMBER = {h["number"]: h for h in ZHOUYI}
 JOURNAL = json.loads((DATA_DIR / "journal.json").read_text(encoding="utf-8"))
 JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}
 
+XINJING = json.loads((DATA_DIR / "xinjing.json").read_text(encoding="utf-8"))
+
 NEIJING_BOOKS = [
     {"slug": "suwen", "name": "素问", "chapters": NEIJING["素问"]},
     {"slug": "lingshu", "name": "灵枢经", "chapters": NEIJING["灵枢经"]},
@@ -97,6 +99,16 @@ def search(query):
                     "snippet": _snippet(text, idx, len(query)),
                 })
                 break
+
+    for i, para in enumerate(XINJING["paragraphs"]):
+        haystack = f"{para['zh']}\n{para['en']}"
+        idx = haystack.find(query)
+        if idx != -1:
+            results.append({
+                "source": f"《{XINJING['title_zh']}》({XINJING['title_en']})",
+                "kind": "xinjing",
+                "snippet": _snippet(haystack, idx, len(query)),
+            })
 
     for entry in JOURNAL:
         haystack = f"{entry['title']}\n{entry['body_text']}"
