@@ -15,6 +15,7 @@
       <a href="{{ url_for('zhouyi_index') }}">周易</a>
       <a href="{{ url_for('xinjing') }}">心经</a>
       <a href="{{ url_for('journal_index') }}">随笔</a>
+      <a href="mailto:zhongyuan1358@gmail.com?subject=%E4%B8%AD%E5%8D%8E%E5%85%B8%E7%B1%8D%E5%8F%8D%E9%A6%88">反馈</a>
     </nav>
     <form method="get" action="{{ url_for('search') }}" class="search-box">
       <input type="text" name="q" placeholder="搜索原文…" value="{{ request.args.get('q', '') }}">

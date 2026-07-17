@@ -53,6 +53,12 @@ h1 {
   font-size: 0.9rem;
 }
 
+.welcome-note {
+  color: var(--accent);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
 .site-header {
   width: 100%;
   max-width: 720px;
