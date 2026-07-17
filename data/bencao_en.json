@@ -1,0 +1,1918 @@
+{
+  "上卷": [
+    {
+      "number": 1,
+      "text": "The 120 superior drugs serve as \"rulers\" (jun), governing the nourishing of life in correspondence with Heaven. They are non-toxic; taken in large amounts or over a long time, they do not harm a person. Those wishing to lighten the body, boost qi, resist aging, and prolong life should base themselves on the Upper Classic (上經).",
+      "is_header": false
+    },
+    {
+      "number": 2,
+      "text": "The 120 middle drugs serve as \"ministers\" (chen), governing the nourishing of one's nature in correspondence with Man. Some are non-toxic, some are toxic — their suitability must be weighed with care. Those wishing to check disease and supplement deficiency and weakness should base themselves on the Middle Classic (中經).",
+      "is_header": false
+    },
+    {
+      "number": 3,
+      "text": "The 125 inferior drugs serve as \"assistants and envoys\" (zuoshi), governing the treatment of disease in correspondence with Earth. Most are toxic and should not be taken over a long time. Those wishing to eliminate cold and heat pathogenic qi, break up accumulations and masses, and cure illness should base themselves on the Lower Classic (下經).",
+      "is_header": false
+    },
+    {
+      "number": 4,
+      "text": "Drugs have the roles of ruler, minister, assistant, and envoy, combined so as to mutually direct and regulate one another. One should use one ruler, two ministers, and five assistants; alternatively, one ruler, three ministers, and nine assistants and envoys.",
+      "is_header": false
+    },
+    {
+      "number": 5,
+      "text": "Drugs have yin-yang pairings, like mother and child, elder and younger brother — root, stem, flower, fruit, herb, mineral, bone, and flesh. There are those that act alone, those that mutually reinforce each other, those that mutually guide each other, those that mutually restrain each other, those that mutually dislike each other, those that mutually conflict with each other, and those that mutually suppress each other. These seven relationships must all be weighed when combining drugs: one should use those that mutually reinforce or mutually guide well, and avoid those that mutually dislike or conflict. If a drug is toxic, its toxicity should be moderated — one may use those that mutually restrain or mutually suppress it; otherwise they should not be combined. Drugs have the five flavors — sour, salty, sweet, bitter, and pungent — and the four natures — cold, hot, warm, and cool — as well as being toxic or non-toxic. Drying in the shade or in the sun, the timing of gathering and processing, whether used raw or prepared, the region of origin, and whether genuine or adulterated, old or fresh — each of these has its proper method.",
+      "is_header": false
+    },
+    {
+      "number": 6,
+      "text": "By nature, some drugs are suited to being made into pills, some into powders, some to be boiled in water, some steeped in wine, some rendered into pastes by decoction; some substances suit several of these methods at once, and some must not be put into decoctions or wine. All must follow the nature of the drug — this must not be violated.",
+      "is_header": false
+    },
+    {
+      "number": 7,
+      "text": "Whenever one wishes to treat disease, first examine its origin and observe the mechanism of the illness. If the five viscera are not yet depleted, the six bowels not yet exhausted, the blood vessels not yet in disorder, and the spirit not yet dispersed, then taking medicine will surely save the patient. If the disease has already become established, only half a cure may be achieved. If the course of the disease has already passed its critical point, life will be hard to preserve.",
+      "is_header": false
+    },
+    {
+      "number": 8,
+      "text": "If toxic drugs are used to treat disease, begin with a dose as small as a millet grain, and stop once the disease is gone. If it is not gone, double the dose; if still not gone, increase it tenfold. Take the disappearance of the disease as the measure. Treat cold with hot drugs, and heat with cold drugs. For indigestion of food and drink, use drugs that induce vomiting or purging. For ghost-attachment and gu-poisoning, use toxic drugs. For carbuncles, swellings, sores, and tumors, use sore-treating drugs. For wind-damp, use wind-damp drugs. Each should follow what is appropriate to it.",
+      "is_header": false
+    },
+    {
+      "number": 9,
+      "text": "When disease is above the chest and diaphragm, eat first and take the medicine afterward. When disease is below the heart and abdomen, take the medicine first and eat afterward. When disease is in the limbs and blood vessels, medicine should be taken on an empty stomach, in the morning. When disease is in the bone marrow, medicine should be taken after a full meal, at night.",
+      "is_header": false
+    },
+    {
+      "number": 10,
+      "text": "The principal categories of major disease include: wind-stroke, cold-damage disorders, warm malaria, attack by pestilence, sudden turmoil, abdominal distension, edema, dysenteric disorders with diarrhea, obstruction of urination and defecation, running-piglet qi, ascending qi, cough with counterflow, vomiting, jaundice, wasting-thirst, retained fluids, food stagnation, hardened accumulations and masses, fright-evil, epilepsy, ghost-attachment, throat obstruction, toothache, deafness, blindness, wounds from metal weapons, sprains and fractures, carbuncles and swellings, malignant sores, hemorrhoids, fistulas, goiter and fistulous swellings; in men, the five taxations and seven damages, deficiency and emaciation; in women, vaginal discharge, flooding, and amenorrhea; and injuries from insects, snakes, and gu-poison. These are but the general outline, the root patterns — the branching variations within each should be traced and addressed according to their particular thread.",
+      "is_header": false
+    }
+  ],
+  "中卷": [
+    {
+      "number": 1,
+      "text": "Minerals and Stones — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 2,
+      "text": "Jade Spring (yuquan). Taste sweet, nature neutral. Indicated for the hundred diseases of the five viscera. Softens the sinews, strengthens the bones, calms the hun and po (spirit-souls), builds flesh, and boosts qi. Taken long-term, it enables one to withstand cold and heat without hunger or thirst, and prevents aging — a substance of the immortals. If a person near death takes five catties of it, the complexion will not change even after three years. Also called Jade Tablet (yuzha).",
+      "is_header": false
+    },
+    {
+      "number": 3,
+      "text": "Cinnabar (dansha). Taste sweet, nature slightly cold. Treats the hundred diseases of the body and five viscera. Nourishes the essence-spirit, calms the hun and po, boosts qi, brightens the eyes, and kills malevolent spirits and demons. Taken long-term, it grants communication with spirit intelligence and prevents aging. It can transform into mercury. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 4,
+      "text": "Mercury (shuiyin). Taste pungent, nature cold. Indicated for scabies, itching, crusted sores, and baldness with sores; kills lice and mites in the skin, induces abortion, and clears heat. It neutralizes the toxicity of gold, silver, copper, and tin; when melted it can be restored into cinnabar. Taken long-term, it grants spirit-immortality and freedom from death. Grows in level ground.",
+      "is_header": false
+    },
+    {
+      "number": 5,
+      "text": "Kongqing, hollow azurite. Taste sweet, nature cold. Indicated for blue-blindness and deafness. Brightens the eyes, frees the nine orifices, opens the blood vessels, and nourishes the essence-spirit. Taken long-term, it lightens the body and prolongs life without aging. It can transmute copper, iron, lead, and tin into gold. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 6,
+      "text": "Zengqing, layered azurite. Taste sour, nature slightly cold. Indicated for eye pain; stops tearing, treats wind-bi (painful obstruction), benefits the joints, frees the nine orifices, and breaks up masses and accumulations. Taken long-term, it lightens the body and prevents aging. It can transmute [metals] into gold and copper. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 7,
+      "text": "Baiqing, white azurite. Taste sweet, nature neutral. Brightens the eyes and frees the nine orifices; treats deafness and pathogenic qi below the heart. Induces vomiting and kills all manner of toxins and the three worms (intestinal parasites). Taken long-term, it grants communication with spirit intelligence, lightens the body, and prolongs life without aging. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 8,
+      "text": "Mica (yunmu). Taste sweet, nature neutral. Treats dead flesh on the skin, and wind-stroke with chills and fever as if aboard a moving carriage or boat; expels pathogenic qi, calms the five viscera, benefits the essence of offspring, brightens the eyes, lightens the body, and prolongs life. Also called Cloud Pearl, Cloud Flower, Cloud Blossom, Cloud Fluid, Cloud Sand, and Scale Stone. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 9,
+      "text": "Crude Mirabilite (puxiao). Taste bitter, nature cold, non-toxic. Indicated for the hundred diseases; expels cold and heat pathogenic qi, and drives out accumulations, hardened stagnation, and lingering blockages in the six bowels. It can transmute seventy-two kinds of minerals. Refined and taken as a preparation, it lightens the body — a substance of the immortals. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 10,
+      "text": "Niter (xiaoshi). Taste bitter, nature cold. Indicated for accumulated heat in the five viscera, and distension and blockage of the stomach. It washes away stagnant accumulations of food and drink, expels the old to bring in the new, and clears pathogenic qi. Refined until paste-like; taken long-term, it lightens the body. Also called Mangxiao (Glauber's salt). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 11,
+      "text": "Alum (fanshi). Taste sour, nature cold. Indicated for chills and fever with diarrhea, white vaginal discharge and genital erosion, malignant sores, and eye pain; hardens the bones and teeth. Refined and taken as a preparation, it lightens the body, prevents aging, and extends the years. Also called Yunie. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 12,
+      "text": "Talc (huashi). Taste sweet, nature cold. Indicated for fever with diarrhea, difficult lactation in women, and urinary blockage. Promotes urination, washes away accumulated cold and heat in the stomach, and boosts the essence-qi. Taken long-term, it lightens the body, staves off hunger, and prolongs the years. Grows in the mountain valleys of Zheyang.",
+      "is_header": false
+    },
+    {
+      "number": 13,
+      "text": "Purple Stone (zishi). Taste sweet, nature neutral. Indicated for cough and counterflow qi in the chest and abdomen; supplements deficiency, and treats wind-cold lodged in the uterus in women, and infertility of ten years' standing. Taken long-term, it warms the interior, lightens the body, and prolongs life. Grows in the mountain valleys of Mount Tai.",
+      "is_header": false
+    },
+    {
+      "number": 14,
+      "text": "White Quartz (bai shiying). Taste sweet, nature slightly warm. Indicated for wasting-thirst, impotence and insufficiency, cough with counterflow qi, and long-standing cold between the chest and diaphragm. Boosts qi and dispels wind-damp painful obstruction. Taken long-term, it lightens the body and prolongs the years. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 15,
+      "text": "Blue, Red, Yellow, White, and Black Stone-Fat (shizhi), and the like. Taste sweet, nature neutral. Indicated for jaundice, diarrhea, dysentery with pus and blood, genital erosion, red-and-white vaginal discharge, pathogenic qi, carbuncles and swellings, malignant sores with pus, sores on the head, and scabies with itching. Taken long-term, they supplement the marrow, boost qi, make one robust and vigorous, stave off hunger, lighten the body, and prolong the years. The five stone-fats each, according to their color, supplement one of the five viscera. Grow in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 16,
+      "text": "Taiyi Yuyuliang (Great Unity's Yu's Surplus-Grain). Taste sweet, nature neutral. Indicated for cough with counterflow and ascending qi, masses and accumulations, amenorrhea, and irregular spotting; expels pathogenic qi. Taken long-term, it enables one to withstand cold and heat without hunger, lightens the body, and grants the power of flight over a thousand li — a substance of the immortals. Also called Stone Marrow (shinao). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 17,
+      "text": "Yuyuliang (Yu's Surplus-Grain). Taste sweet, nature cold. Indicated for cough with counterflow, chills and fever, vexation and fullness, diarrhea with red and white discharge, and severe heat associated with amenorrhea and masses. Refined and taken as a preparation, it staves off hunger, lightens the body, and prolongs the years. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 18,
+      "text": "Xionghuang (Realgar). Taste: bitter, neutral. Indicated for cold-heat scrofula (rat fistula), malignant sores, welling-abscesses and hemorrhoids, and necrotic flesh. Kills spectral entities, evil demons and noxious qi, and the poison of the hundred insects; overcomes the five weapons. Refined and ingested, it lightens the body and confers transcendence. Also called Huangshishi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 19,
+      "text": "Minerals and Stones — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 20,
+      "text": "Shidan (Chalcanthite). Taste: sour, slightly cold. Brightens the eyes and treats eye pain, metal wounds and various forms of epilepsy with spasms, corroding pain of the female genitals, stone strangury with cold-heat, uterine bleeding, and various evil poisonous qi; enables conception. Refined into pills and taken, it prevents aging; taken long-term, it prolongs life and confers transcendence. It can transform iron into copper, and produce gold and silver. Also called Bishi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 21,
+      "text": "Shizhongru (Stalactite). Taste: sweet, warm. Indicated for cough with rising qi. Brightens the eyes and boosts essence, calms the five viscera, unblocks all the joints, benefits the nine orifices, and promotes lactation. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 22,
+      "text": "Cihuang (Orpiment). Taste: pungent, neutral. Indicated for malignant sores, scalp baldness with scabs and scabies; kills poisonous insects, treats body itching, evil qi, and various poisons. Refined and taken long-term, it lightens the body, extends the years, and prevents aging. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 23,
+      "text": "Yinnie. Taste: pungent, warm. Indicated for rotting wounds with stagnant blood, diarrhea with cold-heat, scrofula (rat fistula), and abdominal masses with bound qi. Also called Jiangshi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 24,
+      "text": "Konggongnie. Taste: pungent, warm. Indicated for food damage with indigestion, evil bound qi, malignant sores, welling-abscesses, fistulas and hemorrhoids; benefits the nine orifices and promotes lactation. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 25,
+      "text": "Shiliuhuang (Sulfur). Taste: sour, warm; toxic. Indicated for corroding of the female genitals, welling-abscesses and hemorrhoids with malignant blood; strengthens the sinews and bones, treats scalp baldness. It can transform gold, silver, copper and iron into wondrous substances. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 26,
+      "text": "Yangqishi (Actinolite). Taste: sour; non-toxic. Indicated for uterine flooding and spotting; breaks up blood in the uterus, abdominal masses with bound qi, abdominal pain with cold-heat, infertility, and impotence; supplements deficiency. Also called Baishi. Grows in the mountain valleys of Qishan.",
+      "is_header": false
+    },
+    {
+      "number": 27,
+      "text": "Ningshuishi. Taste: pungent, cold. Indicated for body heat, abdominal accumulations with evil qi, a burning sensation in the skin as if scorched by fire, and vexation and fullness. Taken dissolved in water. Taken long-term, it staves off hunger. Also called Baishuishi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 28,
+      "text": "Cishi (Magnetite). Taste: pungent, cold. Indicated for generalized painful obstruction from wind-dampness, pain in the limbs and joints such that one cannot hold objects, and a chilled aching pain; relieves great heat, vexation and fullness, and deafness. Also called Xuanshi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 29,
+      "text": "Lishi. Taste: pungent, cold. Indicated for body heat; benefits the stomach and relieves vexation, boosts essence and brightens the eyes, breaks up accumulations, and expels the three worms. Also called Lizhishi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 30,
+      "text": "Changshi. Taste: pungent, cold. Indicated for body heat, cold reversal of the four limbs; disinhibits urination, unblocks the blood vessels, brightens the eyes and removes visual film and dim vision, expels the three worms, and kills gu poison. Taken long-term, it staves off hunger. Also called Fangshi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 31,
+      "text": "Fuqing. Taste: pungent. Indicated for gu poison, venomous snakebite, poisoning from vegetables and meat, and malignant sores. Also called Tuiqing. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 32,
+      "text": "Tieluo (forged iron flakes). Taste: pungent, neutral. Indicated for wind-heat malignant sores, ulcers, welling-abscesses, sores with scabs and scabies, and qi lodged in the skin. Iron itself firms the flesh and increases tolerance of pain. Iron essence (Tiejing) brightens the eyes and transforms copper. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 33,
+      "text": "Minerals and Stones — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 34,
+      "text": "Shigao (Gypsum). Taste: pungent, slightly cold. Indicated for wind-strike with cold-heat, rebellious qi below the heart with fright and panting, dry mouth and scorched tongue with labored breathing, hardness and pain in the abdomen; expels evil demons; used in childbirth, and for metal wounds. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 35,
+      "text": "Qinglanggan. Taste: pungent, neutral. Indicated for body itching, burns, welling-abscess wounds, scabies with itching, and necrotic flesh. Also called Shizhu. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 36,
+      "text": "Fanshi (Alum). Taste: pungent; toxic. Indicated for cold-heat scrofula (rat fistula), corroding sores, necrotic flesh, wind painful obstruction, hardness in the abdomen, and evil qi; relieves heat. Also called Qingfenshi, Lizhishi, or Guyangshi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 37,
+      "text": "Daizhe (Hematite). Taste: bitter, cold. Indicated for demonic infixation, thief wind, and gu poison; kills spectral entities and evil demons, treats poisonous evil qi in the abdomen, and red vaginal discharge with spotting in women. Also called Xuwan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 38,
+      "text": "Luxian. Taste: bitter, salty, cold. Indicated for great heat, wasting-thirst, mania and vexation; expels evil, and by inducing vomiting and purging treats gu poison; softens the flesh and skin. Rock salt (Dayan) induces vomiting. Rong salt (Rongyan) brightens the eyes, treats eye pain, boosts qi, strengthens the flesh and bones, and expels gu poison. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 39,
+      "text": "Bai'e (white clay). Taste: bitter, warm. Indicated for cold-heat abdominal masses in women, amenorrhea, accumulations, swelling and pain of the genitals, spotting, and infertility. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 40,
+      "text": "Qiandan (red lead / minium). Taste: pungent, slightly cold. Indicated for cough with rebellious qi, stomach reflux, fright epilepsy and manic-withdrawal illness; relieves heat and directs qi downward. When refined and transformed, it reverts to become the Nine Radiances. Taken long-term, it opens communication with the spirit intelligence. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 41,
+      "text": "Fenxi (lead powder). Taste: pungent, cold. Indicated for latent corpse-transmission and venomous stings; kills the three worms. The knob of a tin-bronze mirror treats amenorrhea in women, abdominal masses with hidden intestinal obstruction, and infertility. Also called Jiexi. Grows in the mountain valleys of Guiyang.",
+      "is_header": false
+    },
+    {
+      "number": 42,
+      "text": "Shihui (lime). Taste: pungent, warm. Indicated for welling-abscesses and ulcers, scabies with itching, heat qi, malignant sores, and lai disease with loss of eyebrows; kills hemorrhoid worms, and removes moles and polyps. Also called Ehui. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 43,
+      "text": "Donghui (winter ash). Taste: pungent, slightly warm. Indicated for moles; removes warts and polyps, corroding welling-abscesses, and scabies with itching. Also called Lihui. Grows in rivers and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 44,
+      "text": "Herbs — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 45,
+      "text": "Qingzhi (green Ganoderma). Taste: sour, neutral. Brightens the eyes, supplements the liver qi, calms the essence and ethereal soul, and fosters benevolence and forbearance. Eaten long-term, it lightens the body, prevents aging, and prolongs life, conferring transcendence. Also called Longzhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 46,
+      "text": "Chizhi (red Ganoderma). Taste: bitter, neutral. Indicated for binding in the chest; boosts the heart qi, supplements the center, increases wisdom, and improves memory. Eaten long-term, it lightens the body, prevents aging, and prolongs life, conferring transcendence. Also called Danzhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 47,
+      "text": "Yellow Zhi (yellow reishi fungus). Taste sweet, nature neutral. Indicated for the five pathogens of the heart and abdomen; boosts spleen qi, calms the spirit, and brings loyalty, trustworthiness, and harmony. Taken long-term, it lightens the body, prevents aging, and prolongs life like an immortal. Also called Golden Zhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 48,
+      "text": "White Zhi. Taste pungent, nature neutral. Indicated for cough with rising qi; boosts lung qi, opens and clears the mouth and nose, strengthens the will and courage, and calms the corporeal soul (po). Taken long-term, it lightens the body, prevents aging, and prolongs life like an immortal. Also called Jade Zhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 49,
+      "text": "Black Zhi. Taste salty, nature neutral. Indicated for dribbling urinary blockage; disinhibits the water passages, boosts kidney qi, opens the nine orifices, and sharpens hearing and perception. Taken long-term, it lightens the body, prevents aging, and prolongs life like an immortal. Also called Mysterious Zhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 50,
+      "text": "Purple Zhi. Taste sweet, nature warm. Indicated for deafness; benefits the joints, preserves the spirit, boosts essence-qi, strengthens the sinews and bones, and improves complexion. Taken long-term, it lightens the body, prevents aging, and prolongs life like an immortal. Also called Wood Zhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 51,
+      "text": "Tianmendong (Cochinchinese asparagus root). Taste bitter, nature neutral. Indicated for sudden wind-damp hemilateral bi-syndrome (numbness and paralysis); strengthens the bones and marrow, kills the three worms, and expels hidden corpse-influx. Taken long-term, it lightens the body, boosts qi, and prolongs life. Also called Dianle. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 52,
+      "text": "Zhu (Atractylodes). Taste bitter, nature warm. Indicated for damp bi-syndrome, necrotic flesh, tetany, and jaundice; stops sweating, clears heat, aids digestion, and can be prepared as a decoction or pill. Taken long-term, it lightens the body, prolongs life, and dispels hunger. Also called Mountain Thistle. Grows in the mountain valleys of Mount Zheng.",
+      "is_header": false
+    },
+    {
+      "number": 53,
+      "text": "Weiwei (Fragrant Solomon's Seal, Polygonatum odoratum). Taste sweet, nature neutral. Indicated for wind-stroke and sudden heat causing immobility, torn sinews and knotted flesh, and various deficiencies. Taken long-term, it removes dark blemishes on the face, gives the complexion a healthy sheen, and lightens the body while preventing aging. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 54,
+      "text": "Dried Rehmannia Root. Taste sweet, nature cold. Indicated for fractures, sprains, severed sinews, and internal injury; expels blood bi-syndrome, fills the bone marrow, and builds flesh. Made into a decoction, it removes cold-heat accumulations and bi-syndrome. The fresh root is even better. Also called Marrow of the Earth. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 55,
+      "text": "Changpu (Acorus, Sweet Flag). Taste pungent, nature warm. Indicated for wind-cold-damp bi-syndrome and cough with rising qi; opens the orifices of the heart, supplements the five viscera, opens the nine orifices, sharpens hearing and vision, and clears the voice. Taken long-term, it lightens the body, improves memory, dispels confusion, and prolongs life. Also called Changyang. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 56,
+      "text": "Yuanzhi (Polygala Root). Taste bitter, nature warm. Indicated for cough with rising qi and internal injury; supplements deficiency, expels pathogenic qi, disinhibits the nine orifices, sharpens intelligence, improves hearing and vision, aids memory, and strengthens the mind and doubles one's strength. Taken long-term, it lightens the body and prevents aging. Its leaves are called Xiaocao (Small Herb). Also called Yaorao or Xicao. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 57,
+      "text": "Zexie (Alisma). Taste sweet, nature cold. Indicated for wind-cold-damp bi-syndrome and difficult lactation; disperses water retention, nourishes the five viscera, boosts qi and strength, and promotes healthy weight. Taken long-term, it sharpens hearing and vision, dispels hunger, prolongs life, lightens the body, gives the face a healthy glow, and, it is said, enables one to walk on water. Also called Shuixie, Mangyu, or Huxie. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 58,
+      "text": "Shuyu (Chinese Yam, Dioscorea). Taste sweet, slightly warm. Indicated for internal injury; supplements deficiency and emaciation, removes cold-heat pathogenic qi, supplements the center and boosts qi and strength, and builds flesh. Taken long-term, it sharpens hearing and vision, lightens the body, dispels hunger, and prolongs life. Also called Mountain Yam. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 59,
+      "text": "Juhua (Chrysanthemum Flower). Taste bitter, nature neutral. Indicated for wind affecting the head, dizziness with swelling and pain, eyes that feel as if bulging out, tearing, necrotic and wasted skin, and aversion to wind-damp bi-syndrome. Taken long-term, it benefits the blood and qi, lightens the body, and resists aging while prolonging life. Also called Jiehua. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 60,
+      "text": "Gancao (Licorice Root). Taste sweet, nature neutral. Indicated for cold-heat pathogenic qi in the five viscera and six bowels; strengthens the sinews and bones, builds flesh, doubles one's strength, treats wounds from metal blades and swelling of the legs, and resolves toxicity. Taken long-term, it lightens the body and prolongs life. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 61,
+      "text": "Renshen (Ginseng). Taste sweet, slightly cold. Mainly supplements the five viscera, calms the spirit, settles the ethereal and corporeal souls (hun and po), stops fright palpitations, expels pathogenic qi, brightens the eyes, and opens the heart and sharpens the intellect. Also called Renxian or Guigai. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 62,
+      "text": "Shihu (Dendrobium). Taste sweet, nature neutral. Indicated for internal injury; removes bi-syndrome, sends qi downward, and supplements the five viscera in cases of vacuity taxation and emaciation, and strengthens yin. Taken long-term, it thickens the stomach and intestines, lightens the body, and prolongs life. Also called Linlan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 63,
+      "text": "Shilongrui (Ranunculus sceleratus). Taste bitter, nature neutral. Indicated for wind-cold-damp bi-syndrome and pathogenic qi in the heart and abdomen; benefits the joints and relieves vexation and fullness. Taken long-term, it lightens the body, brightens the eyes, and prevents aging. Also called Luguoneng or Dishen. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 64,
+      "text": "Niuxi (Achyranthes Root). Taste bitter (sour), nature neutral. Indicated for wilting and bi-syndrome from cold-damp, spasm and contracture of the limbs, and knee pain that prevents bending and stretching; expels stagnant blood and qi, treats burns and scalds, and induces abortion. Taken long-term, it lightens the body and resists aging. Also called Shibei. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 65,
+      "text": "Duhuo (Doubleteeth Pubescent Angelica Root). Taste bitter, nature neutral, non-toxic. Indicated for conditions caused by wind-cold; treats wounds from metal blades, relieves pain, and treats running-piglet syndrome, epilepsy, tetany, and women's hernia-like abdominal masses. Taken long-term, it lightens the body and resists aging. Also called Qianghuo, Qiangqing, or Huqiang Shizhe. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 66,
+      "text": "Shengma (Cimicifuga Root, Bugbane). Taste sweet, nature neutral. Mainly resolves the hundred poisons, kills the hundred kinds of ancient spirit-essences and calamity-bringing ghosts, and wards off epidemic pestilence, miasma, and gu-poison. Taken long-term, it prevents premature death, lightens the body, and prolongs life. Also called Zhou Shengma. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 67,
+      "text": "Chaihu (Bupleurum Root). Taste bitter, nature neutral. Indicated for bound qi in the heart, abdomen, intestines, and stomach, accumulation of food and drink, and cold-heat pathogenic qi; expels the old and brings in the new. Taken long-term, it lightens the body, brightens the eyes, and boosts essence. Also called Dixun. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 68,
+      "text": "Fangkui. Taste pungent, nature cold. Indicated for hernia-like abdominal masses and intestinal diarrhea, bladder heat-binding with inhibited urination, cough with rising qi, warm malaria, epilepsy, and fright-mania with manic wandering. Taken long-term, it strengthens the bone marrow, boosts qi, and lightens the body. Also called Ligai. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 69,
+      "text": "Shishi (Yarrow Seed, Achillea). Taste bitter, nature neutral. Indicated for impotence; boosts qi, fills out the flesh and skin, brightens the eyes, and sharpens intelligence and foresight. Taken long-term, it dispels hunger, prevents aging, and lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 70,
+      "text": "Yanlvzi. Taste bitter, slightly warm, non-toxic. Indicated for stagnant blood in the five viscera, water-qi in the abdomen, abdominal distension with lingering heat, wind-cold-damp bi-syndrome, and various bodily pains. Taken long-term, it lightens the body, prolongs life, and prevents aging. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 71,
+      "text": "Yiyiren (Job's Tears, Coix Seed). Taste sweet, slightly cold. Indicated for tense sinews and contracture that prevent bending and stretching, and wind-damp bi-syndrome; sends qi downward. Taken long-term, it lightens the body and boosts qi. Its root expels the three worms. Also called Jieli. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 72,
+      "text": "Cheqianzi (Plantago Seed). Taste sweet, nature cold, non-toxic. Indicated for qi dribbling-blockage; relieves pain, disinhibits the water passages and urination, and removes damp bi-syndrome. Taken long-term, it lightens the body and resists aging. Also called Dangtong. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 73,
+      "text": "Ximingzi (Thlaspi/pepperweed seed). Taste: pungent, sour; nature: warm; non-toxic. Indicated for brightening vision, eye pain with tearing; removes painful obstruction, tonifies the five viscera, benefits essence and eyesight. Taken long-term, lightens the body and prevents aging. Also called Mixi, Daji, Maxin. Grows in mountain marshes.",
+      "is_header": false
+    },
+    {
+      "number": 74,
+      "text": "Chongweizi (motherwort seed). Taste: pungent; nature: slightly warm. Indicated for brightening vision and calming fright; removes water-qi (edema). Taken long-term, lightens the body. The stem treats rashes with itching; can be decocted for a bath. Also called Yimu, Yiming, Dazha. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 75,
+      "text": "Muxiang (costus root). Taste: pungent; nature: warm. Indicated for pathogenic qi; wards off toxic pestilence and epidemic evil spirits; strengthens the will; treats strangury with turbid discharge. Taken long-term, prevents nightmares and sleep paralysis. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 76,
+      "text": "Longdan (gentian). Taste: bitter, astringent. Indicated for cold-heat between the bones, fright epilepsy and pathogenic qi; mends severed injuries, stabilizes the five viscera, kills gu poison. Taken long-term, boosts intelligence and memory, lightens the body, and resists aging. Also called Lingyou. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 77,
+      "text": "Tusizi (dodder seed). Taste: pungent; nature: neutral. Indicated for mending severed injuries, supplementing deficiency, boosting qi and strength, and promoting healthy weight. Its juice removes facial dark spots. Taken long-term, brightens vision, lightens the body, and prolongs life. Also called Tulu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 78,
+      "text": "Bajitian (Morinda root). Taste: pungent; nature: slightly warm. Indicated for severe wind pathogenic qi and impotence. Strengthens the sinews and bones, calms the five viscera, tonifies the middle, boosts the will, and benefits qi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 79,
+      "text": "Baimo. Taste: sweet; nature: cold. Indicated for cold-heat, the eight types of jaundice, and wasting-thirst. Tonifies the middle and benefits qi. Taken long-term, lightens the body and prolongs life. Also called Gucai.",
+      "is_header": false
+    },
+    {
+      "number": 80,
+      "text": "Baihao (white mugwort). Taste: sweet; nature: neutral. Indicated for pathogenic qi of the five viscera, wind-cold-damp painful obstruction; tonifies the middle and benefits qi, makes the hair grow long and black, treats a hollow, hanging sensation in the heart region, and hunger despite little food. Taken long-term, lightens the body, sharpens hearing and vision, and prevents aging. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 81,
+      "text": "Difuzi (kochia seed). Taste: bitter; nature: cold. Indicated for bladder heat; promotes urination, tonifies the middle and benefits essence-qi. Taken long-term, sharpens hearing and vision, lightens the body, and resists aging. Also called Dikui. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 82,
+      "text": "Shilongchu (rush). Taste: bitter; nature: slightly cold. Indicated for pathogenic qi of the heart and abdomen, difficult urination, and urinary blockage; wind-damp, ghost-influx, and malign toxin. Taken long-term, tonifies deficiency and emaciation, lightens the body, sharpens hearing and vision, and prolongs life. Also called Longxu, Caoxuduan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 83,
+      "text": "Luoshi (climbing fig / Trachelospermum). Taste: bitter; nature: warm. Indicated for wind-heat with necrotic flesh, sores from carbuncles, dry mouth and scorched tongue, unresolving swollen carbuncles, swollen throat and tongue, and inability to swallow liquids. Taken long-term, lightens the body, brightens vision, moistens the skin and improves complexion, prevents aging and prolongs life. Also called Shiling. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 84,
+      "text": "Huanglian (Coptis, goldthread). Taste: bitter; non-toxic. Indicated for heat qi, eye pain with damaged canthus and tearing; brightens vision, treats intestinal discharge with abdominal pain and diarrhea, and swelling and pain in women's genitalia. Taken long-term, improves memory. Also called Wanglian. Grows in river valleys. (Also grows attached to trees or walls.)",
+      "is_header": false
+    },
+    {
+      "number": 85,
+      "text": "Wangbuliuxing (cowherb seed). Taste: bitter; nature: neutral. Indicated for wounds from blades; stops bleeding, expels pain, draws out embedded thorns, and removes wind painful obstruction and internal cold. Taken long-term, lightens the body, resists aging, and increases longevity. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 86,
+      "text": "Lanshi (indigo plant seed). Taste: bitter; nature: cold. Indicated for resolving various poisons; kills parasites and dispels malign toxin from ghost-influx stings. Taken long-term, prevents the hair from graying, and lightens the body. Grows in level marshes. (The indigo scum from this plant is qingdai, indigo naturalis.)",
+      "is_header": false
+    },
+    {
+      "number": 87,
+      "text": "Jingtian (orpine, Sedum). Taste: bitter, sour; nature: neutral. Indicated for severe heat and burns, bodily heat with vexation, and malign qi. Its flower treats women's red-and-white vaginal discharge, lightens the body, and brightens vision. Also called Jiehuo, Shenhuo. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 88,
+      "text": "Tianmingjing (Carpesium). Taste: sweet; nature: cold. Indicated for stagnant blood and blood-mass conditions near death, bloody stool; stops bleeding, promotes urination, eliminates small parasites, removes painful obstruction, clears bound heat in the chest, and relieves vexing thirst. Taken long-term, lightens the body and resists aging. Also called Maijujiang, Xiamalan, Shishou. Grows in river marshes. (Also called Disong; its seed is called Heshi; its root is called Tuniuxi.)",
+      "is_header": false
+    },
+    {
+      "number": 89,
+      "text": "Puhuang (cattail pollen). Taste: sweet; nature: neutral. Indicated for cold-heat of the heart, abdomen, and bladder; promotes urination, stops bleeding, and dissolves stagnant blood. Taken long-term, lightens the body, boosts qi and strength, and prolongs life like an immortal. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 90,
+      "text": "Xiangpu (cattail). Taste: sweet; nature: neutral. Indicated for pathogenic qi of the five viscera and below the heart, and foul rot in the mouth; firms the teeth, brightens vision, and sharpens hearing. Taken long-term, lightens the body and withstands fatigue. Also called [name illegible]. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 91,
+      "text": "Lancao (thoroughwort, Eupatorium). Taste: pungent; nature: neutral. Indicated for promoting the water passages; kills gu poison and wards off inauspicious influences. Taken long-term, benefits qi, lightens the body, prevents aging, and connects one with spirit intelligence. Also called Shuixiang. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 92,
+      "text": "Juemingzi (sicklepod seed). Taste: salty; nature: neutral. Indicated for blue blindness, excessive discharge from the eyes with a red-and-white membrane, and red, painful eyes with tearing. Taken long-term, benefits the essence and eyesight, and lightens the body. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 93,
+      "text": "Yunshi (Caesalpinia seed). Taste: pungent; nature: slightly warm. Indicated for diarrhea and dysenteric discharge; kills parasites and gu poison, removes malign bound qi, stops pain, and eliminates cold-heat. Its flower treats hallucinations of seeing ghosts and spirits. Eating too much causes one to run about madly. Taken long-term, lightens the body and connects one with spirit intelligence. Grows in river valleys. (Also called Yuanshi, Tiandou, Yunying.)",
+      "is_header": false
+    },
+    {
+      "number": 94,
+      "text": "Huangqi (Astragalus root). Taste: sweet; nature: slightly warm. Indicated for long-unhealed sores from carbuncles and abscesses; expels pus and stops pain, treats severe wind leprosy-like disease, the five types of hemorrhoids, and rat-fistula (scrofula); tonifies deficiency, and the hundred ailments of children. Also called Daishen. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 95,
+      "text": "Shechuangzi (Cnidium seed). Taste: bitter; nature: neutral. Indicated for swelling and pain in women's genitalia, genital discharge in men, dampness and itching; removes painful obstruction qi, benefits the joints, and treats epilepsy and malignant sores. Taken long-term, lightens the body. Also called Shesu, Shemi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 96,
+      "text": "Loulu (Rhaponticum root). Taste: bitter, salty; nature: cold. Indicated for heat in the skin, malignant sores, carbuncles and hemorrhoids, and damp painful obstruction; promotes lactation. Taken long-term, lightens the body and benefits qi, sharpens hearing and vision, prevents aging, and prolongs life. Also called Yelan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 97,
+      "text": "Qiangen (madder root). Taste: bitter; nature: cold. Indicated for cold-damp wind painful obstruction and jaundice. Tonifies the middle. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 98,
+      "text": "Xuanhua (bindweed flower). Taste: sweet; nature: warm. Indicated for benefiting qi and removing dark facial blemishes, making one attractive. Its root treats cold-heat pathogenic qi in the abdomen and promotes urination. Taken long-term, one does not hunger, and the body is lightened. Also called Jingenhua, Jinfei. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 99,
+      "text": "Bai Tu Huo (White Rabbit Vine). Taste bitter, nature neutral. Indicated for venom of snakes and vipers, wasp and scorpion stings, mad-dog bites, and food poisoning; for ghost-possession (gu toxin, demonic infixation). Also called Bai Ge. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 100,
+      "text": "Qing Rang (sesame sprout). Taste sweet, nature cold. Indicated for evil qi in the five viscera, wind-cold-damp bi syndrome; boosts qi, nourishes the brain and marrow, strengthens sinews and bones. Taken long-term, it sharpens hearing and vision, staves off hunger, prevents aging, and extends life. It is the sprout of the Ju Sheng plant (i.e., the sprout of sesame). Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 101,
+      "text": "Dang Gui (Chinese Angelica root). Taste sweet, nature warm, non-toxic. Indicated for cough with qi counterflow, warm malarial disorder with chills felt in the skin, women's abnormal uterine discharge and infertility, various malignant sores and ulcers, and blade wounds — taken as a decoction. Also called Gan Gui. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 102,
+      "text": "Herbs — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 103,
+      "text": "Chi Jian (Gastrodia stalk). Taste pungent, nature warm. Kills ghost-essences and malign spirits; counters gu poison and malignant qi. Taken long-term, it boosts qi and strength, enhances yin vigor, makes one robust and healthy, lightens the body, and extends the years. Also called Li Mu and Gui Du You. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 104,
+      "text": "Mai Men Dong (Ophiopogon tuber). Taste sweet, nature neutral. Indicated for bound qi in the heart and abdomen, damage from cold or from overeating, severance of the stomach's vessels and network vessels, emaciation and shortness of breath. Taken long-term, it lightens the body, prevents aging, and staves off hunger. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 105,
+      "text": "Juan Bai (Selaginella / spikemoss). Taste pungent, nature neutral. Indicated for evil qi in the five viscera, cold-heat pain in a woman's genitals, concretions and masses, blood stasis blocking menstruation, and infertility. Taken long-term, it lightens the body and improves the complexion. Also called Wan Sui (\"Ten Thousand Years\"). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 106,
+      "text": "Rou Cong Rong (Cistanche). Taste salty. Indicated for the five taxations and seven damages; tonifies the middle, relieves cold-heat pain in the penis, nourishes the five viscera, strengthens yin, boosts essence-qi, aids fertility, and treats women's concretions and masses. Taken long-term, it lightens the body. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 107,
+      "text": "Ji Li Zi (Tribulus fruit / caltrop fruit). Taste bitter, nature warm. Indicated for malign blood; breaks up concretions, accumulations, and throat bi obstruction; treats difficult lactation. Taken long-term, it builds flesh and muscle, brightens the eyes, and lightens the body. Also called Pang Tong, Qu Ren, Zhi Xing, Chai Yu, and Sheng Tui. Grows in flat marshes.",
+      "is_header": false
+    },
+    {
+      "number": 108,
+      "text": "Fang Feng (Saposhnikovia root). Taste sweet, nature warm, non-toxic. Indicated for severe wind-stroke with dizziness and pain, aversion to wind and wind-evil, blindness with no vision, wind traveling through the whole body, aching joints, and vexation with fullness. Taken long-term, it lightens the body. Also called Tong Yun. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 109,
+      "text": "Sha Shen (Adenophora root). Taste bitter, nature slightly cold, non-toxic. Indicated for blood accumulation and fright qi; relieves cold-heat, tonifies the middle, and boosts lung qi. Taken long-term, it benefits the person. Also called Zhi Mu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 110,
+      "text": "Chuan Xiong (Ligusticum root). Taste pungent, nature warm, non-toxic. Indicated for wind-stroke entering the brain with headache, cold bi with sinew spasms and cramping, blade wounds, and women's blood-blocked menstruation with infertility. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 111,
+      "text": "Mi Wu (Ligusticum leaf). Taste pungent, nature warm. Indicated for cough with qi counterflow; calms fright qi, wards off evil and malignancy, eliminates gu poison and ghost infixation, and expels the three worms. Taken long-term, it grants communion with the spirits. Also called Wei Wu.",
+      "is_header": false
+    },
+    {
+      "number": 112,
+      "text": "Xu Duan (Dipsacus root, \"Broken Continued\"). Taste bitter, nature slightly warm. Indicated for cold-damage disease; tonifies deficiency, treats blade wounds, welling-abscesses, and injuries from falls and fractures; mends sinews and bones; treats women's difficult lactation. Taken long-term, it boosts qi and strength. Also called Long Dou and Shu Zhe. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 113,
+      "text": "Yin Chen Hao (Virgate wormwood, Artemisia capillaris). Taste bitter, non-toxic. Indicated for wind-damp cold-heat evil qi, and heat-bind jaundice. Taken long-term, it lightens the body, boosts qi, and resists aging. Grows on Mount Tai and on hills and slopes.",
+      "is_header": false
+    },
+    {
+      "number": 114,
+      "text": "Wu Wei Zi (Schisandra fruit). Taste sour, nature warm. Boosts qi; indicated for cough with qi counterflow, taxation damage with emaciation; tonifies deficiency, strengthens yin, and boosts a man's essence. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 115,
+      "text": "Qin Jiao (Gentiana macrophylla root). Taste bitter, nature neutral. Indicated for cold-heat evil qi, cold-damp wind bi with limb and joint pain; drains water and disinhibits urination. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 116,
+      "text": "Huang Qin (Scutellaria root). Taste bitter, nature neutral. Indicated for various heat-type jaundice, dysenteric diarrhea; expels water, breaks blocked menstruation, treats malign sores, eroding welling-abscesses, and fire burns. Also called Fu Chang. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 117,
+      "text": "Shao Yao (Peony root). Taste bitter. Indicated for evil-qi abdominal pain; relieves blood bi, breaks up hard accumulations and cold-heat hernia-like masses, stops pain, disinhibits urination, and boosts qi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 118,
+      "text": "Gan Jiang (dried ginger). Taste pungent, nature warm. Indicated for chest fullness with cough and qi counterflow; warms the middle, stops bleeding, induces sweating, and expels wind-damp bi; treats dysenteric diarrhea — the fresh root is especially good. Taken long-term, it removes foul odor from the body and grants clarity of spirit. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 119,
+      "text": "Gao Ben (Ligusticum sinense). Taste pungent, nature slightly warm. Indicated for women's hernia-like masses, cold swelling and pain of the genitals, urgency and cramping in the abdomen; relieves wind headache, builds the flesh, and beautifies the complexion. Also called Gui Qing and Di Xin. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 120,
+      "text": "Ma Huang (Ephedra). Taste bitter, nature warm, non-toxic. Indicated for wind-stroke and cold-damage headache, warm malarial disorder; releases the exterior and induces sweating, removes evil heat qi, stops cough with qi counterflow, relieves cold-heat, and breaks up firm concretions and accumulations. Also called Long Sha. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 121,
+      "text": "Ge Gen (Kudzu root). Taste sweet, nature neutral. Indicated for wasting-thirst, severe body heat, vomiting, and various bi syndromes; raises yin qi and resolves various poisons. The kudzu seed (Ge Gu) treats chronic diarrhea of more than ten years' standing. Also called Ji Qi Gen. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 122,
+      "text": "Zhi Mu (Anemarrhena rhizome). Taste bitter, nature cold, non-toxic. Indicated for wasting-thirst with heat in the middle; removes evil qi, treats limb edema, drains water, tonifies deficiency, and boosts qi. Also called Mu Chi, Lian Mu, Ye Liao, Di Shen, Shui Shen, Shui Jun, and Huo Mu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 123,
+      "text": "Bei Mu (Fritillaria bulb). Taste pungent, nature neutral. Indicated for cold-damage disease with vexing heat, dribbling urinary difficulty, evil qi, hernia-like masses, throat bi, difficult lactation, blade wounds, and wind tetany. Also called Kong Cao.",
+      "is_header": false
+    },
+    {
+      "number": 124,
+      "text": "Gua Lou (Trichosanthes fruit). Taste bitter, nature cold. Indicated for wasting-thirst, body heat with vexation and fullness, and severe heat; tonifies deficiency, calms the middle, and mends severed injuries. Also called Di Lou. Grows in river valleys and on shaded mountainsides.",
+      "is_header": false
+    },
+    {
+      "number": 125,
+      "text": "Dan Shen (Salvia miltiorrhiza root). Taste bitter, nature slightly cold, non-toxic. Indicated for evil qi in the heart and abdomen, faint gurgling intestinal sounds like running water, cold-heat accumulations; breaks up concretions and eliminates masses, stops vexing fullness, and boosts qi. Also called Que Chan Cao. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 126,
+      "text": "Xuanshen (Scrophularia root). Taste bitter, slightly cold, non-toxic. Indicated for cold-heat accumulations in the abdomen, and women's residual ailments after childbirth or nursing. Tonifies kidney qi and brightens the eyes. Also called Chongtai. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 127,
+      "text": "Kushen (Sophora flavescens root). Taste bitter, cold. Indicated for bound qi in the heart and abdomen, hernia-like masses and accumulations, jaundice, dribbling residual urination; expels water, removes carbuncles and swelling. Tonifies the middle, brightens the eyes, stops tearing. Also called Shuihuai, also called Kushi. Grows in mountain valleys and fields.",
+      "is_header": false
+    },
+    {
+      "number": 128,
+      "text": "Gouji (\"dog spine\" root, Cibotium rhizome). Taste bitter, neutral. Indicated for stiffness of the lower back, slackness or spasm of the joints, generalized painful obstruction (bi), and cold-damp knee pain. Quite beneficial for the elderly. Also called Baizhi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 129,
+      "text": "Bixie (Dioscorea root). Taste bitter, neutral. Indicated for stiff pain of the lower back, and wind-cold-damp painful obstruction (bi) of the bones and joints. For malignant sores that will not heal, and heat qi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 130,
+      "text": "Tongcao (Akebia/Tetrapanax stem). Taste pungent, neutral. Expels harmful parasites, removes cold-heat of the spleen and stomach, frees the nine orifices, the blood vessels, and the joints, and improves memory. Also called Fuzhi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 131,
+      "text": "Qumai (Dianthus, fringed pink). Taste bitter, cold. Indicated for obstruction and blockage disorders of all kinds, urinary stoppage; expels splinters, resolves carbuncles and swelling, brightens the eyes and removes cataracts, breaks a stagnant pregnancy to induce miscarriage, and discharges blocked blood. Also called Jujumai. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 132,
+      "text": "Baijiang (Patrinia root). Taste bitter, neutral. Indicated for sudden fiery heat sores, red qi, scabies and itching, ulcers and hemorrhoids, saddle sores, and heat qi. Also called Luchang. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 133,
+      "text": "Baizhi (Angelica dahurica root). Taste pungent, warm. Indicated for women's red-and-white vaginal discharge, blood blockage, genital swelling, cold-heat, wind headache, and eye afflictions with tearing; promotes growth and moistening of flesh and skin, and can be made into a facial ointment. Also called Fangxiang. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 134,
+      "text": "Duruo (Pollia japonica). Taste pungent, slightly warm. Indicated for rebellious qi below the chest and ribs; warms the middle, treats wind entering the cranial cavity with head swelling and pain, and excessive nasal mucus and tearing. Taken long-term, boosts the essence, brightens the eyes, and lightens the body. Also called Duheng. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 135,
+      "text": "Zicao (Lithospermum, purple gromwell root). Taste bitter, cold. Indicated for evil qi of the heart and abdomen, and the five types of jaundice; tonifies the middle and boosts qi, frees the nine orifices, and opens the waterways. Also called Zidan, also called Zifu, also called Dixue. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 136,
+      "text": "Ziwan (Aster tataricus root). Taste bitter, warm. Indicated for cough with rebellious ascending qi, and bound cold-heat qi in the chest; removes gu-poison toxin and wilting paralysis, and calms the five viscera. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 137,
+      "text": "Baixian (Dictamnus dasycarpus, dittany bark). Taste bitter, cold. Indicated for head wind, jaundice, cough with rebellious qi, dribbling urinary difficulty, women's genital swelling and pain, and damp painful obstruction (bi) with numb, dead flesh where one cannot bend or stretch the limbs, or rise and walk. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 138,
+      "text": "Weixian. Taste bitter, neutral. Indicated for wind-damp painful obstruction (bi), joint pain throughout the body, fright epilepsy with tongue protrusion, palpitations from malicious wind, and rat-fistula (scrofulous) swellings. Also called Mixian. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 139,
+      "text": "Baiwei (Cynanchum atratum root). Taste bitter, neutral. Indicated for sudden wind-stroke with body heat, fullness of the limbs, confusion where one fails to recognize others, mania and delusion from evil qi, cold-heat with aching pain, and warm malaria with shivering chills that recur at fixed times. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 140,
+      "text": "Xier fruit (Xanthium, cocklebur fruit). Taste sweet, warm. Indicated for wind-head cold pain, wind-damp generalized painful obstruction (bi), cramping pain of the four limbs, and malignant, dead flesh. Taken long-term, boosts qi, sharpens the ears and eyes, strengthens resolve, and lightens the body. Also called Huxi, also called Digui. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 141,
+      "text": "Maogen (Imperata cylindrica root, cogongrass root). Taste sweet, cold. Indicated for taxation damage and vacuity emaciation; tonifies the middle and boosts qi, removes stasis blood, and treats blood blockage with cold-heat, and frees urination. Its shoot treats water swelling. Also called Langen, also called Rugen. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 142,
+      "text": "Suanjiang (Physalis, ground cherry). Taste sour, neutral. Indicated for heat vexation and fullness; calms the will and boosts qi, frees urination, and for difficult labor — swallowing its fruit brings immediate delivery. Also called Cujiang. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 143,
+      "text": "Yinyanghuo (Epimedium, horny goat weed). Taste pungent, cold. Indicated for impotence and injury with loss of essence, pain in the penis; frees urination, boosts qi and strength, and strengthens resolve. Also called Gangqian. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 144,
+      "text": "Lishi (Iris lactea seed). Taste sweet, neutral. Indicated for cold-heat of the skin, heat qi in the stomach, and wind-cold-damp painful obstruction (bi); strengthens the sinews and bones and increases appetite. Taken long-term, lightens the body. The flowers and leaves expel white parasites. Also called Jucao, also called Sanjian, also called Shishou. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 145,
+      "text": "Kuandong (Tussilago farfara, coltsfoot flower). Taste pungent, warm. Indicated for cough with rebellious ascending qi, tendency to wheeze, throat obstruction, various types of fright epilepsy, and cold-heat evil qi. Also called Tuowu, Kedong, Huxu, and Tuxi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 146,
+      "text": "Fangji (Stephania tetrandra root). Taste pungent, neutral. Indicated for wind-cold, warm malaria, and heat qi, and various types of epilepsy; removes evil qi and frees urination and defecation. Also called Jieli. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 147,
+      "text": "Nüwan. Taste pungent, warm. Indicated for wind-cold with shivering chills, cholera-like sudden turmoil with diarrhea and dysentery, intestinal rumbling that moves erratically up and down, fright epilepsy, cold-heat, and a hundred other ailments. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 148,
+      "text": "Zelan (Lycopus lucidus, bugleweed). Taste sour, non-toxic. Indicated for nosebleed in nursing women, residual ailments after wind-stroke, great abdominal water swelling, edema of the body, face, and four limbs, water lodged in the joints, wounds from blades, and carbuncular swelling with suppurating sores. Also called Hulan, also called Longzao. Grows beside marshes.",
+      "is_header": false
+    },
+    {
+      "number": 149,
+      "text": "Diyu (Sanguisorba officinalis, burnet root). Taste bitter, slightly cold. Indicated for women's breast pain, the seven damages, and vaginal discharge disease; stops pain, removes malignant flesh, stops sweating, and treats wounds from blades. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 150,
+      "text": "Wangsun. Taste bitter, neutral, non-toxic. Indicated for evil qi of the five viscera, cold-damp painful obstruction (bi), aching pain of the four limbs, and cold, painful knees. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 151,
+      "text": "Juechuang (Justicia procumbens). Taste salty, cold. Indicated for pain of the lower back and spine so severe one cannot lie on a bed, and difficulty bending and straightening; removes heat, and can be used as a bathing decoction. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 152,
+      "text": "Ma Xian Hao (Pedicularis). Taste bitter, nature neutral. Indicated for cold-heat ghost-attack fevers, wind-stroke with damp painful obstruction, women's vaginal discharge disorders, and infertility. Also called Ma Shi Hao. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 153,
+      "text": "Shu Yang Quan (a Solanum species). Taste bitter, nature slightly cold. Indicated for bald scalp with malignant sores, heat-qi scabies and itching with crusted lichen and worms; also cures dental caries. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 154,
+      "text": "Ji Xue Cao (Centella asiatica, gotu kola). Taste bitter, nature cold. Indicated for severe heat, malignant sores and welling-abscesses, spreading erysipelas with redness, red skin, and fever.",
+      "is_header": false
+    },
+    {
+      "number": 155,
+      "text": "Yuan Yi (wall lichen/moss). Taste sour, non-toxic. Indicated for jaundice, vexation with cough and counterflow qi, blood-qi disorders, sudden heat lodged in the intestines and stomach, and internal cold from wounds by blades. Taken long-term, it tonifies the middle, boosts qi, builds muscle, and improves complexion. Also called Xi Xie, Wu Jiu, Yuan Ying, Tian Jiu, and Shu Jiu. Grows in the shade of old walls or on rooftops.",
+      "is_header": false
+    },
+    {
+      "number": 156,
+      "text": "Shui Ping (duckweed). Taste pungent, nature cold. Indicated for sudden heat with itchy body; moves water qi downward, counteracts the effects of alcohol, lengthens beard and hair, and stops wasting-thirst. Taken long-term, it lightens the body. Also called Shui Hua. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 157,
+      "text": "Hai Zao (seaweed). Taste bitter, nature cold. Indicated for goiter and swelling qi, nodules below the neck; breaks up and disperses bound qi, welling-abscess swellings, hardened concretions and conglomerations, rumbling in the abdomen, and reduces the twelve types of water swelling. Also called Luo Shou. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 158,
+      "text": "Jie Geng (Platycodon, balloon flower). Taste bitter, non-toxic. Indicated for chest and rib-side pain like a knife stabbing, abdominal fullness with faint rumbling, and fright with palpitating qi. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 159,
+      "text": "Xuan Fu Hua (Inula flower). Taste salty, nature warm. Indicated for bound qi, fullness below the ribs, and fright palpitations; eliminates water and removes cold-heat between the five viscera. Tonifies the middle and moves qi downward. Also called Jin Fei Cao and Sheng Zhan. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 160,
+      "text": "She Xian. Taste bitter, nature slightly cold. Indicated for fright epilepsy with cold-heat evil qi; eliminates heat, treats wounds from blades, welling-abscesses, hemorrhoids, rat-fistula (scrofula), malignant sores, and head ulcers. Also called She Xian (\"snake-holder\"). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 161,
+      "text": "Jia Su (Schizonepeta). Taste pungent, nature warm. Indicated for cold-heat, rat-fistula, scrofula sores; breaks up bound and accumulated qi, moves stagnant blood downward, and eliminates damp painful obstruction. Also called Shu Ming. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 162,
+      "text": "Herbs — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 163,
+      "text": "Ying Shi (wild rose hip). Taste sour, nature warm. Indicated for welling-abscesses and malignant sores, knotted flesh and injured sinews, festering sores with heat qi, and non-healing yin erosion; benefits the joints. Also called Qiang Wei, Qiang Ma, and Niu Ji. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 164,
+      "text": "Mu Dan (tree peony bark). Taste pungent, nature cold. Indicated for cold-heat and wind-stroke, convulsions and tetany, fright epilepsy with evil qi; eliminates hard concretions and stagnant blood lodged in the intestines and stomach, calms the five viscera, and treats welling-abscess sores. Also called Lu Jiu and Shu Gu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 165,
+      "text": "Shi Wei (Pyrrosia, felt fern). Taste bitter, nature neutral. Indicated for taxation heat and evil qi, the five types of blocked, painful urination; benefits urination and the water passages. Also called Shi [character illegible] Zhe. Grows on rocks in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 166,
+      "text": "Bai He (lily bulb). Taste sweet, nature neutral. Indicated for evil qi with abdominal distension and heart pain; benefits urination and defecation. Tonifies the middle and boosts qi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 167,
+      "text": "Zi Shen. Taste bitter, nature cold. Indicated for accumulations and masses in the heart and abdomen, cold-heat evil qi; opens the nine orifices and benefits urination and defecation. Also called Mu Meng. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 168,
+      "text": "Wang Gua (Trichosanthes cucumeroides). Taste bitter, nature cold. Indicated for wasting-thirst with internal painful obstruction, stagnant blood with amenorrhea, cold-heat with aching pain; boosts qi and cures deafness. Also called Tu Gua. Grows in flat marshes.",
+      "is_header": false
+    },
+    {
+      "number": 169,
+      "text": "Da Huang (rhubarb). Taste bitter, nature cold, toxic. Governs the draining of stagnant blood and blood block, cold-heat, and breaks up concretions, conglomerations, accumulations, and masses, as well as lingering fluids and old food; flushes and cleanses the intestines and stomach, expels the old to bring in the new, frees the passage of water and grain, regulates the middle and aids digestion, and calms and harmonizes the five viscera. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 170,
+      "text": "Gan Sui (Euphorbia kansui). Taste bitter, nature cold, toxic. Indicated for large-abdomen mounting-conglomerations, abdominal fullness, swelling of the face and eyes, and lingering fluids and old food; breaks up hard concretions, accumulations, and masses, and benefits the passage of water and grain. Also called Zhu Tian. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 171,
+      "text": "Ting Li (pepperweed seed). Taste pungent, nature cold. Indicated for concretions, conglomerations, accumulations, and masses with bound qi, and cold-heat from food and drink; breaks up hardness, expels evil qi, and frees the water passages. Also called Da Shi and Da Shi. Grows in flat marshes and fields.",
+      "is_header": false
+    },
+    {
+      "number": 172,
+      "text": "Yuan Hua (Genkwa flower). Taste bitter, nature warm, toxic. Indicated for cough with counterflow ascending qi, wheezing with throat rattling, swollen throat with shortness of breath, gu-poisoning and ghost malaria, mounting-conglomerations and welling-abscess swellings; kills insects and fish. Also called Qu Shui. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 173,
+      "text": "Ze Qi (Euphorbia helioscopia). Taste bitter, nature slightly cold. Indicated for skin heat, large-abdomen water qi, swelling of the four limbs, face, and eyes, and insufficient yin qi in men. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 174,
+      "text": "Da Ji (Euphorbia pekinensis). Taste bitter, nature cold. Indicated for gu-poisoning and the twelve types of water swelling, abdominal fullness with acute pain, accumulations and masses, wind-stroke, skin pain, and vomiting with counterflow. Also called Mao Ju.",
+      "is_header": false
+    },
+    {
+      "number": 175,
+      "text": "Rao Hua (Wikstroemia flower). Taste bitter, nature cold. Indicated for cold damage and warm malaria; drains the twelve types of water, breaks up accumulations, masses, and great hard concretions, flushes and cleanses lingering stagnation and old food in the intestines and stomach, cold-heat evil qi, and benefits the water passages. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 176,
+      "text": "Gou Wen (Gelsemium elegans). Taste pungent, nature warm. Indicated for wounds from blades and breast ailments, contracted malign wind, cough with counterflow ascending qi, and water swelling; kills ghost-attack and gu-poison. Also called Zhi Ge. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 177,
+      "text": "Li Lu (Veratrum, false hellebore). Taste pungent, nature cold, toxic. Indicated for gu-poisoning, cough with counterflow, diarrhea and dysentery with intestinal flushing, head ulcers, scabies, itching, and malignant sores; kills all manner of worm toxins and removes dead flesh. Also called Huang Ran. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 178,
+      "text": "Wu Tou (Aconitum, aconite). Taste pungent, nature warm, toxic. Indicated for wind-stroke and malign wind with shivering chills; induces sweating, eliminates cold-damp painful obstruction, cough with counterflow ascending qi, and breaks up accumulations, masses, and cold-heat. Its decocted juice is called She Wang, used to kill birds and beasts. Also called Xi Du, Ji Zi, and Wu Hui. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 179,
+      "text": "Tianxiong (\"Heavenly Hero\", aconite). Taste: pungent. Nature: warm. Indicated for severe wind, cold-damp bi syndrome, joint pain, spasms and contractures, breaks up masses and accumulations, evil qi, wounds from blades; strengthens sinews and bones, lightens the body and eases walking. Also called Baimu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 180,
+      "text": "Fuzi (aconite root). Taste: pungent. Nature: warm. Toxic. Indicated for wind-cold cough with rising qi, evil qi; warms the middle, treats wounds from blades, breaks up hard masses and accumulations, blood conglomerations and cold-damp, sprains and spasms, knee pain that prevents walking. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 181,
+      "text": "Yang zhizhu (Rhododendron molle). Taste: pungent. Nature: warm. Toxic. Indicated for invasive wind lingering and creeping with pain in the skin, warm malaria, malignant toxin, and various bi syndromes. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 182,
+      "text": "Yinyu (Skimmia). Taste: bitter. Nature: warm. Indicated for evil qi in the five viscera, cold-heat and emaciation of the heart and abdomen occurring at set times like malaria, and wind-damp bi pain in the joints. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 183,
+      "text": "Shegan (Belamcanda / blackberry lily). Taste: bitter. Nature: neutral. Indicated for cough with rising qi, throat bi with pain and difficulty breathing; disperses bound qi, treats evil counterflow in the abdomen and great heat from food and drink. Also called Wushan, also called Wupu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 184,
+      "text": "Yuanwei (Iris). Taste: bitter. Nature: neutral. Indicated for gu poison and evil qi, ghost-influx disorders and various poisons; breaks up masses and accumulations, expels water, and drives out the three worms. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 185,
+      "text": "Guanzhong (Dryopteris rhizome). Taste: bitter. Nature: slightly cold. Toxic. Indicated for evil heat qi in the abdomen and various poisons; kills the three worms. Also called Guanjie, Guanqu, Baitou, Hujuan, and Bianfu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 186,
+      "text": "Feilian (thistle). Taste: bitter. Nature: neutral. Indicated for heat in the bones and joints, heaviness and aching pain in the shins. Taken long-term, it lightens the body. Also called Feiqing. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 187,
+      "text": "Banxia (Pinellia ternata). Taste: pungent. Nature: neutral. Indicated for cold damage with alternating cold and heat, hardness below the heart; directs qi downward, treats swelling and pain of the throat, dizziness, chest distension, cough with rising qi, and intestinal rumbling; stops sweating. Also called Diwen, also called Shuiyu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 188,
+      "text": "Huzhang (\"Tiger's Palm\"). Taste: bitter. Nature: warm. Non-toxic. Indicated for heart pain, cold-heat, bound qi, accumulations and the \"hidden beam\" mass; treats injury to the sinews with wilting and spasm, and disinhibits the water passages. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 189,
+      "text": "Langdangzi (henbane seed). Taste: bitter. Nature: cold. Indicated for toothache, expels worms, treats flesh bi with spasm and tension; makes one walk vigorously and see visions of ghosts. Eaten in excess, it makes one run about madly. Taken long-term, it lightens the body, letting one run to keep pace with a galloping horse, strengthens the will, boosts strength, and opens communication with spirits. Also called Hengtang. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 190,
+      "text": "Shuqi (young shoots of Dichroa febrifuga). Taste: pungent. Nature: neutral. Toxic. Indicated for malaria and cough with rising qi and cold-heat, hard masses and binding in the abdomen, bound accumulations of evil qi, gu poison, and ghost-influx. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 191,
+      "text": "Hengshan (Dichroa febrifuga root). Taste: bitter. Nature: cold. Indicated for cold damage with cold-heat, heat outbreaks and warm malaria, ghost poison, phlegm binding in the chest, and vomiting with counterflow. Also called Hucao. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 192,
+      "text": "Qingxiang (Celosia). Taste: bitter. Nature: slightly cold. Indicated for evil qi, heat in the skin, wind itch and body itching; kills the three worms. Its seeds, called Caojueming, treat darkened lips and mouth. Also called Caohao, also called Louhao. Grows in level valleys.",
+      "is_header": false
+    },
+    {
+      "number": 193,
+      "text": "Langya (\"Wolf's Tooth\"). Taste: bitter. Nature: cold. Toxic. Indicated for evil qi and heat qi, scabies and itching, malignant sores and hemorrhoids; expels white worms. Also called Yazi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 194,
+      "text": "Bailian (Ampelopsis japonica). Taste: bitter. Nature: neutral. Indicated for carbuncles, swelling, and deep-rooted sores; disperses bound qi, stops pain and clears heat, treats redness in the eyes, infantile fright convulsions, warm malaria, and swelling and pain in women's genitals. Also called Tuhe, also called Baicao. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 195,
+      "text": "Baiji (Bletilla striata). Taste: bitter. Nature: neutral. Indicated for carbuncles, swelling, malignant and festering sores, injury to yin, dead flesh, evil qi in the stomach, invasive wind and \"ghost strike\" (sudden collapse), and flaccidity with loss of control of the limbs. Also called Gangen, also called Lianjicao. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 196,
+      "text": "Caohao (Artemisia annua, sweet wormwood). Taste: bitter. Nature: cold. Indicated for scabies, itching, and malignant sores; kills lice, clears heat lingering in the joints, and brightens the eyes. Also called Qinghao, also called Fangkui. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 197,
+      "text": "Guanjun (a reed-root fungus). Taste: salty. Nature: neutral. Indicated for heart pain; warms the middle, expels long worms, baixi-worms, and pinworms, treats snakebite poison, and masses with various worms. Also called Guanlu. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 198,
+      "text": "Lianqiao (Forsythia suspensa). Taste: bitter. Nature: neutral. Indicated for cold-heat and scrofulous fistulas, scrofula, consumption, carbuncles and swelling, malignant sores, goiter and tumors, and bound heat with gu poison. Also called Yiqiao, Jianhua, Zhegen, and Sanlian. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 199,
+      "text": "Baitougong (Pulsatilla chinensis). Taste: bitter. Nature: warm. Non-toxic. Indicated for warm malaria with mania and personality change, cold-heat, masses and accumulations, and goiter; expels stagnant blood, stops pain, and treats wounds from blades. Also called Yezhangren, also called Huwang Shizhe. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 200,
+      "text": "Lüru. Taste: sour and salty. Toxic. Treats malignant necrotic flesh, festering sores, and dead flesh; kills scabies mites, expels pus and bad blood, eliminates severe wind and heat qi, and treats forgetfulness and unhappiness. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 201,
+      "text": "Yangtao. Taste: bitter. Nature: cold. Indicated for scorching heat with sudden reddening of the body, wind-water accumulations, and malignant sores; eliminates heat in children. Also called Guitao, also called Yangchang. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 202,
+      "text": "Yangti (Rumex japonicus, dock). Taste: bitter. Nature: cold. Indicated for scalp baldness and scabies with itching; eliminates heat and treats erosive sores in women's genitals. Also called Dongfangsu, Lianchonglu, and Guimu. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 203,
+      "text": "Lufu (wild soybean). Taste: bitter. Nature: neutral. Indicated for gu poison, women's lower back and abdominal pain with unhappiness, intestinal abscess, scrofula, consumption, and sores. Grows in mountain valleys. — Niubian. Taste: bitter. Nature: slightly cold. Indicated for sores and heat qi in the skin; can be made into a bath decoction, kills cattle lice and small parasites, and also treats cattle diseases. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 204,
+      "text": "Luying (Sambucus, elder). Taste: bitter. Nature: cold. Indicated for various bi syndromes between the bones, spasms and aching pain of the four limbs, cold pain in the knees, impotence, shortness of breath with insufficiency, and swelling of the feet. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 205,
+      "text": "Jin Cao (Arthraxon). Taste bitter, nature neutral. Indicated for chronic cough with rising qi, panting and counterflow from prolonged cold, fright palpitations, scabby itch, white bald patches (tinea), and sores; kills small parasites on the skin. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 206,
+      "text": "Xia Ku Cao (self-heal, Prunella vulgaris). Taste bitter and pungent, nature cold. Indicated for cold-heat scrofula and rat-fistula sores of the head, breaks up concretions, disperses goiter and knotted qi, and treats swollen legs from damp bi. Lightens the body. Also called Xi Ju and Nai Dong. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 207,
+      "text": "Wu Jiu (a black fern). Taste sweet, nature cold. Indicated for skin ailments with alternating cold and heat; benefits the qi of the small intestine and bladder. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 208,
+      "text": "Zao Xiu (Paris polyphylla). Taste bitter, nature slightly cold. Indicated for fright epilepsy with head-shaking and tongue-lolling, heat qi lodged in the abdomen, madness, welling sores with yin-region erosion; expels the three kinds of intestinal parasites and removes snake venom. Also called Shi Xiu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 209,
+      "text": "Shi Chang Sheng. Taste salty, nature slightly cold. Indicated for cold-heat malign sores and severe heat; wards off ghost qi and inauspicious influences. Also called Dan Cao. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 210,
+      "text": "Lang Du (wolfsbane). Taste pungent, nature neutral. Indicated for cough with counterflow qi, breaks up accumulations and food stagnation, cold-heat water-qi disorders, malign sores, rat-fistula and gangrenous erosion, ghost-essence and gu poison; kills birds and beasts. Also called Xu Du. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 211,
+      "text": "Gui Jiu (Dysosma). Taste pungent, nature warm. Governs the killing of gu poison and ghost-visitation essence-things, wards off malign qi and inauspicious influences, expels evil, and resolves the hundred poisons. Also called Jue Xi, Ma Mu Du Gong, and Jiu Jiu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 212,
+      "text": "Bian Xu (knotweed, Polygonum aviculare). Taste bitter, nature neutral. Indicated for spreading scabby itch and fistulous sores or hemorrhoids; kills the three kinds of intestinal parasites. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 213,
+      "text": "Shang Lu (pokeweed, Phytolacca). Taste pungent, nature neutral. Indicated for water distension and hernia-like conglomeration bi; applied as a hot compress it removes swellings and sores. Kills ghost-essence things. Also called [illegible]-gen and Ye Hu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 214,
+      "text": "Nu Qing. Taste pungent, nature neutral. Indicated for gu poison, expels evil malign qi, kills ghosts and warm-malaria, and wards off inauspicious influences. Also called Que Piao. Grows in mountain valleys.\n\nBai Fu Zi (Typhonium). Indicated for heart pain and blood bi, and the hundred ailments of the face; it also enhances the potency of other drugs. Grows in Shu commandery.",
+      "is_header": false
+    },
+    {
+      "number": 215,
+      "text": "Gu Huo. Taste sweet, nature warm. Indicated for severe wind evil qi and damp bi with cold pain. Taken long-term, lightens the body, prolongs life, and resists aging. Also called Dong Kui Zi. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 216,
+      "text": "Bie Ji. Taste bitter, nature slightly warm. Indicated for wind-cold-damp bi, heaviness of the body, aching and cold in the four limbs, and evil qi causing joint pain. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 217,
+      "text": "Shi Xia Chang Qing (Cynanchum paniculatum). Taste salty, nature neutral. Indicated for ghost-visitation essence-things and evil malign qi; kills the hundred essence-spirits and gu poison, old specters and shifting visitations, aimless wandering and wailing, sorrow and confusion. Also called Xu Chang Qing. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 218,
+      "text": "Qiao Gen (Forsythia root). Taste bitter, nature cold. Indicated for draining heat qi from the lower body, boosts yin essence, gives the face an attractive glow, and brightens the eyes. Taken long-term, lightens the body and resists aging. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 219,
+      "text": "Trees and Wood — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 220,
+      "text": "Fu Ling (Poria). Taste sweet, nature neutral. Indicated for counterflow qi in the chest and rib-sides, worry, anger, fright, and fear, knotted pain below the heart, cold-heat with vexation, fullness, cough and counterflow qi, dry mouth and dry tongue; promotes urination. Taken long-term, calms the spirit and nourishes the mind, staves off hunger, and prolongs life. Also called Fu Tu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 221,
+      "text": "Pine resin. Taste bitter, nature warm. Indicated for welling abscesses and malign sores, head sores and white bald patches, scabby itch and wind ailments; calms the five viscera and clears heat. Taken long-term, lightens the body and prolongs life. Also called Song Gao and Song Fang. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 222,
+      "text": "Bai Shi (arborvitae seed, Biota). Taste sweet, nature neutral. Indicated for fright palpitations; calms the five viscera, boosts qi, and removes wind-damp bi. Taken long-term, gives one a moist and beautiful complexion, sharpens the ears and eyes, staves off hunger and aging, lightens the body, and prolongs life. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 223,
+      "text": "Jun Gui (a fine cinnamon bark). Taste pungent, nature warm. Indicated for the hundred ailments; nourishes the essence-spirit, harmonizes the complexion, and serves as the guiding envoy for other drugs. Taken long-term, lightens the body, resists aging, gives the face a radiant glow, and keeps one as charming as a child. Grows in the mountain valleys of Jiaozhi.",
+      "is_header": false
+    },
+    {
+      "number": 224,
+      "text": "Mu Gui (cinnamon bark). Taste pungent, nature warm. Indicated for rising cough with counterflow qi, knotted qi, throat bi with retching on inhalation; benefits the joints and supplements the middle to boost qi. Taken long-term, connects one with the spirit, lightens the body, and resists aging. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 225,
+      "text": "Du Zhong (Eucommia). Taste pungent, nature neutral. Indicated for lower back and knee pain; supplements the middle, boosts essence qi, strengthens sinews and bones, fortifies the will, relieves itching and dampness below the genitals, and dribbling after urination. Taken long-term, lightens the body and resists aging. Also called Si Xian. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 226,
+      "text": "Man Jing Shi (Vitex fruit). Taste bitter, nature slightly cold. Indicated for cold-heat between the sinews and bones, damp bi with spasm and contracture; brightens the eyes, strengthens the teeth, benefits the nine orifices, and expels white parasites. Taken long-term, lightens the body and resists aging. The small variety of vitex fruit has equal effect.",
+      "is_header": false
+    },
+    {
+      "number": 227,
+      "text": "Bo Mu (Phellodendron bark). Taste bitter, nature cold. Indicated for knotted heat qi in the five viscera and the intestines and stomach, jaundice, intestinal hemorrhoids; stops diarrhea and dysentery, women's red-and-white vaginal discharge, and erosive sores of the genitals. The root is also called Tan Huan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 228,
+      "text": "Xin Yi (magnolia flower bud). Taste pungent, nature warm. Indicated for cold-heat of the five viscera and body, wind-induced head and brain pain, and dark blemishes on the face. Taken long-term, lowers qi, lightens the body, brightens the eyes, and extends one's years into old age. Also called Xin Yin, Hou Tao, and Fang Mu. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 229,
+      "text": "Yu Pi (elm bark). Taste sweet, nature neutral. Indicated for stoppage of urination and defecation; promotes the passage of water and removes evil qi. Taken long-term, lightens the body and staves off hunger. The fruit (elm samara) is even more effective. Also called Ling Yu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 230,
+      "text": "Suan Zao (sour jujube). Taste sour, nature neutral. Indicated for cold-heat and evil knotted qi in the heart and abdomen, aching in the four limbs, and damp bi. Taken long-term, calms the five viscera, lightens the body, and prolongs life. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 231,
+      "text": "Huai Zi (Sophora seed). Taste bitter, nature cold. Indicated for evil heat qi within the five viscera; stops drooling and excess saliva, mends internal injuries, treats the five kinds of hemorrhoids and fire sores, women's breast concretions, and painful spasm of the uterus. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 232,
+      "text": "Gouqi (Lycium / wolfberry). Taste bitter, cold nature. Indicated for evil qi within the five viscera, heat in the middle with wasting-thirst, and bi-syndrome (painful obstruction) throughout the body. Taken long-term, strengthens sinews and bones, lightens the body, and delays aging. Also called Qigen, Digu, Goujii, Difu. Grows in marshy lowlands.",
+      "is_header": false
+    },
+    {
+      "number": 233,
+      "text": "Juyou (tangerine/pomelo peel). Taste pungent, warm. Indicated for concretions and heat with rebellious qi in the chest; promotes the free flow of water and grain (digestion). Taken long-term, removes bad breath, lowers qi, and clears the spirit. Also called Jupi (tangerine peel). Grows in the mountain valleys of the south.",
+      "is_header": false
+    },
+    {
+      "number": 234,
+      "text": "Trees and Wood — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 235,
+      "text": "Ganqi (dried lacquer). Taste pungent, warm; non-toxic. Indicated for severe injury; supplements the middle, mends sinews and bones, fills the marrow and brain, calms the five viscera, and treats the five slacknesses and six urgencies, and wind-cold-damp bi. Fresh lacquer kills long worms (intestinal parasites). Taken long-term, lightens the body and delays aging. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 236,
+      "text": "Mulan (magnolia). Taste bitter, cold. Indicated for severe heat within the skin; removes facial heat, redness, pustules and rosacea, aversion to wind, leprosy-like sores, and itching dampness beneath the genitals; brightens the eyes. Also called Linlan. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 237,
+      "text": "Nüzhenshi (glossy privet fruit, Ligustrum lucidum). Taste bitter, neutral. Mainly supplements the middle, calms the five viscera, nourishes essence and spirit, and removes the hundred diseases. Taken long-term, makes one plump and healthy, lightens the body, and prevents aging. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 238,
+      "text": "Sangshang jisheng (mulberry mistletoe). Taste bitter, neutral. Indicated for lower back pain, stiff back in children, welling-abscesses and swelling; secures the fetus, fills out the flesh, strengthens teeth and hair, and lengthens the beard and eyebrows. Its fruit brightens the eyes, lightens the body, and clears the spirit. Also called Jixie, Yumu, Wantong. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 239,
+      "text": "Ruihe (蕤核, Prinsepia seed). Taste sweet, neutral; non-toxic. Indicated for knotted evil qi in the heart and abdomen; brightens the eyes, and treats red, painful eyes with tearing. Taken long-term, lightens the body, boosts qi, and staves off hunger. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 240,
+      "text": "Longyan (longan). Taste sweet, neutral. Indicated for evil qi in the five viscera; calms the will and relieves loss of appetite. Taken long-term, strengthens the ethereal soul (hun), sharpens the mind, lightens the body, prevents aging, and clears the spirit. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 241,
+      "text": "Houpo (magnolia bark). Taste bitter, warm; non-toxic. Indicated for wind-stroke, cold damage (shanghan), headache, cold-heat with fright qi, and blood bi with numb, dead flesh; expels the three worms. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 242,
+      "text": "Zhuye (bamboo leaf). Taste bitter, neutral. Indicated for cough with rebellious ascending qi, overflowing sinew spasms, and malign sores; kills small worms. The root, made into a decoction, boosts qi, quenches thirst, supplements deficiency, and lowers qi. Its juice treats wind convulsions and bi. The fruit clears the spirit, lightens the body, and boosts qi.",
+      "is_header": false
+    },
+    {
+      "number": 243,
+      "text": "Zhishi (bitter orange, immature fruit). Taste bitter, cold. Indicated for severe wind in the skin causing itching like hemp seeds or beans; removes cold-heat and heat binding, and stops dysentery. Builds up flesh, benefits the five viscera, boosts qi, and lightens the body. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 244,
+      "text": "Shanzhuyu (Cornus / Asiatic cornelian cherry). Taste sour; non-toxic. Indicated for evil qi below the heart with cold-heat; warms the middle, expels cold-damp bi, and removes the three worms. Taken long-term, lightens the body. Also called Shuzao. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 245,
+      "text": "Wuzhuyu (evodia fruit). Taste pungent, warm. Mainly warms the middle, lowers qi, and stops pain; treats cough with rebellious qi and cold-heat, removes damp blood bi, expels wind evil, and opens the interstices (couli). The root kills the three worms. Also called Yi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 246,
+      "text": "Qinpi (ash bark). Taste sour; non-toxic. Indicated for wind-cold-damp bi and shivering chills; removes heat, and treats bluish nebula and white film in the eyes. Taken long-term, keeps the hair from turning white and lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 247,
+      "text": "Zhizi (gardenia fruit). Taste bitter, cold. Indicated for evil qi within the five viscera, heat qi in the stomach, facial redness, wine-induced pustules and rosacea, red nose, and white or red leprosy-type sores and ulcers. Also called Mudan. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 248,
+      "text": "Hehuan (silk tree, Albizia). Taste sweet, neutral. Mainly calms the five viscera, harmonizes the heart and will, and makes one joyful and free of worry. Taken long-term, lightens the body, brightens the eyes, and grants one's desires. Grows in the mountain valleys of Yizhou.",
+      "is_header": false
+    },
+    {
+      "number": 249,
+      "text": "Qinjiao (Sichuan pepper). Taste pungent, warm. Indicated for wind evil qi; warms the middle, removes cold bi, strengthens the teeth, lengthens the hair, and brightens the eyes. Taken long-term, lightens the body, improves the complexion, delays aging, extends the years, and clears the spirit. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 250,
+      "text": "Ziwei (trumpet creeper / Campsis flower). Taste sour, slightly cold. Indicated for women's post-nursing ailments, flooding (profuse uterine bleeding), concretions and blood blockage, and cold-heat with emaciation; nourishes the fetus. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 251,
+      "text": "Wuyi (elm fruit paste). Taste pungent. Indicated for evil qi within the five viscera; disperses creeping toxin moving through the skin and joints. Expels the three worms and aids digestion. Also called Wugu; an alternate name is partly illegible in the source text. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 252,
+      "text": "Sanggen baipi (mulberry root bark). Taste sweet, cold. Indicated for internal injury, the five taxations and six extremities with emaciation, and flooding with pulse collapse; supplements deficiency and boosts qi. The leaf removes cold-heat and induces sweating. Mulberry ear (fungus growing on the mulberry tree), the black variety, treats women's vaginal discharge with red-and-white fluid, blood disorders, concretions and accumulations with abdominal pain, yin-yang cold-heat, and infertility. The 'five wood ears' (fungi growing on five kinds of trees), also called Ru, boost qi, stave off hunger, lighten the body, and strengthen the will.",
+      "is_header": false
+    },
+    {
+      "number": 253,
+      "text": "Trees and Wood — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 254,
+      "text": "Songluo (usnea / tree-moss lichen). Taste bitter, neutral. Indicated for evil qi of anger and rage; stops deficiency sweating, treats wind in the head, and cold swelling pain in women's genitals. Also called Nüluo. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 255,
+      "text": "Wujia (Acanthopanax). Taste pungent, warm. Indicated for hernia-qi (shan) pain in the heart and abdomen, and abdominal pain; boosts qi and treats lameness. Enables young children to stand and walk early; treats flat welling-sores and erosive sores of the genital region. Also called Chaiqi.",
+      "is_header": false
+    },
+    {
+      "number": 256,
+      "text": "Zhuling (Polyporus umbellatus). Taste sweet, neutral. Indicated for malarial disorders; resolves toxin, gu-toxin and gu-infestation, and inauspicious influences; promotes urination. Taken long-term, lightens the body and delays aging. Also called Jiazhushi (lit. 'boar's dung'). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 257,
+      "text": "Baiji (white jujube thorn). Taste pungent, cold. Indicated for heart and abdominal pain, and stops pain from welling-abscess with pus and rupture. Also called Jizhen. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 258,
+      "text": "Weimao (winged spindle tree, Euonymus alatus). Taste bitter, cold; non-toxic. Indicated for women's flooding with vaginal bleeding, and abdominal fullness with sweating; dispels evil, and kills ghost-toxin and gu-infestation. Also called Guijian (ghost arrow).",
+      "is_header": false
+    },
+    {
+      "number": 259,
+      "text": "Huanghuan. Taste bitter; toxic. Indicated for gu-toxin, ghost-infestation and ghost-possession, and evil qi lodged within the viscera; removes cough with rebellious qi and cold-heat. Also called Lingquan, Dajiu. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 260,
+      "text": "Shinan (Photinia leaf) — taste pungent, neutral. Nourishes kidney qi, treats internal damage and declining yin, benefits the sinews, bones, skin and hair. The fruit kills gu-poison, breaks up masses and accumulations, and expels wind-bi. Also called Guimu (\"ghost eye\"). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 261,
+      "text": "Croton seed (Ba Dou) — taste pungent, warm, toxic. Indicated for cold-damage and warm malaria with chills and fever; breaks up concretions and hardened accumulations; treats retained fluids and phlegm nodules, and distension of the abdomen with fluid swelling. Purges the five viscera and six bowels, opens obstructions, and promotes passage through the water and food pathways; removes necrotic flesh, and eliminates ghost-toxin, gu-poison and evil influences. Kills insects and fish. Also called Bajiao. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 262,
+      "text": "Sichuan pepper (Shu Jiao) — taste pungent, warm. Indicated for evil qi with cough and counterflow; warms the middle; expels numbness and dead flesh of the joints and skin, and cold-damp bi pain; directs qi downward. Taken long-term, it keeps the hair from graying, lightens the body, and prolongs life. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 263,
+      "text": "Mangcao — taste pungent, warm. Indicated for wind-head disorders, carbuncles and swellings, breast abscess, and hernia-like masses; dispels bound qi, scabies and itching, and deep-rooted sores. Kills insects and fish. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 264,
+      "text": "Yu kernel (bush-cherry pit) — taste sour, neutral. Indicated for abdominal water swelling, and swelling of the face, eyes, and limbs; promotes urination. The root treats swollen gums and dental caries, and strengthens the teeth. Rhamnus (Shu Li, buckthorn) treats chills-and-fever with scrofula sores. Also called Jueli. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 265,
+      "text": "Luan flower (Koelreuteria/goldenrain-tree flower) — taste bitter, cold. Indicated for eye pain with tearing and damage to the canthus; reduces eye swelling. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 266,
+      "text": "Manjiao — taste bitter, warm. Indicated for wind-cold-damp bi and pain in the joints throughout the body; dispels counterflow qi in the limbs, and knee pain. Also called Shijiao (\"hog pepper\"). Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 267,
+      "text": "Leiwan (Omphalia) — taste bitter, cold. Governs killing the three worms, and expelling toxic qi and heat from the stomach; beneficial for men, not beneficial for women. Made into a rubbing ointment, it treats the hundred diseases of children. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 268,
+      "text": "Soushu (Deutzia) — taste pungent, cold. Indicated for heat in the skin and body; dispels evil qi; stops enuresis. May be used to make a bathing decoction. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 269,
+      "text": "Yaoshi root (the root of Beimu, fritillary bulb) — taste pungent, warm. Indicated for evil qi and various aching bi conditions; mends severed injuries; supplements the bone marrow. Also called Lianmu. (This is the root of Beimu.) Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 270,
+      "text": "Gleditsia pod (Zaojia, Chinese honey-locust pod) — taste pungent, salty, warm. Indicated for wind-bi and numb dead flesh, evil qi, and wind-head with tearing eyes. Opens the nine orifices; kills malevolent spirits. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 271,
+      "text": "Lianshi (Melia/chinaberry fruit) — taste bitter, cold. Indicated for warm-disease and cold-damage with high fever, vexation and mania; kills the three worms; treats scabies and sores; promotes urination. (This is the fruit of the Melia tree.) Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 272,
+      "text": "Willow catkin (Liu Hua) — taste bitter, cold. Indicated for wind edema, jaundice, and facial heat with darkening. The leaves treat scabby sores in horses. The fruit treats ruptured carbuncles, expelling pus and blood. Also called Liuxu (\"willow floss\"). Grows in the river marshes of Langye.",
+      "is_header": false
+    },
+    {
+      "number": 273,
+      "text": "Paulownia leaf (Tong Ye) — taste bitter, cold. Indicated for malignant erosive sores of the genitals. The bark treats the five kinds of hemorrhoids and kills the three worms. The flower, applied to sores on pigs and fed to them, makes them grow three times fatter. Grows in mountain valleys.",
+      "is_header": false
+    }
+  ],
+  "下卷": [
+    {
+      "number": 1,
+      "text": "Insects and Animals — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 2,
+      "text": "Processed human hair (Fabi) — taste bitter, warm. Indicated for the five stranguries with impassable blockage; promotes urination; treats infantile epilepsy and adult tetany. It also has the marvelous property of transforming back into its original substance.",
+      "is_header": false
+    },
+    {
+      "number": 3,
+      "text": "Dragon bone (Longgu, fossilized bone) — taste sweet, neutral. Indicated for ghost-attachment of the heart and abdomen, malevolent spirits and old demons; cough with counterflow; diarrhea with pus and blood; women's flooding and spotting; concretions and hardened masses; infantile fright-epilepsy from heat qi. The teeth treat fright-epilepsy, mania and running madness in children and adults, bound qi below the heart with inability to breathe, and various convulsions; they kill malevolent spirits. Taken long-term, it lightens the body, opens spirit-brightness, and prolongs life. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 4,
+      "text": "Bovine bezoar (Niuhuang, ox gallstone) — taste bitter, neutral. Indicated for fright-epilepsy with chills and fever, and severe heat with mania and tetany; dispels evil and expels ghosts. The base of the ox horn treats blocked blood, static blood with pain, and women's vaginal discharge with bleeding. The marrow supplements the middle and fills the bone marrow; taken long-term, it prolongs life. The gallbladder can be made into pills. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 5,
+      "text": "Musk (Shexiang) — taste pungent, warm. Governs warding off malign qi, and killing ghosts and malevolent spirits; treats warm malaria, gu-poison, epilepsy and tetany; removes the three worms. Taken long-term, it dispels evil influences and prevents nightmares and sleep paralysis. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 6,
+      "text": "Bear fat (Xiong Zhi) — taste sweet, slightly cold. Indicated for wind-bi with numbness and sinew spasm; accumulations and masses in the five viscera and abdomen; chills and fever with emaciation; scalp sores and various forms of baldness; facial spots and blemishes. Taken long-term, it strengthens the will, suppresses hunger, and lightens the body. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 7,
+      "text": "White glue (deer-antler glue, Baijiao) — taste sweet, neutral. Indicated for internal injury and exhaustion, lower-back pain with emaciation; supplements the middle and boosts qi; women's amenorrhea and infertility; stops pain and calms the fetus. Taken long-term, it lightens the body and prolongs life. Also called Deer Antler Glue (Lujiaojiao).",
+      "is_header": false
+    },
+    {
+      "number": 8,
+      "text": "Donkey-hide glue (Ejiao) — taste sweet, neutral. Indicated for internal collapse of the heart and abdomen, extreme exhaustion with chills resembling malaria, lower-back and abdominal pain, aching of the four limbs, and women's vaginal bleeding; calms the fetus. Taken long-term, it lightens the body and boosts qi. Also called Chuanzhijiao.",
+      "is_header": false
+    },
+    {
+      "number": 9,
+      "text": "Red rooster (Dan Xiong Ji) — taste sweet, slightly warm. Indicated for women's flooding and spotting, and red or white vaginal discharge; supplements deficiency, warms the middle, stops bleeding, opens the spirit, kills toxin, and wards off inauspicious influences. The head kills ghosts. The fat treats deafness. The intestines treat enuresis. The yellow lining of the gizzard treats diarrhea. The white droppings treat wasting-thirst and cold-damage with chills and fever. The wing feathers treat blocked menstruation. The egg removes heat and fire-sores, epilepsy and tetany, and can be made into an amber-like marvelous substance. White grubs found on chickens fatten pigs. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 10,
+      "text": "Wild goose fat (Yan Fang) — taste sweet, neutral, non-toxic. Indicated for wind contracture and spasm, hemiplegia, and impeded qi flow. Taken long-term, it boosts qi, suppresses hunger, lightens the body, and resists aging. Also called Wufang. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 11,
+      "text": "Honey (Shimi) — taste sweet, neutral. Indicated for evil qi in the heart and abdomen, and various fright-epilepsy and tetany conditions; calms deficiencies of the five viscera; boosts qi, supplements the middle, stops pain, resolves toxin, treats the multitude of diseases, and harmonizes the hundred medicines. Taken long-term, it strengthens the will, lightens the body, suppresses hunger, and prevents aging. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 12,
+      "text": "Beeswax (Mila) — taste sweet, slightly warm. Indicated for diarrhea with pus and blood; supplements the middle, mends severed injuries and metal wounds, boosts qi, suppresses hunger, and resists aging. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 13,
+      "text": "Bee larvae (Fengzi) — taste sweet, neutral. Indicated for wind-head disorders; dispels gu-poison; supplements deficiency and emaciation, and internal injury. Taken long-term, it gives one a lustrous glow and good complexion, and prevents aging. The larvae of large hornets treat distension and pain of the heart and abdomen, lightening the body and boosting qi. The larvae of ground wasps treat carbuncles and swellings. Also called Feiling. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 14,
+      "text": "Oyster shell (Muli). Taste salty, neutral. Indicated for cold-damage fever and chills, shivering in warm-type malaria, and fright and anger qi. Relieves muscle spasm and flaccidity, scrofula, and women's red and white vaginal discharge. Taken long-term, strengthens the bones and joints, wards off evil spirits, and prolongs life. Also called Ligé. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 15,
+      "text": "Carp gallbladder. Taste bitter, cold. Indicated for red, painful eyes from heat, and blue-blindness; brightens the eyes. Taken long-term, strengthens vigor and boosts the will and vital energy. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 16,
+      "text": "Snakehead fish. Taste sweet, cold. Indicated for damp bi-syndrome with facial and eye swelling; drains excess water. Also called Tong fish. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 17,
+      "text": "Insects and Animals — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 18,
+      "text": "Rhinoceros horn. Taste bitter, cold. Indicated for the hundred poisons and gu-toxin infestations, evil spirits and miasmic qi; neutralizes the poisons of gouwen (Gelsemium), toxic bird feathers, and snake venom. Dispels evil influences and prevents confusion and nightmares. Taken long-term, lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 19,
+      "text": "Antelope horn. Taste salty, cold. Brightens the eyes, boosts qi, and revives sexual vigor. Removes malign blood flowing downward, wards off gu-toxin, evil spirits, and inauspicious influences, calms the heart-qi, and prevents nightmares. Taken long-term, strengthens the sinews and bones and lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 20,
+      "text": "Black goat horn. Taste salty, warm. Indicated for blue-blindness; brightens the eyes, kills scabies mites, stops cold-type diarrhea, wards off evil spirits, tigers and wolves, and stops fright palpitations. Taken long-term, calms the heart, boosts qi, and lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 21,
+      "text": "White horse penis. Taste salty, neutral. Indicated for internal injury with the pulse cut off, and impotence. Strengthens the will, boosts qi, builds muscle, and promotes vigor and fertility. The eye treats fright epilepsy, abdominal fullness, and malaria. The dew-claw treats fright-evil convulsions, difficult labor, and wards off malign qi, ghosts, poison, and gu-toxin infestations. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 22,
+      "text": "Dog penis. Taste salty, neutral. Indicated for internal injury and impotence; makes one strong and virile and aids conception, and removes the twelve ailments of women's vaginal discharge. The gallbladder brightens the eyes. Also called Dog Essence. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 23,
+      "text": "Deer antler velvet. Taste sweet, warm. Indicated for vaginal spotting with malign blood, chills and fever, and fright epilepsy; boosts qi, strengthens the will, and promotes tooth growth and longevity. The antler (once hardened) treats malignant sores and welling-abscesses, expels evil and malign qi, and clears stagnant blood retained in the vagina.",
+      "is_header": false
+    },
+    {
+      "number": 24,
+      "text": "Bat. Taste salty, neutral. Indicated for dim vision; brightens the eyes and grants clear night vision. Taken long-term, makes one joyful, charming, and carefree. Also called Bianfu. Grows in the river valleys of Mount Tai.",
+      "is_header": false
+    },
+    {
+      "number": 25,
+      "text": "Hedgehog skin. Taste bitter, neutral. Indicated for the five types of hemorrhoids with genital erosion, bleeding with red and white discharge, unceasing multicolored bloody fluid, and genital swelling and pain radiating to the lower back. Kill the hedgehog by boiling it in wine before use. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 26,
+      "text": "Skink. Taste salty, cold. Indicated for the five types of urinary blockage and bound evil qi; breaks up stone strangury, stops bleeding, and promotes urination. Also called Xiyi (lizard). Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 27,
+      "text": "Mantis egg case (Sangpiaoxiao). Taste salty, neutral. Indicated for internal injury, hernia-like masses, and impotence; boosts essence and aids conception. Treats women's amenorrhea with lower back pain, relieves the five types of painful urinary dysfunction, and promotes urination. Grows on mulberry branches; gather and steam before use. Also called Shiyou.",
+      "is_header": false
+    },
+    {
+      "number": 28,
+      "text": "Cicada. Taste salty, cold. Indicated for infant fright epilepsy, night crying, epilepsy, and chills and fever. Grows on willow trees.",
+      "is_header": false
+    },
+    {
+      "number": 29,
+      "text": "White stiff silkworm. Taste salty. Indicated for infant fright epilepsy and night crying; removes the three parasites, clears dark facial blemishes, improves the complexion, and treats genital sores in men. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 30,
+      "text": "Wood horsefly. Taste bitter, neutral. Indicated for red, painful eyes, injured canthus with tearing, stagnant blood and amenorrhea, chills and fever with aching, and infertility. Also called Huncháng. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 31,
+      "text": "Flying horsefly (Feimeng). Taste bitter, slightly cold. Expels stagnant blood, breaks down hardened blood accumulations, masses and concretions with chills and fever, and frees the blood vessels and the nine orifices. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 32,
+      "text": "Feilian (a beetle-like insect). Taste salty. Indicated for blood stasis and hardened masses with chills and fever; breaks up accumulations, treats throat bi-obstruction, and internal cold with infertility. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 33,
+      "text": "White grub (dung beetle larva). Taste salty, slightly warm. Indicated for malign blood and blood stasis, bi-syndrome qi; breaks up bruised blood causing hardness, fullness, and pain under the ribs, amenorrhea, and excess tissue growth in the eye with bluish nebula and white membrane. Also called Fenqi. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 34,
+      "text": "Slug. Taste salty, cold. Indicated for pathogenic wind causing facial paralysis, tendon injury and rectal prolapse, and fright epilepsy with spasmodic contraction. Also called Lingli. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 35,
+      "text": "Sea clam. Taste bitter, neutral. Indicated for cough with rising qi, wheezing with vexation and fullness, and chest pain with chills and fever. Also called Kuige. Grows in ponds and marshes. Wenge (patterned clam) treats malignant sores and erodes the five types of hemorrhoids.",
+      "is_header": false
+    },
+    {
+      "number": 36,
+      "text": "Turtle shell. Taste salty, neutral. Indicated for vaginal spotting with red and white discharge; breaks up masses and concretions, treats chronic malaria, the five types of hemorrhoids with genital erosion, damp bi-syndrome, heaviness and weakness of the limbs, and unclosed fontanelle in infants. Taken long-term, lightens the body and suppresses hunger. Also called Spirit House. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 37,
+      "text": "Soft-shell turtle shell. Taste salty, neutral. Indicated for masses and concretions in the chest and abdomen, hardened accumulations with chills and fever; removes epigastric fullness, polyps, genital erosion, hemorrhoids, and malignant flesh growths. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 38,
+      "text": "Tuo-fish scale armor (armored fish scales). Taste pungent, slightly warm. Indicated for masses and concretions in the chest and abdomen, latent hardened accumulations, chills and fever, women's flooding with multicolored uterine bleeding, pain linking the lower abdomen and genitals, scabies sores, and necrotic flesh. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 39,
+      "text": "Cuttlefish bone. Taste salty, slightly warm. Indicated for women's spotting with red and white menstrual discharge, amenorrhea, genital erosion with swelling and pain, chills and fever, masses and concretions, and infertility. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 40,
+      "text": "Crab. Taste salty, cold. Indicated for evil qi in the chest, painful heat binding, and facial paralysis with swelling. Counteracts the toxicity of lacquer. When burned, it draws out rats. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 41,
+      "text": "Toad. Taste pungent, cold nature. Indicated for pathogenic qi; breaks up hard masses and stagnant blood, treats abscesses, swellings, and genital sores. Taken long-term, prevents febrile disease. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 42,
+      "text": "Insects and Animals — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 43,
+      "text": "Hair and hoof-nails of the six domestic animals. Taste salty, neutral nature. Indicated for ghost-attachment and gu poisoning, chills and fever, fright epilepsy, and madness with convulsions and manic wandering. Camel hair is especially good.",
+      "is_header": false
+    },
+    {
+      "number": 44,
+      "text": "Flying squirrel. Induces abortion and eases childbirth.",
+      "is_header": false
+    },
+    {
+      "number": 45,
+      "text": "Elk fat. Taste pungent, warm nature. Indicated for abscesses, swellings, malignant sores, and necrotic flesh; cold-wind damp painful obstruction, stiffness and contracture of the four limbs, wind-swelling of the head with qi stagnation; it opens the skin's interstices. Also called gong fat. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 46,
+      "text": "Pig testicles. Taste sweet, warm nature. Indicated for fright epilepsy and madness, ghost-attachment and gu poisoning; relieves chills and fever, running-piglet qi surges, the five stranguries, pathogenic qi, and spasmodic contraction. The dew-claw treats the five types of hemorrhoids, hidden heat lodged in the intestines, and intestinal abscess with internal erosion. Also called tún diān.",
+      "is_header": false
+    },
+    {
+      "number": 47,
+      "text": "Swallow droppings. Taste pungent, neutral nature. Indicated for gu poisoning and ghost-attachment; expels inauspicious pathogenic qi, breaks the five stranguries, and disinhibits urination. Found in high valleys and level valleys.",
+      "is_header": false
+    },
+    {
+      "number": 48,
+      "text": "Bat droppings. Taste pungent, cold nature. Indicated for swelling and abscess of the face and eyes, recurring skin pain, blood-qi disorders in the abdomen; breaks up accumulations from cold and heat, and relieves fright palpitations. Also called shǔgū, also called shígān (stone liver). Grows in the mountain valleys of Hepu.",
+      "is_header": false
+    },
+    {
+      "number": 49,
+      "text": "Hornet's nest. Taste bitter, neutral nature. Indicated for fright epilepsy with convulsions, chills and fever from pathogenic qi, madness, ghost essence and gu poisoning, and intestinal hemorrhoids. Best prepared roasted over fire. Also called fēngchǎng. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 50,
+      "text": "Chū jī (ailanthus lanternfly). Taste bitter, neutral nature. Indicated for pathogenic qi in the heart and abdomen, and impotence; boosts essence, strengthens willpower, aids conception, and enhances sexual vigor. Tonifies the middle and lightens the body. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 51,
+      "text": "Zhè chóng (wingless ground beetle). Taste salty, cold nature. Indicated for recurring chills and fever in the heart and abdomen, blood accumulations and abdominal masses; breaks up hardness and expels blocked menstrual blood. Excellent for aiding conception. Also called dìbiē. Grows in river marshes.",
+      "is_header": false
+    },
+    {
+      "number": 52,
+      "text": "Leech. Taste salty, neutral nature. Expels malign and stagnant blood and blocked menstruation; breaks up blood masses and accumulations, treats infertility, and disinhibits the waterways.",
+      "is_header": false
+    },
+    {
+      "number": 53,
+      "text": "Shícán (caddisfly larva). Taste sour, non-toxic. Indicated for the five stranguries; breaks the five types of painful urinary dribbling, and induces abortion. Its flesh resolves bound qi, disinhibits the waterways, and clears heat. Also called shāshī. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 54,
+      "text": "Snake slough. Taste salty, neutral nature. Indicated for the 120 kinds of infantile fright epilepsy, convulsions, madness, chills and fever, intestinal hemorrhoids, worm toxicity, and snake-epilepsy. Best prepared roasted over fire. Also called lóngzǐyī, shéfú, lóngzǐdānyī, and gōngpí (bow-skin). Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 55,
+      "text": "Centipede. Taste pungent, warm nature. Indicated for ghost-attachment and gu poisoning; counteracts venom from snakes, insects, and fish, kills malevolent spirits and old specters, treats warm malaria, and expels the three worms. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 56,
+      "text": "Millipede. Taste pungent, warm nature. Indicated for severe hard steaming heat in the abdomen; breaks up accumulations and masses, treats polyps, malignant sores, and scalp ringworm. Also called bǎizú (hundred-legs). Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 57,
+      "text": "Yìwēng (mud-dauber wasp). Taste pungent, neutral nature. Indicated for chronic deafness, cough with counterflow qi, and toxic qi; draws out embedded splinters, and induces sweating. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 58,
+      "text": "Quèwèng (moth cocoon). Taste sweet, neutral nature. Indicated for infantile fright epilepsy, chills and fever with bound qi, gu poisoning, and ghost-attachment. Also called zàoshè.",
+      "is_header": false
+    },
+    {
+      "number": 59,
+      "text": "Bǐzǐ. Taste sweet, warm nature. Indicated for pathogenic qi in the abdomen; expels the three worms, treats snake bites, gu poisoning, ghost-attachment, and hidden corpse (a wasting disease).",
+      "is_header": false
+    },
+    {
+      "number": 60,
+      "text": "Shǔfù (pillbug/woodlouse). Taste sour, warm nature. Indicated for qi strangury with inability to urinate, blocked menstruation and blood masses in women, epilepsy and convulsions with chills and fever; disinhibits the waterways. Also called pánzhēn, also called yīxián. Grows in level valleys.",
+      "is_header": false
+    },
+    {
+      "number": 61,
+      "text": "Firefly. Taste pungent, slightly warm nature. Brightens the eyes; treats fire-sore injuries in children and heat qi, gu poisoning, and ghost-attachment; opens the spirit-essence. Also called yèguāng (night light). Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 62,
+      "text": "Silverfish. Taste salty, warm nature, non-toxic. Indicated for hernia-like abdominal masses in women, difficult urination, and infantile wind-strike with stiff neck — for all of these it should be applied as a rub. Also called báiyú (white fish). Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 63,
+      "text": "White-necked earthworm. Taste salty, cold nature. Indicated for snake-type abdominal masses; expels the three worms and hidden corpse, ghost-attachment and gu poisoning; kills long worms (roundworms). It can also dissolve itself into water. Grows in level ground.",
+      "is_header": false
+    },
+    {
+      "number": 64,
+      "text": "Mole cricket. Taste salty, cold nature. Indicated for difficult childbirth; draws out splinters embedded in the flesh, ruptures abscesses and swellings, relieves choking obstruction in the throat, resolves toxicity, and treats malignant sores. Those caught at night are best. Also called huìgū, tiānlóu, and hú. Grows in level marshes.",
+      "is_header": false
+    },
+    {
+      "number": 65,
+      "text": "Dung beetle. Taste salty, cold nature. Indicated for infantile fright epilepsy with convulsions, abdominal distension with chills and fever, and adult madness and erratic behavior. Best prepared roasted over fire. Also called jiéqiāng. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 66,
+      "text": "Blister beetle. Taste pungent, cold nature. Indicated for chills and fever from ghost-attachment and gu poisoning, scrofula, malignant sores, erosive ulcers, and necrotic flesh; breaks up stony strangury. Also called lóngwěi (dragon tail). Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 67,
+      "text": "Dìdǎn (oil beetle). Taste pungent, cold nature. Indicated for chills and fever from ghost-attachment, scrofula and malignant sores, and necrotic accumulations; breaks up abdominal masses, and induces abortion. Also called yuánqīng. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 68,
+      "text": "Mǎdāo (a freshwater clam/mussel). Taste pungent, slightly cold; toxic. Indicated for metrorrhagia (abnormal uterine bleeding).",
+      "is_header": false
+    },
+    {
+      "number": 69,
+      "text": "Fruits and Vegetables — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 70,
+      "text": "Grape. Taste sweet, neutral. Indicated for damp painful bi-syndrome of the sinews and bones; boosts qi, redoubles strength, strengthens the will, makes one stout and healthy, and enables one to withstand hunger, wind, and cold. Taken long-term, it lightens the body, prevents aging, and prolongs life. Can be made into wine. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 71,
+      "text": "Péngléi (wild raspberry). Taste sour, neutral. Mainly calms the five viscera, boosts essence-qi, strengthens and firms yin, strengthens the will and redoubles strength, and aids fertility. Taken long-term, it lightens the body and prevents aging. Also called Fùpén. Grows in flat wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 72,
+      "text": "Chinese date (jujube). Taste sweet, neutral. Indicated for pathogenic qi of the heart and abdomen; calms the middle, nourishes the spleen, assists the twelve channels, calms stomach qi, opens the nine orifices, and supplements deficient qi and fluids, bodily insufficiency, being easily startled, and heaviness of the limbs. Harmonizes the hundred medicinals. Taken long-term, it lightens the body and lengthens life. Its leaves, combined with ephedra, can induce sweating. Grows in flat wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 73,
+      "text": "Lotus seed and rhizome. Taste sweet, neutral. Mainly supplements the middle, nourishes the spirit, boosts qi and strength, and eliminates the hundred diseases. Taken long-term, it lightens the body, resists aging, prevents hunger, and prolongs life. Also called Shuǐzhī (\"Water Fungus\"). Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 74,
+      "text": "Qiánshí (foxnut, lit. \"chicken head\"). Taste sweet, neutral. Indicated for damp painful bi-syndrome, pain of the lower back, spine, and knees; supplements the middle, eliminates the hundred diseases, boosts essence-qi, strengthens the will, and sharpens hearing and vision. Taken long-term, it lightens the body, prevents hunger, and grants immortal-like longevity. Also called Yànhuì (\"wild-goose beak\"). Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 75,
+      "text": "Sweet melon seed. Taste sweet, neutral. Mainly makes one glossy and radiant, gives a good complexion, and boosts qi while preventing hunger. Taken long-term, it lightens the body and resists aging.",
+      "is_header": false
+    },
+    {
+      "number": 76,
+      "text": "Melon pedicle. Taste bitter, cold. Indicated for major water [edema] with swelling of the face and limbs; drains water, kills gu-poison, and treats cough with rising qi. For indigestion after eating fruit, when the ailment lies in the chest and abdomen, it induces vomiting and purging to expel it. Also called Tǔzhī. Grows in flat wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 77,
+      "text": "Winter mallow seed. Taste sweet, cold. Indicated for cold-heat and emaciation of the five viscera and six bowels; breaks the five types of painful urinary dysfunction and disinhibits urination. Taken long-term, it strengthens the bones, builds muscle, lightens the body, and prolongs life.",
+      "is_header": false
+    },
+    {
+      "number": 78,
+      "text": "Amaranth seed. Taste sweet, cold. Indicated for blindness without visible eye damage; brightens the eyes, eliminates pathogenic influences, disinhibits urination and defecation, and clears cold-heat. Taken long-term, it boosts qi and strength, prevents hunger, and lightens the body. Also called Mǎxiàn. Grows in river wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 79,
+      "text": "Bitter lettuce. Taste bitter, cold. Indicated for pathogenic qi of the five viscera, and aversion to food with stomach bi-syndrome. Taken long-term, it calms the heart, boosts qi, sharpens hearing and perception, reduces the need for sleep, lightens the body, and resists aging. Also called Túcǎo, also called Xuǎn. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 80,
+      "text": "Fruits and Vegetables — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 81,
+      "text": "Cherry. Taste sweet, neutral; non-toxic. Mainly regulates the middle and boosts spleen qi; gives one a good complexion and a pleasant disposition.",
+      "is_header": false
+    },
+    {
+      "number": 82,
+      "text": "Mume fruit (Chinese plum). Taste sour, neutral. Mainly directs qi downward, relieves heat vexation and fullness, calms the heart, and treats pain of the limbs and body, hemiplegia with numbness, and necrotic flesh. Removes dark blemishes and malignant sores. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 83,
+      "text": "Smartweed seed. Taste pungent, warm. Mainly brightens the eyes, warms the middle, and enables one to withstand wind and cold; drains water-qi, swelling of the face and eyes, and sores. Mǎliǎo (a smartweed variety) expels leeches from the intestines. Lightens the body. Grows in river wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 84,
+      "text": "Scallion seed. Taste pungent, warm. Mainly brightens the eyes and supplements insufficiency in the middle. Its stalk can be made into a decoction, indicated for cold-heat of cold-damage disorder, to induce sweating, and for wind-stroke with swelling of the face and eyes. Xiè (Chinese onion), taste pungent, indicated for festering wounds from metal injury. [Scallion] lightens the body, prevents hunger, and resists aging. Grows in flat wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 85,
+      "text": "Shuǐsū (Chinese figwort/betony). Taste pungent, slightly warm. Mainly directs qi downward and aids digestion, eliminates bad breath, removes toxicity, and dispels foul qi. Taken long-term, it opens the spirit-intelligence, lightens the body, and resists aging. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 86,
+      "text": "Apricot kernel. Taste sweet, warm. Indicated for cough with rising qi, rumbling [in the chest], and throat bi-syndrome; directs qi downward, aids childbirth and lactation, treats metal-wounds, cold in the heart region, and running-piglet qi. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 87,
+      "text": "Fruits and Vegetables — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 88,
+      "text": "Peach kernel. Taste bitter, neutral. Indicated for stagnant blood, blood blockage, abdominal masses, and pathogenic qi; kills small parasites. Peach blossom expels possessing malevolent spirits and gives one a good complexion. Táoxiāo (a mummified peach left hanging through winter), slightly warm, kills the hundred ghosts and spirit-things. Peach fuzz treats blood masses with abnormal bleeding, cold-heat accumulations, and infertility. Peach-tree borer kills ghosts and inauspicious evil influences. Grows in mountain valleys.",
+      "is_header": false
+    },
+    {
+      "number": 89,
+      "text": "Bitter gourd. Taste bitter, cold. Indicated for major water [edema] with swelling of the face and limbs; drains water. Induces vomiting. Grows in mountain wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 90,
+      "text": "Water celery (water dropwort). Taste sweet, neutral. Indicated for women's reddish vaginal discharge; stops bleeding, nourishes essence, protects the blood vessels, boosts qi, and makes one stout, healthy, and eager to eat. Also called Shuǐyīng. Grows in ponds and marshes.",
+      "is_header": false
+    },
+    {
+      "number": 91,
+      "text": "Grains — Superior Grade",
+      "is_header": true
+    },
+    {
+      "number": 92,
+      "text": "Sesame. Taste sweet, neutral; non-toxic. Indicated for injury to the middle with deficiency and emaciation; supplements the five internal organs, boosts qi and strength, builds muscle, and fills the brain marrow. Taken long-term, it lightens the body and prevents aging. Its leaf is called Qīngráng; also called Jùshèng. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 93,
+      "text": "Hemp flower-fruit clusters. Taste pungent, neutral. Indicated for the seven types of injury; disinhibits the five viscera, and expels stagnant blood and cold qi. Eaten in excess, it makes one see ghosts and run about madly. Taken long-term, it opens the spirit-intelligence and lightens the body. Hemp seed, taste sweet, neutral, mainly supplements the middle and boosts qi. Taken long-term, it makes one stout and healthy and resists aging. Also called Mábó. Grows in river valleys.",
+      "is_header": false
+    },
+    {
+      "number": 94,
+      "text": "Grains — Middle Grade",
+      "is_header": true
+    },
+    {
+      "number": 95,
+      "text": "Fermented soybean sprout. Taste sweet, neutral; non-toxic. Indicated for damp bi-syndrome with sinew spasm and knee pain. Raw soybean is applied to sores and swelling; boiled and drunk as a decoction, it kills gu-poison and stops pain. Red adzuki bean drains water and expels pus and blood from sores and swellings. Grows in flat wetlands.",
+      "is_header": false
+    },
+    {
+      "number": 96,
+      "text": "Foxtail millet. Taste bitter; non-toxic. Mainly nourishes kidney qi, removes heat from the stomach and spleen, and boosts qi. The aged grain, bitter in taste, treats stomach heat, wasting-thirst disorder, and disinhibits urination.",
+      "is_header": false
+    },
+    {
+      "number": 97,
+      "text": "Glutinous millet. Taste sweet; non-toxic. Mainly boosts qi and supplements the middle; in excess it is heating and can cause vexation.",
+      "is_header": false
+    },
+    {
+      "number": 98,
+      "text": "Grains — Lower Grade",
+      "is_header": true
+    },
+    {
+      "number": 99,
+      "text": "Fǔbì. Taste pungent, neutral. Indicated for malarial disorders with cold-heat, pathogenic qi, and diarrhea; treats impotence and headache from wine-drinking.",
+      "is_header": false
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # 中华典籍 (Chinese Classics Reader)
 
-A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing, both 素问 and 灵枢经) and 《神农本草经》(Shennong Bencao Jing); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
+A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing, both 素问 and 灵枢经, Chinese only — a full English translation of its ~187,000 characters is a much larger undertaking, tracked as a future phase) and 《神农本草经》(Shennong Bencao Jing, all 364 entries with bilingual Chinese/English text); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
 
 ## How it works
 
@@ -10,6 +10,8 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - **神农本草经**: split into 上卷/中卷/下卷, each an ordered list of `{number, text, is_header}` entries. Category dividers like `玉石部上品` are detected by an exact `<category>部<上/中/下>品` pattern and flagged `is_header`; everything else is a herb entry, with wrapped continuation lines reattached.
 
 `scripts/build_data.py` asserts expected chapter/entry counts (81+81 neijing chapters, 10/273/99 bencao entries per juan, 18 category headers) before writing the JSON, so a parsing regression fails loudly instead of silently corrupting the data. It's run manually, not at request time — the app just loads the pre-built JSON.
+
+**神农本草经's English translation** was produced by 14 parallel translation agents (~26 entries each, checked into `scripts/bencao_en_batches/` for reproducibility) plus 18 hand-translated section headers, assembled by `scripts/build_bencao_en.py` into `data/bencao_en.json` — same shape as `bencao.json` so `tcm_core.py` can zip the two lists by index and pair Chinese with English per entry.
 
 **周易** is generated from the sibling `zhouyi-divination` app's hexagram data (`scripts/build_zhouyi.py` imports `cs001.py`/`cs001_en.py`/`yijing_core.py` from `../yijing_app`) into a self-contained `data/zhouyi.json`, including each hexagram's six-line bit pattern for rendering the yang/yin diagram.
 
@@ -24,6 +26,7 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - `app.py` — Flask routes.
 - `tcm_core.py` — loads `data/*.json` at import time; chapter/juan/hexagram/entry lookup and search helpers.
 - `scripts/build_data.py` — one-time parser, `sources/*.txt` → `data/{neijing,bencao}.json`.
+- `scripts/build_bencao_en.py` — assembles `scripts/bencao_en_batches/*.json` + hand-translated headers → `data/bencao_en.json`.
 - `scripts/build_zhouyi.py` — one-time parser, sibling `yijing_app`'s hexagram data → `data/zhouyi.json`.
 - `scripts/build_xinjing.py` — one-time parser, the bundled Heart Sutra text in `sources/huangdinijing.txt` → `data/xinjing.json`.
 - `scripts/build_journal.py` — one-time parser, `journal/*.md` → `data/journal.json`.
@@ -45,6 +48,7 @@ Then open `http://127.0.0.1:5000`. To regenerate `data/*.json`:
 
 ```bash
 python scripts/build_data.py      # from sources/*.txt
+python scripts/build_bencao_en.py # from scripts/bencao_en_batches/*.json
 python scripts/build_zhouyi.py    # from the sibling yijing_app (must be checked out alongside this repo)
 python scripts/build_xinjing.py   # from sources/huangdinijing.txt
 python scripts/build_journal.py   # from journal/*.md

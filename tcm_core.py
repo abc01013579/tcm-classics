@@ -4,6 +4,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent / "data"
 NEIJING = json.loads((DATA_DIR / "neijing.json").read_text(encoding="utf-8"))
 BENCAO = json.loads((DATA_DIR / "bencao.json").read_text(encoding="utf-8"))
+BENCAO_EN = json.loads((DATA_DIR / "bencao_en.json").read_text(encoding="utf-8"))
 ZHOUYI = json.loads((DATA_DIR / "zhouyi.json").read_text(encoding="utf-8"))
 ZHOUYI_BY_NUMBER = {h["number"]: h for h in ZHOUYI}
 
@@ -18,12 +19,27 @@ NEIJING_BOOKS = [
 ]
 NEIJING_SLUG_TO_NAME = {b["slug"]: b["name"] for b in NEIJING_BOOKS}
 
+def _bilingual_entries(juan_name):
+    zh_list = BENCAO[juan_name]
+    en_list = BENCAO_EN[juan_name]
+    return [
+        {
+            "number": zh["number"],
+            "is_header": zh["is_header"],
+            "text": zh["text"],
+            "text_en": en["text"],
+        }
+        for zh, en in zip(zh_list, en_list)
+    ]
+
+
 BENCAO_JUAN = [
-    {"slug": "shang", "name": "上卷", "entries": BENCAO["上卷"]},
-    {"slug": "zhong", "name": "中卷", "entries": BENCAO["中卷"]},
-    {"slug": "xia", "name": "下卷", "entries": BENCAO["下卷"]},
+    {"slug": "shang", "name": "上卷", "entries": _bilingual_entries("上卷")},
+    {"slug": "zhong", "name": "中卷", "entries": _bilingual_entries("中卷")},
+    {"slug": "xia", "name": "下卷", "entries": _bilingual_entries("下卷")},
 ]
 BENCAO_SLUG_TO_NAME = {j["slug"]: j["name"] for j in BENCAO_JUAN}
+BENCAO_JUAN_BY_SLUG = {j["slug"]: j for j in BENCAO_JUAN}
 
 SNIPPET_RADIUS = 40
 
@@ -39,10 +55,10 @@ def get_neijing_chapter(book_slug, number):
 
 
 def get_bencao_juan(juan_slug):
-    juan_name = BENCAO_SLUG_TO_NAME.get(juan_slug)
-    if juan_name is None:
+    juan = BENCAO_JUAN_BY_SLUG.get(juan_slug)
+    if juan is None:
         return None
-    return BENCAO[juan_name]
+    return juan["entries"]
 
 
 def get_zhouyi_hexagram(number):
@@ -78,13 +94,14 @@ def search(query):
 
     for juan in BENCAO_JUAN:
         for entry in juan["entries"]:
-            idx = entry["text"].find(query)
+            haystack = f"{entry['text']}\n{entry['text_en']}"
+            idx = haystack.find(query)
             if idx != -1:
                 results.append({
                     "source": f"《神农本草经》{juan['name']}",
                     "url_juan_slug": juan["slug"],
                     "kind": "bencao",
-                    "snippet": _snippet(entry["text"], idx, len(query)),
+                    "snippet": _snippet(haystack, idx, len(query)),
                 })
 
     for hexagram in ZHOUYI:

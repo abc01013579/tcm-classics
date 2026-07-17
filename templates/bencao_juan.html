@@ -11,9 +11,12 @@
 
     {% for entry in entries %}
       {% if entry.is_header %}
-        <h3 class="bencao-header">{{ entry.text }}</h3>
+        <h3 class="bencao-header">{{ entry.text }} <span class="zhouyi-en-hint">{{ entry.text_en }}</span></h3>
       {% else %}
-        <p class="bencao-entry">{{ entry.text }}</p>
+        <div class="bilingual-pair">
+          <p class="bilingual-zh bencao-entry">{{ entry.text }}</p>
+          <p class="bilingual-en">{{ entry.text_en }}</p>
+        </div>
       {% endif %}
     {% endfor %}
   </article>
