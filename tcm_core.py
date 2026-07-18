@@ -3,6 +3,8 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
 NEIJING = json.loads((DATA_DIR / "neijing.json").read_text(encoding="utf-8"))
+NEIJING_EN = json.loads((DATA_DIR / "neijing_en.json").read_text(encoding="utf-8"))
+SUWEN_EN_BY_NUMBER = {c["number"]: c for c in NEIJING_EN["素问"]}
 BENCAO = json.loads((DATA_DIR / "bencao.json").read_text(encoding="utf-8"))
 BENCAO_EN = json.loads((DATA_DIR / "bencao_en.json").read_text(encoding="utf-8"))
 ZHOUYI = json.loads((DATA_DIR / "zhouyi.json").read_text(encoding="utf-8"))
@@ -49,8 +51,19 @@ def get_neijing_chapter(book_slug, number):
     if book_name is None:
         return None
     for chapter in NEIJING[book_name]:
-        if chapter["number"] == number:
-            return chapter
+        if chapter["number"] != number:
+            continue
+        en = SUWEN_EN_BY_NUMBER.get(number) if book_slug == "suwen" else None
+        if en is None:
+            return {**chapter, "title_en": None, "bilingual": False}
+        return {
+            "number": chapter["number"],
+            "title": chapter["title"],
+            "title_en": en["title_en"],
+            "paragraphs": chapter["paragraphs"],
+            "pairs": list(zip(chapter["paragraphs"], en["paragraphs_en"])),
+            "bilingual": True,
+        }
     return None
 
 
@@ -81,15 +94,18 @@ def search(query):
     results = []
     for book in NEIJING_BOOKS:
         for chapter in book["chapters"]:
-            for paragraph in chapter["paragraphs"]:
-                idx = paragraph.find(query)
+            en = SUWEN_EN_BY_NUMBER.get(chapter["number"]) if book["slug"] == "suwen" else None
+            paragraphs_en = en["paragraphs_en"] if en else [None] * len(chapter["paragraphs"])
+            for zh_para, en_para in zip(chapter["paragraphs"], paragraphs_en):
+                haystack = f"{zh_para}\n{en_para}" if en_para else zh_para
+                idx = haystack.find(query)
                 if idx != -1:
                     results.append({
                         "source": f"《{book['name']}》{chapter['title']}",
                         "url_book_slug": book["slug"],
                         "url_number": chapter["number"],
                         "kind": "neijing",
-                        "snippet": _snippet(paragraph, idx, len(query)),
+                        "snippet": _snippet(haystack, idx, len(query)),
                     })
 
     for juan in BENCAO_JUAN:
