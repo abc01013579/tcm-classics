@@ -453,9 +453,15 @@ h1 {
   }
 
   .reading {
-    border: 1px solid #999;
+    border: none;
     border-radius: 0;
-    padding: 0.75rem 1rem;
+    padding: 0;
+  }
+
+  .reading p,
+  .bilingual-pair {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .reading h1 {
@@ -474,6 +480,12 @@ h1 {
   .bilingual-en,
   .zhouyi-en-hint {
     color: #333;
+  }
+
+  .hexagram-diagram .line {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border: 1px solid #000;
   }
 
   .hexagram-diagram .line.yang {
