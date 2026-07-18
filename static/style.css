@@ -341,13 +341,7 @@ h1 {
 }
 
 .bilingual-pair {
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 1rem;
   margin-bottom: 1.1rem;
-}
-
-.bilingual-pair:last-child {
-  border-bottom: none;
 }
 
 .bilingual-zh {
