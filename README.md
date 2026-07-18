@@ -1,6 +1,6 @@
 # 中华典籍 (Chinese Classics Reader)
 
-A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing — 素问, all 81 chapters, with bilingual Chinese/English text; 灵枢经, 81 chapters, still Chinese only — its English translation is tracked as a future phase) and 《神农本草经》(Shennong Bencao Jing, all 364 entries with bilingual Chinese/English text); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
+A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing — 素问 and 灵枢经, all 81+81 chapters, both fully bilingual Chinese/English) and 《神农本草经》(Shennong Bencao Jing, all 364 entries with bilingual Chinese/English text); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
 
 ## How it works
 
@@ -13,7 +13,7 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 
 **神农本草经's English translation** was produced by 14 parallel translation agents (~26 entries each, checked into `scripts/bencao_en_batches/` for reproducibility) plus 18 hand-translated section headers, assembled by `scripts/build_bencao_en.py` into `data/bencao_en.json` — same shape as `bencao.json` so `tcm_core.py` can zip the two lists by index and pair Chinese with English per entry.
 
-**素问's English translation** was produced by parallel translation agents working from 21 chapter batches (bin-packed by character count so no chapter was ever split across a batch, checked into `scripts/suwen_en_batches/` for reproducibility), assembled by `scripts/build_neijing_en.py` into `data/neijing_en.json` — `tcm_core.get_neijing_chapter()` zips each chapter's Chinese and English paragraphs by index. All 81 chapters are translated. 灵枢经 has no English data yet, so its chapters render Chinese-only via the same lookup's fallback path.
+**素问's and 灵枢经's English translations** were each produced by parallel translation agents working from chapter batches (bin-packed by character count so no chapter was ever split across a batch — 21 batches for 素问 in `scripts/suwen_en_batches/`, 18 for 灵枢经 in `scripts/lingshu_en_batches/`, both checked into the repo for reproducibility), assembled by `scripts/build_neijing_en.py` into `data/neijing_en.json` — `tcm_core.get_neijing_chapter()` zips each chapter's Chinese and English paragraphs by index. All 81+81 chapters of both books are translated; the lookup's Chinese-only fallback path remains in place for any future untranslated classic.
 
 **周易** is generated from the sibling `zhouyi-divination` app's hexagram data (`scripts/build_zhouyi.py` imports `cs001.py`/`cs001_en.py`/`yijing_core.py` from `../yijing_app`) into a self-contained `data/zhouyi.json`, including each hexagram's six-line bit pattern for rendering the yang/yin diagram.
 
@@ -29,7 +29,7 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - `tcm_core.py` — loads `data/*.json` at import time; chapter/juan/hexagram/entry lookup and search helpers.
 - `scripts/build_data.py` — one-time parser, `sources/*.txt` → `data/{neijing,bencao}.json`.
 - `scripts/build_bencao_en.py` — assembles `scripts/bencao_en_batches/*.json` + hand-translated headers → `data/bencao_en.json`.
-- `scripts/build_neijing_en.py` — assembles `scripts/suwen_en_batches/*.json` → `data/neijing_en.json` (素问 only).
+- `scripts/build_neijing_en.py` — assembles `scripts/{suwen,lingshu}_en_batches/*.json` → `data/neijing_en.json`.
 - `scripts/build_zhouyi.py` — one-time parser, sibling `yijing_app`'s hexagram data → `data/zhouyi.json`.
 - `scripts/build_xinjing.py` — one-time parser, the bundled Heart Sutra text in `sources/huangdinijing.txt` → `data/xinjing.json`.
 - `scripts/build_journal.py` — one-time parser, `journal/*.md` → `data/journal.json`.
@@ -52,7 +52,7 @@ Then open `http://127.0.0.1:5000`. To regenerate `data/*.json`:
 ```bash
 python scripts/build_data.py      # from sources/*.txt
 python scripts/build_bencao_en.py # from scripts/bencao_en_batches/*.json
-python scripts/build_neijing_en.py # from scripts/suwen_en_batches/*.json
+python scripts/build_neijing_en.py # from scripts/{suwen,lingshu}_en_batches/*.json
 python scripts/build_zhouyi.py    # from the sibling yijing_app (must be checked out alongside this repo)
 python scripts/build_xinjing.py   # from sources/huangdinijing.txt
 python scripts/build_journal.py   # from journal/*.md
