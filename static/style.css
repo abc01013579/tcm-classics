@@ -217,6 +217,14 @@ h1 {
   margin: 0 0 1.1rem;
 }
 
+.journal-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.25rem 0;
+}
+
 .hexagram-diagram {
   display: flex;
   flex-direction: column;
@@ -453,7 +461,8 @@ h1 {
   }
 
   .reading p,
-  .bilingual-pair {
+  .bilingual-pair,
+  .journal-body img {
     break-inside: avoid;
     page-break-inside: avoid;
   }

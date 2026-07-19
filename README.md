@@ -73,6 +73,8 @@ date: 2026-07-16
 
 Then run `python scripts/build_journal.py` to regenerate `data/journal.json`, and commit + push both the new Markdown file and the regenerated JSON.
 
+To include a photo, drop the image file into `static/journal/` and reference it with a site-absolute path: `![描述](/static/journal/photo.jpg)`. Standard Markdown image syntax renders through as-is (no special handling needed beyond `.journal-body img` styling in `static/style.css`).
+
 ## Deployment
 
 Deployed on [Render](https://render.com) (free tier) via the included `render.yaml` blueprint, same pattern as `zhouyi-divination`.
