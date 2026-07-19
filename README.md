@@ -75,6 +75,16 @@ Then run `python scripts/build_journal.py` to regenerate `data/journal.json`, an
 
 To include a photo, drop the image file into `static/journal/` and reference it with a site-absolute path: `![描述](/static/journal/photo.jpg)`. Standard Markdown image syntax renders through as-is (no special handling needed beyond `.journal-body img` styling in `static/style.css`).
 
+To include a video, drop the file into `static/journal/` and embed it with raw HTML (Markdown has no native video syntax, but `python-markdown` passes untouched HTML blocks straight through):
+
+```html
+<video controls width="100%">
+  <source src="/static/journal/clip.mp4" type="video/mp4">
+</video>
+```
+
+Keep clips small (well under ~20MB). Video files are committed straight into the git repo like everything else here, and git doesn't compress video well — large files bloat the repo permanently, and Render's free-tier instance has to serve them without a CDN. For anything longer than a short clip, upload it to YouTube/Bilibili (unlisted is fine) and embed with an `<iframe>` instead.
+
 ## Deployment
 
 Deployed on [Render](https://render.com) (free tier) via the included `render.yaml` blueprint, same pattern as `zhouyi-divination`.

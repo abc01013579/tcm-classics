@@ -217,7 +217,8 @@ h1 {
   margin: 0 0 1.1rem;
 }
 
-.journal-body img {
+.journal-body img,
+.journal-body video {
   display: block;
   max-width: 100%;
   height: auto;
@@ -465,6 +466,10 @@ h1 {
   .journal-body img {
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+
+  .journal-body video {
+    display: none;
   }
 
   .reading h1 {
