@@ -98,6 +98,19 @@ def shanghanlun_entry(number):
     return render_template("shanghanlun_entry.html", entry=entry, total=len(core.SHANGHANLUN))
 
 
+@app.route("/qijingbamai")
+def qijingbamai_index():
+    return render_template("qijingbamai_index.html", chapters=core.QIJINGBAMAI_CHAPTERS)
+
+
+@app.route("/qijingbamai/<int:number>")
+def qijingbamai_entry(number):
+    entry = core.get_qijingbamai_entry(number)
+    if entry is None:
+        abort(404)
+    return render_template("qijingbamai_entry.html", entry=entry, total=len(core.QIJINGBAMAI))
+
+
 @app.route("/journal")
 def journal_index():
     return render_template("journal_index.html", entries=core.JOURNAL)

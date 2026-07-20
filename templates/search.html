@@ -22,6 +22,8 @@
             <a href="{{ url_for('fuxingjue') }}">{{ result.source }}</a>
           {% elif result.kind == "shanghanlun" %}
             <a href="{{ url_for('shanghanlun_entry', number=result.url_number) }}">{{ result.source }}</a>
+          {% elif result.kind == "qijingbamai" %}
+            <a href="{{ url_for('qijingbamai_entry', number=result.url_number) }}">{{ result.source }}</a>
           {% else %}
             <a href="{{ url_for('bencao_juan', juan_slug=result.url_juan_slug) }}">{{ result.source }}</a>
           {% endif %}

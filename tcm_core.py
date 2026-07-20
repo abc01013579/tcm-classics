@@ -45,6 +45,19 @@ for _entry in SHANGHANLUN:
         })
     SHANGHANLUN_CHAPTERS[-1]["entries"].append(_entry)
 
+QIJINGBAMAI = json.loads((DATA_DIR / "qijingbamai.json").read_text(encoding="utf-8"))
+QIJINGBAMAI_BY_NUMBER = {e["number"]: e for e in QIJINGBAMAI}
+
+QIJINGBAMAI_CHAPTERS = []
+for _entry in QIJINGBAMAI:
+    if not QIJINGBAMAI_CHAPTERS or QIJINGBAMAI_CHAPTERS[-1]["number"] != _entry["chapter_number"]:
+        QIJINGBAMAI_CHAPTERS.append({
+            "number": _entry["chapter_number"],
+            "title": _entry["chapter_title"],
+            "entries": [],
+        })
+    QIJINGBAMAI_CHAPTERS[-1]["entries"].append(_entry)
+
 NEIJING_BOOKS = [
     {"slug": "suwen", "name": "素问", "chapters": NEIJING["素问"]},
     {"slug": "lingshu", "name": "灵枢经", "chapters": NEIJING["灵枢经"]},
@@ -114,6 +127,10 @@ def get_nanjing_entry(number):
 
 def get_shanghanlun_entry(number):
     return SHANGHANLUN_BY_NUMBER.get(number)
+
+
+def get_qijingbamai_entry(number):
+    return QIJINGBAMAI_BY_NUMBER.get(number)
 
 
 def get_journal_entry(slug):
@@ -212,6 +229,17 @@ def search(query):
                 "snippet": _snippet(para, idx, len(query)),
             })
             break
+
+    for entry in QIJINGBAMAI:
+        haystack = "".join(entry["paragraphs"])
+        idx = haystack.find(query)
+        if idx != -1:
+            results.append({
+                "source": f"《奇经八脉考》{entry['chapter_title']}·{entry['number']}",
+                "url_number": entry["number"],
+                "kind": "qijingbamai",
+                "snippet": _snippet(haystack, idx, len(query)),
+            })
 
     for entry in JOURNAL:
         haystack = f"{entry['title']}\n{entry['body_text']}"
