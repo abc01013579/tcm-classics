@@ -42,6 +42,8 @@ Flask app with no database and no request-time parsing: `tcm_core.py` loads ever
 
 **Print stylesheet caveats** (`static/style.css`, `@media print`): the reading container must not have a `border` — a bordered box taller than one printed page gets silently clipped by the browser past the first page. Elements that convey meaning purely through `background` (e.g. the hexagram yin/yang bars in `.hexagram-diagram`) need `print-color-adjust: exact` *and* a non-background fallback (a border), because browsers strip background graphics by default when printing and that setting is outside this app's control.
 
+**随笔 (journal) entry style — two registers, pick per entry**: personal/philosophical essays (e.g. 厥孚复利, 定投的威力, 毒药攻邪五谷为养) read best as flowing prose paragraphs with no headers, building to a closing line that ties back to the entry's theme. Explanatory/informational entries (e.g. 太阳与地球协同孕育地球生命) read best sectioned — `##` headers, bullet/numbered lists, a closing `## 小结` — confirmed 2026-07-20 as the preferred style for this register ("simple and essential, well structured"). Don't force one register onto the other topic type.
+
 ## Project structure
 
 - `app.py` — Flask routes only; no business logic.
