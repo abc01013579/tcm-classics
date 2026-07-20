@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}伤寒论{% endblock %}
+{% block content %}
+  <h1>伤寒论</h1>
+
+  {% for chapter in chapters %}
+    <section class="toc-section">
+      <h2>{{ chapter.number }}. {{ chapter.title }}</h2>
+      <ol class="toc-grid">
+        {% for entry in chapter.entries %}
+          <li>
+            <a href="{{ url_for('shanghanlun_entry', number=entry.number) }}">
+              第 {{ entry.local_number }} 条
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+{% endblock %}
