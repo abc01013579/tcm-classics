@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}第{{ entry.number }}难 - 难经{% endblock %}
+{% block content %}
+  <p class="breadcrumb no-print">
+    <a href="{{ url_for('nanjing_index') }}">难经</a> / {{ entry.chapter_number }}. {{ entry.chapter_title }}
+  </p>
+
+  <article class="reading">
+    <button type="button" class="print-btn no-print" onclick="window.print()">打印本篇</button>
+    <h1>难经·第 {{ entry.number }} 难</h1>
+    <p class="chapter-meta">{{ entry.chapter_number }}. {{ entry.chapter_title }} / 第 {{ entry.number }} 难，共 {{ total }} 难</p>
+
+    {% for paragraph in entry.paragraphs %}
+      <p>{{ paragraph }}</p>
+    {% endfor %}
+  </article>
+
+  <nav class="chapter-nav no-print">
+    {% if entry.number > 1 %}
+      <a href="{{ url_for('nanjing_entry', number=entry.number - 1) }}">← 上一难</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if entry.number < total %}
+      <a href="{{ url_for('nanjing_entry', number=entry.number + 1) }}">下一难 →</a>
+    {% endif %}
+  </nav>
+{% endblock %}

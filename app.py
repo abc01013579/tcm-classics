@@ -67,6 +67,19 @@ def xinjing():
     return render_template("xinjing.html", sutra=core.XINJING)
 
 
+@app.route("/nanjing")
+def nanjing_index():
+    return render_template("nanjing_index.html", chapters=core.NANJING_CHAPTERS)
+
+
+@app.route("/nanjing/<int:number>")
+def nanjing_entry(number):
+    entry = core.get_nanjing_entry(number)
+    if entry is None:
+        abort(404)
+    return render_template("nanjing_entry.html", entry=entry, total=len(core.NANJING))
+
+
 @app.route("/journal")
 def journal_index():
     return render_template("journal_index.html", entries=core.JOURNAL)

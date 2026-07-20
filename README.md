@@ -1,6 +1,6 @@
 # 中华典籍 (Chinese Classics Reader)
 
-A Flask web app for browsing and searching Chinese classical texts: two Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing — 素问 and 灵枢经, all 81+81 chapters, both fully bilingual Chinese/English) and 《神农本草经》(Shennong Bencao Jing, all 364 entries with bilingual Chinese/English text); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
+A Flask web app for browsing and searching Chinese classical texts: three Traditional Chinese Medicine classics, 《黄帝内经》(Huangdi Neijing — 素问 and 灵枢经, all 81+81 chapters, both fully bilingual Chinese/English), 《神农本草经》(Shennong Bencao Jing, all 364 entries with bilingual Chinese/English text), and 《难经》(Nan Jing, the Classic of Difficult Issues — all 81 难 across 13 chapters, Chinese-only for now); 《周易》(Zhouyi / I Ching), all 64 hexagrams with bilingual Chinese/English text and line diagrams; 《心经》(the Heart Sutra) with bilingual text; and 随笔, a personal journal section. More classics are added over time.
 
 ## How it works
 
@@ -10,6 +10,8 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - **神农本草经**: split into 上卷/中卷/下卷, each an ordered list of `{number, text, is_header}` entries. Category dividers like `玉石部上品` are detected by an exact `<category>部<上/中/下>品` pattern and flagged `is_header`; everything else is a herb entry, with wrapped continuation lines reattached.
 
 `scripts/build_data.py` asserts expected chapter/entry counts (81+81 neijing chapters, 10/273/99 bencao entries per juan, 18 category headers) before writing the JSON, so a parsing regression fails loudly instead of silently corrupting the data. It's run manually, not at request time — the app just loads the pre-built JSON.
+
+**难经** is a second text bundled in `sources/shennubencao.txt`, right after 神农本草经 ends (three more classics — 《辅行诀脏腑用药法要》、《金匮要略》相关讨论、《奇经八脉考》 — sit in the same file after 难经 and aren't parsed yet). `scripts/build_nanjing.py` handles it separately from `build_data.py` because its numbering scheme is genuinely tricky: the leading arabic number on each entry line is a *local* per-chapter counter that resets at every chapter boundary, not the entry's real number — the authoritative global 1–81 numbering is the Chinese numeral embedded in the entry's own text ("七十八难曰" = the 78th difficulty), which the parser converts to int. Chapter-title markers don't reliably fall between entries (at least one lands mid-entry), so they're treated as pure boundary updates rather than entry delimiters. Inline footnote-reference digits mid-sentence ("菽1之重") are stripped on the same logic as `build_data.py`'s other footnote filtering — this classical text only ever uses Chinese numerals, so a bare arabic digit touching Hanzi is always digitization noise. One genuine source gap (a dropped character in 难34's question) is left as-is rather than silently emended, same policy as 灵枢经's missing header. No English translation yet.
 
 **神农本草经's English translation** was produced by 14 parallel translation agents (~26 entries each, checked into `scripts/bencao_en_batches/` for reproducibility) plus 18 hand-translated section headers, assembled by `scripts/build_bencao_en.py` into `data/bencao_en.json` — same shape as `bencao.json` so `tcm_core.py` can zip the two lists by index and pair Chinese with English per entry.
 
@@ -28,6 +30,7 @@ The TCM source texts started as raw plain-text scrapes (`sources/`), each bundli
 - `app.py` — Flask routes.
 - `tcm_core.py` — loads `data/*.json` at import time; chapter/juan/hexagram/entry lookup and search helpers.
 - `scripts/build_data.py` — one-time parser, `sources/*.txt` → `data/{neijing,bencao}.json`.
+- `scripts/build_nanjing.py` — one-time parser, the bundled 难经 text in `sources/shennubencao.txt` → `data/nanjing.json`.
 - `scripts/build_bencao_en.py` — assembles `scripts/bencao_en_batches/*.json` + hand-translated headers → `data/bencao_en.json`.
 - `scripts/build_neijing_en.py` — assembles `scripts/{suwen,lingshu}_en_batches/*.json` → `data/neijing_en.json`.
 - `scripts/build_zhouyi.py` — one-time parser, sibling `yijing_app`'s hexagram data → `data/zhouyi.json`.
@@ -51,6 +54,7 @@ Then open `http://127.0.0.1:5000`. To regenerate `data/*.json`:
 
 ```bash
 python scripts/build_data.py      # from sources/*.txt
+python scripts/build_nanjing.py   # from sources/shennubencao.txt
 python scripts/build_bencao_en.py # from scripts/bencao_en_batches/*.json
 python scripts/build_neijing_en.py # from scripts/{suwen,lingshu}_en_batches/*.json
 python scripts/build_zhouyi.py    # from the sibling yijing_app (must be checked out alongside this repo)
