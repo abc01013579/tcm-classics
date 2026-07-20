@@ -95,6 +95,27 @@ To include a video, drop the file into `static/journal/` and embed it with raw H
 </video>
 ```
 
+To add an English translation, put an `<!--en-->` marker on its own line after the Chinese body, followed by the English text. Paragraphs (split on blank lines) are paired 1:1 by position with the Chinese paragraphs above the marker, so the paragraph counts on both sides must match exactly:
+
+```
+---
+title: 标题
+date: 2026-07-20
+---
+
+中文第一段。
+
+中文第二段。
+
+<!--en-->
+
+English paragraph one.
+
+English paragraph two.
+```
+
+Entries without the marker stay Chinese-only, rendered as before.
+
 Keep clips small (well under ~20MB). Video files are committed straight into the git repo like everything else here, and git doesn't compress video well — large files bloat the repo permanently, and Render's free-tier instance has to serve them without a CDN. For anything longer than a short clip, upload it to YouTube/Bilibili (unlisted is fine) and embed with an `<iframe>` instead.
 
 ## Deployment

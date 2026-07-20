@@ -11,6 +11,13 @@ date: 2026-07-16
 正文，支持 **Markdown** 格式。
 
 The filename (minus .md) becomes the entry's URL slug.
+
+Optional bilingual entries: put an `<!--en-->` marker on its own line
+after the Chinese body, followed by an English translation. Paragraphs
+(split on blank lines) are paired 1:1 by position with the Chinese
+paragraphs above the marker -- same convention as data/xinjing.json --
+so the Chinese and English paragraph counts must match exactly, or
+build fails loudly rather than silently misaligning the zip.
 """
 import json
 import re
@@ -26,6 +33,13 @@ JOURNAL_DIR = ROOT / "journal"
 DATA = ROOT / "data"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)
+EN_MARKER = "<!--en-->"
+
+
+def _strip_p_tag(html):
+    if html.startswith("<p>") and html.endswith("</p>"):
+        return html[3:-4]
+    return html
 
 
 def parse_entry(path):
@@ -47,12 +61,32 @@ def parse_entry(path):
         raise ValueError(f"{path.name}: frontmatter needs both 'title' and 'date'")
 
     body = body.strip()
+
+    bilingual = EN_MARKER in body
+    pairs = None
+    if bilingual:
+        zh_part, en_part = body.split(EN_MARKER, 1)
+        zh_paragraphs = [p.strip() for p in zh_part.strip().split("\n\n") if p.strip()]
+        en_paragraphs = [p.strip() for p in en_part.strip().split("\n\n") if p.strip()]
+        if len(zh_paragraphs) != len(en_paragraphs):
+            raise ValueError(
+                f"{path.name}: {len(zh_paragraphs)} zh paragraphs vs "
+                f"{len(en_paragraphs)} en paragraphs -- must match 1:1"
+            )
+        pairs = [
+            (_strip_p_tag(markdown.markdown(zh)), _strip_p_tag(markdown.markdown(en)))
+            for zh, en in zip(zh_paragraphs, en_paragraphs)
+        ]
+        body = zh_part.strip()
+
     return {
         "slug": path.stem,
         "date": meta["date"],
         "title": meta["title"],
         "body_text": body,
         "html": markdown.markdown(body),
+        "bilingual": bilingual,
+        "pairs": pairs,
     }
 
 
