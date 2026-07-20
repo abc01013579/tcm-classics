@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}辅行诀脏腑用药法要 - 中华典籍{% endblock %}
+{% block content %}
+  <article class="reading">
+    <button type="button" class="print-btn no-print" onclick="window.print()">打印本篇</button>
+    <h1>辅行诀脏腑用药法要</h1>
+    <p class="chapter-meta">梁·华阳隐居 陶弘景撰</p>
+
+    {% for para in doc.paragraphs %}
+      <p>{{ para }}</p>
+    {% endfor %}
+  </article>
+{% endblock %}

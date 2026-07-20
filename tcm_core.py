@@ -17,6 +17,8 @@ JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}
 
 XINJING = json.loads((DATA_DIR / "xinjing.json").read_text(encoding="utf-8"))
 
+FUXINGJUE = json.loads((DATA_DIR / "fuxingjue.json").read_text(encoding="utf-8"))
+
 NANJING = json.loads((DATA_DIR / "nanjing.json").read_text(encoding="utf-8"))
 NANJING_BY_NUMBER = {e["number"]: e for e in NANJING}
 
@@ -172,6 +174,16 @@ def search(query):
                 "kind": "xinjing",
                 "snippet": _snippet(haystack, idx, len(query)),
             })
+
+    for para in FUXINGJUE["paragraphs"]:
+        idx = para.find(query)
+        if idx != -1:
+            results.append({
+                "source": f"《{FUXINGJUE['title']}》",
+                "kind": "fuxingjue",
+                "snippet": _snippet(para, idx, len(query)),
+            })
+            break
 
     for entry in JOURNAL:
         haystack = f"{entry['title']}\n{entry['body_text']}"

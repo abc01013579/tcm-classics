@@ -67,6 +67,11 @@ def xinjing():
     return render_template("xinjing.html", sutra=core.XINJING)
 
 
+@app.route("/fuxingjue")
+def fuxingjue():
+    return render_template("fuxingjue.html", doc=core.FUXINGJUE)
+
+
 @app.route("/nanjing")
 def nanjing_index():
     return render_template("nanjing_index.html", chapters=core.NANJING_CHAPTERS)

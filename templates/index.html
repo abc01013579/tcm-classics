@@ -3,7 +3,7 @@
 {% block content %}
   <h1>中华典籍</h1>
   <p class="hint">阅读并搜索中华经典原文，记录日常随笔。</p>
-  <p class="welcome-note">黄帝内经、神农本草经、难经、周易、心经——这五部经典，是我最珍视的东西，分享给我爱的人。</p>
+  <p class="welcome-note">黄帝内经、神农本草经、难经、辅行诀、周易、心经——这六部经典，是我最珍视的东西，分享给我爱的人。</p>
 
   <div class="text-cards">
     <a class="text-card" href="{{ url_for('neijing_index') }}">
@@ -17,6 +17,10 @@
     <a class="text-card" href="{{ url_for('nanjing_index') }}">
       <h2>难经</h2>
       <p>八十一难 · 十三篇</p>
+    </a>
+    <a class="text-card" href="{{ url_for('fuxingjue') }}">
+      <h2>辅行诀</h2>
+      <p>脏腑用药法要 · 陶弘景撰</p>
     </a>
     <a class="text-card" href="{{ url_for('zhouyi_index') }}">
       <span class="hexagram-mini text-card-icon">
