@@ -48,6 +48,15 @@ h1 {
   margin-bottom: 0.25rem;
 }
 
+.title-pinyin {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-top: 0.2rem;
+}
+
 .hint {
   color: var(--muted);
   font-size: 0.9rem;
