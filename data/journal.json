@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-08-shuiming-whats-the-state-of-ai-development",
+    "date": "2026-08-08",
+    "title": "shuiming: What’s the state of AI development?",
+    "body_text": "cc: \n\nHere’s where things stand as of August 2026:\n\nBig shift: chatbots → agents\nAI is moving from “answer my question” tools to systems that plan, act, check their own work, and come back when the job is done ￼ — basically colleagues you delegate to, not just tools you ask.\n\nModels keep improving, fast\nNew releases are dropping constantly across all the major labs — GPT-5.6, Claude 4.6, Gemini 3.1, DeepSeek-V4, Llama 4 ￼ — and even smaller models are getting much stronger, with 7B models now outperforming last year’s 70B models. ￼\n\nGetting cheaper\nOpenAI cut GPT-5.6 pricing by 80%, ￼ and Google has pushed prices down too — AI is getting significantly more affordable to use.\n\nAdoption is huge\nGenerative AI reached 53% population-level adoption within three years of ChatGPT’s debut — faster than the PC or the internet — with organizational adoption at 88%. ￼\n\nRegulation is catching up\nEurope just rolled out continent-wide rules requiring AI systems to identify themselves to humans, ￼ and the US is tightening rules too (deepfake laws, disclosure requirements for AI agents).\n\nBottom line: No AGI yet, but AI has gone from “smart chatbot” to genuinely capable agent that can do multi-step work — and it’s spreading into daily life faster than any previous tech.",
+    "html": "<p>cc: </p>\n<p>Here’s where things stand as of August 2026:</p>\n<p>Big shift: chatbots → agents\nAI is moving from “answer my question” tools to systems that plan, act, check their own work, and come back when the job is done ￼ — basically colleagues you delegate to, not just tools you ask.</p>\n<p>Models keep improving, fast\nNew releases are dropping constantly across all the major labs — GPT-5.6, Claude 4.6, Gemini 3.1, DeepSeek-V4, Llama 4 ￼ — and even smaller models are getting much stronger, with 7B models now outperforming last year’s 70B models. ￼</p>\n<p>Getting cheaper\nOpenAI cut GPT-5.6 pricing by 80%, ￼ and Google has pushed prices down too — AI is getting significantly more affordable to use.</p>\n<p>Adoption is huge\nGenerative AI reached 53% population-level adoption within three years of ChatGPT’s debut — faster than the PC or the internet — with organizational adoption at 88%. ￼</p>\n<p>Regulation is catching up\nEurope just rolled out continent-wide rules requiring AI systems to identify themselves to humans, ￼ and the US is tightening rules too (deepfake laws, disclosure requirements for AI agents).</p>\n<p>Bottom line: No AGI yet, but AI has gone from “smart chatbot” to genuinely capable agent that can do multi-step work — and it’s spreading into daily life faster than any previous tech.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-08-thoughts-on-unix-commands",
     "date": "2026-08-08",
     "title": "Thoughts on Unix commands",
