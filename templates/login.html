@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}登录 - 随笔{% endblock %}
+{% block content %}
+  <h1>登录</h1>
+  <p class="hint">输入密码以发布新的随笔。</p>
+
+  {% if error %}
+    <p class="form-error">{{ error }}</p>
+  {% endif %}
+
+  <form method="post" class="entry-form">
+    <input type="hidden" name="next" value="{{ next }}">
+    <label for="password">密码</label>
+    <input type="password" id="password" name="password" autofocus required>
+    <button type="submit">登录</button>
+  </form>
+{% endblock %}

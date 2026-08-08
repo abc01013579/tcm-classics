@@ -150,6 +150,58 @@ h1 {
   color: var(--muted);
 }
 
+.entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+}
+
+.entry-form label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+}
+
+.entry-form input,
+.entry-form textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  width: 100%;
+}
+
+.entry-form textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.entry-form button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.entry-form button:hover {
+  opacity: 0.9;
+}
+
+.form-error {
+  color: var(--error);
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
 .text-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

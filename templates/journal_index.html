@@ -4,6 +4,8 @@
   <h1>随笔</h1>
   <p class="hint">日常感悟与随想</p>
 
+  <p class="no-print"><a href="{{ url_for('journal_new') }}">+ 新随笔</a></p>
+
   {% if entries %}
     <ul class="journal-list">
       {% for entry in entries %}

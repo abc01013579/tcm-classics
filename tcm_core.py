@@ -15,6 +15,14 @@ ZHOUYI_BY_NUMBER = {h["number"]: h for h in ZHOUYI}
 JOURNAL = json.loads((DATA_DIR / "journal.json").read_text(encoding="utf-8"))
 JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}
 
+
+def reload_journal():
+    """Re-read data/journal.json after scripts/build_journal.py regenerates it,
+    so a newly-submitted entry is visible without restarting the process."""
+    global JOURNAL, JOURNAL_BY_SLUG
+    JOURNAL = json.loads((DATA_DIR / "journal.json").read_text(encoding="utf-8"))
+    JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}
+
 XINJING = json.loads((DATA_DIR / "xinjing.json").read_text(encoding="utf-8"))
 
 FUXINGJUE = json.loads((DATA_DIR / "fuxingjue.json").read_text(encoding="utf-8"))
