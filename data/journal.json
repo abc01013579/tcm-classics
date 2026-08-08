@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-08-thoughts-on-unix-commands",
+    "date": "2026-08-08",
+    "title": "Thoughts on Unix commands",
+    "body_text": "After I took a git and GitHub Udemy class, I realized that simple commands like cd print in python represent lines of code underneath. It’s interesting to see software developers use this method to build things on others contributions. Linux python transformers pandas are all open source software.",
+    "html": "<p>After I took a git and GitHub Udemy class, I realized that simple commands like cd print in python represent lines of code underneath. It’s interesting to see software developers use this method to build things on others contributions. Linux python transformers pandas are all open source software.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-07-how-thunderstorms-work",
     "date": "2026-08-07",
     "title": "How a Thunderstorm Happens — From Cumulus Cloud to Lightning and Thunder",
