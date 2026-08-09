@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-09-power-of-compounding",
+    "date": "2026-08-09",
+    "title": "power of compounding",
+    "body_text": "shuiming:\n\nIf we save $60000 a year from work and DCA in BRK/B. 20 40 60 years from now, how much will it be worth?\n\nDeepseek: \n\nTime Horizon Total Contributions Final Value (10% CAGR)\n20 years   $1,200,000   ~$3.78 million\n40 years   $2,400,000   ~$26.6 million\n60 years   $3,600,000   ~$174 million\n\nFV = C × [((1 + r)^n - 1) / r]",
+    "html": "<p>shuiming:</p>\n<p>If we save $60000 a year from work and DCA in BRK/B. 20 40 60 years from now, how much will it be worth?</p>\n<p>Deepseek: </p>\n<p>Time Horizon Total Contributions Final Value (10% CAGR)\n20 years   $1,200,000   ~$3.78 million\n40 years   $2,400,000   ~$26.6 million\n60 years   $3,600,000   ~$174 million</p>\n<p>FV = C × [((1 + r)^n - 1) / r]</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-08-dca-it-is-working-well-on-amzn",
     "date": "2026-08-08",
     "title": "DCA: It is working well on AMZN",
