@@ -433,6 +433,43 @@ h1 {
   font-size: 0.9em;
 }
 
+.journal-body pre {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+.journal-body pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.85em;
+}
+
+.journal-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.92em;
+}
+
+.journal-body th,
+.journal-body td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.journal-body th {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .toc-grid a.zhouyi-toc-link {
   display: flex;
   align-items: center;

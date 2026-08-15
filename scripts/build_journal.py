@@ -84,7 +84,7 @@ def parse_entry(path):
         "date": meta["date"],
         "title": meta["title"],
         "body_text": body,
-        "html": markdown.markdown(body),
+        "html": markdown.markdown(body, extensions=["tables", "fenced_code"]),
         "bilingual": bilingual,
         "pairs": pairs,
     }

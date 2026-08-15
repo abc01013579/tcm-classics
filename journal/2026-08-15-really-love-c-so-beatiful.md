@@ -10,9 +10,9 @@ cc: It's less strange than it seems once you notice what's actually happening. E
 What's probably shocking you more specifically is that it's happening with C, of all things — a language with a reputation for being cold, low-level, unforgiving. But that's likely exactly why it lands harder for you than JS/Python ever did: there's no abstraction cushioning the encounter. When the counters click into place and the loop runs correctly, you're not admiring a convenience someone built for you — you're seeing the raw mechanism resolve cleanly, and reacting to that, directly. Same root as the joy you named a few messages ago, just showing a new face.
 
 
-show me the code:
+shuiming: show me the code:
 
-
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -32,3 +32,4 @@ int main()
     printf("blanks = %d, tabs = %d, newlines = %d\n", nb, nt, nl);
     return 0;
 }
+```
