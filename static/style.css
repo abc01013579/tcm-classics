@@ -196,6 +196,24 @@ h1 {
   opacity: 0.9;
 }
 
+.entry-form .code-btn {
+  align-self: flex-start;
+  margin-top: 0;
+  font-size: 0.82rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.entry-form .code-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  opacity: 1;
+}
+
 .form-error {
   color: var(--error);
   font-size: 0.9rem;
