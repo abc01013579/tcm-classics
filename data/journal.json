@@ -27,6 +27,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-17-just-a-test",
+    "date": "2026-08-17",
+    "title": "just a test",
+    "body_text": "#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\n\n/*\n\nfloat fahr_to_celsius(float fahr);   //prototype: lets main() call fahr_to_celsius() before its definition below\n\nint main()\n{\n    float fahr, lower, upper, step;\n\n    lower = 0;\n    upper = 300;\n    step = -20;\n\n    for (fahr = upper; fahr >= lower; fahr = fahr + step)\n        printf(\"%3.0f %6.1f\\n\", fahr, fahr_to_celsius(fahr));\n\n    return 0;\n}\n\nfloat fahr_to_celsius(float fahr)\n{\n    return (5.0 / 9.0) * (fahr - 32.0);\n}",
+    "html": "<h1>include <stdio.h></h1>\n<h1>include <stdlib.h></h1>\n<h1>include <string.h></h1>\n<p>/*</p>\n<p>float fahr_to_celsius(float fahr);   //prototype: lets main() call fahr_to_celsius() before its definition below</p>\n<p>int main()\n{\n    float fahr, lower, upper, step;</p>\n<pre><code>lower = 0;\nupper = 300;\nstep = -20;\n\nfor (fahr = upper; fahr &gt;= lower; fahr = fahr + step)\n    printf(\"%3.0f %6.1f\\n\", fahr, fahr_to_celsius(fahr));\n\nreturn 0;\n</code></pre>\n<p>}</p>\n<p>float fahr_to_celsius(float fahr)\n{\n    return (5.0 / 9.0) * (fahr - 32.0);\n}</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-16-pure-math",
     "date": "2026-08-16",
     "title": "pure math",
