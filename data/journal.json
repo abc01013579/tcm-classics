@@ -1,23 +1,5 @@
 [
   {
-    "slug": "2026-08-18-js-code-test",
-    "date": "2026-08-18",
-    "title": "JS code test",
-    "body_text": "```javascript\n// Function to calculate a^b\nfunction power(a, b) {\n    let result = 1;\n    \n    for (let i = 0; i < b; i++) {\n        result = result * a;\n    }\n    \n    return result;\n}\n\n// Example usage\nlet base = 2;\nlet exponent = 5;\nlet result = power(base, exponent);\n\nconsole.log(`${base}^${exponent} = ${result}`);\n```",
-    "html": "<pre><code class=\"language-javascript\">// Function to calculate a^b\nfunction power(a, b) {\n    let result = 1;\n\n    for (let i = 0; i &lt; b; i++) {\n        result = result * a;\n    }\n\n    return result;\n}\n\n// Example usage\nlet base = 2;\nlet exponent = 5;\nlet result = power(base, exponent);\n\nconsole.log(`${base}^${exponent} = ${result}`);\n</code></pre>",
-    "bilingual": false,
-    "pairs": null
-  },
-  {
-    "slug": "2026-08-18-python-code-print-in-journal",
-    "date": "2026-08-18",
-    "title": "python  code print in journal",
-    "body_text": "```python\ndef main():\n    if integrity and compounding:\n        go_ahead()\n    else:\n        pass_()\n\n    return 0\n\n\nif __name__ == \"__main__\":\n    main()\n```",
-    "html": "<pre><code class=\"language-python\">def main():\n    if integrity and compounding:\n        go_ahead()\n    else:\n        pass_()\n\n    return 0\n\n\nif __name__ == &quot;__main__&quot;:\n    main()\n</code></pre>",
-    "bilingual": false,
-    "pairs": null
-  },
-  {
     "slug": "2026-08-17-c-and-heart-sutra",
     "date": "2026-08-17",
     "title": "c and heart sutra",
