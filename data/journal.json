@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-08-18-coders-code-entry-test",
+    "date": "2026-08-18",
+    "title": "Coder’s code entry test",
+    "body_text": "```c\n#include <stdio.h>\n\nint multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}\n\nint main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified\n    \n    printf(\"%d * %d = %d\\n\", x, y, z);\n    return 0;\n}#include <stdio.h>\n\nint multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}\n\nint main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified\n    \n    printf(\"%d * %d = %d\\n\", x, y, z);\n    return 0;\n}\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n\nint multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}\n\nint main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified\n\n    printf(&quot;%d * %d = %d\\n&quot;, x, y, z);\n    return 0;\n}#include &lt;stdio.h&gt;\n\nint multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}\n\nint main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified\n\n    printf(&quot;%d * %d = %d\\n&quot;, x, y, z);\n    return 0;\n}\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-17-c-and-heart-sutra",
     "date": "2026-08-17",
     "title": "c and heart sutra",
