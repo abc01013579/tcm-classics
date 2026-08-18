@@ -74,7 +74,10 @@ def parse_entry(path):
                 f"{len(en_paragraphs)} en paragraphs -- must match 1:1"
             )
         pairs = [
-            (_strip_p_tag(markdown.markdown(zh)), _strip_p_tag(markdown.markdown(en)))
+            (
+                _strip_p_tag(markdown.markdown(zh, extensions=["tables", "fenced_code"])),
+                _strip_p_tag(markdown.markdown(en, extensions=["tables", "fenced_code"])),
+            )
             for zh, en in zip(zh_paragraphs, en_paragraphs)
         ]
         body = zh_part.strip()
