@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-08-18-pure-c-me",
+    "date": "2026-08-18",
+    "title": "pure c & me",
+    "body_text": "```c\n#include <stdio.h>\n\nint main()\n{\n    if (integrity && compounding)\n        go_ahead();\n    else\n        pass();\n\n    return 0;\n}\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n\nint main()\n{\n    if (integrity &amp;&amp; compounding)\n        go_ahead();\n    else\n        pass();\n\n    return 0;\n}\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-17-c-and-heart-sutra",
     "date": "2026-08-17",
     "title": "c and heart sutra",
