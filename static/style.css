@@ -196,6 +196,23 @@ h1 {
   opacity: 0.9;
 }
 
+.entry-form .code-controls {
+  align-self: flex-start;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.entry-form .code-controls select {
+  font-family: inherit;
+  font-size: 0.82rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+}
+
 .entry-form .code-btn {
   align-self: flex-start;
   margin-top: 0;

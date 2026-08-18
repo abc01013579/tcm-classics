@@ -19,8 +19,16 @@
     <input type="date" id="date" name="date" value="{{ form.date }}" required>
 
     <label for="body">正文（支持 Markdown）</label>
-    <p class="hint">代码请选中后点“插入代码块”，或手动用 ```c 和 ``` 包裹，否则不会按代码排版。</p>
-    <button type="button" id="insert-code-btn" class="code-btn">插入代码块</button>
+    <p class="hint">代码请选中后选好语言点“插入代码块”，或手动用 ``` 包裹，否则不会按代码排版。</p>
+    <span class="code-controls">
+      <select id="code-lang">
+        <option value="c">C</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="">(无语言标签)</option>
+      </select>
+      <button type="button" id="insert-code-btn" class="code-btn">插入代码块</button>
+    </span>
     <textarea id="body" name="body" rows="14" required>{{ form.body }}</textarea>
 
     <label for="body_en">English translation（选填）</label>
@@ -33,13 +41,15 @@
   <script>
     document.getElementById("insert-code-btn").addEventListener("click", function () {
       var ta = document.getElementById("body");
+      var lang = document.getElementById("code-lang").value;
       var start = ta.selectionStart;
       var end = ta.selectionEnd;
       var selected = ta.value.slice(start, end);
-      var fenced = "```c\n" + selected + "\n```";
+      var openFence = "```" + lang + "\n";
+      var fenced = openFence + selected + "\n```";
       ta.setRangeText(fenced, start, end, "end");
       if (!selected) {
-        var cursor = start + "```c\n".length;
+        var cursor = start + openFence.length;
         ta.setSelectionRange(cursor, cursor);
       }
       ta.focus();
@@ -47,7 +57,13 @@
 
     // Catches code pasted/typed straight into the body without a ```
     // fence (the recurring failure mode: it saves as unstyled plain text).
-    var CODE_LIKE_RE = /#include\s*<|\bint\s+main\s*\(|(;[ \t]*\n.*){2,}|\{[\s\S]*;[\s\S]*\}/;
+    // Covers C (#include/int main/brace+semicolon), Python (def/class),
+    // and JS (function/console.log) tells. "class"/"import" alone are
+    // deliberately excluded -- this user's entries discuss "asset class"
+    // and "import tariffs" in plain English prose, which would false-
+    // trigger on a loose match; class is only flagged in its code shape
+    // (name followed by ':' or '{').
+    var CODE_LIKE_RE = /#include\s*<|\bint\s+main\s*\(|\bdef\s+\w+\s*\(|\bclass\s+\w+\s*[:{]|\bconsole\.log\s*\(|\bfunction\s+\w+\s*\(|(;[ \t]*\n.*){2,}|\{[\s\S]*;[\s\S]*\}/;
     function looksLikeUnfencedCode(text) {
       return CODE_LIKE_RE.test(text) && text.indexOf("```") === -1;
     }
