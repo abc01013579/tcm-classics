@@ -1,14 +1,5 @@
 [
   {
-    "slug": "2026-08-18-test-again",
-    "date": "2026-08-18",
-    "title": "test again",
-    "body_text": "‘’’ #include <stdio.h>\n\nint multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}\n\nint main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified\n    \n    printf(\"%d * %d = %d\\n\", x, y, z);\n    return 0;\n} ‘’’",
-    "html": "<p>‘’’ #include <stdio.h></p>\n<p>int multiply(int a, int b) {\n    int result = a * b;   // uses the copies of a and b\n    return result;        // returns the result\n}</p>\n<p>int main() {\n    int x = 3;\n    int y = 4;\n    int z = multiply(x, y);   // x and y are not modified</p>\n<pre><code>printf(\"%d * %d = %d\\n\", x, y, z);\nreturn 0;\n</code></pre>\n<p>} ‘’’</p>",
-    "bilingual": false,
-    "pairs": null
-  },
-  {
     "slug": "2026-08-17-c-and-heart-sutra",
     "date": "2026-08-17",
     "title": "c and heart sutra",
