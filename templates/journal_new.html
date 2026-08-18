@@ -44,5 +44,20 @@
       }
       ta.focus();
     });
+
+    // Catches code pasted/typed straight into the body without a ```
+    // fence (the recurring failure mode: it saves as unstyled plain text).
+    var CODE_LIKE_RE = /#include\s*<|\bint\s+main\s*\(|(;[ \t]*\n.*){2,}|\{[\s\S]*;[\s\S]*\}/;
+    function looksLikeUnfencedCode(text) {
+      return CODE_LIKE_RE.test(text) && text.indexOf("```") === -1;
+    }
+    document.querySelector(".entry-form").addEventListener("submit", function (e) {
+      var body = document.getElementById("body").value;
+      var bodyEn = document.getElementById("body_en").value;
+      if (looksLikeUnfencedCode(body) || looksLikeUnfencedCode(bodyEn)) {
+        e.preventDefault();
+        alert("正文里似乎有代码，但没有用 ```c 和 ``` 包裹，保存后不会按代码排版。请选中代码后点\"插入代码块\"，再发布。");
+      }
+    });
   </script>
 {% endblock %}
