@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-08-18-js-code-test",
+    "date": "2026-08-18",
+    "title": "JS code test",
+    "body_text": "```javascript\n// Function to calculate a^b\nfunction power(a, b) {\n    let result = 1;\n    \n    for (let i = 0; i < b; i++) {\n        result = result * a;\n    }\n    \n    return result;\n}\n\n// Example usage\nlet base = 2;\nlet exponent = 5;\nlet result = power(base, exponent);\n\nconsole.log(`${base}^${exponent} = ${result}`);\n```",
+    "html": "<pre><code class=\"language-javascript\">// Function to calculate a^b\nfunction power(a, b) {\n    let result = 1;\n\n    for (let i = 0; i &lt; b; i++) {\n        result = result * a;\n    }\n\n    return result;\n}\n\n// Example usage\nlet base = 2;\nlet exponent = 5;\nlet result = power(base, exponent);\n\nconsole.log(`${base}^${exponent} = ${result}`);\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-18-python-code-print-in-journal",
     "date": "2026-08-18",
     "title": "python  code print in journal",
