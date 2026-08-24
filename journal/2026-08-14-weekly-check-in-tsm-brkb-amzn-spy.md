@@ -1,5 +1,5 @@
 ---
-title: "Weekly Check-In: TSM, BRK.B, AMZN, SPY"
+title: Weekly Check-In: TSM, BRK.B, AMZN, SPY
 date: 2026-08-14
 ---
 
@@ -9,6 +9,6 @@ date: 2026-08-14
 
 **BRK.B** reported Q2 2026 EPS of $6.02, beating the $5.13 estimate by 17.35%; net income more than doubled to $25.67B, including $12.68B in investment gains. Operating income rose 16.3% to $12.98B, though 66% of that increase came from currency movement on debt rather than the underlying businesses. Abel ended a 14-quarter streak as a net seller of stocks — net equity purchases and buybacks totaled roughly $24B last quarter, including $4.53B in buybacks plus another $3.3B+ in July. Shares rose 2.0% over the past week, trailing the S&P 500's 3.6% gain over the same stretch.
 
-**SPY** closed above 7,798, its 27th record high of 2026, for a year-to-date gain of roughly 12%. JPMorgan raised its year-end S&P 500 target from 7,800 to 8,000, and prediction market Kalshi prices 66.1% odds of the index hitting 8,000 by year-end. GuruFocus's GF Value model, meanwhile, flags the index as roughly 12.1% overvalued. Tech was mixed on the week — Oracle, Intel, and Nvidia led gains while Meta and Microsoft weighed on the index.
+**SPY** closed above $777, its 27th record high of 2026 (the S&P 500 index itself topped 7,798 that same day), for a year-to-date gain of roughly 12%. JPMorgan raised its year-end S&P 500 target from 7,800 to 8,000, and prediction market Kalshi prices 66.1% odds of the index hitting 8,000 by year-end. GuruFocus's GF Value model, meanwhile, flags the index as roughly 12.1% overvalued. Tech was mixed on the week — Oracle, Intel, and Nvidia led gains while Meta and Microsoft weighed on the index.
 
 The backdrop this week: broad-market records alongside single-name divergence — TSM and AMZN are still riding their Q2 beats, BRK.B's operating gain leaned more on currency than the core businesses, and the index's own valuation model is flagging it as stretched even as it keeps printing new highs.

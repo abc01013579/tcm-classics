@@ -1,5 +1,5 @@
 ---
-title: "Weekly Check-In: TSM, BRK.B, AMZN"
+title: Weekly Check-In: TSM, BRK.B, AMZN
 date: 2026-08-02
 ---
 
