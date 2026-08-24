@@ -15,6 +15,8 @@ ROOT = Path(__file__).parent
 JOURNAL_DIR = ROOT / "journal"
 PHOTO_DIR = ROOT / "static" / "journal"
 ALLOWED_PHOTO_EXTS = {"jpg", "jpeg", "png", "gif", "webp"}
+ALLOWED_VIDEO_EXTS = {"mp4", "mov", "m4v", "webm"}
+MAX_VIDEO_BYTES = 50 * 1024 * 1024
 
 sys.path.insert(0, str(ROOT / "scripts"))
 import build_journal
@@ -180,10 +182,23 @@ def journal_new():
         if photo and photo.filename:
             photo_ext = secure_filename(photo.filename).rsplit(".", 1)[-1].lower()
 
+        video = request.files.get("video")
+        video_ext = ""
+        video_size = 0
+        if video and video.filename:
+            video_ext = secure_filename(video.filename).rsplit(".", 1)[-1].lower()
+            video.stream.seek(0, os.SEEK_END)
+            video_size = video.stream.tell()
+            video.stream.seek(0)
+
         if not form["title"] or not form["date"] or not form["body"]:
             error = "标题、日期、正文都不能为空。"
         elif photo and photo.filename and photo_ext not in ALLOWED_PHOTO_EXTS:
             error = "照片格式需为 jpg/jpeg/png/gif/webp。"
+        elif video and video.filename and video_ext not in ALLOWED_VIDEO_EXTS:
+            error = "视频格式需为 mp4/mov/m4v/webm。"
+        elif video and video.filename and video_size > MAX_VIDEO_BYTES:
+            error = "视频不能超过 50MB，请剪短或压缩后再试。"
         else:
             slug = f"{form['date']}-{_slugify(form['title']) or 'entry'}"
             path = JOURNAL_DIR / f"{slug}.md"
@@ -194,22 +209,35 @@ def journal_new():
                 if photo and photo.filename:
                     photo_path = PHOTO_DIR / f"{slug}.{photo_ext}"
                     photo.save(photo_path)
-                    image_md = f"\n\n![{form['title']}](/static/journal/{photo_path.name})"
-                    form["body"] += image_md
+                    media_md = f"\n\n![{form['title']}](/static/journal/{photo_path.name})"
+                    form["body"] += media_md
                     if form["body_en"]:
-                        form["body_en"] += image_md
+                        form["body_en"] += media_md
+
+                video_path = None
+                if video and video.filename:
+                    video_path = PHOTO_DIR / f"{slug}-video.{video_ext}"
+                    video.save(video_path)
+                    media_html = (
+                        f'\n\n<video controls playsinline style="max-width:100%" '
+                        f'src="/static/journal/{video_path.name}"></video>'
+                    )
+                    form["body"] += media_html
+                    if form["body_en"]:
+                        form["body_en"] += media_html
 
                 content = f"---\ntitle: {form['title']}\ndate: {form['date']}\n---\n\n{form['body']}\n"
                 if form["body_en"]:
                     content += f"\n<!--en-->\n\n{form['body_en']}\n"
                 path.write_text(content, encoding="utf-8")
+                extra_paths = tuple(p for p in (photo_path, video_path) if p)
                 try:
                     build_journal.build()
-                    _commit_and_push(path, form["title"], extra_paths=(photo_path,) if photo_path else ())
+                    _commit_and_push(path, form["title"], extra_paths=extra_paths)
                 except Exception as exc:
                     path.unlink(missing_ok=True)
-                    if photo_path:
-                        photo_path.unlink(missing_ok=True)
+                    for p in extra_paths:
+                        p.unlink(missing_ok=True)
                     build_journal.build()
                     error = str(exc)
                 else:
