@@ -332,29 +332,12 @@ h1 {
   margin: 0 0 1.1rem;
 }
 
-.journal-body img,
-.journal-body video {
+.journal-body img {
   display: block;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
   margin: 1.25rem 0;
-}
-
-.video-embed {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  margin: 1.25rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.video-embed iframe {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
 
 .hexagram-diagram {
@@ -634,11 +617,6 @@ h1 {
   .journal-body img {
     break-inside: avoid;
     page-break-inside: avoid;
-  }
-
-  .journal-body video,
-  .video-embed {
-    display: none;
   }
 
   .reading h1 {
