@@ -3,8 +3,8 @@
     "slug": "2026-08-23-entry",
     "date": "2026-08-23",
     "title": "人工智能在语言领域的确很强",
-    "body_text": "昨天就户口问题详实请教Deepseek; 绿卡转护照问题详实请教Claude Code. 结果非常满意，让心中多年的疑惑得以化解。人工智能大语音模型不仅在编程翻译方面强大，在法律法规方面也是非常厉害。",
-    "html": "<p>昨天就户口问题详实请教Deepseek; 绿卡转护照问题详实请教Claude Code. 结果非常满意，让心中多年的疑惑得以化解。人工智能大语音模型不仅在编程翻译方面强大，在法律法规方面也是非常厉害。</p>",
+    "body_text": "昨天就户口问题详实请教Deepseek; 绿卡转护照问题详实请教Claude Code. 结果非常满意，让心中多年的疑惑得以化解。人工智能大语音模型不仅在编程翻译方面强大，在法律法规方面也是非常厉害。\n\nCC is strong on language related tasks, but not in Weiqi game.\n\n![Weiqi goban played on iPhone](/static/journal/weiqi-goban-screenshot.png)",
+    "html": "<p>昨天就户口问题详实请教Deepseek; 绿卡转护照问题详实请教Claude Code. 结果非常满意，让心中多年的疑惑得以化解。人工智能大语音模型不仅在编程翻译方面强大，在法律法规方面也是非常厉害。</p>\n<p>CC is strong on language related tasks, but not in Weiqi game.</p>\n<p><img alt=\"Weiqi goban played on iPhone\" src=\"/static/journal/weiqi-goban-screenshot.png\" /></p>",
     "bilingual": false,
     "pairs": null
   },
