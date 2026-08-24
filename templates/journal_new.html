@@ -11,7 +11,7 @@
     <p class="form-error">{{ error }}</p>
   {% endif %}
 
-  <form method="post" class="entry-form">
+  <form method="post" class="entry-form" enctype="multipart/form-data">
     <label for="title">标题</label>
     <input type="text" id="title" name="title" value="{{ form.title }}" required>
 
@@ -34,6 +34,10 @@
     <label for="body_en">English translation（选填）</label>
     <textarea id="body_en" name="body_en" rows="10">{{ form.body_en }}</textarea>
     <p class="hint">如果填写，段落数必须与正文一一对应，否则保存会失败。</p>
+
+    <label for="photo">添加照片（选填）</label>
+    <input type="file" id="photo" name="photo" accept="image/*">
+    <p class="hint">支持 jpg/png/gif/webp，会自动加在正文最后。</p>
 
     <button type="submit">发布</button>
   </form>

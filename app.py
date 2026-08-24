@@ -7,11 +7,14 @@ from functools import wraps
 from pathlib import Path
 
 from flask import Flask, abort, redirect, render_template, request, session, url_for
+from werkzeug.utils import secure_filename
 
 import tcm_core as core
 
 ROOT = Path(__file__).parent
 JOURNAL_DIR = ROOT / "journal"
+PHOTO_DIR = ROOT / "static" / "journal"
+ALLOWED_PHOTO_EXTS = {"jpg", "jpeg", "png", "gif", "webp"}
 
 sys.path.insert(0, str(ROOT / "scripts"))
 import build_journal
@@ -40,17 +43,18 @@ def _slugify(title):
     return SLUG_STRIP_RE.sub("-", ascii_title).strip("-")
 
 
-def _commit_and_push(entry_path, title):
+def _commit_and_push(entry_path, title, extra_paths=()):
     if not GITHUB_PUSH_TOKEN:
         raise RuntimeError("GITHUB_PUSH_TOKEN 未配置，无法推送")
 
     rel_entry = str(entry_path.relative_to(ROOT))
+    rel_extra = [str(p.relative_to(ROOT)) for p in extra_paths]
     run = lambda *cmd: subprocess.run(
         cmd, cwd=ROOT, check=True, capture_output=True, text=True
     )
     committed = False
     try:
-        run("git", "add", rel_entry, "data/journal.json")
+        run("git", "add", rel_entry, "data/journal.json", *rel_extra)
         run(
             "git", "-c", "user.name=abc01013579", "-c", "user.email=zhongyuan1358@gmail.com",
             "commit", "-m", f"Add journal entry: {title}",
@@ -171,24 +175,41 @@ def journal_new():
         form["date"] = request.form.get("date", "").strip()
         form["body"] = request.form.get("body", "").strip()
         form["body_en"] = request.form.get("body_en", "").strip()
+        photo = request.files.get("photo")
+        photo_ext = ""
+        if photo and photo.filename:
+            photo_ext = secure_filename(photo.filename).rsplit(".", 1)[-1].lower()
 
         if not form["title"] or not form["date"] or not form["body"]:
             error = "标题、日期、正文都不能为空。"
+        elif photo and photo.filename and photo_ext not in ALLOWED_PHOTO_EXTS:
+            error = "照片格式需为 jpg/jpeg/png/gif/webp。"
         else:
             slug = f"{form['date']}-{_slugify(form['title']) or 'entry'}"
             path = JOURNAL_DIR / f"{slug}.md"
             if path.exists():
                 error = "这个日期和标题已经有一篇随笔了，换个标题试试。"
             else:
+                photo_path = None
+                if photo and photo.filename:
+                    photo_path = PHOTO_DIR / f"{slug}.{photo_ext}"
+                    photo.save(photo_path)
+                    image_md = f"\n\n![{form['title']}](/static/journal/{photo_path.name})"
+                    form["body"] += image_md
+                    if form["body_en"]:
+                        form["body_en"] += image_md
+
                 content = f"---\ntitle: {form['title']}\ndate: {form['date']}\n---\n\n{form['body']}\n"
                 if form["body_en"]:
                     content += f"\n<!--en-->\n\n{form['body_en']}\n"
                 path.write_text(content, encoding="utf-8")
                 try:
                     build_journal.build()
-                    _commit_and_push(path, form["title"])
+                    _commit_and_push(path, form["title"], extra_paths=(photo_path,) if photo_path else ())
                 except Exception as exc:
                     path.unlink(missing_ok=True)
+                    if photo_path:
+                        photo_path.unlink(missing_ok=True)
                     build_journal.build()
                     error = str(exc)
                 else:
