@@ -2,6 +2,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 from datetime import date
 from functools import wraps
 from pathlib import Path
@@ -73,6 +74,21 @@ def _commit_and_push(entry_path, title, extra_paths=()):
             # caller will delete the new .md file and rebuild journal.json to match.
             subprocess.run(["git", "reset", "HEAD~1"], cwd=ROOT)
         raise RuntimeError("git 提交或推送失败，请稍后重试") from None
+
+
+def _commit_and_push_async(entry_path, title, extra_paths=()):
+    # Video pushes are large enough that the git push alone can run past any
+    # request-level timeout (gunicorn's, or Render's own proxy limit, which
+    # isn't ours to control). Run it in the background instead of blocking
+    # the response on it -- the entry is already saved and visible locally
+    # by the time this is called, this just syncs it to GitHub.
+    def worker():
+        try:
+            _commit_and_push(entry_path, title, extra_paths=extra_paths)
+        except Exception:
+            app.logger.exception("background git push failed for %s", entry_path.name)
+
+    threading.Thread(target=worker, daemon=True).start()
 
 
 @app.route("/")
@@ -231,6 +247,16 @@ def journal_new():
                     content += f"\n<!--en-->\n\n{form['body_en']}\n"
                 path.write_text(content, encoding="utf-8")
                 extra_paths = tuple(p for p in (photo_path, video_path) if p)
+
+                if video_path:
+                    # Skip the synchronous push+rollback path entirely: save
+                    # locally, show it right away, sync to GitHub in the
+                    # background (see _commit_and_push_async).
+                    build_journal.build()
+                    core.reload_journal()
+                    _commit_and_push_async(path, form["title"], extra_paths=extra_paths)
+                    return redirect(url_for("journal_entry", slug=slug))
+
                 try:
                     build_journal.build()
                     _commit_and_push(path, form["title"], extra_paths=extra_paths)
