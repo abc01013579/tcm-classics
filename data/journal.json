@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-24-research-re-search-in-c",
+    "date": "2026-08-24",
+    "title": "research = re + search : in c",
+    "body_text": "```c\n#include <stdio.h>\n#include <string.h>\n\nint search(const char *haystack, const char *needle) {\n    return strstr(haystack, needle) != NULL;\n}\n\nvoid research(const char *haystack, const char *needle) {\n    int attempt = 0;\n    while (!search(haystack, needle)) {\n        attempt++;\n        printf(\"attempt %d: not found. searching again.\\n\", attempt);\n        // in real research, the haystack changes between attempts\n    }\n    printf(\"found after %d retries.\\n\", attempt);\n}\n\n\nResult research(Question q, Knowledge k) {\n    Result r = search(q, k);\n\n    if (r.conclusive)\n        return r;\n\n    // the search changed both the question and what you know\n    return research(refine(q, r), update(k, r));\n}\n\n\n\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n#include &lt;string.h&gt;\n\nint search(const char *haystack, const char *needle) {\n    return strstr(haystack, needle) != NULL;\n}\n\nvoid research(const char *haystack, const char *needle) {\n    int attempt = 0;\n    while (!search(haystack, needle)) {\n        attempt++;\n        printf(&quot;attempt %d: not found. searching again.\\n&quot;, attempt);\n        // in real research, the haystack changes between attempts\n    }\n    printf(&quot;found after %d retries.\\n&quot;, attempt);\n}\n\n\nResult research(Question q, Knowledge k) {\n    Result r = search(q, k);\n\n    if (r.conclusive)\n        return r;\n\n    // the search changed both the question and what you know\n    return research(refine(q, r), update(k, r));\n}\n\n\n\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-24-spcx",
     "date": "2026-08-24",
     "title": "SPCX: 百闻不如一见",
