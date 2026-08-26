@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "ZhouyiSeal";
+  src: url("fonts/zhouyi-seal.woff2") format("woff2");
+  font-display: swap;
+}
+
 :root {
   --bg: #faf7f0;
   --text: #2b2620;
@@ -514,6 +520,15 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+.bilingual-seal {
+  font-family: "ZhouyiSeal", serif;
+  color: var(--accent);
+  font-size: 1.1rem !important;
+  letter-spacing: 0.05em;
+  margin-top: 0.3rem !important;
+  margin-bottom: 0 !important;
+}
+
 .bencao-header {
   color: var(--accent);
   font-size: 1rem;
@@ -629,6 +644,10 @@ h1 {
   }
 
   .bencao-header {
+    color: #000;
+  }
+
+  .bilingual-seal {
     color: #000;
   }
 

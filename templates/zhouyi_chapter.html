@@ -19,12 +19,14 @@
     <div class="bilingual-pair">
       <p class="bilingual-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
       <p class="bilingual-en">{{ hexagram.judgment_en }}</p>
+      <p class="bilingual-seal">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
     </div>
 
     {% for line_zh in hexagram.lines_zh %}
       <div class="bilingual-pair">
         <p class="bilingual-zh">{{ line_zh }}</p>
         <p class="bilingual-en">{{ hexagram.lines_en[loop.index0] }}</p>
+        <p class="bilingual-seal">{{ line_zh }}</p>
       </div>
     {% endfor %}
   </article>
