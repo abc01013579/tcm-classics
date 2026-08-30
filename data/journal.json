@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-08-30-ff5733",
+    "date": "2026-08-30",
+    "title": "#FF5733",
+    "body_text": "拆开看,每两位十六进制对应一个颜色通道:\n\n部分\t十六进制\t十进制\t含义\nFF\tFF\t255\t红色分量(最大)\n57\t57\t87\t绿色分量\n33\t33\t51\t蓝色分量\n\n这就是为什么颜色码正好是6位十六进制——因为 3个通道 × 每个通道1字节(2位hex)= 6位hex,严丝合缝对应RGB的24位色深(true color)。\n\n所以你观察到的这个现象背后,其实就是”一个字节 = 两位十六进制 = 一个颜色通道“这套贯穿计算机图形学的编码逻辑。",
+    "html": "<p>拆开看,每两位十六进制对应一个颜色通道:</p>\n<p>部分  十六进制    十进制 含义\nFF  FF  255 红色分量(最大)\n57  57  87  绿色分量\n33  33  51  蓝色分量</p>\n<p>这就是为什么颜色码正好是6位十六进制——因为 3个通道 × 每个通道1字节(2位hex)= 6位hex,严丝合缝对应RGB的24位色深(true color)。</p>\n<p>所以你观察到的这个现象背后,其实就是”一个字节 = 两位十六进制 = 一个颜色通道“这套贯穿计算机图形学的编码逻辑。</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-08-27-building-up-on-the-shoulders-of-the-past-builders",
     "date": "2026-08-27",
     "title": "Building up on the shoulders of the past builders",
