@@ -514,6 +514,13 @@ h1 {
   margin-bottom: 0.4rem !important;
 }
 
+.bilingual-pinyin {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 0.85rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
 .bilingual-en {
   color: var(--muted);
   font-size: 0.88rem !important;

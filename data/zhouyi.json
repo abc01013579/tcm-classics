@@ -2,8 +2,10 @@
   {
     "number": 1,
     "chinese": "乾",
+    "pinyin": "Qián",
     "title_en": "The Creative",
     "judgment_zh": "元亨利贞.",
+    "judgment_pinyin": "Yuán hēng lì zhēn.",
     "judgment_en": "Primordial, prosperous, beneficial, correct — the primal creative force, which is beneficial and correct in its actions.",
     "lines_zh": [
       "初九：潜龙勿用。",
@@ -12,6 +14,14 @@
       "九四：或跃在渊，无咎。",
       "九五：飞龙在天，利见大人。",
       "上九：亢龙有悔。 用九：见群龙无首，吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Qián lóng wù yòng.",
+      "Jiǔ èr: Jiàn lóng zài tián, lì jiàn dà rén.",
+      "Jiǔ sān: Jūn zǐ zhōng rì qián qián, xī tì ruò, lì, wú jiù.",
+      "Jiǔ sì: Huò yuè zài yuān, wú jiù.",
+      "Jiǔ wǔ: Fēi lóng zài tiān, lì jiàn dà rén.",
+      "Shàng jiǔ: Kàng lóng yǒu huǐ. Yòng jiǔ: Jiàn qún lóng wú shǒu, jí."
     ],
     "lines_en": [
       "First line: Hidden dragon, do not act. At the outset the potential is hidden and not yet ready to be revealed; patience and caution are advised.",
@@ -33,8 +43,10 @@
   {
     "number": 2,
     "chinese": "坤",
+    "pinyin": "Kūn",
     "title_en": "The Receptive",
     "judgment_zh": "元亨，利牝馬之貞。君子有攸往，先迷後得主，利西南得朋，東北喪朋。安貞，吉。",
+    "judgment_pinyin": "Yuán hēng, lì pìn mǎ zhī zhēn. Jūn zǐ yǒu yōu wǎng, xiān mí hòu dé zhǔ, lì xī nán dé péng, dōng běi sàng péng. Ān zhēn, jí.",
     "judgment_en": "Great success; the perseverance of a mare is beneficial. The superior person has a direction to go — initially lost, later finds a master. Beneficial to find friends in the southwest, losing friends in the northeast. Peaceful and steadfast brings good fortune.",
     "lines_zh": [
       "初六：履霜，堅冰至。",
@@ -43,6 +55,14 @@
       "六四：括囊；无咎，无譽。",
       "六五：黃裳，元吉。",
       "上六：龍戰于野，其血玄黃. 用六：利永貞。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Lǚ shuāng, jiān bīng zhì.",
+      "Liù èr: Zhí, fāng, dà, bù xí wú bù lì.",
+      "Liù sān: Hán zhāng kě zhēn. Huò cóng wáng shì, wú chéng yǒu zhōng.",
+      "Liù sì: Kuò náng; wú jiù, wú yù.",
+      "Liù wǔ: Huáng shang, yuán jí.",
+      "Shàng liù: Lóng zhàn yú yě, qí xuè xuán huáng. Yòng liù: Lì yǒng zhēn."
     ],
     "lines_en": [
       "First line: Treading on frost, solid ice will come — small signs can foretell significant outcomes.",
@@ -64,8 +84,10 @@
   {
     "number": 3,
     "chinese": "屯",
+    "pinyin": "Tún",
     "title_en": "Difficulty at the Beginning",
     "judgment_zh": "元亨，利貞，勿用有攸往，利建侯。",
+    "judgment_pinyin": "Yuán hēng, lì zhēn, wù yòng yǒu yōu wǎng, lì jiàn hóu.",
     "judgment_en": "Great success; advantageous to be steadfast and correct. Do not undertake action prematurely; it is beneficial to establish leaders (feudal lords).",
     "lines_zh": [
       "初九：磐桓；利居貞，利建侯。",
@@ -74,6 +96,14 @@
       "六四：乘馬班如，求婚媾，往吉，无不利。",
       "九五：屯其膏，小貞吉，大貞凶。",
       "上六：乘馬班如，泣血漣如。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Pán huán; lì jū zhēn, lì jiàn hóu.",
+      "Liù èr: Tún rú zhān rú, chéng mǎ bān rú. Fěi kòu hūn gòu, nǚ zǐ zhēn bù zì, shí nián nǎi zì.",
+      "Liù sān: Jí lù wú yú, wéi rù yú lín zhōng, jūn zǐ jǐ bù rú shě, wǎng lìn.",
+      "Liù sì: Chéng mǎ bān rú, qiú hūn gòu, wǎng jí, wú bù lì.",
+      "Jiǔ wǔ: Tún qí gāo, xiǎo zhēn jí, dà zhēn xiōng.",
+      "Shàng liù: Chéng mǎ bān rú, qì xuè lián rú."
     ],
     "lines_en": [
       "First line: Hesitation and lingering; advantageous to remain steadfast and to establish leadership — at the start there may be delay, so stay steadfast and build a solid foundation.",
@@ -95,8 +125,10 @@
   {
     "number": 4,
     "chinese": "蒙",
+    "pinyin": "Méng",
     "title_en": "Youthful Folly",
     "judgment_zh": "亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。",
+    "judgment_pinyin": "Hēng. Fěi wǒ qiú tóng méng, tóng méng qiú wǒ. Chū shì gào, zài sān dú, dú zé bù gào. Lì zhēn.",
     "judgment_en": "Success. It is not I who seek the inexperienced youth, but the youth who seeks me. The first oracle informs; asked again and again it becomes disrespectful and will not answer. Beneficial to be steadfast and correct.",
     "lines_zh": [
       "初六：發蒙，利用刑人，用說桎梏，以往吝。",
@@ -105,6 +137,14 @@
       "六四：困蒙，吝。",
       "六五：童蒙，吉。",
       "上九：擊蒙；不利為寇，利禦寇。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Fā méng, lì yòng xíng rén, yòng shuō zhì gù, yǐ wǎng lìn.",
+      "Jiǔ èr: Bāo méng jí; nà fù jí; zi kè jiā.",
+      "Liù sān: Wù yòng qǔ nǚ; jiàn jīn fū, bù yǒu gōng, wú yōu lì.",
+      "Liù sì: Kùn méng, lìn.",
+      "Liù wǔ: Tóng méng, jí.",
+      "Shàng jiǔ: Jī méng; bù lì wèi kòu, lì yù kòu."
     ],
     "lines_en": [
       "First line: Dispelling ignorance; beneficial to use discipline and to remove shackles, though going forward carelessly brings regret — ignorance is dispelled through discipline, but caution is still needed.",
@@ -126,8 +166,10 @@
   {
     "number": 5,
     "chinese": "需",
+    "pinyin": "Xū",
     "title_en": "Waiting",
     "judgment_zh": "有孚，光亨，貞吉。利涉大川。",
+    "judgment_pinyin": "Yǒu fú, guāng hēng, zhēn jí. Lì shè dà chuān.",
     "judgment_en": "With sincerity and confidence there is light and success; perseverance brings good fortune. It is beneficial to cross the great river.",
     "lines_zh": [
       "初九：需于郊。利用恆，无咎。",
@@ -136,6 +178,14 @@
       "六四：需于血，出自穴。",
       "九五：需于酒食，貞吉。",
       "上六：入于穴，有不速之客三人來，敬之終吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Xū yú jiāo. Lì yòng héng, wú jiù.",
+      "Jiǔ èr: Xū yú shā. Xiǎo yǒu yán, zhōng jí.",
+      "Jiǔ sān: Xū yú ní, zhì kòu zhì.",
+      "Liù sì: Xū yú xuè, chū zì xué.",
+      "Jiǔ wǔ: Xū yú jiǔ shí, zhēn jí.",
+      "Shàng liù: Rù yú xué, yǒu bù sù zhī kè sān rén lái, jìng zhī zhōng jí."
     ],
     "lines_en": [
       "First line: Waiting in the outskirts; beneficial to remain constant and persistent, no blame — waiting and preparing in a safe place, with consistency preventing mistakes.",
@@ -157,8 +207,10 @@
   {
     "number": 6,
     "chinese": "訟",
+    "pinyin": "Sòng",
     "title_en": "Conflict",
     "judgment_zh": "有孚，窒。惕中吉。終凶。利見大人，不利涉大川。",
+    "judgment_pinyin": "Yǒu fú, zhì. Tì zhōng jí. Zhōng xiōng. Lì jiàn dà rén, bù lì shè dà chuān.",
     "judgment_en": "There is sincerity but obstruction. Caution in the middle brings good fortune, but pursuing it to the end is inauspicious. Beneficial to see a great person; not beneficial to cross the great river.",
     "lines_zh": [
       "初六：不永所事，小有言，終吉。",
@@ -167,6 +219,14 @@
       "九四：不克訟，復即命渝，安貞吉。",
       "九五：訟元吉。",
       "上九：或錫之鞶帶，終朝三褫之。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Bù yǒng suǒ shì, xiǎo yǒu yán, zhōng jí.",
+      "Jiǔ èr: Bù kè sòng, guī ér bū, qí yì rén sān bǎi hù, wú shěng.",
+      "Liù sān: Shí jiù dé, zhēn lì, zhōng jí, huò cóng wáng shì, wú chéng.",
+      "Jiǔ sì: Bù kè sòng, fù jí mìng yú, ān zhēn jí.",
+      "Jiǔ wǔ: Sòng yuán jí.",
+      "Shàng jiǔ: Huò xī zhī pán dài, zhōng cháo sān chǐ zhī."
     ],
     "lines_en": [
       "First line: Do not persist in the dispute; there will be minor disputes, but in the end it turns out well.",
@@ -188,8 +248,10 @@
   {
     "number": 7,
     "chinese": "師",
+    "pinyin": "Shī",
     "title_en": "The Army",
     "judgment_zh": "貞，丈人，吉无咎。",
+    "judgment_pinyin": "Zhēn, zhàng rén, jí wú jiù.",
     "judgment_en": "Perseverance, guided by a wise and respected elder, brings good fortune without blame.",
     "lines_zh": [
       "初六：師出以律，否臧凶。",
@@ -198,6 +260,14 @@
       "六四：師左次，无咎。",
       "六五：田有禽，利執言，无咎。長子帥師，弟子輿尸，貞凶。",
       "上六：大君有命，開國承家，小人勿用。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Shī chū yǐ lǜ, fǒu zāng xiōng.",
+      "Jiǔ èr: Zài shī zhōng jí, wú jiù, wáng sān xī mìng.",
+      "Liù sān: Shī huò yú shī, xiōng.",
+      "Liù sì: Shī zuǒ cì, wú jiù.",
+      "Liù wǔ: Tián yǒu qín, lì zhí yán, wú jiù. Zhǎng zi shuài shī, dì zǐ yú shī, zhēn xiōng.",
+      "Shàng liù: Dà jūn yǒu mìng, kāi guó chéng jiā, xiǎo rén wù yòng."
     ],
     "lines_en": [
       "First line: The army goes forth according to strict discipline; if not, misfortune follows.",
@@ -219,8 +289,10 @@
   {
     "number": 8,
     "chinese": "比",
+    "pinyin": "Bǐ",
     "title_en": "Union (Closeness / Alliance)",
     "judgment_zh": "吉。原筮元永貞，无咎。不寧方來，後夫凶。",
+    "judgment_pinyin": "Jí. Yuán shì yuán yǒng zhēn, wú jiù. Bù níng fāng lái, hòu fū xiōng.",
     "judgment_en": "Auspicious. The original divination is fundamentally and eternally correct, without blame. When unrest arises, the latecomer will meet misfortune.",
     "lines_zh": [
       "初六：有孚，比之，无咎。有孚盈缶，終來有它吉。",
@@ -229,6 +301,14 @@
       "六四：外比之，貞吉。",
       "九五：顯比，王用三驅，失前禽。邑人不誡，吉。",
       "上六：比之无首，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Yǒu fú, bǐ zhī, wú jiù. Yǒu fú yíng fǒu, zhōng lái yǒu tā jí.",
+      "Liù èr: Bǐ zhī zì nèi, zhēn jí.",
+      "Liù sān: Bǐ zhī fěi rén.",
+      "Liù sì: Wài bǐ zhī, zhēn jí.",
+      "Jiǔ wǔ: Xiǎn bǐ, wáng yòng sān qū, shī qián qín. Yì rén bù jiè, jí.",
+      "Shàng liù: Bǐ zhī wú shǒu, xiōng."
     ],
     "lines_en": [
       "First line: There is sincerity in forming union with others, no blame; sincerity fills the vessel, ultimately bringing good fortune.",
@@ -250,8 +330,10 @@
   {
     "number": 9,
     "chinese": "小畜",
+    "pinyin": "Xiǎo chù",
     "title_en": "The Taming Power of the Small",
     "judgment_zh": "亨。密雲不雨，自我西郊。",
+    "judgment_pinyin": "Hēng. Mì yún bù yǔ, zì wǒ xī jiāo.",
     "judgment_en": "Success. Dense clouds but no rain, coming from our western outskirts — potential that has gathered but not yet been realized, requiring patience.",
     "lines_zh": [
       "初九：復自道，何其咎，吉。",
@@ -260,6 +342,14 @@
       "六四：有孚，血去惕出，无咎。",
       "九五：有孚攣如，富以其鄰。",
       "上九：既雨既處，尚德載，婦貞厲。月幾望，君子征凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Fù zì dào, hé qí jiù, jí.",
+      "Jiǔ èr: Qiān fù, jí.",
+      "Jiǔ sān: Yú shuō fú, fū qī fǎn mù.",
+      "Liù sì: Yǒu fú, xuè qù tì chū, wú jiù.",
+      "Jiǔ wǔ: Yǒu fú luán rú, fù yǐ qí lín.",
+      "Shàng jiǔ: Jì yǔ jì chù, shàng dé zài, fù zhēn lì. Yuè jǐ wàng, jūn zǐ zhēng xiōng."
     ],
     "lines_en": [
       "First line: Returning to the path — what misfortune could there be? Good fortune. Returning to the correct way of doing things avoids misfortune.",
@@ -281,8 +371,10 @@
   {
     "number": 10,
     "chinese": "履",
+    "pinyin": "Lǚ",
     "title_en": "Treading",
     "judgment_zh": "履虎尾，不咥人，亨。",
+    "judgment_pinyin": "Lǚ hǔ wěi, bù xì rén, hēng.",
     "judgment_en": "Treading on the tiger's tail — it does not bite the person, success. Even in a dangerous situation, careful and correct conduct avoids harm and brings success.",
     "lines_zh": [
       "初九：素履，往无咎。",
@@ -291,6 +383,14 @@
       "九四：履虎尾，愬愬，終吉。",
       "九五：夬履，貞厲。",
       "上九：視履考祥，其旋元吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Sù lǚ, wǎng wú jiù.",
+      "Jiǔ èr: Lǚ dào tǎn tǎn, yōu rén zhēn jí.",
+      "Liù sān: Miǎo néng shì, bǒ néng lǚ, lǚ hǔ wěi, xì rén, xiōng. Wǔ rén wèi yú dà jūn.",
+      "Jiǔ sì: Lǚ hǔ wěi, sù sù, zhōng jí.",
+      "Jiǔ wǔ: Guài lǚ, zhēn lì.",
+      "Shàng jiǔ: Shì lǚ kǎo xiáng, qí xuán yuán jí."
     ],
     "lines_en": [
       "First line: Simple treading, proceeding brings no blame. Simplicity and straightforwardness in action avoid mistakes.",
@@ -312,8 +412,10 @@
   {
     "number": 11,
     "chinese": "泰",
+    "pinyin": "Tài",
     "title_en": "Peace",
     "judgment_zh": "小往大來，吉亨。",
+    "judgment_pinyin": "Xiǎo wǎng dà lái, jí hēng.",
     "judgment_en": "Small things depart, great things arrive. Good fortune and success — a time of peace and prosperity when minor issues resolve and significant benefits come.",
     "lines_zh": [
       "初九：拔茅茹，以其彙，征吉。",
@@ -322,6 +424,14 @@
       "六四：翩翩，不富，以其鄰，不戒以孚。",
       "六五：帝乙歸妹，以祉元吉。",
       "上六：城復于隍，勿用師。自邑告命，貞吝。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Bá máo rú, yǐ qí huì, zhēng jí.",
+      "Jiǔ èr: Bāo huāng, yòng féng hé, bù xiá yí, péng wáng, dé shàng yú zhōng háng.",
+      "Jiǔ sān: Wú píng bù bēi, wú wǎng bù fù, jiān zhēn wú jiù. Wù xù qí fú, yú shí yǒu fú.",
+      "Liù sì: Piān piān, bù fù, yǐ qí lín, bù jiè yǐ fú.",
+      "Liù wǔ: Dì yǐ guī mèi, yǐ zhǐ yuán jí.",
+      "Shàng liù: Chéng fù yú huáng, wù yòng shī. Zì yì gào mìng, zhēn lìn."
     ],
     "lines_en": [
       "First line: Pulling up thatch grass, tied together with its kind — going forward brings good fortune. Unity and collective effort lead to success.",
@@ -343,8 +453,10 @@
   {
     "number": 12,
     "chinese": "否",
+    "pinyin": "Fǒu",
     "title_en": "Stagnation",
     "judgment_zh": "否之匪人，不利君子貞，大往小來。",
+    "judgment_pinyin": "Fǒu zhī fěi rén, bù lì jūn zǐ zhēn, dà wǎng xiǎo lái.",
     "judgment_en": "Stagnation for the unworthy; it is not beneficial for the noble person to remain steadfast — the great departs, the small arrives.",
     "lines_zh": [
       "初六：拔茅茹，以其彙，貞吉亨。",
@@ -353,6 +465,14 @@
       "九四：有命，无咎，疇離祉。",
       "九五：休否，大人吉。其亡其亡，繫于苞桑。",
       "上九：傾否，先否後喜。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Bá máo rú, yǐ qí huì, zhēn jí hēng.",
+      "Liù èr: Bāo chéng. Xiǎo rén jí, dà rén fǒu, hēng.",
+      "Liù sān: Bāo xiū.",
+      "Jiǔ sì: Yǒu mìng, wú jiù, chóu lí zhǐ.",
+      "Jiǔ wǔ: Xiū fǒu, dà rén jí. Qí wáng qí wáng, xì yú bāo sāng.",
+      "Shàng jiǔ: Qīng fǒu, xiān fǒu hòu xǐ."
     ],
     "lines_en": [
       "First line: Pulling up thatch grass, bound together with its kind; steadfastness brings good fortune and success.",
@@ -374,8 +494,10 @@
   {
     "number": 13,
     "chinese": "同人",
+    "pinyin": "Tóng rén",
     "title_en": "Fellowship with Men",
     "judgment_zh": "同人于野，亨。利涉大川，利君子貞。",
+    "judgment_pinyin": "Tóng rén yú yě, hēng. Lì shè dà chuān, lì jūn zǐ zhēn.",
     "judgment_en": "Fellowship with men in the open — success. It is favorable to cross the great river; the perseverance of a nobleman brings advantage. Success comes from unity and cooperation.",
     "lines_zh": [
       "初九：同人于門，无咎。",
@@ -384,6 +506,14 @@
       "九四：乘其墉，弗克攻，吉。",
       "九五：同人，先號咷而後笑。大師克相遇。",
       "上九：同人于郊，无悔。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Tóng rén yú mén, wú jiù.",
+      "Liù èr: Tóng rén yú zōng, lìn.",
+      "Jiǔ sān: Fú róng yú mǎng, shēng qí gāo líng, sān suì bù xìng.",
+      "Jiǔ sì: Chéng qí yōng, fú kè gōng, jí.",
+      "Jiǔ wǔ: Tóng rén, xiān hào táo ér hòu xiào. Dà shī kè xiāng yù.",
+      "Shàng jiǔ: Tóng rén yú jiāo, wú huǐ."
     ],
     "lines_en": [
       "First line: Fellowship with men at the gate, no blame. Initial efforts to form alliances are a good, faultless start.",
@@ -405,8 +535,10 @@
   {
     "number": 14,
     "chinese": "大有",
+    "pinyin": "Dà yǒu",
     "title_en": "Great Possession",
     "judgment_zh": "元亨。",
+    "judgment_pinyin": "Yuán hēng.",
     "judgment_en": "Supreme success — a time of great power and abundance that can be used to achieve significant, beneficial outcomes.",
     "lines_zh": [
       "初九：无交害，匪咎，艱則无咎。",
@@ -415,6 +547,14 @@
       "九四：匪其彭，无咎。",
       "六五：厥孚交如，威如；吉。",
       "上九：自天祐之，吉无不利。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Wú jiāo hài, fěi jiù, jiān zé wú jiù.",
+      "Jiǔ èr: Dà chē yǐ zài, yǒu yōu wǎng, wú jiù.",
+      "Jiǔ sān: Gōng yòng hēng yú tiān zi, xiǎo rén fú kè.",
+      "Jiǔ sì: Fěi qí péng, wú jiù.",
+      "Liù wǔ: Jué fú jiāo rú, wēi rú; jí.",
+      "Shàng jiǔ: Zì tiān yòu zhī, jí wú bù lì."
     ],
     "lines_en": [
       "First line: No interaction with harm, no fault; if there is difficulty, there will be no fault. Avoiding harmful interactions and remaining upright prevents fault even amid difficulty.",
@@ -436,8 +576,10 @@
   {
     "number": 15,
     "chinese": "謙",
+    "pinyin": "Qiān",
     "title_en": "Modesty",
     "judgment_zh": "亨，君子有終。",
+    "judgment_pinyin": "Hēng, jūn zǐ yǒu zhōng.",
     "judgment_en": "Success. The superior man has a good end — humility leads to success and a favorable outcome.",
     "lines_zh": [
       "初六：謙謙君子，用涉大川，吉。",
@@ -446,6 +588,14 @@
       "六四：无不利，撝謙。",
       "六五：不富，以其鄰，利用侵伐，无不利。",
       "上六：鳴謙，利用行師，征邑國。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Qiān qiān jūn zǐ, yòng shè dà chuān, jí.",
+      "Liù èr: Míng qiān, zhēn jí.",
+      "Jiǔ sān: Láo qiān, jūn zǐ yǒu zhōng, jí.",
+      "Liù sì: Wú bù lì, huī qiān.",
+      "Liù wǔ: Bù fù, yǐ qí lín, lì yòng qīn fá, wú bù lì.",
+      "Shàng liù: Míng qiān, lì yòng xíng shī, zhēng yì guó."
     ],
     "lines_en": [
       "First line: Modest, modest, the superior man — it is favorable to cross the great river, good fortune. A truly modest person can undertake great endeavors and find good fortune.",
@@ -467,8 +617,10 @@
   {
     "number": 16,
     "chinese": "豫",
+    "pinyin": "Yù",
     "title_en": "Enthusiasm",
     "judgment_zh": "利建侯，行師。",
+    "judgment_pinyin": "Lì jiàn hóu, xíng shī.",
     "judgment_en": "It is beneficial to establish feudal lords and to mobilize the army — enthusiasm and joy can lead to successful leadership and effective mobilization.",
     "lines_zh": [
       "初六：鳴豫，凶。",
@@ -477,6 +629,14 @@
       "九四：由豫，大有得。勿疑。朋盍簪。",
       "六五：貞疾，恆不死。",
       "上六：冥豫，成有渝，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Míng yù, xiōng.",
+      "Liù èr: Jiè yú shí, bù zhōng rì, zhēn jí.",
+      "Liù sān: Xū yù, huǐ. Chí yǒu huǐ.",
+      "Jiǔ sì: Yóu yù, dà yǒu dé. Wù yí. Péng hé zān.",
+      "Liù wǔ: Zhēn jí, héng bù sǐ.",
+      "Shàng liù: Míng yù, chéng yǒu yú, wú jiù."
     ],
     "lines_en": [
       "First line: Enthusiastic singing, misfortune. Excessive enthusiasm or premature celebration at the outset leads to misfortune; caution against overconfidence.",
@@ -498,8 +658,10 @@
   {
     "number": 17,
     "chinese": "隨",
+    "pinyin": "Suí",
     "title_en": "Following",
     "judgment_zh": "元亨利貞，无咎。",
+    "judgment_pinyin": "Yuán hēng lì zhēn, wú jiù.",
     "judgment_en": "Great success, beneficial to be steadfast and upright, no blame.",
     "lines_zh": [
       "初九：官有渝，貞吉。出門交有功。",
@@ -508,6 +670,14 @@
       "九四：隨有獲，貞凶。有孚在道，以明，何咎。",
       "九五：孚于嘉，吉。",
       "上六：拘系之，乃從維之。王用亨于西山。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Guān yǒu yú, zhēn jí. Chū mén jiāo yǒu gōng.",
+      "Liù èr: Xì xiǎo zi, shī zhàng fū.",
+      "Liù sān: Xì zhàng fū, shī xiǎo zi. Suí yǒu qiú dé, lì jū zhēn.",
+      "Jiǔ sì: Suí yǒu huò, zhēn xiōng. Yǒu fú zài dào, yǐ míng, hé jiù.",
+      "Jiǔ wǔ: Fú yú jiā, jí.",
+      "Shàng liù: Jū xì zhī, nǎi cóng wéi zhī. Wáng yòng hēng yú xī shān."
     ],
     "lines_en": [
       "First line: There is a change in official position; being steadfast and upright brings good fortune. Going out and interacting with others brings success — changes in one's role can be beneficial if one remains upright, and engaging with others outside one's usual environment leads to success.",
@@ -529,8 +699,10 @@
   {
     "number": 18,
     "chinese": "蠱",
+    "pinyin": "Gǔ",
     "title_en": "Decay (Work on What Has Been Spoiled)",
     "judgment_zh": "元亨，利涉大川。先甲三日，後甲三日。",
+    "judgment_pinyin": "Yuán hēng, lì shè dà chuān. Xiān jiǎ sān rì, hòu jiǎ sān rì.",
     "judgment_en": "Great success. It is beneficial to cross the great river. Before the first day of the cycle, three days; after the first day of the cycle, three days — despite the decay, there is potential for great success in taking on significant challenges, with careful planning and timing being crucial.",
     "lines_zh": [
       "初六：幹父之蠱，有子，考无咎，厲終吉。",
@@ -539,6 +711,14 @@
       "六四：裕父之蠱，往見吝。",
       "六五：幹父之蠱，用譽。",
       "上九：不事王侯，高尚其事。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Gàn fù zhī gǔ, yǒu zi, kǎo wú jiù, lì zhōng jí.",
+      "Jiǔ èr: Gàn mǔ zhī gǔ, bù kě zhēn.",
+      "Jiǔ sān: Gàn fù zhī gǔ, xiǎo yǒu huǐ, wú dà jiù.",
+      "Liù sì: Yù fù zhī gǔ, wǎng jiàn lìn.",
+      "Liù wǔ: Gàn fù zhī gǔ, yòng yù.",
+      "Shàng jiǔ: Bù shì wáng hóu, gāo shàng qí shì."
     ],
     "lines_en": [
       "First line: Working on the decay caused by the father. If there is a son (successor), there will be no blame; danger will end in good fortune — inherited problems can be resolved without blame, and though there may be danger, it ultimately leads to a positive outcome.",
@@ -560,8 +740,10 @@
   {
     "number": 19,
     "chinese": "臨",
+    "pinyin": "Lín",
     "title_en": "Approach (Overseeing, Drawing Near)",
     "judgment_zh": "元，亨，利，貞。至于八月有凶。",
+    "judgment_pinyin": "Yuán, hēng, lì, zhēn. Zhì yú bā yuè yǒu xiōng.",
     "judgment_en": "Great success, smooth progress, benefit, and correctness. However, by the eighth month, there will be misfortune — a time of great potential and success, but this favorable period may not last indefinitely.",
     "lines_zh": [
       "初九：咸臨，貞吉。",
@@ -570,6 +752,14 @@
       "六四：至臨，无咎。",
       "六五：知臨，大君之宜，吉。",
       "上六：敦臨，吉无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Xián lín, zhēn jí.",
+      "Jiǔ èr: Xián lín, jí wú bù lì.",
+      "Liù sān: Gān lín, wú yōu lì. Jì yōu zhī, wú jiù.",
+      "Liù sì: Zhì lín, wú jiù.",
+      "Liù wǔ: Zhī lín, dà jūn zhī yí, jí.",
+      "Shàng liù: Dūn lín, jí wú jiù."
     ],
     "lines_en": [
       "First line: Sincere approach, correct and auspicious — a sincere and correct approach leads to good fortune.",
@@ -591,8 +781,10 @@
   {
     "number": 20,
     "chinese": "觀",
+    "pinyin": "Guān",
     "title_en": "Contemplation (Observation)",
     "judgment_zh": "盥而不薦，有孚顒若。",
+    "judgment_pinyin": "Guàn ér bù jiàn, yǒu fú yóng ruò.",
     "judgment_en": "Washing hands but not offering a sacrifice, there is sincerity and reverence — a state of purity and sincerity without the need for formal offerings, emphasizing inner sincerity over outward ritual.",
     "lines_zh": [
       "初六：童觀，小人无咎，君子吝。",
@@ -601,6 +793,14 @@
       "六四：觀國之光，利用賓于王。",
       "九五：觀我生，君子无咎。",
       "上九：觀其生，君子无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Tóng guān, xiǎo rén wú jiù, jūn zǐ lìn.",
+      "Liù èr: Kuī guān, lì nǚ zhēn.",
+      "Liù sān: Guān wǒ shēng, jìn tuì.",
+      "Liù sì: Guān guó zhī guāng, lì yòng bīn yú wáng.",
+      "Jiǔ wǔ: Guān wǒ shēng, jūn zǐ wú jiù.",
+      "Shàng jiǔ: Guān qí shēng, jūn zǐ wú jiù."
     ],
     "lines_en": [
       "First line: Childlike contemplation; for the small (ordinary) person there is no blame, but for the superior person there is regret — a naive perspective is harmless for ordinary people but unsuitable for one of higher moral standing, who should seek deeper understanding.",
@@ -622,8 +822,10 @@
   {
     "number": 21,
     "chinese": "噬嗑",
+    "pinyin": "Shì kē",
     "title_en": "Biting Through",
     "judgment_zh": "亨。利用獄。",
+    "judgment_pinyin": "Hēng. Lì yòng yù.",
     "judgment_en": "Success. It is beneficial to use legal proceedings — success can be achieved by addressing problems directly, possibly through legal or formal means.",
     "lines_zh": [
       "初九：屨校滅趾，无咎。",
@@ -632,6 +834,14 @@
       "九四：噬乾胏，得金矢，利艱貞，吉。",
       "六五：噬乾肉，得黃金，貞厲，无咎。",
       "上九：何校滅耳，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Jù xiào miè zhǐ, wú jiù.",
+      "Liù èr: Shì fū miè bí, wú jiù.",
+      "Liù sān: Shì là ròu, yù dú; xiǎo lìn, wú jiù.",
+      "Jiǔ sì: Shì qián zǐ, dé jīn shǐ, lì jiān zhēn, jí.",
+      "Liù wǔ: Shì qián ròu, dé huáng jīn, zhēn lì, wú jiù.",
+      "Shàng jiǔ: Hé xiào miè ěr, xiōng."
     ],
     "lines_en": [
       "First line: Wearing a wooden clog, one loses a toe. No blame — a minor injury or loss due to an obstruction, but not a serious fault.",
@@ -653,8 +863,10 @@
   {
     "number": 22,
     "chinese": "賁",
+    "pinyin": "Bì",
     "title_en": "Grace (Adornment)",
     "judgment_zh": "亨。小利有攸往。",
+    "judgment_pinyin": "Hēng. Xiǎo lì yǒu yōu wǎng.",
     "judgment_en": "Success. It is beneficial to have somewhere to go — signifies beauty, grace, and adornment; while there is success, the benefits are small, and it is advantageous to have a clear direction.",
     "lines_zh": [
       "初九：賁其趾，舍車而徒。",
@@ -663,6 +875,14 @@
       "六四：賁如皤如，白馬翰如，匪寇婚媾。",
       "六五：賁于丘園，束帛戔戔，吝，終吉。",
       "上九：白賁，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Bì qí zhǐ, shě chē ér tú.",
+      "Liù èr: Bì qí xū.",
+      "Jiǔ sān: Bì rú rú rú, yǒng zhēn jí.",
+      "Liù sì: Bì rú pó rú, bái mǎ hàn rú, fěi kòu hūn gòu.",
+      "Liù wǔ: Bì yú qiū yuán, shù bó jiān jiān, lìn, zhōng jí.",
+      "Shàng jiǔ: Bái bì, wú jiù."
     ],
     "lines_en": [
       "First line: Adorning the toes, abandoning the carriage and walking — starting with small, simple steps, implying a need for humility and simplicity.",
@@ -684,8 +904,10 @@
   {
     "number": 23,
     "chinese": "剝",
+    "pinyin": "Bō",
     "title_en": "Splitting Apart (Peeling)",
     "judgment_zh": "不利有攸往。",
+    "judgment_pinyin": "Bù lì yǒu yōu wǎng.",
     "judgment_en": "It is not beneficial to have somewhere to go — a situation of disintegration or decay; it advises against taking action or making progress, as circumstances are unfavorable.",
     "lines_zh": [
       "初六：剝床以足，蔑貞凶。",
@@ -694,6 +916,14 @@
       "六四：剝床以膚，凶。",
       "六五：貫魚，以宮人寵，无不利。",
       "上九：碩果不食，君子得輿，小人剝廬。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Bō chuáng yǐ zú, miè zhēn xiōng.",
+      "Liù èr: Bō chuáng yǐ biàn, miè zhēn xiōng.",
+      "Liù sān: Bō zhī, wú jiù.",
+      "Liù sì: Bō chuáng yǐ fū, xiōng.",
+      "Liù wǔ: Guàn yú, yǐ gōng rén chǒng, wú bù lì.",
+      "Shàng jiǔ: Shuò guǒ bù shí, jūn zǐ dé yú, xiǎo rén bō lú."
     ],
     "lines_en": [
       "First line: Splitting the bed at the legs, no constancy, misfortune — the foundation is being damaged, indicating instability and lack of support.",
@@ -715,8 +945,10 @@
   {
     "number": 24,
     "chinese": "復",
+    "pinyin": "Fù",
     "title_en": "Return",
     "judgment_zh": "亨。出入无疾，朋來无咎。反復其道，七日來復，利有攸往。",
+    "judgment_pinyin": "Hēng. Chū rù wú jí, péng lái wú jiù. Fǎn fù qí dào, qī rì lái fù, lì yǒu yōu wǎng.",
     "judgment_en": "Success. Going out and coming in without illness, friends come without blame. Returning repeatedly to the path, in seven days comes the return; it is beneficial to have somewhere to go — symbolizes returning to the correct path, a period of renewal and recovery, successful and free from harm.",
     "lines_zh": [
       "初九：不遠復，无祗悔，元吉。",
@@ -725,6 +957,14 @@
       "六四：中行獨復。",
       "六五：敦復，无悔。",
       "上六：迷復，凶，有災眚。用行師，終有大敗，以其國君，凶；至于十年，不克征。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Bù yuǎn fù, wú zhī huǐ, yuán jí.",
+      "Liù èr: Xiū fù, jí.",
+      "Liù sān: Pín fù, lì wú jiù.",
+      "Liù sì: Zhōng háng dú fù.",
+      "Liù wǔ: Dūn fù, wú huǐ.",
+      "Shàng liù: Mí fù, xiōng, yǒu zāi shěng. Yòng xíng shī, zhōng yǒu dà bài, yǐ qí guó jūn, xiōng; zhì yú shí nián, bù kè zhēng."
     ],
     "lines_en": [
       "First line: Not far to return, no need for remorse, great fortune — the return is not far off and there is no need for regret, indicating a positive outcome.",
@@ -746,8 +986,10 @@
   {
     "number": 25,
     "chinese": "无妄",
+    "pinyin": "Wú wàng",
     "title_en": "Innocence (The Unexpected)",
     "judgment_zh": "元亨，利貞。其匪正有眚，不利有攸往。",
+    "judgment_pinyin": "Yuán hēng, lì zhēn. Qí fěi zhèng yǒu shěng, bù lì yǒu yōu wǎng.",
     "judgment_en": "Great success. Advantageous to be steadfast and upright. If actions are not correct, misfortune will follow, and it is not advantageous to proceed with plans.",
     "lines_zh": [
       "初九：无妄，往吉。",
@@ -756,6 +998,14 @@
       "九四：可貞，无咎。",
       "九五：无妄之疾，勿藥有喜。",
       "上九：无妄，行有眚，无攸利。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Wú wàng, wǎng jí.",
+      "Liù èr: Bù gēng huò, bù zāi shē, zé lì yǒu yōu wǎng.",
+      "Liù sān: Wú wàng zhī zāi, huò xì zhī niú, xíng rén zhī dé, yì rén zhī zāi.",
+      "Jiǔ sì: Kě zhēn, wú jiù.",
+      "Jiǔ wǔ: Wú wàng zhī jí, wù yào yǒu xǐ.",
+      "Shàng jiǔ: Wú wàng, xíng yǒu shěng, wú yōu lì."
     ],
     "lines_en": [
       "First line: Innocence; going forward is auspicious. Maintaining innocence and sincerity in one's actions leads to good fortune.",
@@ -777,8 +1027,10 @@
   {
     "number": 26,
     "chinese": "大畜",
+    "pinyin": "Dà chù",
     "title_en": "Great Accumulation (Great Taming)",
     "judgment_zh": "利貞，不家食吉，利涉大川。",
+    "judgment_pinyin": "Lì zhēn, bù jiā shí jí, lì shè dà chuān.",
     "judgment_en": "Favorable to be steadfast and upright. Not eating at home is auspicious, showing self-restraint and discipline. Favorable to cross the great river, i.e. to undertake significant ventures.",
     "lines_zh": [
       "初九：有厲利已。",
@@ -787,6 +1039,14 @@
       "六四：童牛之牿，元吉。",
       "六五：豶豕之牙，吉。",
       "上九：何天之衢，亨。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Yǒu lì lì yǐ.",
+      "Jiǔ èr: Yú shuō fù.",
+      "Jiǔ sān: Liáng mǎ zhú, lì jiān zhēn. Yuē xián yú wèi, lì yǒu yōu wǎng.",
+      "Liù sì: Tóng niú zhī gù, yuán jí.",
+      "Liù wǔ: Fén shǐ zhī yá, jí.",
+      "Shàng jiǔ: Hé tiān zhī qú, hēng."
     ],
     "lines_en": [
       "First line: There is danger, but it is beneficial to stop. Recognizing potential danger and halting in time proves beneficial.",
@@ -808,8 +1068,10 @@
   {
     "number": 27,
     "chinese": "頤",
+    "pinyin": "Yí",
     "title_en": "Nourishment",
     "judgment_zh": "貞吉。觀頤，自求口實。",
+    "judgment_pinyin": "Zhēn jí. Guān yí, zì qiú kǒu shí.",
     "judgment_en": "Perseverance brings good fortune. Observe how nourishment works, and seek your own proper sustenance.",
     "lines_zh": [
       "初九：舍爾靈龜，觀我朵頤，凶。",
@@ -818,6 +1080,14 @@
       "六四：顛頤，吉，虎視眈眈，其欲逐逐，无咎。",
       "六五：拂經，居貞吉，不可涉大川。",
       "上九：由頤，厲吉，利涉大川。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Shě ěr líng guī, guān wǒ duǒ yí, xiōng.",
+      "Liù èr: Diān yí, fú jīng, yú qiū yí, zhēng xiōng.",
+      "Liù sān: Fú yí, zhēn xiōng, shí nián wù yòng, wú yōu lì.",
+      "Liù sì: Diān yí, jí, hǔ shì dān dān, qí yù zhú zhú, wú jiù.",
+      "Liù wǔ: Fú jīng, jū zhēn jí, bù kě shè dà chuān.",
+      "Shàng jiǔ: Yóu yí, lì jí, lì shè dà chuān."
     ],
     "lines_en": [
       "First line: Abandon your sacred tortoise, and watch my jaw move enviously; inauspicious. Warns against abandoning one's own wisdom or guidance to enviously follow others, which leads to misfortune.",
@@ -839,8 +1109,10 @@
   {
     "number": 28,
     "chinese": "大過",
+    "pinyin": "Dà guò",
     "title_en": "Great Exceeding",
     "judgment_zh": "棟橈，利有攸往，亨。",
+    "judgment_pinyin": "Dòng ráo, lì yǒu yōu wǎng, hēng.",
     "judgment_en": "The ridgepole sags; it is beneficial to have somewhere to go; success. Represents a state of excess or imbalance and structural weakness, yet having direction and purpose brings success.",
     "lines_zh": [
       "初六：藉用白茅，无咎。",
@@ -849,6 +1121,14 @@
       "九四：棟隆，吉；有它吝。",
       "九五：枯楊生華，老婦得士夫，无咎无譽。",
       "上六：過涉滅頂，凶，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Jí yòng bái máo, wú jiù.",
+      "Jiǔ èr: Kū yáng shēng tí, lǎo fū dé qí nǚ qī, wú bù lì.",
+      "Jiǔ sān: Dòng ráo, xiōng.",
+      "Jiǔ sì: Dòng lóng, jí; yǒu tā lìn.",
+      "Jiǔ wǔ: Kū yáng shēng huá, lǎo fù dé shì fū, wú jiù wú yù.",
+      "Shàng liù: Guò shè miè dǐng, xiōng, wú jiù."
     ],
     "lines_en": [
       "First line: Use white rushes as a mat beneath the offering; no blame. A humble, simple material signifies modesty and care, which avoids fault.",
@@ -870,8 +1150,10 @@
   {
     "number": 29,
     "chinese": "坎",
+    "pinyin": "Kǎn",
     "title_en": "The Abysmal (Water)",
     "judgment_zh": "習坎，有孚，維心亨，行有尚。",
+    "judgment_pinyin": "Xí kǎn, yǒu fú, wéi xīn hēng, xíng yǒu shàng.",
     "judgment_en": "Repeated peril; there is sincerity, the heart finds success, and actions are esteemed. Represents danger and difficulty, through which sincerity and a steady heart bring one safely through.",
     "lines_zh": [
       "初六：習坎，入于坎窞，凶。",
@@ -880,6 +1162,14 @@
       "六四：樽酒簋貳，用缶，納約自牖，終无咎。",
       "九五：坎不盈，祗既平，无咎。",
       "上六：係用徽纆，寘于叢棘，三歲不得，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Xí kǎn, rù yú kǎn dàn, xiōng.",
+      "Jiǔ èr: Kǎn yǒu xiǎn, qiú xiǎo dé.",
+      "Liù sān: Lái zhī kǎn kǎn, xiǎn qiě zhěn, rù yú kǎn dàn, wù yòng.",
+      "Liù sì: Zūn jiǔ guǐ èr, yòng fǒu, nà yuē zì yǒu, zhōng wú jiù.",
+      "Jiǔ wǔ: Kǎn bù yíng, zhī jì píng, wú jiù.",
+      "Shàng liù: Xì yòng huī mò, zhì yú cóng jí, sān suì bù dé, xiōng."
     ],
     "lines_en": [
       "First line: Repeated peril, falling into the pit's depths; ominous. Falling repeatedly into the same difficulty without change leads to misfortune.",
@@ -901,8 +1191,10 @@
   {
     "number": 30,
     "chinese": "離",
+    "pinyin": "Lí",
     "title_en": "Clinging (Fire)",
     "judgment_zh": "利貞，亨。畜牝牛，吉。",
+    "judgment_pinyin": "Lì zhēn, hēng. Chù pìn niú, jí.",
     "judgment_en": "Advantageous to be steadfast and upright; success. Rearing a cow brings good fortune. Symbolizes fire and light — adherence to principle brings success, and nurturing care leads to good outcomes.",
     "lines_zh": [
       "初九：履錯然，敬之无咎。",
@@ -911,6 +1203,14 @@
       "九四：突如其來如，焚如，死如，棄如。",
       "六五：出涕沱若，戚嗟若，吉。",
       "上九：王用出征，有嘉折首，獲匪其醜，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Lǚ cuò rán, jìng zhī wú jiù.",
+      "Liù èr: Huáng lí, yuán jí.",
+      "Jiǔ sān: Rì zè zhī lí, bù gǔ fǒu ér gē, zé dà dié zhī jiē, xiōng.",
+      "Jiǔ sì: Tū rú qí lái rú, fén rú, sǐ rú, qì rú.",
+      "Liù wǔ: Chū tì tuó ruò, qī jiē ruò, jí.",
+      "Shàng jiǔ: Wáng yòng chū zhēng, yǒu jiā zhé shǒu, huò fěi qí chǒu, wú jiù."
     ],
     "lines_en": [
       "First line: Treading with confusion, yet acting with respect brings no blame. Even amid uncertainty, maintaining respect and caution prevents misfortune.",
@@ -932,8 +1232,10 @@
   {
     "number": 31,
     "chinese": "咸",
+    "pinyin": "Xián",
     "title_en": "Influence (Attraction)",
     "judgment_zh": "亨，利貞，取女吉。",
+    "judgment_pinyin": "Hēng, lì zhēn, qǔ nǚ jí.",
     "judgment_en": "Success; beneficial to be steadfast and upright; taking a wife is auspicious. Signifies mutual influence and attraction, especially in relationships — forming a union is favorable.",
     "lines_zh": [
       "初六，咸其拇。",
@@ -942,6 +1244,14 @@
       "九四，貞吉，悔亡，憧憧往來，朋從爾思。",
       "九五，咸其脢，无悔。",
       "上六，咸其輔頰舌。"
+    ],
+    "lines_pinyin": [
+      "Chū liù, xián qí mǔ.",
+      "Liù èr, xián qí féi, xiōng, jū jí.",
+      "Jiǔ sān, xián qí gǔ, zhí qí suí, wǎng lìn.",
+      "Jiǔ sì, zhēn jí, huǐ wáng, chōng chōng wǎng lái, péng cóng ěr sī.",
+      "Jiǔ wǔ, xián qí méi, wú huǐ.",
+      "Shàng liù, xián qí fǔ jiá shé."
     ],
     "lines_en": [
       "First line: Influence felt in the big toe. The earliest stage of influence, just beginning to stir and not yet fully developed.",
@@ -963,8 +1273,10 @@
   {
     "number": 32,
     "chinese": "恆",
+    "pinyin": "Héng",
     "title_en": "Perseverance (Constancy)",
     "judgment_zh": "亨，无咎，利貞，利有攸往。",
+    "judgment_pinyin": "Hēng, wú jiù, lì zhēn, lì yǒu yōu wǎng.",
     "judgment_en": "Success, no blame, favorable to be steadfast and upright, favorable to have somewhere to go.",
     "lines_zh": [
       "初六：浚恆，貞凶，无攸利。",
@@ -973,6 +1285,14 @@
       "九四：田无禽。",
       "六五：恆其德，貞，婦人吉，夫子凶。",
       "上六：振恆，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Jùn héng, zhēn xiōng, wú yōu lì.",
+      "Jiǔ èr: Huǐ wáng.",
+      "Jiǔ sān: Bù héng qí dé, huò chéng zhī xiū, zhēn lìn.",
+      "Jiǔ sì: Tián wú qín.",
+      "Liù wǔ: Héng qí dé, zhēn, fù rén jí, fū zǐ xiōng.",
+      "Shàng liù: Zhèn héng, xiōng."
     ],
     "lines_en": [
       "First line: Deep, excessive perseverance; even uprightness leads to misfortune, no benefit in having a direction to pursue. Rigid perseverance without flexibility can turn to misfortune.",
@@ -994,8 +1314,10 @@
   {
     "number": 33,
     "chinese": "遯",
+    "pinyin": "Dùn",
     "title_en": "Retreat (Withdrawal)",
     "judgment_zh": "亨，小利貞。",
+    "judgment_pinyin": "Hēng, xiǎo lì zhēn.",
     "judgment_en": "Success. Small gains are beneficial if one remains correct.",
     "lines_zh": [
       "初六：遯尾，厲，勿用有攸往。",
@@ -1004,6 +1326,14 @@
       "九四：好遯，君子吉，小人否。",
       "九五：嘉遯，貞吉。",
       "上九：肥遯，无不利。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Dùn wěi, lì, wù yòng yǒu yōu wǎng.",
+      "Liù èr: Zhí zhī yòng huáng niú zhī gé, mò zhī shèng shuō.",
+      "Jiǔ sān: Xì dùn, yǒu jí lì, chù chén qiè jí.",
+      "Jiǔ sì: Hǎo dùn, jūn zǐ jí, xiǎo rén fǒu.",
+      "Jiǔ wǔ: Jiā dùn, zhēn jí.",
+      "Shàng jiǔ: Féi dùn, wú bù lì."
     ],
     "lines_en": [
       "First line: Retreating by the tail — a hesitant, last-minute retreat; there is danger. Do not act or go anywhere in this situation.",
@@ -1025,8 +1355,10 @@
   {
     "number": 34,
     "chinese": "大壯",
+    "pinyin": "Dà zhuàng",
     "title_en": "Great Strength",
     "judgment_zh": "利貞。",
+    "judgment_pinyin": "Lì zhēn.",
     "judgment_en": "It is beneficial to be steadfast and correct.",
     "lines_zh": [
       "初九：壯于趾，征凶，有孚。",
@@ -1035,6 +1367,14 @@
       "九四：貞吉悔亡，藩決不羸，壯于大輿之輹。",
       "六五：喪羊于易，无悔。",
       "上六：羝羊觸藩，不能退，不能遂，无攸利，艱則吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Zhuàng yú zhǐ, zhēng xiōng, yǒu fú.",
+      "Jiǔ èr: Zhēn jí.",
+      "Jiǔ sān: Xiǎo rén yòng zhuàng, jūn zǐ yòng wǎng, zhēn lì. Dī yáng chù fān, léi qí jiǎo.",
+      "Jiǔ sì: Zhēn jí huǐ wáng, fān jué bù léi, zhuàng yú dà yú zhī fù.",
+      "Liù wǔ: Sàng yáng yú yì, wú huǐ.",
+      "Shàng liù: Dī yáng chù fān, bù néng tuì, bù néng suì, wú yōu lì, jiān zé jí."
     ],
     "lines_en": [
       "First line: Strength shows in the toes; advancing now leads to misfortune, though sincerity is present.",
@@ -1056,8 +1396,10 @@
   {
     "number": 35,
     "chinese": "晉",
+    "pinyin": "Jìn",
     "title_en": "Progress",
     "judgment_zh": "康侯用錫馬蕃庶，晝日三接。",
+    "judgment_pinyin": "Kāng hóu yòng xī mǎ fān shù, zhòu rì sān jiē.",
     "judgment_en": "The prince of Kang bestows horses upon the multitude and meets with them three times in a day.",
     "lines_zh": [
       "初六：晉如，摧如，貞吉。罔孚，裕无咎。",
@@ -1066,6 +1408,14 @@
       "九四：晉如碩鼠，貞厲。",
       "六五：悔亡，失得勿恤，往吉，无不利。",
       "上九：晉其角，維用伐邑，厲吉无咎，貞吝。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Jìn rú, cuī rú, zhēn jí. Wǎng fú, yù wú jiù.",
+      "Liù èr: Jìn rú, chóu rú, zhēn jí. Shòu zī jiè fú, yú qí wáng mǔ.",
+      "Liù sān: Zhòng yǔn, huǐ wáng.",
+      "Jiǔ sì: Jìn rú shuò shǔ, zhēn lì.",
+      "Liù wǔ: Huǐ wáng, shī dé wù xù, wǎng jí, wú bù lì.",
+      "Shàng jiǔ: Jìn qí jiǎo, wéi yòng fá yì, lì jí wú jiù, zhēn lìn."
     ],
     "lines_en": [
       "First line: Progressing yet encountering obstacles; perseverance brings good fortune. Though trust is lacking, generosity brings no blame.",
@@ -1087,8 +1437,10 @@
   {
     "number": 36,
     "chinese": "明夷",
+    "pinyin": "Míng yí",
     "title_en": "Darkening of the Light",
     "judgment_zh": "利艱貞。",
+    "judgment_pinyin": "Lì jiān zhēn.",
     "judgment_en": "A time when clarity and brightness are obscured; it is beneficial to persevere firmly and correctly through hardship.",
     "lines_zh": [
       "初九：明夷于飛，垂其翼。君子于行，三日不食，有攸往，主人有言。",
@@ -1097,6 +1449,14 @@
       "六四：入于左腹，獲明夷之心，出于門庭。",
       "六五：箕子之明夷，利貞。",
       "上六：不明晦，初登于天，後入于地。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Míng yí yú fēi, chuí qí yì. Jūn zǐ yú xíng, sān rì bù shí, yǒu yōu wǎng, zhǔ rén yǒu yán.",
+      "Liù èr: Míng yí, yí yú zuǒ gǔ, yòng zhěng mǎ zhuàng, jí.",
+      "Jiǔ sān: Míng yí yú nán shòu, dé qí dà shǒu, bù kě jí zhēn.",
+      "Liù sì: Rù yú zuǒ fù, huò míng yí zhī xīn, chū yú mén tíng.",
+      "Liù wǔ: Jī zi zhī míng yí, lì zhēn.",
+      "Shàng liù: Bù míng huì, chū dēng yú tiān, hòu rù yú dì."
     ],
     "lines_en": [
       "First line: Darkening of the light while flying, he lowers his wings; the superior man on his journey does not eat for three days. He has somewhere to go, and the host has something to say — a time calling for cautious, patient retreat even amid hardship.",
@@ -1118,8 +1478,10 @@
   {
     "number": 37,
     "chinese": "家人",
+    "pinyin": "Jiā rén",
     "title_en": "The Family",
     "judgment_zh": "利女貞。",
+    "judgment_pinyin": "Lì nǚ zhēn.",
     "judgment_en": "It is beneficial for the woman to be chaste and correct.",
     "lines_zh": [
       "初九：閑有家，悔亡。",
@@ -1128,6 +1490,14 @@
       "六四：富家，大吉。",
       "九五：王假有家，勿恤，往吉。",
       "上九：有孚威如，終吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Xián yǒu jiā, huǐ wáng.",
+      "Liù èr: Wú yōu suì, zài zhōng kuì, zhēn jí.",
+      "Jiǔ sān: Jiā rén hè hè, huǐ lì jí; fù zi xī xī, zhōng lìn.",
+      "Liù sì: Fù jiā, dà jí.",
+      "Jiǔ wǔ: Wáng jiǎ yǒu jiā, wù xù, wǎng jí.",
+      "Shàng jiǔ: Yǒu fú wēi rú, zhōng jí."
     ],
     "lines_en": [
       "First line: When the family is kept in order, regret vanishes.",
@@ -1149,8 +1519,10 @@
   {
     "number": 38,
     "chinese": "睽",
+    "pinyin": "Kuí",
     "title_en": "Opposition (Divergence)",
     "judgment_zh": "小事吉。",
+    "judgment_pinyin": "Xiǎo shì jí.",
     "judgment_en": "Small matters are auspicious.",
     "lines_zh": [
       "初九：悔亡，喪馬勿逐，自復；見惡人无咎。",
@@ -1159,6 +1531,14 @@
       "九四：睽孤，遇元夫，交孚，厲无咎。",
       "六五：悔亡，厥宗噬膚，往何咎。",
       "上九：睽孤，見豕負塗，載鬼一車，先張之弧，後說之弧，匪寇婚媾，往遇雨則吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Huǐ wáng, sàng mǎ wù zhú, zì fù; jiàn è rén wú jiù.",
+      "Jiǔ èr: Yù zhǔ yú xiàng, wú jiù.",
+      "Liù sān: Jiàn yú yè, qí niú chè, qí rén tiān qiě yì, wú chū yǒu zhōng.",
+      "Jiǔ sì: Kuí gū, yù yuán fū, jiāo fú, lì wú jiù.",
+      "Liù wǔ: Huǐ wáng, jué zōng shì fū, wǎng hé jiù.",
+      "Shàng jiǔ: Kuí gū, jiàn shǐ fù tú, zài guǐ yī chē, xiān zhāng zhī hú, hòu shuō zhī hú, fěi kòu hūn gòu, wǎng yù yǔ zé jí."
     ],
     "lines_en": [
       "First line: Regret vanishes; if you lose a horse, do not chase it — it will return on its own. Encountering a bad person brings no blame.",
@@ -1180,8 +1560,10 @@
   {
     "number": 39,
     "chinese": "蹇",
+    "pinyin": "Jiǎn",
     "title_en": "Obstruction (Difficulty)",
     "judgment_zh": "利西南，不利東北；利見大人，貞吉。",
+    "judgment_pinyin": "Lì xī nán, bù lì dōng běi; lì jiàn dà rén, zhēn jí.",
     "judgment_en": "It is advantageous to go southwest, but not beneficial to go northeast. It is beneficial to meet a great person; correctness brings good fortune.",
     "lines_zh": [
       "初六：往蹇，來譽。",
@@ -1190,6 +1572,14 @@
       "六四：往蹇來連。",
       "九五：大蹇朋來。",
       "上六：往蹇來碩，吉；利見大人。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Wǎng jiǎn, lái yù.",
+      "Liù èr: Wáng chén jiǎn jiǎn, fěi gōng zhī gù.",
+      "Jiǔ sān: Wǎng jiǎn lái fǎn.",
+      "Liù sì: Wǎng jiǎn lái lián.",
+      "Jiǔ wǔ: Dà jiǎn péng lái.",
+      "Shàng liù: Wǎng jiǎn lái shuò, jí; lì jiàn dà rén."
     ],
     "lines_en": [
       "First line: Going forward meets obstruction, but coming back (retreating or reconsidering) brings praise.",
@@ -1211,8 +1601,10 @@
   {
     "number": 40,
     "chinese": "解",
+    "pinyin": "Jiě",
     "title_en": "Release (Deliverance)",
     "judgment_zh": "利西南，无所往，其來復吉。有攸往，夙吉。",
+    "judgment_pinyin": "Lì xī nán, wú suǒ wǎng, qí lái fù jí. Yǒu yōu wǎng, sù jí.",
     "judgment_en": "Favorable in the southwest. If there is nowhere to go, returning is auspicious; if there is somewhere to go, acting early brings good fortune.",
     "lines_zh": [
       "初六：无咎。",
@@ -1221,6 +1613,14 @@
       "九四：解而拇，朋至斯孚。",
       "六五：君子維有解，吉；有孚于小人。",
       "上六：公用射隼于高墉之上，獲之，无不利。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Wú jiù.",
+      "Jiǔ èr: Tián huò sān hú, dé huáng shǐ, zhēn jí.",
+      "Liù sān: Fù qiě chéng, zhì kòu zhì, zhēn lìn.",
+      "Jiǔ sì: Jiě ér mǔ, péng zhì sī fú.",
+      "Liù wǔ: Jūn zǐ wéi yǒu jiě, jí; yǒu fú yú xiǎo rén.",
+      "Shàng liù: Gōng yòng shè sǔn yú gāo yōng zhī shàng, huò zhī, wú bù lì."
     ],
     "lines_en": [
       "First line: No blame.",
@@ -1242,8 +1642,10 @@
   {
     "number": 41,
     "chinese": "損",
+    "pinyin": "Sǔn",
     "title_en": "Decrease (Loss)",
     "judgment_zh": "有孚，元吉，无咎，可貞，利有攸往。曷之用，二簋可用享。",
+    "judgment_pinyin": "Yǒu fú, yuán jí, wú jiù, kě zhēn, lì yǒu yōu wǎng. Hé zhī yòng, èr guǐ kě yòng xiǎng.",
     "judgment_en": "With sincerity, great fortune, no blame; it is permissible to be steadfast. It is beneficial to have somewhere to go. What is it used for? Two bowls can be used for offerings.",
     "lines_zh": [
       "初九：巳事遄往，无咎，酌損之。",
@@ -1252,6 +1654,14 @@
       "六四：損其疾，使遄有喜，无咎。",
       "六五：或益之，十朋之龜弗克違，元吉。",
       "上九：弗損益之，无咎，貞吉，有攸往，得臣无家。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Sì shì chuán wǎng, wú jiù, zhuó sǔn zhī.",
+      "Jiǔ èr: Lì zhēn, zhēng xiōng, fú sǔn, yì zhī.",
+      "Liù sān: Sān rén xíng, zé sǔn yī rén; yī rén xíng, zé dé qí yǒu.",
+      "Liù sì: Sǔn qí jí, shǐ chuán yǒu xǐ, wú jiù.",
+      "Liù wǔ: Huò yì zhī, shí péng zhī guī fú kè wéi, yuán jí.",
+      "Shàng jiǔ: Fú sǔn yì zhī, wú jiù, zhēn jí, yǒu yōu wǎng, dé chén wú jiā."
     ],
     "lines_en": [
       "First line: If the task is completed quickly, there will be no blame; consider carefully what should be decreased. This advises prompt action to avoid blame while thoughtfully reducing what needs to be reduced.",
@@ -1273,8 +1683,10 @@
   {
     "number": 42,
     "chinese": "益",
+    "pinyin": "Yì",
     "title_en": "Increase (Benefit)",
     "judgment_zh": "利有攸往，利涉大川。",
+    "judgment_pinyin": "Lì yǒu yōu wǎng, lì shè dà chuān.",
     "judgment_en": "It is beneficial to have somewhere to go; it is beneficial to cross the great river — taking action and moving forward will bring benefits.",
     "lines_zh": [
       "初九：利用為大作，元吉，无咎。",
@@ -1283,6 +1695,14 @@
       "六四：中行，告公從。利用為依遷國。",
       "九五：有孚惠心，勿問元吉。有孚惠我德。",
       "上九：莫益之，或擊之，立心勿恆，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Lì yòng wèi dà zuò, yuán jí, wú jiù.",
+      "Liù èr: Huò yì zhī, shí péng zhī guī fú kè wéi, yǒng zhēn jí. Wáng yòng xiǎng yú dì, jí.",
+      "Liù sān: Yì zhī yòng xiōng shì, wú jiù. Yǒu fú zhōng háng, gào gōng yòng guī.",
+      "Liù sì: Zhōng háng, gào gōng cóng. Lì yòng wèi yī qiān guó.",
+      "Jiǔ wǔ: Yǒu fú huì xīn, wù wèn yuán jí. Yǒu fú huì wǒ dé.",
+      "Shàng jiǔ: Mò yì zhī, huò jī zhī, lì xīn wù héng, xiōng."
     ],
     "lines_en": [
       "First line: It is beneficial to undertake great works; great fortune, no blame. Initiating significant projects leads to great success without negative consequences.",
@@ -1304,8 +1724,10 @@
   {
     "number": 43,
     "chinese": "夬",
+    "pinyin": "Guài",
     "title_en": "Resoluteness (Breakthrough)",
     "judgment_zh": "揚于王庭，孚號，有厲，告自邑，不利即戎，利有攸往。",
+    "judgment_pinyin": "Yáng yú wáng tíng, fú hào, yǒu lì, gào zì yì, bù lì jí róng, lì yǒu yōu wǎng.",
     "judgment_en": "Proclaimed in the royal court, there is trust in the proclamation, but there is danger. Announce it from the city; it is not beneficial to engage in warfare, but it is beneficial to have a direction to go.",
     "lines_zh": [
       "初九：壯于前趾，往不勝為咎。",
@@ -1314,6 +1736,14 @@
       "九四：臀无膚，其行次且。牽羊悔亡，聞言不信。",
       "九五：莧陸夬夬，中行无咎。",
       "上六：无號，終有凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Zhuàng yú qián zhǐ, wǎng bù shèng wèi jiù.",
+      "Jiǔ èr: Tì hào, mò yè yǒu róng, wù xù.",
+      "Jiǔ sān: Zhuàng yú kuí, yǒu xiōng. Jūn zǐ guài guài, dú xíng, yù yǔ, ruò rú, yǒu yùn, wú jiù.",
+      "Jiǔ sì: Tún wú fū, qí xíng cì qiě. Qiān yáng huǐ wáng, wén yán bù xìn.",
+      "Jiǔ wǔ: Xiàn lù guài guài, zhōng háng wú jiù.",
+      "Shàng liù: Wú hào, zhōng yǒu xiōng."
     ],
     "lines_en": [
       "First line: Strength in the toes; going forward will not succeed and will bring misfortune. This warns against premature action without proper preparation.",
@@ -1335,8 +1765,10 @@
   {
     "number": 44,
     "chinese": "姤",
+    "pinyin": "Gòu",
     "title_en": "Encountering",
     "judgment_zh": "女壯，勿用取女。",
+    "judgment_pinyin": "Nǚ zhuàng, wù yòng qǔ nǚ.",
     "judgment_en": "The woman is strong; do not take this woman. The encounter involves a strong or powerful woman, advising caution against engaging with her.",
     "lines_zh": [
       "初六：繫于金柅，貞吉，有攸往，見凶，羸豕孚蹢躅。",
@@ -1345,6 +1777,14 @@
       "九四：包无魚，起凶。",
       "九五：以杞包瓜，含章，有隕自天。",
       "上九：姤其角，吝，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Xì yú jīn nǐ, zhēn jí, yǒu yōu wǎng, jiàn xiōng, léi shǐ fú dí zhú.",
+      "Jiǔ èr: Bāo yǒu yú, wú jiù, bù lì bīn.",
+      "Jiǔ sān: Tún wú fū, qí xíng cì qiě, lì, wú dà jiù.",
+      "Jiǔ sì: Bāo wú yú, qǐ xiōng.",
+      "Jiǔ wǔ: Yǐ qǐ bāo guā, hán zhāng, yǒu yǔn zì tiān.",
+      "Shàng jiǔ: Gòu qí jiǎo, lìn, wú jiù."
     ],
     "lines_en": [
       "First line: Tied to a metal brake; perseverance brings good fortune. If you go somewhere, you will see misfortune — a lean pig is confident but stumbles, indicating overconfidence leads to mistakes.",
@@ -1366,8 +1806,10 @@
   {
     "number": 45,
     "chinese": "萃",
+    "pinyin": "Cuì",
     "title_en": "Gathering Together (Massing)",
     "judgment_zh": "亨。王假有廟，利見大人，亨，利貞。用大牲吉，利有攸往。",
+    "judgment_pinyin": "Hēng. Wáng jiǎ yǒu miào, lì jiàn dà rén, hēng, lì zhēn. Yòng dà shēng jí, lì yǒu yōu wǎng.",
     "judgment_en": "Success. The king approaches his temple; it is beneficial to see the great man. Success, and it is beneficial to be steadfast. Using great sacrifices brings good fortune; it is beneficial to have a goal to go towards.",
     "lines_zh": [
       "初六：有孚不終，乃亂乃萃，若號一握為笑，勿恤，往无咎。",
@@ -1376,6 +1818,14 @@
       "九四：大吉，无咎。",
       "九五：萃有位，无咎。匪孚，元永貞，悔亡。",
       "上六：齎咨涕洟，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Yǒu fú bù zhōng, nǎi luàn nǎi cuì, ruò hào yī wò wèi xiào, wù xù, wǎng wú jiù.",
+      "Liù èr: Yǐn jí, wú jiù, fú nǎi lì yòng yuè.",
+      "Liù sān: Cuì rú, jiē rú, wú yōu lì, wǎng wú jiù, xiǎo lìn.",
+      "Jiǔ sì: Dà jí, wú jiù.",
+      "Jiǔ wǔ: Cuì yǒu wèi, wú jiù. Fěi fú, yuán yǒng zhēn, huǐ wáng.",
+      "Shàng liù: Jī zī tì tì, wú jiù."
     ],
     "lines_en": [
       "First line: If there is sincerity but it does not last, there will be disorder and gathering; if you cry out and weep it will turn into laughter — do not worry, going forward brings no blame.",
@@ -1397,8 +1847,10 @@
   {
     "number": 46,
     "chinese": "升",
+    "pinyin": "Shēng",
     "title_en": "Ascending (Rising)",
     "judgment_zh": "元亨，用見大人，勿恤，南征吉。",
+    "judgment_pinyin": "Yuán hēng, yòng jiàn dà rén, wù xù, nán zhēng jí.",
     "judgment_en": "Great success. It is beneficial to see a great person. Do not worry. A southward expedition brings good fortune.",
     "lines_zh": [
       "初六：允升，大吉。",
@@ -1407,6 +1859,14 @@
       "六四：王用亨于岐山，吉无咎。",
       "六五：貞吉，升階。",
       "上六：冥升，利于不息之貞。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Yǔn shēng, dà jí.",
+      "Jiǔ èr: Fú nǎi lì yòng yuè, wú jiù.",
+      "Jiǔ sān: Shēng xū yì.",
+      "Liù sì: Wáng yòng hēng yú qí shān, jí wú jiù.",
+      "Liù wǔ: Zhēn jí, shēng jiē.",
+      "Shàng liù: Míng shēng, lì yú bù xī zhī zhēn."
     ],
     "lines_en": [
       "First line: True ascent, great fortune. At the beginning stage, the ascent is genuine and sincere, leading to great fortune.",
@@ -1428,8 +1888,10 @@
   {
     "number": 47,
     "chinese": "困",
+    "pinyin": "Kùn",
     "title_en": "Oppression (Exhaustion)",
     "judgment_zh": "亨，貞，大人吉，无咎，有言不信。",
+    "judgment_pinyin": "Hēng, zhēn, dà rén jí, wú jiù, yǒu yán bù xìn.",
     "judgment_en": "Success, perseverance. The great man is fortunate, no blame. Words are not trusted — in times of hardship one should remain steadfast, though communication may be mistrusted.",
     "lines_zh": [
       "初六：臀困于株木，入于幽谷，三歲不覿。",
@@ -1438,6 +1900,14 @@
       "九四：來徐徐，困于金車，吝，有終。",
       "九五：劓刖，困于赤紱，乃徐有說，利用祭祀。",
       "上六：困于葛藟，于臲卼，曰動悔。有悔，征吉。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Tún kùn yú zhū mù, rù yú yōu gǔ, sān suì bù dí.",
+      "Jiǔ èr: Kùn yú jiǔ shí, zhū fú fāng lái, lì yòng xiǎng sì, zhēng xiōng, wú jiù.",
+      "Liù sān: Kùn yú shí, jù yú jí lí, rù yú qí gōng, bù jiàn qí qī, xiōng.",
+      "Jiǔ sì: Lái xú xú, kùn yú jīn chē, lìn, yǒu zhōng.",
+      "Jiǔ wǔ: Yì yuè, kùn yú chì fú, nǎi xú yǒu shuō, lì yòng jì sì.",
+      "Shàng liù: Kùn yú gé lěi, yú niè wù, yuē dòng huǐ. Yǒu huǐ, zhēng jí."
     ],
     "lines_en": [
       "First line: Buttocks oppressed by a wooden stock, entering a secluded valley, not seen for three years. One is trapped, unable to move forward, stuck in a difficult situation for an extended period.",
@@ -1459,8 +1929,10 @@
   {
     "number": 48,
     "chinese": "井",
+    "pinyin": "Jǐng",
     "title_en": "The Well",
     "judgment_zh": "改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。",
+    "judgment_pinyin": "Gǎi yì bù gǎi jǐng, wú sàng wú dé, wǎng lái jǐng jǐng. Qì zhì, yì wèi yù jǐng, léi qí píng, xiōng.",
     "judgment_en": "One may change the town but not the well; there is no loss, no gain. People come and go, and the well remains the same. When it is almost reached but not yet drawn from, the jug is broken, which is unfortunate.",
     "lines_zh": [
       "初六：井泥不食，舊井无禽。",
@@ -1469,6 +1941,14 @@
       "六四：井甃，无咎。",
       "九五：井冽，寒泉食。",
       "上六：井收勿幕，有孚元吉。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Jǐng ní bù shí, jiù jǐng wú qín.",
+      "Jiǔ èr: Jǐng gǔ shè fù, wèng bì lòu.",
+      "Jiǔ sān: Jǐng xiè bù shí, wèi wǒ xīn cè, kě yòng jí, wáng míng, bìng shòu qí fú.",
+      "Liù sì: Jǐng zhòu, wú jiù.",
+      "Jiǔ wǔ: Jǐng liè, hán quán shí.",
+      "Shàng liù: Jǐng shōu wù mù, yǒu fú yuán jí."
     ],
     "lines_en": [
       "First line: The well is muddy and not fit to drink from; the old well has no birds. A neglected resource that is unusable, needing cleaning and maintenance.",
@@ -1490,8 +1970,10 @@
   {
     "number": 49,
     "chinese": "革",
+    "pinyin": "Gé",
     "title_en": "Revolution / Change",
     "judgment_zh": "巳日乃孚，元亨利貞，悔亡。",
+    "judgment_pinyin": "Sì rì nǎi fú, yuán hēng lì zhēn, huǐ wáng.",
     "judgment_en": "On the day trust is confirmed, there is great success; it is beneficial to be steadfast and upright, and regret disappears.",
     "lines_zh": [
       "初九：鞏用黃牛之革。",
@@ -1500,6 +1982,14 @@
       "九四：悔亡，有孚改命，吉。",
       "九五：大人虎變，未占有孚。",
       "上六：君子豹變，小人革面，征凶，居貞吉。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Gǒng yòng huáng niú zhī gé.",
+      "Liù èr: Sì rì nǎi gé zhī, zhēng jí, wú jiù.",
+      "Jiǔ sān: Zhēng xiōng, zhēn lì, gé yán sān jiù, yǒu fú.",
+      "Jiǔ sì: Huǐ wáng, yǒu fú gǎi mìng, jí.",
+      "Jiǔ wǔ: Dà rén hǔ biàn, wèi zhàn yǒu fú.",
+      "Shàng liù: Jūn zǐ bào biàn, xiǎo rén gé miàn, zhēng xiōng, jū zhēn jí."
     ],
     "lines_en": [
       "First line: Reinforce with the hide of a yellow ox — stay firm and secure before attempting any change.",
@@ -1521,8 +2011,10 @@
   {
     "number": 50,
     "chinese": "鼎",
+    "pinyin": "Dǐng",
     "title_en": "The Cauldron",
     "judgment_zh": "元吉，亨。",
+    "judgment_pinyin": "Yuán jí, hēng.",
     "judgment_en": "Supreme good fortune and success.",
     "lines_zh": [
       "初六：鼎顛趾，利出否，得妾以其子，无咎。",
@@ -1531,6 +2023,14 @@
       "九四：鼎折足，覆公餗，其形渥，凶。",
       "六五：鼎黃耳，金鉉，利貞。",
       "上九：鼎玉鉉，大吉，无不利。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Dǐng diān zhǐ, lì chū fǒu, dé qiè yǐ qí zi, wú jiù.",
+      "Jiǔ èr: Dǐng yǒu shí, wǒ chóu yǒu jí, bù wǒ néng jí, jí.",
+      "Jiǔ sān: Dǐng ěr gé, qí xíng sāi, zhì gāo bù shí, fāng yǔ kuī huǐ, zhōng jí.",
+      "Jiǔ sì: Dǐng zhé zú, fù gōng sù, qí xíng wò, xiōng.",
+      "Liù wǔ: Dǐng huáng ěr, jīn xuàn, lì zhēn.",
+      "Shàng jiǔ: Dǐng yù xuàn, dà jí, wú bù lì."
     ],
     "lines_en": [
       "First line: The cauldron's legs are overturned, but this is beneficial for pouring out what has spoiled; like gaining a concubine for the sake of her son, there is no blame.",
@@ -1552,8 +2052,10 @@
   {
     "number": 51,
     "chinese": "震",
+    "pinyin": "Zhèn",
     "title_en": "Thunder / The Arousing",
     "judgment_zh": "亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。",
+    "judgment_pinyin": "Hēng. Zhèn lái xì xì, xiào yán yǎ yǎ. Zhèn jīng bǎi lǐ, bù sàng bǐ chàng.",
     "judgment_en": "Thunder brings success. It comes with a startling rumble, followed by laughter and talk; it shocks for a hundred miles, yet does not cause the sacrificial spoon and wine to be dropped.",
     "lines_zh": [
       "初九：震來虩虩，後笑言啞啞，吉。",
@@ -1562,6 +2064,14 @@
       "九四：震遂泥。",
       "六五：震往來厲，億无喪，有事。",
       "上六：震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Zhèn lái xì xì, hòu xiào yán yǎ yǎ, jí.",
+      "Liù èr: Zhèn lái lì, yì sàng bèi, jī yú jiǔ líng, wù zhú, qī rì dé.",
+      "Liù sān: Zhèn sū sū, zhèn xíng wú shěng.",
+      "Jiǔ sì: Zhèn suì ní.",
+      "Liù wǔ: Zhèn wǎng lái lì, yì wú sàng, yǒu shì.",
+      "Shàng liù: Zhèn suǒ suǒ, shì jué jué, zhēng xiōng. Zhèn bù yú qí gōng, yú qí lín, wú jiù. Hūn gòu yǒu yán."
     ],
     "lines_en": [
       "First line: Thunder comes with a startling rumble, then is followed by laughter and talk — good fortune.",
@@ -1583,8 +2093,10 @@
   {
     "number": 52,
     "chinese": "艮",
+    "pinyin": "Gěn",
     "title_en": "Keeping Still / The Mountain",
     "judgment_zh": "艮其背，不獲其身，行其庭，不見其人，无咎。",
+    "judgment_pinyin": "Gěn qí bèi, bù huò qí shēn, xíng qí tíng, bù jiàn qí rén, wú jiù.",
     "judgment_en": "Keeping still with the back, so that one no longer feels the body; walking in the courtyard without noticing the people there — no blame.",
     "lines_zh": [
       "初六：艮其趾，无咎，利永貞。",
@@ -1593,6 +2105,14 @@
       "六四：艮其身，无咎。",
       "六五：艮其輔，言有序，悔亡。",
       "上九：敦艮，吉。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Gěn qí zhǐ, wú jiù, lì yǒng zhēn.",
+      "Liù èr: Gěn qí féi, bù zhěng qí suí, qí xīn bù kuài.",
+      "Jiǔ sān: Gěn qí xiàn, liè qí yín, lì xūn xīn.",
+      "Liù sì: Gěn qí shēn, wú jiù.",
+      "Liù wǔ: Gěn qí fǔ, yán yǒu xù, huǐ wáng.",
+      "Shàng jiǔ: Dūn gěn, jí."
     ],
     "lines_en": [
       "First line: Keeping still at the toes — no blame; beneficial to remain perpetually correct.",
@@ -1614,8 +2134,10 @@
   {
     "number": 53,
     "chinese": "漸",
+    "pinyin": "Jiàn",
     "title_en": "Gradual Progress / Development",
     "judgment_zh": "女歸吉，利貞。",
+    "judgment_pinyin": "Nǚ guī jí, lì zhēn.",
     "judgment_en": "The maiden's marriage is auspicious; it is beneficial to remain steadfast and correct.",
     "lines_zh": [
       "初六：鴻漸于干，小子厲，有言，无咎。",
@@ -1624,6 +2146,14 @@
       "六四：鴻漸于木，或得其桷，无咎。",
       "九五：鴻漸于陵，婦三歲不孕，終莫之勝，吉。",
       "上九：鴻漸于陸，其羽可用為儀，吉."
+    ],
+    "lines_pinyin": [
+      "Chū liù: Hóng jiàn yú gàn, xiǎo zi lì, yǒu yán, wú jiù.",
+      "Liù èr: Hóng jiàn yú pán, yǐn shí kàn kàn, jí.",
+      "Jiǔ sān: Hóng jiàn yú lù, fū zhēng bù fù, fù yùn bù yù, xiōng; lì yù kòu.",
+      "Liù sì: Hóng jiàn yú mù, huò dé qí jué, wú jiù.",
+      "Jiǔ wǔ: Hóng jiàn yú líng, fù sān suì bù yùn, zhōng mò zhī shèng, jí.",
+      "Shàng jiǔ: Hóng jiàn yú lù, qí yǔ kě yòng wèi yí, jí."
     ],
     "lines_en": [
       "First line: The wild goose gradually advances to the shore; the young one is in danger and there is talk, but no blame.",
@@ -1645,8 +2175,10 @@
   {
     "number": 54,
     "chinese": "歸妹",
+    "pinyin": "Guī mèi",
     "title_en": "The Marrying Maiden",
     "judgment_zh": "征凶，无攸利。",
+    "judgment_pinyin": "Zhēng xiōng, wú yōu lì.",
     "judgment_en": "To set out brings misfortune; nothing is advantageous.",
     "lines_zh": [
       "初九：歸妹以娣，跛能履，征吉。",
@@ -1655,6 +2187,14 @@
       "九四：歸妹愆期，遲歸有時。",
       "六五：帝乙歸妹，其君之袂，不如其娣之袂良，月幾望，吉。",
       "上六：女承筐无實，士刲羊无血，无攸利。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Guī mèi yǐ dì, bǒ néng lǚ, zhēng jí.",
+      "Jiǔ èr: Miǎo néng shì, lì yōu rén zhī zhēn.",
+      "Liù sān: Guī mèi yǐ xū, fǎn guī yǐ dì.",
+      "Jiǔ sì: Guī mèi qiān qī, chí guī yǒu shí.",
+      "Liù wǔ: Dì yǐ guī mèi, qí jūn zhī mèi, bù rú qí dì zhī mèi liáng, yuè jǐ wàng, jí.",
+      "Shàng liù: Nǚ chéng kuāng wú shí, shì kuī yáng wú xuè, wú yōu lì."
     ],
     "lines_en": [
       "First line: The maiden marries as a younger sister/attendant; though lame, she is still able to walk — advancing is auspicious.",
@@ -1676,8 +2216,10 @@
   {
     "number": 55,
     "chinese": "豐",
+    "pinyin": "Fēng",
     "title_en": "Abundance",
     "judgment_zh": "亨，王假之，勿憂，宜日中。",
+    "judgment_pinyin": "Hēng, wáng jiǎ zhī, wù yōu, yí rì zhōng.",
     "judgment_en": "Abundance brings success. The king attains it; do not worry — it is fitting to be like the sun at midday.",
     "lines_zh": [
       "初九：遇其配主，雖旬无咎，往有尚。",
@@ -1686,6 +2228,14 @@
       "九四：豐其蔀，日中見斗，遇其夷主，吉。",
       "六五：來章，有慶譽，吉。",
       "上六：豐其屋，蔀其家，闚其戶，闃其无人，三歲不覿，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Yù qí pèi zhǔ, suī xún wú jiù, wǎng yǒu shàng.",
+      "Liù èr: Fēng qí bù, rì zhōng jiàn dòu, wǎng dé yí jí, yǒu fú fā ruò, jí.",
+      "Jiǔ sān: Fēng qí pèi, rì zhōng jiàn mèi, zhé qí yòu gōng, wú jiù.",
+      "Jiǔ sì: Fēng qí bù, rì zhōng jiàn dòu, yù qí yí zhǔ, jí.",
+      "Liù wǔ: Lái zhāng, yǒu qìng yù, jí.",
+      "Shàng liù: Fēng qí wū, bù qí jiā, kuī qí hù, qù qí wú rén, sān suì bù dí, xiōng."
     ],
     "lines_en": [
       "First line: Meeting one's destined match — even ten days together bring no blame; going forward is honored.",
@@ -1707,8 +2257,10 @@
   {
     "number": 56,
     "chinese": "旅",
+    "pinyin": "Lǚ",
     "title_en": "The Wanderer / Traveling",
     "judgment_zh": "小亨，旅貞吉。",
+    "judgment_pinyin": "Xiǎo hēng, lǚ zhēn jí.",
     "judgment_en": "Modest success; perseverance while traveling brings good fortune.",
     "lines_zh": [
       "初六：旅瑣瑣，斯其所取災。",
@@ -1717,6 +2269,14 @@
       "九四：旅于處，得其資斧，我心不快。",
       "六五：射雉一矢亡，終以譽命。",
       "上九：鳥焚其巢，旅人先笑後號咷。喪牛于易，凶。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Lǚ suǒ suǒ, sī qí suǒ qǔ zāi.",
+      "Liù èr: Lǚ jí cì, huái qí zī, dé tóng pú zhēn.",
+      "Jiǔ sān: Lǚ fén qí cì, sàng qí tóng pú, zhēn lì.",
+      "Jiǔ sì: Lǚ yú chù, dé qí zī fǔ, wǒ xīn bù kuài.",
+      "Liù wǔ: Shè zhì yī shǐ wáng, zhōng yǐ yù mìng.",
+      "Shàng jiǔ: Niǎo fén qí cháo, lǚ rén xiān xiào hòu hào táo. Sàng niú yú yì, xiōng."
     ],
     "lines_en": [
       "First line: The wanderer is petty and preoccupied with trivial matters, and this is what invites disaster.",
@@ -1738,8 +2298,10 @@
   {
     "number": 57,
     "chinese": "巽",
+    "pinyin": "Xùn",
     "title_en": "The Gentle (Wind)",
     "judgment_zh": "小亨，利攸往，利見大人。",
+    "judgment_pinyin": "Xiǎo hēng, lì yōu wǎng, lì jiàn dà rén.",
     "judgment_en": "Minor success. It is beneficial to have somewhere to go. It is beneficial to see a great person.",
     "lines_zh": [
       "初六：進退，利武人之貞。",
@@ -1748,6 +2310,14 @@
       "六四：悔亡，田獲三品。",
       "九五：貞吉悔亡，无不利。无初有終，先庚三日，後庚三日，吉。",
       "上九：巽在床下，喪其資斧，貞凶。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Jìn tuì, lì wǔ rén zhī zhēn.",
+      "Jiǔ èr: Xùn zài chuáng xià, yòng shǐ wū fēn ruò, jí, wú jiù.",
+      "Jiǔ sān: Pín xùn, lìn.",
+      "Liù sì: Huǐ wáng, tián huò sān pǐn.",
+      "Jiǔ wǔ: Zhēn jí huǐ wáng, wú bù lì. Wú chū yǒu zhōng, xiān gēng sān rì, hòu gēng sān rì, jí.",
+      "Shàng jiǔ: Xùn zài chuáng xià, sàng qí zī fǔ, zhēn xiōng."
     ],
     "lines_en": [
       "First line: Advancing and retreating; it is beneficial for a warrior to be steadfast.",
@@ -1769,8 +2339,10 @@
   {
     "number": 58,
     "chinese": "兌",
+    "pinyin": "Duì",
     "title_en": "The Joyous (Lake)",
     "judgment_zh": "亨，利貞。",
+    "judgment_pinyin": "Hēng, lì zhēn.",
     "judgment_en": "Success. It is beneficial to be steadfast and upright.",
     "lines_zh": [
       "初九：和兌，吉。",
@@ -1779,6 +2351,14 @@
       "九四：商兌，未寧，介疾有喜。",
       "九五：孚于剝，有厲。",
       "上六：引兌。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Hé duì, jí.",
+      "Jiǔ èr: Fú duì, jí, huǐ wáng.",
+      "Liù sān: Lái duì, xiōng.",
+      "Jiǔ sì: Shāng duì, wèi níng, jiè jí yǒu xǐ.",
+      "Jiǔ wǔ: Fú yú bō, yǒu lì.",
+      "Shàng liù: Yǐn duì."
     ],
     "lines_en": [
       "First line: Harmonious joy, good fortune. When joy is harmonious and balanced, it brings good fortune.",
@@ -1800,8 +2380,10 @@
   {
     "number": 59,
     "chinese": "渙",
+    "pinyin": "Huàn",
     "title_en": "Dispersion (Dissolution)",
     "judgment_zh": "亨。王假有廟，利涉大川，利貞。",
+    "judgment_pinyin": "Hēng. Wáng jiǎ yǒu miào, lì shè dà chuān, lì zhēn.",
     "judgment_en": "Success. The king approaches his temple. It is beneficial to cross the great river. It is beneficial to be steadfast and correct.",
     "lines_zh": [
       "初六：用拯馬壯，吉。",
@@ -1810,6 +2392,14 @@
       "六四：渙其群，元吉。渙有丘，匪夷所思。",
       "九五：渙汗其大號，渙王居，无咎。",
       "上九：渙其血，去逖出，无咎。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Yòng zhěng mǎ zhuàng, jí.",
+      "Jiǔ èr: Huàn bēn qí jī, huǐ wáng.",
+      "Liù sān: Huàn qí gōng, wú huǐ.",
+      "Liù sì: Huàn qí qún, yuán jí. Huàn yǒu qiū, fěi yí suǒ sī.",
+      "Jiǔ wǔ: Huàn hàn qí dà hào, huàn wáng jū, wú jiù.",
+      "Shàng jiǔ: Huàn qí xuè, qù tì chū, wú jiù."
     ],
     "lines_en": [
       "First line: Use a strong horse to rescue. Good fortune. This suggests taking decisive and strong action to overcome difficulties.",
@@ -1831,8 +2421,10 @@
   {
     "number": 60,
     "chinese": "節",
+    "pinyin": "Jié",
     "title_en": "Restraint (Moderation)",
     "judgment_zh": "亨。苦節，不可貞。",
+    "judgment_pinyin": "Hēng. Kǔ jié, bù kě zhēn.",
     "judgment_en": "Success. Bitter restraint, not permissible to be steadfast.",
     "lines_zh": [
       "初九：不出戶庭，无咎。",
@@ -1841,6 +2433,14 @@
       "六四：安節，亨。",
       "九五：甘節，吉；往有尚。",
       "上六：苦節，貞凶，悔亡。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Bù chū hù tíng, wú jiù.",
+      "Jiǔ èr: Bù chū mén tíng, xiōng.",
+      "Liù sān: Bù jié ruò, zé jiē ruò, wú jiù.",
+      "Liù sì: Ān jié, hēng.",
+      "Jiǔ wǔ: Gān jié, jí; wǎng yǒu shàng.",
+      "Shàng liù: Kǔ jié, zhēn xiōng, huǐ wáng."
     ],
     "lines_en": [
       "First line: Do not leave the courtyard, no blame. Staying within one's own boundaries and not venturing out leads to no harm.",
@@ -1862,8 +2462,10 @@
   {
     "number": 61,
     "chinese": "中孚",
+    "pinyin": "Zhōng fú",
     "title_en": "Inner Truth (Sincerity)",
     "judgment_zh": "豚魚吉，利涉大川，利貞。",
+    "judgment_pinyin": "Tún yú jí, lì shè dà chuān, lì zhēn.",
     "judgment_en": "Pigs and fishes are auspicious. It is favorable to cross the great river. It is favorable to be steadfast and upright.",
     "lines_zh": [
       "初九：虞吉，有它不燕。",
@@ -1872,6 +2474,14 @@
       "六四：月幾望，馬匹亡，无咎。",
       "九五：有孚攣如，无咎。",
       "上九：翰音登于天，貞凶。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Yú jí, yǒu tā bù yàn.",
+      "Jiǔ èr: Míng hè zài yīn, qí zi hé zhī, wǒ yǒu hǎo jué, wú yǔ ěr mí zhī.",
+      "Liù sān: Dé dí, huò gǔ huò bà, huò qì huò gē.",
+      "Liù sì: Yuè jǐ wàng, mǎ pǐ wáng, wú jiù.",
+      "Jiǔ wǔ: Yǒu fú luán rú, wú jiù.",
+      "Shàng jiǔ: Hàn yīn dēng yú tiān, zhēn xiōng."
     ],
     "lines_en": [
       "First line: Auspicious for preparation; there is something else, not at ease. Initial efforts are favorable, but there may be some unease or distraction.",
@@ -1893,8 +2503,10 @@
   {
     "number": 62,
     "chinese": "小過",
+    "pinyin": "Xiǎo guò",
     "title_en": "Small Exceeding",
     "judgment_zh": "亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上，宜下，大吉。",
+    "judgment_pinyin": "Hēng, lì zhēn, kě xiǎo shì, bù kě dà shì. Fēi niǎo yí zhī yīn, bù yí shàng, yí xià, dà jí.",
     "judgment_en": "Success. It is beneficial to be correct. Small matters are feasible, but not large matters. The sound of a flying bird is left behind. It is not suitable to go upward, but suitable to go downward. Great fortune.",
     "lines_zh": [
       "初六：飛鳥以凶。",
@@ -1903,6 +2515,14 @@
       "九四：无咎，弗過遇之。往厲必戒，勿用永貞。",
       "六五：密雲不雨，自我西郊，公弋取彼在穴。",
       "上六：弗遇過之，飛鳥離之，凶，是謂災眚。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Fēi niǎo yǐ xiōng.",
+      "Liù èr: Guò qí zǔ, yù qí bǐ; bù jí qí jūn, yù qí chén; wú jiù.",
+      "Jiǔ sān: Fú guò fáng zhī, cóng huò qiāng zhī, xiōng.",
+      "Jiǔ sì: Wú jiù, fú guò yù zhī. Wǎng lì bì jiè, wù yòng yǒng zhēn.",
+      "Liù wǔ: Mì yún bù yǔ, zì wǒ xī jiāo, gōng yì qǔ bǐ zài xué.",
+      "Shàng liù: Fú yù guò zhī, fēi niǎo lí zhī, xiōng, shì wèi zāi shěng."
     ],
     "lines_en": [
       "First line: A flying bird brings misfortune. Attempting to rise too high or act prematurely at the beginning can lead to misfortune.",
@@ -1924,8 +2544,10 @@
   {
     "number": 63,
     "chinese": "既濟",
+    "pinyin": "Jì jì",
     "title_en": "After Completion",
     "judgment_zh": "亨，小利貞，初吉終亂。",
+    "judgment_pinyin": "Hēng, xiǎo lì zhēn, chū jí zhōng luàn.",
     "judgment_en": "Success. It is beneficial to be steadfast and correct in small matters. In the beginning, there is good fortune, but in the end, there is disorder.",
     "lines_zh": [
       "初九：曳其輪，濡其尾，无咎。",
@@ -1934,6 +2556,14 @@
       "六四：繻有衣袽，終日戒。",
       "九五：東鄰殺牛，不如西鄰之禴祭，實受其福。",
       "上六：濡其首，厲。"
+    ],
+    "lines_pinyin": [
+      "Chū jiǔ: Yè qí lún, rú qí wěi, wú jiù.",
+      "Liù èr: Fù sàng qí fú, wù zhú, qī rì dé.",
+      "Jiǔ sān: Gāo zōng fá guǐ fāng, sān nián kè zhī, xiǎo rén wù yòng.",
+      "Liù sì: Xū yǒu yī rú, zhōng rì jiè.",
+      "Jiǔ wǔ: Dōng lín shā niú, bù rú xī lín zhī yuè jì, shí shòu qí fú.",
+      "Shàng liù: Rú qí shǒu, lì."
     ],
     "lines_en": [
       "First line: Dragging its wheels, wetting its tail, no blame. At the beginning there is some difficulty, but there is no blame for this initial struggle.",
@@ -1955,8 +2585,10 @@
   {
     "number": 64,
     "chinese": "未濟",
+    "pinyin": "Wèi jì",
     "title_en": "Before Completion",
     "judgment_zh": "亨，小狐汔濟，濡其尾，无攸利。",
+    "judgment_pinyin": "Hēng, xiǎo hú qì jì, rú qí wěi, wú yōu lì.",
     "judgment_en": "Success. The little fox, almost across, gets its tail wet. Nothing is favorable.",
     "lines_zh": [
       "初六：濡其尾，吝。",
@@ -1965,6 +2597,14 @@
       "九四：貞吉，悔亡，震用伐鬼方，三年有賞于大國。",
       "六五：貞吉，无悔，君子之光，有孚，吉。",
       "上九：有孚于飲酒，无咎，濡其首，有孚失是。"
+    ],
+    "lines_pinyin": [
+      "Chū liù: Rú qí wěi, lìn.",
+      "Jiǔ èr: Yè qí lún, zhēn jí.",
+      "Liù sān: Wèi jì, zhēng xiōng, lì shè dà chuān.",
+      "Jiǔ sì: Zhēn jí, huǐ wáng, zhèn yòng fá guǐ fāng, sān nián yǒu shǎng yú dà guó.",
+      "Liù wǔ: Zhēn jí, wú huǐ, jūn zǐ zhī guāng, yǒu fú, jí.",
+      "Shàng jiǔ: Yǒu fú yú yǐn jiǔ, wú jiù, rú qí shǒu, yǒu fú shī shì."
     ],
     "lines_en": [
       "First line: Getting its tail wet, there is humiliation. Warns of the dangers of premature action; minor but avoidable mistakes can lead to embarrassment.",
