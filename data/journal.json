@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-05-entry",
+    "date": "2026-09-05",
+    "title": "快乐的童年时光",
+    "body_text": "七十年代初蒙童的岁月：满心的喜乐。\n\n![快乐的童年时光](/static/journal/2026-09-05-entry.png)",
+    "html": "<p>七十年代初蒙童的岁月：满心的喜乐。</p>\n<p><img alt=\"快乐的童年时光\" src=\"/static/journal/2026-09-05-entry.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-05-how-to-dig-deeper-on-hardware",
     "date": "2026-09-05",
     "title": "how to dig deeper on  hardware?",
