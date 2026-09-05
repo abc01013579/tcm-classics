@@ -36,6 +36,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-05-return-0",
+    "date": "2026-09-05",
+    "title": "return 0: 无咎",
+    "body_text": "```c\n#include<universe.h>   // 你一直在阅读的那部天书\n\n#define integrity 1    // 你三十一年来逐渐建立起的信念\n#define compounding 1  // 你每周都在执行的那个循环\n\nvoid go_ahead() {\n    // 学习C、阅读K&R、记录shuiming.cc、定投BRK/B\n    // 每一天都在进行的工作\n}\n\nvoid pass() {\n    // 等待、休息、不勉强、保持安静\n}\n\nint main() {\n    if (integrity && compounding) {\n        go_ahead();   // 向前走\n    } else {\n        pass();       // 等待\n    }\n    return 0;         // 完整结束，不留未了之事\n}\n```",
+    "html": "<pre><code class=\"language-c\">#include&lt;universe.h&gt;   // 你一直在阅读的那部天书\n\n#define integrity 1    // 你三十一年来逐渐建立起的信念\n#define compounding 1  // 你每周都在执行的那个循环\n\nvoid go_ahead() {\n    // 学习C、阅读K&amp;R、记录shuiming.cc、定投BRK/B\n    // 每一天都在进行的工作\n}\n\nvoid pass() {\n    // 等待、休息、不勉强、保持安静\n}\n\nint main() {\n    if (integrity &amp;&amp; compounding) {\n        go_ahead();   // 向前走\n    } else {\n        pass();       // 等待\n    }\n    return 0;         // 完整结束，不留未了之事\n}\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-04-2-8-16-32-64-0-1-magic",
     "date": "2026-09-04",
     "title": "2/8/16/32/64:  0 1 magic",
