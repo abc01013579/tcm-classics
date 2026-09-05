@@ -18,6 +18,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-05-my-favorite-teacher",
+    "date": "2026-09-05",
+    "title": "my favorite teacher",
+    "body_text": "她教我们化学作业全是满分。初中升学考试也得100分。心里总是思恋着。\n\n![my favorite teacher](/static/journal/2026-09-05-my-favorite-teacher.png)",
+    "html": "<p>她教我们化学作业全是满分。初中升学考试也得100分。心里总是思恋着。</p>\n<p><img alt=\"my favorite teacher\" src=\"/static/journal/2026-09-05-my-favorite-teacher.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-04-2-8-16-32-64-0-1-magic",
     "date": "2026-09-04",
     "title": "2/8/16/32/64:  0 1 magic",
