@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-06-entry",
+    "date": "2026-09-06",
+    "title": "这么大？",
+    "body_text": "从未见过如此大的絲瓜！\n\n![这么大？](/static/journal/2026-09-06-entry.jpeg)",
+    "html": "<p>从未见过如此大的絲瓜！</p>\n<p><img alt=\"这么大？\" src=\"/static/journal/2026-09-06-entry.jpeg\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-05-entry",
     "date": "2026-09-05",
     "title": "快乐的童年时光",
