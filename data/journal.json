@@ -36,6 +36,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-07-so-precise",
+    "date": "2026-09-07",
+    "title": "so precise",
+    "body_text": "```c\n\n#include <stdio.h>\n//compile with: gcc -Wall -Wextra cc-c.c -o cc-c\n\n//K&R2 exercise 2-10: rewrite lower(), which converts uppercase letters to\n//lowercase, using a conditional expression instead of if/else -- both\n//branches just produce a value to return, so the whole function body\n//collapses to one expression\nint lower(int c)\n{\n    return (c >= 'A' && c <= 'Z') ? c + 'a' - 'A' : c;\n}\n\nint main(void)\n{\n    printf(\"lower('A') = %c\\n\", lower('A'));\n    printf(\"lower('Z') = %c\\n\", lower('Z'));\n    printf(\"lower('a') = %c\\n\", lower('a'));\n    printf(\"lower('5') = %c\\n\", lower('5'));\n    printf(\"lower('!') = %c\\n\", lower('!'));\n\n    return 0;\n}\n\n\n```win@DESKTOP-MEIH88T:~/webdev-projects$  gcc -Wall -Wextra cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./cc-c\nlower('A') = a\nlower('Z') = z\nlower('a') = a\nlower('5') = 5\nlower('!') = !",
+    "html": "<p>```c</p>\n<h1>include <stdio.h></h1>\n<p>//compile with: gcc -Wall -Wextra cc-c.c -o cc-c</p>\n<p>//K&amp;R2 exercise 2-10: rewrite lower(), which converts uppercase letters to\n//lowercase, using a conditional expression instead of if/else -- both\n//branches just produce a value to return, so the whole function body\n//collapses to one expression\nint lower(int c)\n{\n    return (c &gt;= 'A' &amp;&amp; c &lt;= 'Z') ? c + 'a' - 'A' : c;\n}</p>\n<p>int main(void)\n{\n    printf(\"lower('A') = %c\\n\", lower('A'));\n    printf(\"lower('Z') = %c\\n\", lower('Z'));\n    printf(\"lower('a') = %c\\n\", lower('a'));\n    printf(\"lower('5') = %c\\n\", lower('5'));\n    printf(\"lower('!') = %c\\n\", lower('!'));</p>\n<pre><code>return 0;\n</code></pre>\n<p>}</p>\n<p>```win@DESKTOP-MEIH88T:~/webdev-projects$  gcc -Wall -Wextra cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./cc-c\nlower('A') = a\nlower('Z') = z\nlower('a') = a\nlower('5') = 5\nlower('!') = !</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-06-entry",
     "date": "2026-09-06",
     "title": "这么大？",
