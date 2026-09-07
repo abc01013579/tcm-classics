@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-07-exercise",
+    "date": "2026-09-07",
+    "title": "exercise",
+    "body_text": "//run this example code?   bitcount:  count 1 bits in x \n ```c\n  int bitcount(unsigned x)   {       int b;       for (b = 0; x != 0; x >>= 1)           if (x & 01)               b++;       return b;   }\n```\n```c\n#include <stdio.h>\n//compile with: gcc -Wall -Wextra cc-c.c -o cc-c\n\n// bitcount:  count 1 bits in x \nint bitcount(unsigned x)\n{\n    int b;\n    for (b = 0; x != 0; x >>= 1)\n        if (x & 01)\n            b++;\n    return b;\n}\n\nint main(void)\n{\n    printf(\"bitcount(0)    = %d\\n\", bitcount(0));\n    printf(\"bitcount(1)    = %d\\n\", bitcount(1));\n    printf(\"bitcount(7)    = %d\\n\", bitcount(7));\n    printf(\"bitcount(0x6A) = %d   -- 0x6A is 01101010, four 1-bits\\n\", bitcount(0x6A));\n    printf(\"bitcount(0xFF) = %d\\n\", bitcount(0xFF));\n    printf(\"bitcount(~0u)  = %d   -- all bits set, so this equals the width of unsigned\\n\", bitcount(~0u));\n\n    return 0;\n}\n```\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./cc-c\nbitcount(0)    = 0\nbitcount(1)    = 1\nbitcount(7)    = 3\nbitcount(0x6A) = 4   -- 0x6A is 01101010, four 1-bits\nbitcount(0xFF) = 8\nbitcount(~0u)  = 32   -- all bits set, so this equals the width of unsigned",
+    "html": "<p>//run this example code?   bitcount:  count 1 bits in x \n ```c\n  int bitcount(unsigned x)   {       int b;       for (b = 0; x != 0; x &gt;&gt;= 1)           if (x &amp; 01)               b++;       return b;   }</p>\n<pre><code>```c\n#include &lt;stdio.h&gt;\n//compile with: gcc -Wall -Wextra cc-c.c -o cc-c\n\n// bitcount:  count 1 bits in x \nint bitcount(unsigned x)\n{\n    int b;\n    for (b = 0; x != 0; x &gt;&gt;= 1)\n        if (x &amp; 01)\n            b++;\n    return b;\n}\n\nint main(void)\n{\n    printf(&quot;bitcount(0)    = %d\\n&quot;, bitcount(0));\n    printf(&quot;bitcount(1)    = %d\\n&quot;, bitcount(1));\n    printf(&quot;bitcount(7)    = %d\\n&quot;, bitcount(7));\n    printf(&quot;bitcount(0x6A) = %d   -- 0x6A is 01101010, four 1-bits\\n&quot;, bitcount(0x6A));\n    printf(&quot;bitcount(0xFF) = %d\\n&quot;, bitcount(0xFF));\n    printf(&quot;bitcount(~0u)  = %d   -- all bits set, so this equals the width of unsigned\\n&quot;, bitcount(~0u));\n\n    return 0;\n}\n</code></pre>\n<p>win@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./cc-c\nbitcount(0)    = 0\nbitcount(1)    = 1\nbitcount(7)    = 3\nbitcount(0x6A) = 4   -- 0x6A is 01101010, four 1-bits\nbitcount(0xFF) = 8\nbitcount(~0u)  = 32   -- all bits set, so this equals the width of unsigned</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-07-integrity-compounding-else-pass",
     "date": "2026-09-07",
     "title": "（integrity + compounding) ++; else pass",
