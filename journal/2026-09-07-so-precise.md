@@ -4,7 +4,6 @@ date: 2026-09-07
 ---
 
 ```c
-
 #include <stdio.h>
 //compile with: gcc -Wall -Wextra cc-c.c -o cc-c
 
@@ -27,9 +26,9 @@ int main(void)
 
     return 0;
 }
+```
 
-
-```win@DESKTOP-MEIH88T:~/webdev-projects$  gcc -Wall -Wextra cc-c.c -o cc-c
+win@DESKTOP-MEIH88T:~/webdev-projects$  gcc -Wall -Wextra cc-c.c -o cc-c
 win@DESKTOP-MEIH88T:~/webdev-projects$ ./cc-c
 lower('A') = a
 lower('Z') = z
