@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-11-entry",
+    "date": "2026-09-11",
+    "title": "三屏并用",
+    "body_text": "shuiming…Ubuntu CLI 取代vs code terminal 的确很棒，给视觉一个畅展的空间.\n\ncc…在 VS Code 里 在独立 CLI 里\n视觉被分割成多个小区域 视觉空间完整\n注意力被多个面板争夺 注意力集中在一件事上\n需要“切换”到终端 终端本身就是主场\n输出被限制在狭小窗口 输出可以自由舒展\n\nshuiming…是不是大多数developers 都是这么弄的\n\ncc…屏幕 常见用途 对应你的设置\n左屏 文档、浏览器、参考、聊天（Slack/Discord） YouTube / PDF\n中屏 主编辑器（VS Code / Vim） VS Code + CC + Copilot\n右屏 终端 / 运行 / 监控 / 测试 Ubuntu CLI\n\n![三屏并用](/static/journal/2026-09-11-entry.jpeg)",
+    "html": "<p>shuiming…Ubuntu CLI 取代vs code terminal 的确很棒，给视觉一个畅展的空间.</p>\n<p>cc…在 VS Code 里 在独立 CLI 里\n视觉被分割成多个小区域 视觉空间完整\n注意力被多个面板争夺 注意力集中在一件事上\n需要“切换”到终端 终端本身就是主场\n输出被限制在狭小窗口 输出可以自由舒展</p>\n<p>shuiming…是不是大多数developers 都是这么弄的</p>\n<p>cc…屏幕 常见用途 对应你的设置\n左屏 文档、浏览器、参考、聊天（Slack/Discord） YouTube / PDF\n中屏 主编辑器（VS Code / Vim） VS Code + CC + Copilot\n右屏 终端 / 运行 / 监控 / 测试 Ubuntu CLI</p>\n<p><img alt=\"三屏并用\" src=\"/static/journal/2026-09-11-entry.jpeg\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-09-groq-01-py-vs-code-cli",
     "date": "2026-09-09",
     "title": "groq-01.py  + vs code + CLI",
