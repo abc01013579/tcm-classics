@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-13-snake-zen-mind",
+    "date": "2026-09-13",
+    "title": "snake + zen mind",
+    "body_text": "Three points to improve the snake game:\n1...loop around when not sure safty , take our time, play safe. \n2...simplfying the keyboard entry: right -> up -> left -> down, same order, keep looping.\n3...focus mind on the food landing lines, let go the rest. auto-pilot.\n\n![snake + zen mind](/static/journal/2026-09-13-snake-zen-mind.png)",
+    "html": "<p>Three points to improve the snake game:\n1...loop around when not sure safty , take our time, play safe. \n2...simplfying the keyboard entry: right -&gt; up -&gt; left -&gt; down, same order, keep looping.\n3...focus mind on the food landing lines, let go the rest. auto-pilot.</p>\n<p><img alt=\"snake + zen mind\" src=\"/static/journal/2026-09-13-snake-zen-mind.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-13-snake",
     "date": "2026-09-13",
     "title": "snake + 无咎",
