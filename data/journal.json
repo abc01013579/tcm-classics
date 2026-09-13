@@ -18,6 +18,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-13-snake-hits-its-own-body",
+    "date": "2026-09-13",
+    "title": "snake hits its own body",
+    "body_text": "hit the wall or hit its own body\n\n![snake hits its own body](/static/journal/2026-09-13-snake-hits-its-own-body.png)",
+    "html": "<p>hit the wall or hit its own body</p>\n<p><img alt=\"snake hits its own body\" src=\"/static/journal/2026-09-13-snake-hits-its-own-body.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-13-snake-zen-mind",
     "date": "2026-09-13",
     "title": "snake + zen mind",
