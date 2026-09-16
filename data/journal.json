@@ -18,6 +18,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-16-self-collision",
+    "date": "2026-09-16",
+    "title": "self collision",
+    "body_text": "as wall is no more an issue, main task is to avoid self colliding.\n\n![self collision](/static/journal/2026-09-16-self-collision.png)",
+    "html": "<p>as wall is no more an issue, main task is to avoid self colliding.</p>\n<p><img alt=\"self collision\" src=\"/static/journal/2026-09-16-self-collision.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-15-is-it-worth-it",
     "date": "2026-09-15",
     "title": "is it worth it?",
