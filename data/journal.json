@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-22-2-n",
+    "date": "2026-09-22",
+    "title": "2^n",
+    "body_text": "```c\n2 ^ 1 = 2\n2 ^ 2 = 4\n2 ^ 3 = 8\n2 ^ 6 =64\n```\n\n![2^n](/static/journal/2026-09-22-2-n.png)",
+    "html": "<pre><code class=\"language-c\">2 ^ 1 = 2\n2 ^ 2 = 4\n2 ^ 3 = 8\n2 ^ 6 =64\n</code></pre>\n<p><img alt=\"2^n\" src=\"/static/journal/2026-09-22-2-n.png\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-22-entry",
     "date": "2026-09-22",
     "title": "童子功",
