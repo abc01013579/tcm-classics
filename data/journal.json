@@ -27,6 +27,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-24-pointer-bit-byte",
+    "date": "2026-09-24",
+    "title": "pointer & bit byte",
+    "body_text": "```c\n#include <stdio.h>\n\nint main() {\n    printf(\"char 占用 %zu 字节 = %zu 位\\n\", sizeof(char), sizeof(char) * 8);\n    printf(\"int 占用 %zu 字节 = %zu 位\\n\", sizeof(int), sizeof(int) * 8);\n    printf(\"指针 占用 %zu 字节 = %zu 位\\n\", sizeof(int*), sizeof(int*) * 8);\n    return 0;\n}\n\nwin@DESKTOP-MEIH88T:~$ cd webdev-projects\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra ccc-c.c -o ccc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./ccc-c\nchar 占用 1 字节 = 8 位\nint 占用 4 字节 = 32 位\n指针 占用 8 字节 = 64 位\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n\nint main() {\n    printf(&quot;char 占用 %zu 字节 = %zu 位\\n&quot;, sizeof(char), sizeof(char) * 8);\n    printf(&quot;int 占用 %zu 字节 = %zu 位\\n&quot;, sizeof(int), sizeof(int) * 8);\n    printf(&quot;指针 占用 %zu 字节 = %zu 位\\n&quot;, sizeof(int*), sizeof(int*) * 8);\n    return 0;\n}\n\nwin@DESKTOP-MEIH88T:~$ cd webdev-projects\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra ccc-c.c -o ccc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./ccc-c\nchar 占用 1 字节 = 8 位\nint 占用 4 字节 = 32 位\n指针 占用 8 字节 = 64 位\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-23-entry",
     "date": "2026-09-23",
     "title": "电脑的电源变压器",
