@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-09-25-printbits",
+    "date": "2026-09-25",
+    "title": "printbits",
+    "body_text": "```c\n#include <stdio.h>\n#include <limits.h>\n\nvoid printbits(unsigned x, int n)\n{\n    for (int i = n - 1; i >= 0; i--) {\n        putchar((x >> i) & 1 ? '1' : '0');\n        if (i % 4 == 0 && i) putchar(' ');   /* space between nibbles */\n    }\n    putchar('\\n');\n}\n\nint main(void)\n{\n    printf(\"CHAR_BIT        = %d\\n\", CHAR_BIT);\n    printf(\"sizeof(int)     = %zu bytes = %zu bits\\n\", sizeof(int), sizeof(int) * CHAR_BIT);\n    printf(\"UINT_MAX        = %u\\n\", UINT_MAX);\n\n    printf(\"'7' as int      = %d, '7' - '0' = %d\\n\", '7', '7' - '0');\n\n    printf(\"214             = \"); printbits(214, 8);\n    printf(\"-1 (8 bits)     = \"); printbits((unsigned char)-1, 8);\n\n    int x = 0x12345678;\n    unsigned char *p = (unsigned char *)&x;\n    printf(\"0x12345678 bytes in memory: %02x %02x %02x %02x\\n\", p[0], p[1], p[2], p[3]);\n    return 0;\n\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra ccc-c.c -o ccc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./ccc-c\nCHAR_BIT        = 8\nsizeof(int)     = 4 bytes = 32 bits\nUINT_MAX        = 4294967295\n'7' as int      = 55, '7' - '0' = 7\n214             = 1101 0110\n-1 (8 bits)     = 1111 1111\n0x12345678 bytes in memory: 78 56 34 12\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n#include &lt;limits.h&gt;\n\nvoid printbits(unsigned x, int n)\n{\n    for (int i = n - 1; i &gt;= 0; i--) {\n        putchar((x &gt;&gt; i) &amp; 1 ? '1' : '0');\n        if (i % 4 == 0 &amp;&amp; i) putchar(' ');   /* space between nibbles */\n    }\n    putchar('\\n');\n}\n\nint main(void)\n{\n    printf(&quot;CHAR_BIT        = %d\\n&quot;, CHAR_BIT);\n    printf(&quot;sizeof(int)     = %zu bytes = %zu bits\\n&quot;, sizeof(int), sizeof(int) * CHAR_BIT);\n    printf(&quot;UINT_MAX        = %u\\n&quot;, UINT_MAX);\n\n    printf(&quot;'7' as int      = %d, '7' - '0' = %d\\n&quot;, '7', '7' - '0');\n\n    printf(&quot;214             = &quot;); printbits(214, 8);\n    printf(&quot;-1 (8 bits)     = &quot;); printbits((unsigned char)-1, 8);\n\n    int x = 0x12345678;\n    unsigned char *p = (unsigned char *)&amp;x;\n    printf(&quot;0x12345678 bytes in memory: %02x %02x %02x %02x\\n&quot;, p[0], p[1], p[2], p[3]);\n    return 0;\n\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gcc -Wall -Wextra ccc-c.c -o ccc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./ccc-c\nCHAR_BIT        = 8\nsizeof(int)     = 4 bytes = 32 bits\nUINT_MAX        = 4294967295\n'7' as int      = 55, '7' - '0' = 7\n214             = 1101 0110\n-1 (8 bits)     = 1111 1111\n0x12345678 bytes in memory: 78 56 34 12\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-24-digit-bit-and-bytes",
     "date": "2026-09-24",
     "title": "digit bit and bytes",
