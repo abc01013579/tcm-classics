@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-09-29-in-c",
+    "date": "2026-09-29",
+    "title": "厥孚复利 in c",
+    "body_text": "(Integrity && compounding); ++",
+    "html": "<p>(Integrity &amp;&amp; compounding); ++</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-09-29-variables",
     "date": "2026-09-29",
     "title": "variables",
