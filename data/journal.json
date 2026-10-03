@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-10-03-printf-word-s-letters-argv",
+    "date": "2026-10-03",
+    "title": "printf(\"word: %s letters\", *argv);",
+    "body_text": "```c\n#include <stdio.h>\n//compile with: gcc -Wall -Wextra c-c.c -o c-c\n//run with:     ./c-c -df -n hello        # word: -df  letters: d f | word: -n  letters: n | stopped at: hello\n\n//Your two lines (unchanged), inside a main so they can run. The outer\n//loop steps through the WORDS on the command line; the inner loop\n//steps through the LETTERS of one word.\n\nint main(int argc, char *argv[])\n{\n    int c;\n\n    while (--argc > 0 && (*++argv)[0] == '-') {\n        printf(\"word: %s  letters:\", *argv);\n        while((c = *++argv[0]))\n            printf(\" %c\", c);\n        printf(\"\\n\");\n    }\n    if (argc > 0)\n        printf(\"stopped at: %s (doesn't start with -)\\n\", *argv);\n        \n    return 0;\n}\n\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./c-c -d -f -n -r shuiming_cc\nword: -d  letters: d\nword: -f  letters: f\nword: -n  letters: n\nword: -r  letters: r\nstopped at: shuiming_cc (doesn't start with -)\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./c-c -d -f -nr -r -n shuiming_cc\nword: -d  letters: d\nword: -f  letters: f\nword: -nr  letters: n r\nword: -r  letters: r\nword: -n  letters: n\nstopped at: shuiming_cc (doesn't start with -)\nwin@DESKTOP-MEIH88T:~/webdev-projects$ echo $?\n0\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;stdio.h&gt;\n//compile with: gcc -Wall -Wextra c-c.c -o c-c\n//run with:     ./c-c -df -n hello        # word: -df  letters: d f | word: -n  letters: n | stopped at: hello\n\n//Your two lines (unchanged), inside a main so they can run. The outer\n//loop steps through the WORDS on the command line; the inner loop\n//steps through the LETTERS of one word.\n\nint main(int argc, char *argv[])\n{\n    int c;\n\n    while (--argc &gt; 0 &amp;&amp; (*++argv)[0] == '-') {\n        printf(&quot;word: %s  letters:&quot;, *argv);\n        while((c = *++argv[0]))\n            printf(&quot; %c&quot;, c);\n        printf(&quot;\\n&quot;);\n    }\n    if (argc &gt; 0)\n        printf(&quot;stopped at: %s (doesn't start with -)\\n&quot;, *argv);\n\n    return 0;\n}\n\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./c-c -d -f -n -r shuiming_cc\nword: -d  letters: d\nword: -f  letters: f\nword: -n  letters: n\nword: -r  letters: r\nstopped at: shuiming_cc (doesn't start with -)\nwin@DESKTOP-MEIH88T:~/webdev-projects$ ./c-c -d -f -nr -r -n shuiming_cc\nword: -d  letters: d\nword: -f  letters: f\nword: -nr  letters: n r\nword: -r  letters: r\nword: -n  letters: n\nstopped at: shuiming_cc (doesn't start with -)\nwin@DESKTOP-MEIH88T:~/webdev-projects$ echo $?\n0\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-02-argv-0",
     "date": "2026-10-02",
     "title": "（*++argv)[0] == ‘-‘",
