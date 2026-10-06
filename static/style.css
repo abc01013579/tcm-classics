@@ -578,52 +578,30 @@ h1 {
   letter-spacing: 0.05em;
 }
 
-.binary-code {
+.utf8-head {
+  font-size: 1.25rem;
+}
+
+.utf8-text {
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reading .utf8-text p {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  font-size: 2rem !important;
-  letter-spacing: 0.25em;
-  text-align: center;
-  margin-bottom: 1rem !important;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  margin: 0 0 0.9rem;
 }
 
-.binary-value {
-  color: var(--muted);
-  font-size: 1.2rem;
-  letter-spacing: 0;
+.utf8-ch {
+  white-space: nowrap;        /* keep one character's bytes together */
+  margin-right: 0.6ch;        /* plus the space after it: the entry's two spaces */
 }
 
-.binary-lines {
-  margin: 0 auto 1.5rem;
-  border-collapse: collapse;
-}
-
-.binary-lines td {
-  padding: 0.25rem 0.6rem;
-  vertical-align: middle;
-}
-
-.binary-pos {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
-.binary-bar .line {
-  width: 120px;
-  height: 10px;
-  border-radius: 2px;
-}
-
-.binary-bar .line.yang {
-  background: var(--line);
-}
-
-.binary-bar .line.yin {
-  background: linear-gradient(to right, var(--line) 42%, transparent 42%, transparent 58%, var(--line) 58%);
-}
-
-.binary-bit {
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  font-size: 1.2rem;
+.utf8-ch:hover {
+  color: var(--accent);
 }
 
 .binary-inline {
@@ -760,20 +738,17 @@ h1 {
     color: #333;
   }
 
-  .hexagram-diagram .line,
-  .binary-bar .line {
+  .hexagram-diagram .line {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     border: 1px solid #000;
   }
 
-  .hexagram-diagram .line.yang,
-  .binary-bar .line.yang {
+  .hexagram-diagram .line.yang {
     background: #000;
   }
 
-  .hexagram-diagram .line.yin,
-  .binary-bar .line.yin {
+  .hexagram-diagram .line.yin {
     background: linear-gradient(to right, #000 42%, transparent 42%, transparent 58%, #000 58%);
   }
 }

@@ -24,8 +24,7 @@
             {% elif v == "seal" %}
               <span>{{ h.number }}. <span class="seal-text">{{ text.trad.chinese }}</span></span>
             {% elif v == "bin" %}
-              {% set bits = h.bits_bottom_up|join %}
-              <span>{{ h.number }}. {{ text.trad.chinese }} <span class="binary-inline">{{ bits }} · {{ bits|int(base=2) }}</span></span>
+              <span>{{ h.number }}. {{ h.chinese }} <span class="binary-inline">{% for ch in h.chinese %}{{ ch|utf8bits }}{% if not loop.last %}&ensp;{% endif %}{% endfor %}</span></span>
             {% else %}
               <span>{{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span></span>
             {% endif %}

@@ -15,9 +15,11 @@
     {% elif v in ("simp", "trad") %}
       <h1>{{ hexagram.number }}. {{ text[v].chinese }}</h1>
       <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
-    {% elif v in ("seal", "bin") %}
-      <h1>{{ hexagram.number }}. <span class="{{ 'seal-text' if v == 'seal' }}">{{ text.trad.chinese }}</span></h1>
+    {% elif v == "seal" %}
+      <h1>{{ hexagram.number }}. <span class="seal-text">{{ text.trad.chinese }}</span></h1>
       <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+    {% elif v == "bin" %}
+      <h1 class="utf8-head">{{ "%c"|format(0x4DBF + hexagram.number) }}&ensp;第{{ hexagram.number|cn_num }}卦&ensp;{{ hexagram.chinese }}&ensp;<span class="zhouyi-en-hint">{{ hexagram.pinyin }} · {{ hexagram.title_en }}</span></h1>
     {% else %}
       <h1>{{ hexagram.number }}. {{ hexagram.chinese }} <span class="zhouyi-en-hint">{{ hexagram.title_en }}</span></h1>
       <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
@@ -52,19 +54,13 @@
         Small-seal forms from the Shuowen Jiezi; characters it lacks fall back to regular script.</p>
 
     {% elif v == "bin" %}
-      {% set bits = hexagram.bits_bottom_up|join %}
-      <p class="binary-code">{{ bits }} <span class="binary-value">= {{ bits|int(base=2) }}</span></p>
-      <table class="binary-lines">
-        {% for bit in hexagram.bits_bottom_up|reverse %}
-          <tr>
-            <td class="binary-pos">{{ ["上", "五", "四", "三", "二", "初"][loop.index0] }}</td>
-            <td class="binary-bar"><div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div></td>
-            <td class="binary-bit">{{ bit }}</td>
-          </tr>
+      <div class="utf8-text">
+        {% for line in [hexagram.judgment_zh] + hexagram.lines_zh %}
+          <p>{% for ch in line %}<span class="utf8-ch" title="{{ ch }}">{{ ch|utf8bits }}</span> {% endfor %}</p>
         {% endfor %}
-      </table>
-      <p class="hint">自初爻（下）至上爻依次读作二进制：阳 = 1，阴 = 0。此即莱布尼茨（Leibniz）1703 年论二进制时所用的伏羲六十四卦次序：坤 = 0，乾 = 63。<br>
-        Read the lines from bottom to top as binary digits: yang = 1, yin = 0. This is the Fuxi order Leibniz used in his 1703 paper on binary: Kun = 0, Qian = 63.</p>
+      </div>
+      <p class="hint">每个汉字和标点在电脑中存为 3 个字节（UTF-8 编码），每字节 8 位；把指针停在一组上可见其字。<br>
+        Each character and punctuation mark is stored as 3 bytes of UTF-8, 8 bits each; hover over a group to see its character.</p>
 
     {% else %}
       <div class="bilingual-pair">

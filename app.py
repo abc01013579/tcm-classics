@@ -1,3 +1,4 @@
+import hashlib
 import os
 import re
 import subprocess
@@ -21,6 +22,33 @@ import build_journal
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-only-insecure-secret-key")
+
+# Short hash of style.css, appended as ?v=... to its URL in base.html, so a
+# changed stylesheet gets a new URL and browsers/Cloudflare can't keep serving
+# the old one from cache (it's sent with max-age=14400).
+CSS_VERSION = hashlib.md5((ROOT / "static" / "style.css").read_bytes()).hexdigest()[:8]
+
+
+@app.context_processor
+def inject_css_version():
+    return {"css_version": CSS_VERSION}
+
+
+CN_DIGITS = "零一二三四五六七八九"
+
+
+@app.template_filter("cn_num")
+def cn_num(n):
+    """1..99 as Chinese numerals: 1 -> 一, 10 -> 十, 24 -> 二十四."""
+    tens, ones = divmod(n, 10)
+    head = "" if tens == 0 else ("十" if tens == 1 else CN_DIGITS[tens] + "十")
+    return head + (CN_DIGITS[ones] if ones else "")
+
+
+@app.template_filter("utf8bits")
+def utf8bits(ch):
+    """One character's UTF-8 bytes as 8-bit groups: 元 -> 11100101 10000101 10000011."""
+    return " ".join(f"{b:08b}" for b in ch.encode("utf-8"))
 
 JOURNAL_PASSWORD = os.environ.get("JOURNAL_PASSWORD")
 GITHUB_PUSH_TOKEN = os.environ.get("GITHUB_PUSH_TOKEN")
