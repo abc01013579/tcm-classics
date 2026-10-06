@@ -11,6 +11,8 @@ BENCAO = json.loads((DATA_DIR / "bencao.json").read_text(encoding="utf-8"))
 BENCAO_EN = json.loads((DATA_DIR / "bencao_en.json").read_text(encoding="utf-8"))
 ZHOUYI = json.loads((DATA_DIR / "zhouyi.json").read_text(encoding="utf-8"))
 ZHOUYI_BY_NUMBER = {h["number"]: h for h in ZHOUYI}
+# {"1": {"simp": {chinese, judgment, lines}, "trad": {...}}, ...} from scripts/build_zhouyi_versions.py
+ZHOUYI_VERSIONS = json.loads((DATA_DIR / "zhouyi_versions.json").read_text(encoding="utf-8"))
 
 JOURNAL = json.loads((DATA_DIR / "journal.json").read_text(encoding="utf-8"))
 JOURNAL_BY_SLUG = {e["slug"]: e for e in JOURNAL}

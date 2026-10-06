@@ -2,45 +2,97 @@
 {% block title %}{{ hexagram.number }}. {{ hexagram.chinese }} ({{ hexagram.title_en }}) - 周易{% endblock %}
 {% block content %}
   <p class="breadcrumb no-print">
-    <a href="{{ url_for('zhouyi_index') }}">周易</a>
+    <a href="{{ url_for('zhouyi_index', v=v or None) }}">周易</a>
   </p>
+
+  {% with number=hexagram.number %}{% include "_zhouyi_versions.html" %}{% endwith %}
 
   <article class="reading zhouyi-reading">
     <button type="button" class="print-btn no-print" onclick="window.print()">打印本卦</button>
-    <h1>{{ hexagram.number }}. {{ hexagram.chinese }} <span class="zhouyi-en-hint">{{ hexagram.title_en }}</span></h1>
-    <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+    {% if v == "en" %}
+      <h1>{{ hexagram.number }}. {{ hexagram.title_en }} <span class="zhouyi-en-hint">{{ hexagram.pinyin }}</span></h1>
+      <p class="chapter-meta">Hexagram {{ hexagram.number }} of {{ total }}</p>
+    {% elif v in ("simp", "trad") %}
+      <h1>{{ hexagram.number }}. {{ text[v].chinese }}</h1>
+      <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+    {% elif v in ("seal", "bin") %}
+      <h1>{{ hexagram.number }}. <span class="{{ 'seal-text' if v == 'seal' }}">{{ text.trad.chinese }}</span></h1>
+      <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+    {% else %}
+      <h1>{{ hexagram.number }}. {{ hexagram.chinese }} <span class="zhouyi-en-hint">{{ hexagram.title_en }}</span></h1>
+      <p class="chapter-meta">第 {{ hexagram.number }} 卦 / 共 {{ total }} 卦</p>
+    {% endif %}
 
-    <div class="hexagram-diagram">
-      {% for bit in hexagram.bits_bottom_up|reverse %}
-        <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
-      {% endfor %}
-    </div>
-
-    <div class="bilingual-pair">
-      <p class="bilingual-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
-      <p class="bilingual-pinyin">{{ hexagram.pinyin }}: {{ hexagram.judgment_pinyin }}</p>
-      <p class="bilingual-en">{{ hexagram.judgment_en }}</p>
-      <p class="bilingual-seal">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
-    </div>
-
-    {% for line_zh in hexagram.lines_zh %}
-      <div class="bilingual-pair">
-        <p class="bilingual-zh">{{ line_zh }}</p>
-        <p class="bilingual-pinyin">{{ hexagram.lines_pinyin[loop.index0] }}</p>
-        <p class="bilingual-en">{{ hexagram.lines_en[loop.index0] }}</p>
-        <p class="bilingual-seal">{{ line_zh }}</p>
+    {% if v != "bin" %}
+      <div class="hexagram-diagram">
+        {% for bit in hexagram.bits_bottom_up|reverse %}
+          <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    {% endif %}
+
+    {% if v in ("simp", "trad") %}
+      <p>{{ text[v].chinese }}：{{ text[v].judgment }}</p>
+      {% for line in text[v].lines %}
+        <p>{{ line }}</p>
+      {% endfor %}
+
+    {% elif v == "en" %}
+      <p>{{ hexagram.judgment_en }}</p>
+      {% for line in hexagram.lines_en %}
+        <p>{{ line }}</p>
+      {% endfor %}
+
+    {% elif v == "seal" %}
+      <p class="seal-text">{{ text.trad.chinese }}：{{ text.trad.judgment }}</p>
+      {% for line in text.trad.lines %}
+        <p class="seal-text">{{ line }}</p>
+      {% endfor %}
+      <p class="hint">字形取自《说文解字》小篆；《说文》未收之字以楷书显示。<br>
+        Small-seal forms from the Shuowen Jiezi; characters it lacks fall back to regular script.</p>
+
+    {% elif v == "bin" %}
+      {% set bits = hexagram.bits_bottom_up|join %}
+      <p class="binary-code">{{ bits }} <span class="binary-value">= {{ bits|int(base=2) }}</span></p>
+      <table class="binary-lines">
+        {% for bit in hexagram.bits_bottom_up|reverse %}
+          <tr>
+            <td class="binary-pos">{{ ["上", "五", "四", "三", "二", "初"][loop.index0] }}</td>
+            <td class="binary-bar"><div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div></td>
+            <td class="binary-bit">{{ bit }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+      <p class="hint">自初爻（下）至上爻依次读作二进制：阳 = 1，阴 = 0。此即莱布尼茨（Leibniz）1703 年论二进制时所用的伏羲六十四卦次序：坤 = 0，乾 = 63。<br>
+        Read the lines from bottom to top as binary digits: yang = 1, yin = 0. This is the Fuxi order Leibniz used in his 1703 paper on binary: Kun = 0, Qian = 63.</p>
+
+    {% else %}
+      <div class="bilingual-pair">
+        <p class="bilingual-zh">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
+        <p class="bilingual-pinyin">{{ hexagram.pinyin }}: {{ hexagram.judgment_pinyin }}</p>
+        <p class="bilingual-en">{{ hexagram.judgment_en }}</p>
+        <p class="bilingual-seal">{{ hexagram.chinese }}：{{ hexagram.judgment_zh }}</p>
+      </div>
+
+      {% for line_zh in hexagram.lines_zh %}
+        <div class="bilingual-pair">
+          <p class="bilingual-zh">{{ line_zh }}</p>
+          <p class="bilingual-pinyin">{{ hexagram.lines_pinyin[loop.index0] }}</p>
+          <p class="bilingual-en">{{ hexagram.lines_en[loop.index0] }}</p>
+          <p class="bilingual-seal">{{ line_zh }}</p>
+        </div>
+      {% endfor %}
+    {% endif %}
   </article>
 
   <nav class="chapter-nav no-print">
     {% if hexagram.number > 1 %}
-      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number - 1) }}">← 上一卦</a>
+      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number - 1, v=v or None) }}">← 上一卦</a>
     {% else %}
       <span></span>
     {% endif %}
     {% if hexagram.number < total %}
-      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number + 1) }}">下一卦 →</a>
+      <a href="{{ url_for('zhouyi_chapter', number=hexagram.number + 1, v=v or None) }}">下一卦 →</a>
     {% endif %}
   </nav>
 {% endblock %}

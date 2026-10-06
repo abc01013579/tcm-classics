@@ -4,17 +4,31 @@
   <h1>周易<span class="title-pinyin">Zhouyi</span></h1>
   <p class="hint">六十四卦 · 中英对照 The 64 Hexagrams · Chinese &amp; English</p>
 
+  {% include "_zhouyi_versions.html" %}
+
   <section class="toc-section">
     <ol class="toc-grid">
       {% for h in hexagrams %}
+        {% set text = versions[h.number|string] %}
         <li>
-          <a class="zhouyi-toc-link" href="{{ url_for('zhouyi_chapter', number=h.number) }}">
+          <a class="zhouyi-toc-link" href="{{ url_for('zhouyi_chapter', number=h.number, v=v or None) }}">
             <span class="hexagram-mini">
               {% for bit in h.bits_bottom_up|reverse %}
                 <div class="line {{ 'yang' if bit == 1 else 'yin' }}"></div>
               {% endfor %}
             </span>
-            <span>{{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span></span>
+            {% if v in ("simp", "trad") %}
+              <span>{{ h.number }}. {{ text[v].chinese }}</span>
+            {% elif v == "en" %}
+              <span>{{ h.number }}. {{ h.title_en }} <span class="zhouyi-en-hint">{{ h.pinyin }}</span></span>
+            {% elif v == "seal" %}
+              <span>{{ h.number }}. <span class="seal-text">{{ text.trad.chinese }}</span></span>
+            {% elif v == "bin" %}
+              {% set bits = h.bits_bottom_up|join %}
+              <span>{{ h.number }}. {{ text.trad.chinese }} <span class="binary-inline">{{ bits }} · {{ bits|int(base=2) }}</span></span>
+            {% else %}
+              <span>{{ h.number }}. {{ h.chinese }} <span class="zhouyi-en-hint">{{ h.title_en }}</span></span>
+            {% endif %}
           </a>
         </li>
       {% endfor %}

@@ -536,6 +536,102 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+/* Zhouyi version switch: 对照 / 简体 / 繁體 / English / 小篆 / 二进制 */
+.version-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.version-switch .version-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.version-switch a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.version-switch a:hover {
+  color: var(--accent);
+}
+
+.version-switch a.active {
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom-color: var(--accent);
+}
+
+.seal-text {
+  font-family: "ZhouyiSeal", serif;
+  color: var(--accent);
+}
+
+.reading p.seal-text {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
+.binary-code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 2rem !important;
+  letter-spacing: 0.25em;
+  text-align: center;
+  margin-bottom: 1rem !important;
+}
+
+.binary-value {
+  color: var(--muted);
+  font-size: 1.2rem;
+  letter-spacing: 0;
+}
+
+.binary-lines {
+  margin: 0 auto 1.5rem;
+  border-collapse: collapse;
+}
+
+.binary-lines td {
+  padding: 0.25rem 0.6rem;
+  vertical-align: middle;
+}
+
+.binary-pos {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.binary-bar .line {
+  width: 120px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.binary-bar .line.yang {
+  background: var(--line);
+}
+
+.binary-bar .line.yin {
+  background: linear-gradient(to right, var(--line) 42%, transparent 42%, transparent 58%, var(--line) 58%);
+}
+
+.binary-bit {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 1.2rem;
+}
+
+.binary-inline {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+
 .bencao-header {
   color: var(--accent);
   font-size: 1rem;
@@ -654,7 +750,8 @@ h1 {
     color: #000;
   }
 
-  .bilingual-seal {
+  .bilingual-seal,
+  .seal-text {
     color: #000;
   }
 
@@ -663,17 +760,20 @@ h1 {
     color: #333;
   }
 
-  .hexagram-diagram .line {
+  .hexagram-diagram .line,
+  .binary-bar .line {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     border: 1px solid #000;
   }
 
-  .hexagram-diagram .line.yang {
+  .hexagram-diagram .line.yang,
+  .binary-bar .line.yang {
     background: #000;
   }
 
-  .hexagram-diagram .line.yin {
+  .hexagram-diagram .line.yin,
+  .binary-bar .line.yin {
     background: linear-gradient(to right, #000 42%, transparent 42%, transparent 58%, #000 58%);
   }
 }

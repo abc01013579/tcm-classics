@@ -117,9 +117,30 @@ def bencao_juan(juan_slug):
     )
 
 
+ZHOUYI_VERSION_MENU = [
+    ("", "对照"),
+    ("simp", "简体"),
+    ("trad", "繁體"),
+    ("en", "English"),
+    ("seal", "小篆"),
+    ("bin", "二进制"),
+]
+
+
+def zhouyi_version():
+    v = request.args.get("v", "")
+    return v if v in dict(ZHOUYI_VERSION_MENU) else ""
+
+
 @app.route("/zhouyi")
 def zhouyi_index():
-    return render_template("zhouyi_index.html", hexagrams=core.ZHOUYI)
+    return render_template(
+        "zhouyi_index.html",
+        hexagrams=core.ZHOUYI,
+        versions=core.ZHOUYI_VERSIONS,
+        v=zhouyi_version(),
+        version_menu=ZHOUYI_VERSION_MENU,
+    )
 
 
 @app.route("/zhouyi/<int:number>")
@@ -127,7 +148,14 @@ def zhouyi_chapter(number):
     hexagram = core.get_zhouyi_hexagram(number)
     if hexagram is None:
         abort(404)
-    return render_template("zhouyi_chapter.html", hexagram=hexagram, total=len(core.ZHOUYI))
+    return render_template(
+        "zhouyi_chapter.html",
+        hexagram=hexagram,
+        total=len(core.ZHOUYI),
+        text=core.ZHOUYI_VERSIONS[str(number)],
+        v=zhouyi_version(),
+        version_menu=ZHOUYI_VERSION_MENU,
+    )
 
 
 @app.route("/xinjing")

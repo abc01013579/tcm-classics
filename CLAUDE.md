@@ -21,6 +21,7 @@ python scripts/build_bencao_en.py  # scripts/bencao_en_batches/*.json -> data/be
 python scripts/build_neijing_en.py # scripts/{suwen,lingshu}_en_batches/*.json -> data/neijing_en.json
 python scripts/build_zhouyi.py     # sibling ../yijing_app's hexagram data -> data/zhouyi.json (yijing_app must be checked out alongside this repo)
 python scripts/build_xinjing.py    # sources/huangdinijing.txt -> data/xinjing.json
+python scripts/build_zhouyi_versions.py # data/zhouyi.json -> data/zhouyi_versions.json (简体/繁體 text for /zhouyi?v=...; needs `pip install opencc`, build-time only)
 python scripts/build_journal.py    # journal/*.md -> data/journal.json
 ```
 

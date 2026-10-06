@@ -1,0 +1,11 @@
+<nav class="version-switch no-print" aria-label="版本 Versions">
+  <span class="version-label">版本</span>
+  {%- for code, label in version_menu %}
+    {%- if number is defined %}
+      {%- set href = url_for('zhouyi_chapter', number=number, v=code or None) %}
+    {%- else %}
+      {%- set href = url_for('zhouyi_index', v=code or None) %}
+    {%- endif %}
+  <a href="{{ href }}"{% if code == v %} class="active" aria-current="page"{% endif %}>{{ label }}</a>
+  {%- endfor %}
+</nav>
