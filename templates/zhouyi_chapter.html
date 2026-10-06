@@ -55,9 +55,10 @@
 
     {% elif v == "bin" %}
       <div class="utf8-text">
-        {% for line in [hexagram.judgment_zh] + hexagram.lines_zh %}
-          <p>{% for ch in line %}<span class="utf8-ch" title="{{ ch }}">{{ ch|utf8bits }}</span> {% endfor %}</p>
-        {% endfor %}
+        {#- split() puts 用九 / 用六, joined to the top line by a space in the source, on their own -#}
+        {% for line in [hexagram.judgment_zh] + hexagram.lines_zh %}{% for part in line.split() %}
+          <p>{% for ch in part %}<span class="utf8-ch" title="{{ ch }}">{{ ch|utf8bits }}</span> {% endfor %}</p>
+        {% endfor %}{% endfor %}
       </div>
       <p class="hint">每个汉字和标点在电脑中存为 3 个字节（UTF-8 编码），每字节 8 位；把指针停在一组上可见其字。<br>
         Each character and punctuation mark is stored as 3 bytes of UTF-8, 8 bits each; hover over a group to see its character.</p>
