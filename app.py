@@ -56,7 +56,9 @@ JOURNAL_PASSWORD = os.environ.get("JOURNAL_PASSWORD")
 GITHUB_PUSH_TOKEN = (os.environ.get("GITHUB_PUSH_TOKEN") or "").strip() or None
 GITHUB_REPO = "abc01013579/tcm-classics"
 
-SLUG_STRIP_RE = re.compile(r"[^a-z0-9]+")
+# Runs of anything that isn't a letter or digit (Chinese characters count as
+# letters), plus "_", become one "-" in an entry's file name / URL.
+SLUG_STRIP_RE = re.compile(r"[\W_]+")
 
 
 def login_required(view):
@@ -69,8 +71,10 @@ def login_required(view):
 
 
 def _slugify(title):
-    ascii_title = title.encode("ascii", "ignore").decode("ascii").lower()
-    return SLUG_STRIP_RE.sub("-", ascii_title).strip("-")
+    # Keeps Chinese, like the hand-added entries (2026-07-18-厥孚复利.md). It used
+    # to keep only a-z0-9, so every all-Chinese title became "<date>-entry" and a
+    # second one on the same day was refused as a duplicate.
+    return SLUG_STRIP_RE.sub("-", title.lower()).strip("-")
 
 
 def _commit_and_push(entry_path, title, extra_paths=()):
