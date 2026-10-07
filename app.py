@@ -51,7 +51,9 @@ def utf8bits(ch):
     return " ".join(f"{b:08b}" for b in ch.encode("utf-8"))
 
 JOURNAL_PASSWORD = os.environ.get("JOURNAL_PASSWORD")
-GITHUB_PUSH_TOKEN = os.environ.get("GITHUB_PUSH_TOKEN")
+# .strip(): a token pasted into Render's dashboard can carry a trailing newline,
+# which git rejects inside the push URL ("url contains a newline").
+GITHUB_PUSH_TOKEN = (os.environ.get("GITHUB_PUSH_TOKEN") or "").strip() or None
 GITHUB_REPO = "abc01013579/tcm-classics"
 
 SLUG_STRIP_RE = re.compile(r"[^a-z0-9]+")
