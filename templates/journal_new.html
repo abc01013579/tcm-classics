@@ -31,10 +31,6 @@
     </span>
     <textarea id="body" name="body" rows="14" required>{{ form.body }}</textarea>
 
-    <label for="body_en">English translation（选填）</label>
-    <textarea id="body_en" name="body_en" rows="10">{{ form.body_en }}</textarea>
-    <p class="hint">如果填写，段落数必须与正文一一对应，否则保存会失败。</p>
-
     <label for="photo">添加照片（选填）</label>
     <input type="file" id="photo" name="photo" accept="image/*">
     <p class="hint">支持 jpg/png/gif/webp，会自动加在正文最后。</p>
@@ -73,8 +69,7 @@
     }
     document.querySelector(".entry-form").addEventListener("submit", function (e) {
       var body = document.getElementById("body").value;
-      var bodyEn = document.getElementById("body_en").value;
-      if (looksLikeUnfencedCode(body) || looksLikeUnfencedCode(bodyEn)) {
+      if (looksLikeUnfencedCode(body)) {
         e.preventDefault();
         alert("正文里似乎有代码，但没有用 ```c 和 ``` 包裹，保存后不会按代码排版。请选中代码后点\"插入代码块\"，再发布。");
       }
