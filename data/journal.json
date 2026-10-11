@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-10-11-dennis-ritchie-s-kernel-printf",
+    "date": "2026-10-11",
+    "title": "Dennis Ritchie's kernel printf",
+    "body_text": "printf in ~/unix-v6/ken/prf.c is that idea in about 25 lines:\n```c\n\nprintf(fmt,x1,x2,x3,x4,x5,x6,x7,x8,x9,xa,xb,xc)\nchar fmt[];\n{\n\tregister char *s;\n\tregister *adx, c;\n\n\tadx = &x1;\nloop:\n\twhile((c = *fmt++) != '%') {\n\t\tif(c == '\\0')\n\t\t\treturn;\n\t\tputchar(c);\n\t}\n\tc = *fmt++;\n\tif(c == 'd' || c == 'l' || c == 'o')\n\t\tprintn(*adx, c=='o'? 8: 10);\n\tif(c == 's') {\n\t\ts = *adx;\n\t\twhile(c = *s++)\n\t\t\tputchar(c);\n\t}\n\tadx++;\n\tgoto loop;\n}\n\nprintn(n, b)\n{\n\tregister a;\n\n\tif(a = ldiv(n, b))\n\t\tprintn(a, b);\n\tputchar(lrem(n, b) + '0');\n}\n\n```",
+    "html": "<p>printf in ~/unix-v6/ken/prf.c is that idea in about 25 lines:</p>\n<pre><code class=\"language-c\">\nprintf(fmt,x1,x2,x3,x4,x5,x6,x7,x8,x9,xa,xb,xc)\nchar fmt[];\n{\n    register char *s;\n    register *adx, c;\n\n    adx = &amp;x1;\nloop:\n    while((c = *fmt++) != '%') {\n        if(c == '\\0')\n            return;\n        putchar(c);\n    }\n    c = *fmt++;\n    if(c == 'd' || c == 'l' || c == 'o')\n        printn(*adx, c=='o'? 8: 10);\n    if(c == 's') {\n        s = *adx;\n        while(c = *s++)\n            putchar(c);\n    }\n    adx++;\n    goto loop;\n}\n\nprintn(n, b)\n{\n    register a;\n\n    if(a = ldiv(n, b))\n        printn(a, b);\n    putchar(lrem(n, b) + '0');\n}\n\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-07-how-to-skim-cs-books",
     "date": "2026-10-07",
     "title": "how to skim cs books?",
