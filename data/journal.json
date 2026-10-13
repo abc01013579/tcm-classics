@@ -27,6 +27,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-10-13-getch-and-ungetch",
+    "date": "2026-10-13",
+    "title": "getch and ungetch",
+    "body_text": "```c\n#define BUFSIZE 100\n\nchar buf[BUFSIZE];      //buffer for ungetch\nint bufp = 0;           //next free position in buf\n\n//getch:  get a (possibly pushed back) character\nint getch(void)\n{\n    //IDIOM: (n > 0) ? buf[--n] : getchar() -- take a pushed-back char first, else read a new one\n    return (bufp > 0) ? buf[--bufp] : getchar();\n}\n\n//ungetch:  push character back on input\nvoid ungetch(int c)\n{\n    if (bufp >= BUFSIZE)\n        printf(\"ungetch: too many characters\\n\");\n    else\n        buf[bufp++] = c;\n}\n\nint getch(viod)\n{\n    if (bufp > 0)\n         return buf[- -bufp];\n    else\n        return getchar();\n}\n\nbuf[bufp++] = c\n\nbuf[bufp] = c;\nbufp = bufp + 1; \n\n\n```",
+    "html": "<pre><code class=\"language-c\">#define BUFSIZE 100\n\nchar buf[BUFSIZE];      //buffer for ungetch\nint bufp = 0;           //next free position in buf\n\n//getch:  get a (possibly pushed back) character\nint getch(void)\n{\n    //IDIOM: (n &gt; 0) ? buf[--n] : getchar() -- take a pushed-back char first, else read a new one\n    return (bufp &gt; 0) ? buf[--bufp] : getchar();\n}\n\n//ungetch:  push character back on input\nvoid ungetch(int c)\n{\n    if (bufp &gt;= BUFSIZE)\n        printf(&quot;ungetch: too many characters\\n&quot;);\n    else\n        buf[bufp++] = c;\n}\n\nint getch(viod)\n{\n    if (bufp &gt; 0)\n         return buf[- -bufp];\n    else\n        return getchar();\n}\n\nbuf[bufp++] = c\n\nbuf[bufp] = c;\nbufp = bufp + 1; \n\n\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-13-jsut-for-fun",
     "date": "2026-10-13",
     "title": "jsut for fun",
