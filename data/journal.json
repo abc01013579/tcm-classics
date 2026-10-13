@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-10-13-g3-hash-gdb",
+    "date": "2026-10-13",
+    "title": "-g3  hash gdb",
+    "body_text": "```c\nunsigned hash(char *s)\n{\n    unsigned hashval;\n\n    for (hashval = 0; *s != '\\0'; s++)\n        hashval = *s + 31 * hashval;\n    return hashval % HASHSIZE;\n}\n\nb hash\nrun\nn\np *s\np hashval\nn\nn\np *s\np hashval\nn\nn\np hashval\np hashval % HASHSIZE\n\n\ngcc -Wall -Wextra -g3 cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gdb -q ./cc-c\nReading symbols from ./cc-c...\n(gdb) b hash\nBreakpoint 1 at 0x13f0: file cc-c.c, line 98.\n(gdb) run\nStarting program: /home/win/webdev-projects/cc-c\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"/usr/lib/x86_64-linux-gnu/libthread_db.so.1\".\n\nBreakpoint 1, hash (s=0x55555555600a \"IN\") at cc-c.c:98\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p *s\n$1 = 73 'I'\n(gdb) p hashval\n$2 = 0\n(gdb) n\n99              hashval = *s + 31 * hashval;\n(gdb) n\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p hashval\n$3 = 73\n\n(gdb) p *s\n$4 = 73 'I'\n(gdb) n\n99              hashval = *s + 31 * hashval;\n(gdb) n\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p hashval\n$5 = 2341\n(gdb) n\n100         return hashval % HASHSIZE;\n(gdb) p hashval % HASHSIZE\n$6 = 18\n```",
+    "html": "<pre><code class=\"language-c\">unsigned hash(char *s)\n{\n    unsigned hashval;\n\n    for (hashval = 0; *s != '\\0'; s++)\n        hashval = *s + 31 * hashval;\n    return hashval % HASHSIZE;\n}\n\nb hash\nrun\nn\np *s\np hashval\nn\nn\np *s\np hashval\nn\nn\np hashval\np hashval % HASHSIZE\n\n\ngcc -Wall -Wextra -g3 cc-c.c -o cc-c\nwin@DESKTOP-MEIH88T:~/webdev-projects$ gdb -q ./cc-c\nReading symbols from ./cc-c...\n(gdb) b hash\nBreakpoint 1 at 0x13f0: file cc-c.c, line 98.\n(gdb) run\nStarting program: /home/win/webdev-projects/cc-c\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library &quot;/usr/lib/x86_64-linux-gnu/libthread_db.so.1&quot;.\n\nBreakpoint 1, hash (s=0x55555555600a &quot;IN&quot;) at cc-c.c:98\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p *s\n$1 = 73 'I'\n(gdb) p hashval\n$2 = 0\n(gdb) n\n99              hashval = *s + 31 * hashval;\n(gdb) n\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p hashval\n$3 = 73\n\n(gdb) p *s\n$4 = 73 'I'\n(gdb) n\n99              hashval = *s + 31 * hashval;\n(gdb) n\n98          for (hashval = 0; *s != '\\0'; s++)\n(gdb) p hashval\n$5 = 2341\n(gdb) n\n100         return hashval % HASHSIZE;\n(gdb) p hashval % HASHSIZE\n$6 = 18\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-12-pp-pp-pp-in-gdb",
     "date": "2026-10-12",
     "title": "pp *pp **pp in gdb",
