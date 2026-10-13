@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-10-13-jsut-for-fun",
+    "date": "2026-10-13",
+    "title": "jsut for fun",
+    "body_text": "```c\n#include <huangdeneijing.h>\n#include <zhouyi.h>\n#include <xinjing.h>\n#include <shengyijing.h>\n#include <shengnubencaojing.h>\n#include <yiyin.h>\n\n#define \n#define MAXYEAR  121\n#define MAXAMOUNT 70%100\n\nvoid eat(void)\nvoid sleep(void)\nvoid amznwalking(void);\nvoid dca(void);\nvoid oukai(void);\nvoid learningcs(void);\n\nint main(void)\n{\n    integrity && compounding, ++ ;\n\n    keep it simple = eat sleep amznwalking dca oukai learningcs;\n\n    return 0\n}\n\nvoid eat(void)\n{\n    eat += eat\n}\n  \nvoid sleep(void)\n{\n    sleep += sleep\n}\n\nvoid amznwalking()\n{\n    amznwalking += amznwalking\n}\n\nvoid dca(void)\n{\n    dca += dca\n}\n\nvoid oukai(void)\n{\n    oukai += oukai\n}\n\nvoid(learningcs)\n{\n    learningcs += learningcs\n}\n```",
+    "html": "<pre><code class=\"language-c\">#include &lt;huangdeneijing.h&gt;\n#include &lt;zhouyi.h&gt;\n#include &lt;xinjing.h&gt;\n#include &lt;shengyijing.h&gt;\n#include &lt;shengnubencaojing.h&gt;\n#include &lt;yiyin.h&gt;\n\n#define \n#define MAXYEAR  121\n#define MAXAMOUNT 70%100\n\nvoid eat(void)\nvoid sleep(void)\nvoid amznwalking(void);\nvoid dca(void);\nvoid oukai(void);\nvoid learningcs(void);\n\nint main(void)\n{\n    integrity &amp;&amp; compounding, ++ ;\n\n    keep it simple = eat sleep amznwalking dca oukai learningcs;\n\n    return 0\n}\n\nvoid eat(void)\n{\n    eat += eat\n}\n\nvoid sleep(void)\n{\n    sleep += sleep\n}\n\nvoid amznwalking()\n{\n    amznwalking += amznwalking\n}\n\nvoid dca(void)\n{\n    dca += dca\n}\n\nvoid oukai(void)\n{\n    oukai += oukai\n}\n\nvoid(learningcs)\n{\n    learningcs += learningcs\n}\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-12-pp-pp-pp-in-gdb",
     "date": "2026-10-12",
     "title": "pp *pp **pp in gdb",
