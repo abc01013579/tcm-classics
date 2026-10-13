@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-10-13-finally-understood-hash",
+    "date": "2026-10-13",
+    "title": "Finally understood hash",
+    "body_text": "```c\nshuiming….. hash is so little\n\ncc….. Yes, and that's the point: hash is only 3 lines of real logic, yet the whole table depends on it.\n\nfor (hashval = 0; *s != '\\0'; s++)\n    hashval = *s + 31 * hashval;\nreturn hashval % HASHSIZE;\n\nshuiming….. Put math in detail?\n\ncc….. I rechecked every step, and both results hold: indoor → 10 .\n\nLetters are their ASCII codes: d=100, e=101, h=104, i=105, m=109, n=110, o=111, r=114, s=115.\n\n\"indoor\"\n\nchar\tcalculation\th\ni\t105 + 31×0\t105\nn\t110 + 31×105 = 110 + 3,255\t3,365\nd\t100 + 31×3,365 = 100 + 104,315\t104,415\no\t111 + 31×104,415 = 111 + 3,236,865\t3,236,976\no\t111 + 31×3,236,976 = 111 + 100,346,256\t100,346,367\nr\t114 + 31×100,346,367 = 114 + 3,110,737,377\t    3,110,737,491\n\nafter\th mod 101\ni\t105 mod 101 = 4\nn\t110 + 31×4 = 234 → 32\nd\t100 + 31×32 = 1,092 → 82\no\t111 + 31×82 = 2,653 → 27\no\t111 + 31×27 = 948 → 39\nr\t114 + 31×39 = 1,323 → 10\n\nturning strings into numbers 0 to 100\n\n\n```",
+    "html": "<pre><code class=\"language-c\">shuiming….. hash is so little\n\ncc….. Yes, and that's the point: hash is only 3 lines of real logic, yet the whole table depends on it.\n\nfor (hashval = 0; *s != '\\0'; s++)\n    hashval = *s + 31 * hashval;\nreturn hashval % HASHSIZE;\n\nshuiming….. Put math in detail?\n\ncc….. I rechecked every step, and both results hold: indoor → 10 .\n\nLetters are their ASCII codes: d=100, e=101, h=104, i=105, m=109, n=110, o=111, r=114, s=115.\n\n&quot;indoor&quot;\n\nchar    calculation h\ni   105 + 31×0  105\nn   110 + 31×105 = 110 + 3,255  3,365\nd   100 + 31×3,365 = 100 + 104,315  104,415\no   111 + 31×104,415 = 111 + 3,236,865  3,236,976\no   111 + 31×3,236,976 = 111 + 100,346,256  100,346,367\nr   114 + 31×100,346,367 = 114 + 3,110,737,377      3,110,737,491\n\nafter   h mod 101\ni   105 mod 101 = 4\nn   110 + 31×4 = 234 → 32\nd   100 + 31×32 = 1,092 → 82\no   111 + 31×82 = 2,653 → 27\no   111 + 31×27 = 948 → 39\nr   114 + 31×39 = 1,323 → 10\n\nturning strings into numbers 0 to 100\n\n\n</code></pre>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-13-g3-hash-gdb",
     "date": "2026-10-13",
     "title": "-g3  hash gdb",
