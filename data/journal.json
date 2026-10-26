@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-10-26-read-list",
+    "date": "2026-10-26",
+    "title": "read list",
+    "body_text": "shuiming.....it takes years to go through these files.\n\ncc.....It does, and that's fine, because a library isn't a reading list. Most of those books are for reference: you open Knuth, CLRS, or APUE when a question sends you there, not to read them cover to cover. Nobody reads all of a library. It's there for when you need it.\n\nThe part you actually read in order is small, and you've already found it:\n\nK&R2 (000), which is your main path now\nV6 + Lions (082 + 063), read alongside it\nShort originals for when you want a break: the 1974 paper (076), Trusting Trust (087), and Ritchie's C history (062)\nThat's maybe 600 pages of core reading. The rest grows in value as you go: once you know C well, Bach (049), APUE (042), and the Linux kernel books will read far faster than they would today.\n\nYou know this pattern from investing. Like a portfolio, a library isn't something to finish. You hold it, add to it slowly, and let understanding compound. Years is the right timescale.",
+    "html": "<p>shuiming.....it takes years to go through these files.</p>\n<p>cc.....It does, and that's fine, because a library isn't a reading list. Most of those books are for reference: you open Knuth, CLRS, or APUE when a question sends you there, not to read them cover to cover. Nobody reads all of a library. It's there for when you need it.</p>\n<p>The part you actually read in order is small, and you've already found it:</p>\n<p>K&amp;R2 (000), which is your main path now\nV6 + Lions (082 + 063), read alongside it\nShort originals for when you want a break: the 1974 paper (076), Trusting Trust (087), and Ritchie's C history (062)\nThat's maybe 600 pages of core reading. The rest grows in value as you go: once you know C well, Bach (049), APUE (042), and the Linux kernel books will read far faster than they would today.</p>\n<p>You know this pattern from investing. Like a portfolio, a library isn't something to finish. You hold it, add to it slowly, and let understanding compound. Years is the right timescale.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-10-23-what-is-buffer",
     "date": "2026-10-23",
     "title": "What is buffer?",
