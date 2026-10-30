@@ -35,6 +35,39 @@ DATA = ROOT / "data"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)
 EN_MARKER = "<!--en-->"
 
+# A YouTube link at the end of a line (alone or after a label like
+# "talk: https://...") becomes a clickable link plus an embedded player.
+YOUTUBE_RE = re.compile(
+    r"^(.*?)(https?://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?v=|shorts/)|youtu\.be/)"
+    r"([\w-]{11})\S*)\s*$"
+)
+
+
+def _embed_youtube(text):
+    out = []
+    in_fence = False
+    for line in text.split("\n"):
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+        m = None if in_fence else YOUTUBE_RE.match(line)
+        if not m:
+            out.append(line)
+            continue
+        label, url, video_id = m.groups()
+        if label.strip():
+            out.append(f'{label}<a href="{url}">{url}</a>')
+            out.append("")
+        out.append(
+            f'<div class="video-embed"><iframe src="https://www.youtube.com/embed/{video_id}" '
+            'title="YouTube video" allowfullscreen loading="lazy"></iframe></div>'
+        )
+        out.append("")
+    return "\n".join(out)
+
+
+def _render(text):
+    return markdown.markdown(_embed_youtube(text), extensions=["tables", "fenced_code"])
+
 
 def _strip_p_tag(html):
     if html.startswith("<p>") and html.endswith("</p>"):
@@ -75,8 +108,8 @@ def parse_entry(path):
             )
         pairs = [
             (
-                _strip_p_tag(markdown.markdown(zh, extensions=["tables", "fenced_code"])),
-                _strip_p_tag(markdown.markdown(en, extensions=["tables", "fenced_code"])),
+                _strip_p_tag(_render(zh)),
+                _strip_p_tag(_render(en)),
             )
             for zh, en in zip(zh_paragraphs, en_paragraphs)
         ]
@@ -87,7 +120,7 @@ def parse_entry(path):
         "date": meta["date"],
         "title": meta["title"],
         "body_text": body,
-        "html": markdown.markdown(body, extensions=["tables", "fenced_code"]),
+        "html": _render(body),
         "bilingual": bilingual,
         "pairs": pairs,
     }
