@@ -1,5 +1,5 @@
 ---
-title: LLMs vs David Silver and Yann LeCum
+title: LLMs vs David Silver and Yann LeCun
 date: 2026-10-30
 ---
 
