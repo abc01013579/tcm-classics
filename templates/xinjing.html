@@ -6,10 +6,12 @@
     <h1>{{ sutra.title_zh }}<span class="title-pinyin">Xin Jing</span></h1>
 
     {% for para in sutra.paragraphs %}
-      <div class="bilingual-pair">
-        <p class="bilingual-zh">{{ para.zh }}</p>
-        <p class="bilingual-en">{{ para.en }}</p>
-      </div>
+      <p>{{ para.zh }}</p>
     {% endfor %}
+    <div class="en-block" lang="en">
+      {% for para in sutra.paragraphs %}
+        <p>{{ para.en }}</p>
+      {% endfor %}
+    </div>
   </article>
 {% endblock %}

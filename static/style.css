@@ -554,6 +554,17 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+/* Classics: full Chinese text first, then the full English below a rule */
+.en-block {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.en-block p {
+  color: var(--muted);
+}
+
 /* Zhouyi version switch: 对照 / 简体 / 繁體 / English / 小篆 / 二进制 */
 .version-switch {
   display: flex;
@@ -752,6 +763,7 @@ h1 {
   }
 
   .bilingual-en,
+  .en-block p,
   .zhouyi-en-hint {
     color: #333;
   }

@@ -12,11 +12,13 @@
 
     {% if chapter.bilingual %}
       {% for zh, en in chapter.pairs %}
-        <div class="bilingual-pair">
-          <p class="bilingual-zh">{{ zh }}</p>
-          <p class="bilingual-en">{{ en }}</p>
-        </div>
+        <p>{{ zh }}</p>
       {% endfor %}
+      <div class="en-block" lang="en">
+        {% for zh, en in chapter.pairs %}
+          <p>{{ en }}</p>
+        {% endfor %}
+      </div>
     {% else %}
       {% for paragraph in chapter.paragraphs %}
         <p>{{ paragraph }}</p>
