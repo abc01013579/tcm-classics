@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block title %}随笔{% endblock %}
 {% block content %}
-  <h1>随笔</h1>
-  <p class="hint">日常感悟与随想</p>
+  <h1>随笔{% if tag %} · {{ tag }}{% endif %}</h1>
+  <p class="hint">{% if tag %}<a href="{{ url_for('journal_index') }}">全部随笔</a>{% else %}日常感悟与随想{% endif %}</p>
 
   <p class="no-print"><a href="{{ url_for('journal_new') }}">+ 新随笔</a></p>
 

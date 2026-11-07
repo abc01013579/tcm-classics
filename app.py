@@ -223,7 +223,11 @@ def logout():
 
 @app.route("/journal")
 def journal_index():
-    return render_template("journal_index.html", entries=core.JOURNAL)
+    tag = request.args.get("tag", "").strip()
+    entries = core.JOURNAL
+    if tag:
+        entries = [e for e in entries if tag.lower() in e["title"].lower()]
+    return render_template("journal_index.html", entries=entries, tag=tag)
 
 
 @app.route("/journal/new", methods=["GET", "POST"])
