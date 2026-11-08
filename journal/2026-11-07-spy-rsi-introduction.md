@@ -7,9 +7,10 @@ A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 20
 
 ## Rules
 
-- **Entry:** RSI(14) on the daily chart below 30.
+- **Time frames:** daily, 4h, 1h, each tracked separately.
+- **Entry:** RSI(14) < 30.
+- **Exit:** RSI(14) > 50.
 - **Size:** start with 10 shares; add only as profits grow.
-- **Exit:** chosen before each entry: RSI back above 50, a 4–6 week time limit, or hold long term if it doesn't bounce.
 - **No leverage.**
 - **No post, no trade:** every entry and exit is posted here in real time.
 
@@ -17,11 +18,11 @@ A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 20
 
 ```
 SPY entry — 10 sh @ ___
-RSI(14): __ · exit plan: RSI>50 / 4–6 wk / hold
+RSI(14): __ · time frame: daily / 4h / 1h
 ```
 
-Exit post: price, profit or loss, whether the plan was followed.
+Exit post: price, RSI, profit or loss, whether the rules were followed.
 
 ## What it tests
 
-Whether a simple oversold signal beats just holding the index, and whether I follow my own rules. The log will answer both.
+Whether a simple oversold signal beats just holding the index, which time frame works best, and whether I follow my own rules. The log will answer all three.
