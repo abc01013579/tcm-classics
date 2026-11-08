@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-07-spy-rsi-introduction",
+    "date": "2026-11-07",
+    "title": "SPY-RSI introduction",
+    "body_text": "A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 2045). The core compounds and is never timed. This bucket tests one rule: buy SPY when it is oversold, sell when it recovers.\n\n## Rules\n\n- **Entry:** RSI(14) on the daily chart below 30.\n- **Size:** start with 10 shares; add only as profits grow.\n- **Exit:** chosen before each entry: RSI back above 50, a 4–6 week time limit, or hold long term if it doesn't bounce.\n- **No leverage.**\n- **No post, no trade:** every entry and exit is posted here in real time.\n\n## Log format\n\n```\nSPY entry — 10 sh @ ___\nRSI(14): __ · exit plan: RSI>50 / 4–6 wk / hold\n```\n\nExit post: price, profit or loss, whether the plan was followed.\n\n## What it tests\n\nWhether a simple oversold signal beats just holding the index, and whether I follow my own rules. The log will answer both.",
+    "html": "<p>A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 2045). The core compounds and is never timed. This bucket tests one rule: buy SPY when it is oversold, sell when it recovers.</p>\n<h2>Rules</h2>\n<ul>\n<li><strong>Entry:</strong> RSI(14) on the daily chart below 30.</li>\n<li><strong>Size:</strong> start with 10 shares; add only as profits grow.</li>\n<li><strong>Exit:</strong> chosen before each entry: RSI back above 50, a 4–6 week time limit, or hold long term if it doesn't bounce.</li>\n<li><strong>No leverage.</strong></li>\n<li><strong>No post, no trade:</strong> every entry and exit is posted here in real time.</li>\n</ul>\n<h2>Log format</h2>\n<pre><code>SPY entry — 10 sh @ ___\nRSI(14): __ · exit plan: RSI&gt;50 / 4–6 wk / hold\n</code></pre>\n<p>Exit post: price, profit or loss, whether the plan was followed.</p>\n<h2>What it tests</h2>\n<p>Whether a simple oversold signal beats just holding the index, and whether I follow my own rules. The log will answer both.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-07-斯坦福的高效睡眠法",
     "date": "2026-11-07",
     "title": "斯坦福的高效睡眠法",
