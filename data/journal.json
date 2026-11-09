@@ -36,6 +36,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-09-spy-rsi-uso",
+    "date": "2026-11-09",
+    "title": "SPY-RSI: USO",
+    "body_text": "USO is sold as a way to own oil, but it doesn't hold a single barrel. It holds futures contracts, and every month it must sell the expiring one and buy the next. When later months cost more, each roll loses a little money. Year after year, those small losses add up.\n\nThe chart shows the result. Oil today trades in the same broad range as in 2008, yet USO has lost most of its value since then. In 2020, when oil futures briefly went negative, it was crushed and later did a 1-for-8 reverse split.\n\nIt isn't illegal; the prospectus explains it all. But many people bought it believing it tracks oil over time, which it was never built to do.\n\nI traded CL futures myself for years and roughly broke even, losing on commissions and spreads. USO taught the same lesson at a larger scale: in futures-based products, time works against you. With SPY, time works for you.\n\n![SPY-RSI: USO](/static/journal/2026-11-09-spy-rsi-uso.webp)",
+    "html": "<p>USO is sold as a way to own oil, but it doesn't hold a single barrel. It holds futures contracts, and every month it must sell the expiring one and buy the next. When later months cost more, each roll loses a little money. Year after year, those small losses add up.</p>\n<p>The chart shows the result. Oil today trades in the same broad range as in 2008, yet USO has lost most of its value since then. In 2020, when oil futures briefly went negative, it was crushed and later did a 1-for-8 reverse split.</p>\n<p>It isn't illegal; the prospectus explains it all. But many people bought it believing it tracks oil over time, which it was never built to do.</p>\n<p>I traded CL futures myself for years and roughly broke even, losing on commissions and spreads. USO taught the same lesson at a larger scale: in futures-based products, time works against you. With SPY, time works for you.</p>\n<p><img alt=\"SPY-RSI: USO\" src=\"/static/journal/2026-11-09-spy-rsi-uso.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-09-人尽天年的样子",
     "date": "2026-11-09",
     "title": "人尽天年的样子",
