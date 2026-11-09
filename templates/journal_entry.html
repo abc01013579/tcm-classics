@@ -12,11 +12,13 @@
     <div class="journal-body">
       {% if entry.bilingual %}
         {% for zh, en in entry.pairs %}
-          <div class="bilingual-pair">
-            <p class="bilingual-zh">{{ zh | safe }}</p>
-            <p class="bilingual-en">{{ en | safe }}</p>
-          </div>
+          <p>{{ zh | safe }}</p>
         {% endfor %}
+        <div class="en-block" lang="en">
+          {% for zh, en in entry.pairs %}
+            <p>{{ en | safe }}</p>
+          {% endfor %}
+        </div>
       {% else %}
         {{ entry.html | safe }}
       {% endif %}
