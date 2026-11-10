@@ -2,9 +2,9 @@
   {
     "slug": "2026-11-10-spy-rsi-electron",
     "date": "2026-11-10",
-    "title": "SPY-RSI: electron",
-    "body_text": "Same election; same stock. Huge swings. \nNo one can consistently predict the future market directions. Any margin position could be wiped out in this kind of huge swing days.\n\n![SPY-RSI: electron](/static/journal/2026-11-10-spy-rsi-electron.webp)",
-    "html": "<p>Same election; same stock. Huge swings. \nNo one can consistently predict the future market directions. Any margin position could be wiped out in this kind of huge swing days.</p>\n<p><img alt=\"SPY-RSI: electron\" src=\"/static/journal/2026-11-10-spy-rsi-electron.webp\" /></p>",
+    "title": "SPY-RSI: election",
+    "body_text": "Same election, same stock. Huge swings. \nNo one can consistently predict future market direction. Any margin position could be wiped out on days with swings this big.\n\n![SPY-RSI: election](/static/journal/2026-11-10-spy-rsi-electron.webp)",
+    "html": "<p>Same election, same stock. Huge swings. \nNo one can consistently predict future market direction. Any margin position could be wiped out on days with swings this big.</p>\n<p><img alt=\"SPY-RSI: election\" src=\"/static/journal/2026-11-10-spy-rsi-electron.webp\" /></p>",
     "bilingual": false,
     "pairs": null
   },
@@ -12,8 +12,8 @@
     "slug": "2026-11-10-spy-rsi-intc",
     "date": "2026-11-10",
     "title": "SPY-RSI: INTC",
-    "body_text": "INTC was today’s NVDA in 1990’s. It’s the dominant player in chips industry. I traded its warrants and stock. Made some good money on them. It’s hard to believe that it could do anything wrong. But the mobile revolution and LLM revolution just went by without much its contribution. Today its fate is still uncertain.\n\n![SPY-RSI: INTC](/static/journal/2026-11-10-spy-rsi-intc.webp)",
-    "html": "<p>INTC was today’s NVDA in 1990’s. It’s the dominant player in chips industry. I traded its warrants and stock. Made some good money on them. It’s hard to believe that it could do anything wrong. But the mobile revolution and LLM revolution just went by without much its contribution. Today its fate is still uncertain.</p>\n<p><img alt=\"SPY-RSI: INTC\" src=\"/static/journal/2026-11-10-spy-rsi-intc.webp\" /></p>",
+    "body_text": "INTC was the NVDA of the 1990s. It was the dominant player in the chip industry. I traded its warrants and stock. I made some good money on them. It was hard to believe that it could do anything wrong. But the mobile revolution and LLM revolution went by without much contribution from it. Today its fate is still uncertain.\n\n![SPY-RSI: INTC](/static/journal/2026-11-10-spy-rsi-intc.webp)",
+    "html": "<p>INTC was the NVDA of the 1990s. It was the dominant player in the chip industry. I traded its warrants and stock. I made some good money on them. It was hard to believe that it could do anything wrong. But the mobile revolution and LLM revolution went by without much contribution from it. Today its fate is still uncertain.</p>\n<p><img alt=\"SPY-RSI: INTC\" src=\"/static/journal/2026-11-10-spy-rsi-intc.webp\" /></p>",
     "bilingual": false,
     "pairs": null
   },
