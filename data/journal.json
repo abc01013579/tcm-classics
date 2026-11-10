@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-10-spy-rsi-electron",
+    "date": "2026-11-10",
+    "title": "SPY-RSI: electron",
+    "body_text": "Same election; same stock. Huge swings. \nNo one can consistently predict the future market directions. Any margin position could be wiped out in this kind of huge swing days.\n\n![SPY-RSI: electron](/static/journal/2026-11-10-spy-rsi-electron.webp)",
+    "html": "<p>Same election; same stock. Huge swings. \nNo one can consistently predict the future market directions. Any margin position could be wiped out in this kind of huge swing days.</p>\n<p><img alt=\"SPY-RSI: electron\" src=\"/static/journal/2026-11-10-spy-rsi-electron.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-09-define-lifemax-120",
     "date": "2026-11-09",
     "title": "#define LIFEMAX 120",
