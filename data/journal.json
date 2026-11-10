@@ -36,6 +36,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-10-the-moon",
+    "date": "2026-11-10",
+    "title": "The Moon",
+    "body_text": "Speechless\n\n![The Moon](/static/journal/2026-11-10-the-moon.webp)",
+    "html": "<p>Speechless</p>\n<p><img alt=\"The Moon\" src=\"/static/journal/2026-11-10-the-moon.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-09-define-lifemax-120",
     "date": "2026-11-09",
     "title": "#define LIFEMAX 120",
