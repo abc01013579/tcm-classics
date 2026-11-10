@@ -1,6 +1,7 @@
 ---
 title: Weekly Check-In: TSM, BRK.B, AMZN, SPY
 date: 2026-08-14
+tags: SPY-RSI
 ---
 
 **TSM** is at $430.49, market cap $1.97T, still roughly 13% below its recent high. July revenue rose 44.7% year-over-year to NT$467.58B, with year-to-date sales up 37% on continued AI chip demand. FY capex guidance was raised to $60–64B, with 70–80% going toward advanced-process nodes; three new 3nm fabs are underway in Taiwan, Arizona, and Kumamoto, alongside some 5nm lines being converted to 3nm. A new joint venture with Sony was announced for next-generation smartphone image sensors. Analyst consensus stays Buy, average target $551.67.

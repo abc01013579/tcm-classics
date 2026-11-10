@@ -1,6 +1,7 @@
 ---
 title: "Cloud Earnings Confirm It: Compute Is Still Scarce, and TSMC Sits at the Choke Point"
 date: 2026-07-31
+tags: SPY-RSI
 ---
 
 ## I. What Microsoft, Amazon, and Alphabet Just Said

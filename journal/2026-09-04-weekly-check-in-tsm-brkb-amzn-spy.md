@@ -1,6 +1,7 @@
 ---
 title: Weekly Check-In: TSM, BRK.B, AMZN, SPY
 date: 2026-09-04
+tags: SPY-RSI
 ---
 
 **TSM** jumped to $428.18 on September 4, up about 2.7% from the prior close of $417.01 and outperforming the S&P by roughly 2.5 percentage points -- a company-specific move rather than broad risk-on sentiment. Stifel initiated coverage with a Buy on September 1, joining an already bullish analyst base (average 12-month target $552.38, high estimate $700). Management struck an optimistic tone on silicon photonics capturing over half its addressable market next year, co-packaged optics production starting before year-end, and a potential new AI-infrastructure growth wave in 2028; a $1.114 dividend was also declared, ex-date September 16. The standing overhang hasn't gone anywhere: Taiwan is reportedly weighing stricter export controls (with potential criminal penalties) on advanced AI chips to China, and existing US controls already cap TSM's ability to expand its Nanjing fab, ceding ground to SMIC and Hua Hong -- a reminder that TSM alone still produces roughly 90% of the world's advanced semiconductors, making the China-Taiwan relationship the single largest tail risk sitting underneath this position.

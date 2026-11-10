@@ -1,6 +1,7 @@
 ---
 title: peace of mind
 date: 2026-11-05
+tags: SPY-RSI
 ---
 
 **shuiming:** The market is down big today, S&P 500 −300 points. BRK.B and AMZN are holding; TSM went down with the other chip stocks. In the past I would feel bad like everybody else. Today I feel happy: better entry points for my 401k and TSM.

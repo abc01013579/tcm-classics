@@ -1,6 +1,7 @@
 ---
 title: Weekly Check-In: TSM, BRK.B, AMZN
 date: 2026-08-02
+tags: SPY-RSI
 ---
 
 **TSM** is around $404, recovering about 1% this week after last week's semiconductor selloff. Record Q2 — $39.9B revenue, 77% net profit growth — and 2026 revenue growth guidance raised above 40%. Still off its June highs on capex concerns, after TSMC raised 2026 spending guidance to $60–64B for Arizona expansion and 2nm ramp. Consensus Buy, average target ~$490.

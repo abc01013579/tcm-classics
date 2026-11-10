@@ -21,11 +21,11 @@
     <label for="tag">分类（选填）</label>
     <select id="tag" name="tag">
       <option value="">(无)</option>
-      {% for t in journal_tags if t != "SPY-RSI" %}
+      {% for t in journal_tags %}
         <option value="{{ t }}"{% if form.tag == t %} selected{% endif %}>{{ t }}</option>
       {% endfor %}
     </select>
-    <p class="hint">SPY-RSI 不用选，标题里有 “SPY-RSI” 就会归类。</p>
+    <p class="hint">标题里有 “SPY-RSI” 的不用选，会自动归类。</p>
 
     <label for="body">正文（支持 Markdown）</label>
     <p class="hint">代码请选中后选好语言点“插入代码块”，或手动用 ``` 包裹，否则不会按代码排版。</p>

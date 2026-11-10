@@ -1,6 +1,7 @@
 ---
 title: Weekly Check-In: TSM, BRK.B, AMZN
 date: 2026-08-07
+tags: SPY-RSI
 ---
 
 **TSM** is around $423, up roughly 5% from last week on the back of a beat-and-raise Q2: record $40.2B revenue, 67.7% gross margin, and 2026 revenue-growth guidance lifted to just above 40%. Capex guidance holds at $60–64B, funding three new 3nm fabs in Taiwan, Arizona, and Kumamoto. Shares still dipped mid-week even on the good news — a reminder the market's already pricing in a lot of this growth — but remain well above both the 100- and 200-day averages. Consensus stays Strong Buy, average target ~$540.

@@ -1,6 +1,7 @@
 ---
 title: UNIX & DCA: Compounding
 date: 2026-08-10
+tags: SPY-RSI
 ---
 
 shuiming:

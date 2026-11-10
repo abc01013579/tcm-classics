@@ -1,6 +1,7 @@
 ---
 title: Weekly Check-In: TSM, BRK.B, AMZN, SPY
 date: 2026-08-23
+tags: SPY-RSI
 ---
 
 **TSM** closed at $418.95 on August 21, down about 2.7% on the week and now roughly 12% below its $477.57 closing high from June 30. Q2 revenue hit $40.2B, beating guidance, with gross margin at 67.7%; TSMC raised its 2026 revenue growth outlook to slightly above 40% on continued AI chip demand. Analyst consensus stays Strong Buy, average 12-month target $554.45, about 32% above the current price. The overhang: Taiwan is weighing stricter export controls on advanced AI chips to China, including potential criminal penalties for unauthorized shipments, and the VEU exemption that let TSM run its China fab more freely has shifted to an annual-license regime -- a real risk given how much of TSM's leading-edge production still depends on US-made EDA software and fab equipment.
