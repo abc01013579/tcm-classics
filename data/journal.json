@@ -9,6 +9,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-10-spy-rsi-gm-puts",
+    "date": "2026-11-10",
+    "title": "SPY-RSI: GM Puts",
+    "body_text": "The End of My Put-Writing Business\n\nFor three years, writing puts worked well. I wrote them on just three stocks, collected premiums each month, and most contracts expired worthless. It felt like a steady business.\n\nThen came GM. I wrote 20 puts the month GM went bankrupt. The stock fell toward zero, and I lost $68,000 on that single trade. It put my put-writing business to a full stop.\n\nThe chart shows how fast it happened: from the 90s near $95 down to $0.27 in 2009. Shareholders of the old GM were wiped out, and the new GM that relisted in 2010 was a different company.\n\nWith only three names, one bankruptcy was enough to end everything. A well-diversified portfolio could have absorbed one failure; three stocks could not.\n\nThat trade is part of why my rules today are simple: no leverage, DCA into steady holdings, and SPY-RSI tested with just 10 shares. Disciplined risk evaluation: a must.\n\n![SPY-RSI: GM Puts](/static/journal/2026-11-10-spy-rsi-gm-puts.webp)",
+    "html": "<p>The End of My Put-Writing Business</p>\n<p>For three years, writing puts worked well. I wrote them on just three stocks, collected premiums each month, and most contracts expired worthless. It felt like a steady business.</p>\n<p>Then came GM. I wrote 20 puts the month GM went bankrupt. The stock fell toward zero, and I lost $68,000 on that single trade. It put my put-writing business to a full stop.</p>\n<p>The chart shows how fast it happened: from the 90s near $95 down to $0.27 in 2009. Shareholders of the old GM were wiped out, and the new GM that relisted in 2010 was a different company.</p>\n<p>With only three names, one bankruptcy was enough to end everything. A well-diversified portfolio could have absorbed one failure; three stocks could not.</p>\n<p>That trade is part of why my rules today are simple: no leverage, DCA into steady holdings, and SPY-RSI tested with just 10 shares. Disciplined risk evaluation: a must.</p>\n<p><img alt=\"SPY-RSI: GM Puts\" src=\"/static/journal/2026-11-10-spy-rsi-gm-puts.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-10-spy-rsi-intc-two-bubbles",
     "date": "2026-11-10",
     "title": "SPY-RSI: INTC Two Bubbles",
