@@ -1,6 +1,7 @@
 ---
 title: learning pointer from deepseek
 date: 2026-09-22
+tags: CS
 ---
 
 ```c

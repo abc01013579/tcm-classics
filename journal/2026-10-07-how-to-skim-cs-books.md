@@ -1,6 +1,7 @@
 ---
 title: how to skim cs books?
 date: 2026-10-07
+tags: CS
 ---
 
 shuiming.....i know i can not digging into each one deeply. i am going to skim them in order to have a bird view of programming and cs in general.

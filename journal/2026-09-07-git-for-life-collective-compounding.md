@@ -1,6 +1,7 @@
 ---
 title: git for life + collective compounding
 date: 2026-09-07
+tags: CS
 ---
 
 shuiming:--the location of items in the bin is a moving target when new items keeping adding into it. it make it harder for machines.

@@ -1,6 +1,7 @@
 ---
 title: GDB and RAM
 date: 2026-10-04
+tags: CS
 ---
 
 ```c

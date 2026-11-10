@@ -1,6 +1,7 @@
 ---
 title: two versions of getline()
 date: 2026-11-04
+tags: CS
 ---
 
 shuiming….. Educate me on K&R2 getline() function

@@ -12,6 +12,10 @@ date: 2026-07-16
 
 The filename (minus .md) becomes the entry's URL slug.
 
+Optional `tags: CS` (comma-separated for several) after `date:` puts the
+entry under /journal?tag=CS. Journal tags: CS, 人尽天年. SPY-RSI entries
+need no tag -- that filter also matches the title.
+
 Optional bilingual entries: put an `<!--en-->` marker on its own line
 after the Chinese body, followed by an English translation. Paragraphs
 (split on blank lines) are paired 1:1 by position with the Chinese
@@ -119,6 +123,7 @@ def parse_entry(path):
         "slug": path.stem,
         "date": meta["date"],
         "title": meta["title"],
+        "tags": [t.strip() for t in meta.get("tags", "").split(",") if t.strip()],
         "body_text": body,
         "html": _render(body),
         "bilingual": bilingual,

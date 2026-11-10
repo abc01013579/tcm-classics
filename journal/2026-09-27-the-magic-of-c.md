@@ -1,6 +1,7 @@
 ---
 title: the magic of c
 date: 2026-09-27
+tags: CS
 ---
 
 ```c

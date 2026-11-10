@@ -1,6 +1,7 @@
 ---
 title: "Claude Code: Anthropic's Agentic Coding Tool"
 date: 2026-07-24
+tags: CS
 ---
 
 ## 1. What is Claude Code?

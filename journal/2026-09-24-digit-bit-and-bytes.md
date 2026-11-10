@@ -1,6 +1,7 @@
 ---
 title: digit bit and bytes
 date: 2026-09-24
+tags: CS
 ---
 
 shuiming.....bit digit bytes in details.

@@ -1,6 +1,7 @@
 ---
 title: returning to childhood mode
 date: 2026-09-04
+tags: 人尽天年
 ---
 
 line by line, one exercise at a time

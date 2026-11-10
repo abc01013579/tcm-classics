@@ -1,6 +1,7 @@
 ---
 title: shuiming: What’s the state of AI development?
 date: 2026-08-08
+tags: CS
 ---
 
 cc: 

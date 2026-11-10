@@ -1,6 +1,7 @@
 ---
 title: arrays of structures
 date: 2026-10-05
+tags: CS
 ---
 
 ```c

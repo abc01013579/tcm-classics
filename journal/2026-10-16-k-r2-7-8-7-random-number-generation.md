@@ -1,6 +1,7 @@
 ---
 title: K&R2 7.8.7 Random Number Generation
 date: 2026-10-16
+tags: CS
 ---
 
 ```c

@@ -1,6 +1,7 @@
 ---
 title: all by accident?
 date: 2026-09-21
+tags: CS
 ---
 
 shuiming.....NVDA is an accident too. GPU was for gamers for a long time before it found its way in neural network.

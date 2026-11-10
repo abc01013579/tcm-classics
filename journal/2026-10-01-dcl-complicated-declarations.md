@@ -1,6 +1,7 @@
 ---
 title: dcl--complicated declarations
 date: 2026-10-01
+tags: CS
 ---
 
 ```c

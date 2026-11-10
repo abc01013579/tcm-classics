@@ -1,6 +1,7 @@
 ---
 title: char *alloc(int n)
 date: 2026-09-29
+tags: CS
 ---
 
 ```c

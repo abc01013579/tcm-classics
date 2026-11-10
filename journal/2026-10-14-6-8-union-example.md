@@ -1,6 +1,7 @@
 ---
 title: 6.8 union example
 date: 2026-10-14
+tags: CS
 ---
 
 ```c

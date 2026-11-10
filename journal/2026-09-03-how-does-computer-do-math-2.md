@@ -1,6 +1,7 @@
 ---
 title: How does computer do math? #2
 date: 2026-09-03
+tags: CS
 ---
 
 shuiming: i have studied math for years and python and JS, but no one metioned that. it is weird. so fundamental, it is ignored by the public.

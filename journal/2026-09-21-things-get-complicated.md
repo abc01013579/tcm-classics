@@ -1,6 +1,7 @@
 ---
 title: things get complicated
 date: 2026-09-21
+tags: CS
 ---
 
 ```c

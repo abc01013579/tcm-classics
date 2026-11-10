@@ -1,6 +1,7 @@
 ---
 title: zhouyi  binary version
 date: 2026-09-27
+tags: CS
 ---
 
 周易 · 二进制版

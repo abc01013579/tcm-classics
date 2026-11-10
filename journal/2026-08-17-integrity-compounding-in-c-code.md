@@ -1,6 +1,7 @@
 ---
 title: integrity + compounding in c code
 date: 2026-08-17
+tags: CS
 ---
 
 shuiming: i gained this kind penertration power 2 years ago. everything fall into its place. from job money to cs and human relationship.  all comes down to integrity + compounding. int main(){ if integrity is true& compounding is true; we go ahead; else if, we pass. }

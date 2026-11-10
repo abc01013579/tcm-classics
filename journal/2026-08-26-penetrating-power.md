@@ -1,6 +1,7 @@
 ---
 title: penetrating power
 date: 2026-08-26
+tags: 人尽天年
 ---
 
 shuiming: I know long ago that I have some kind penetrating power. I can see things down to the core. I don’t know why.

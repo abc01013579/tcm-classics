@@ -1,6 +1,7 @@
 ---
 title: K&R2 7.5 File Access: cat, version 1
 date: 2026-10-15
+tags: CS
 ---
 
 ```c

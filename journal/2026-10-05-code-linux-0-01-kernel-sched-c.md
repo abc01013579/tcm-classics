@@ -1,6 +1,7 @@
 ---
 title: code ~/linux-0.01/kernel/sched.c
 date: 2026-10-05
+tags: CS
 ---
 
 ```c

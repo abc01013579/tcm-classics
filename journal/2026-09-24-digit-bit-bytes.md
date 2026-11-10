@@ -1,6 +1,7 @@
 ---
 title: Digit bit bytes
 date: 2026-09-24
+tags: CS
 ---
 
 shuiming….. 一个字节有八个位

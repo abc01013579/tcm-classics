@@ -1,6 +1,7 @@
 ---
 title: Dennis Ritchie's kernel printf
 date: 2026-10-11
+tags: CS
 ---
 
 printf in ~/unix-v6/ken/prf.c is that idea in about 25 lines:

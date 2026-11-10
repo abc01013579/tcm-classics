@@ -1,6 +1,7 @@
 ---
 title: 6.7 typedef example
 date: 2026-10-13
+tags: CS
 ---
 
 ```c

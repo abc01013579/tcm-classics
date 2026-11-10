@@ -1,6 +1,7 @@
 ---
 title: free will + passion
 date: 2026-09-07
+tags: CS
 ---
 
 shuimng--interestingly enough that UNIX came from hobby, and so was Linux and git. free will and passion leading the way.

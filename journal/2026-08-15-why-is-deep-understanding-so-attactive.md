@@ -1,6 +1,7 @@
 ---
 title: why is deep understanding so attactive?
 date: 2026-08-15
+tags: 人尽天年
 ---
 
 shuiming:  It is a great state of mind that keeping a fresh free mind while acquring skills. 

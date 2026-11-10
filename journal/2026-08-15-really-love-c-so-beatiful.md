@@ -1,6 +1,7 @@
 ---
 title: really love c- so beatiful
 date: 2026-08-15
+tags: CS
 ---
 
 shuiming:  i never thought computer language can trigger emtions insider. a little shocked.

@@ -1,6 +1,7 @@
 ---
 title: how to dig deeper on  hardware?
 date: 2026-09-05
+tags: CS
 ---
 
 shuiming: i got three top hardware book, including  The elements of computer systems;  How do it know; the hidden language of computer hareware and software; computer organization design, etc. how to use them.

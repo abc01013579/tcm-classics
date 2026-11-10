@@ -1,6 +1,7 @@
 ---
 title: "Cursor: The AI-Native Code Editor"
 date: 2026-07-24
+tags: CS
 ---
 
 ## 1. What is Cursor?

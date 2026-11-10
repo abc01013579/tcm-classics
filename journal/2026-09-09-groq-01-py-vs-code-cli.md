@@ -1,6 +1,7 @@
 ---
 title: groq-01.py  + vs code + CLI
 date: 2026-09-09
+tags: CS
 ---
 
 win@DESKTOP-MEIH88T:~/webdev-projects$ cd deepseek-api-01

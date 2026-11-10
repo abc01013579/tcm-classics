@@ -1,6 +1,7 @@
 ---
 title: printf("word: %s letters", *argv);
 date: 2026-10-03
+tags: CS
 ---
 
 ```c

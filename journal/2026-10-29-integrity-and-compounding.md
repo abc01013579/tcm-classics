@@ -1,6 +1,7 @@
 ---
 title: integrity && compounding
 date: 2026-10-29
+tags: 人尽天年
 ---
 
 **shuiming:** Steve Jobs was not an original inventor. He put things together, like a PM. The iPhone needs wireless broadband and 3 or 2 nanometer chips; he had nothing to do with those, but he put them into the iPhone.

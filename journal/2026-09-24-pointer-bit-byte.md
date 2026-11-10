@@ -1,6 +1,7 @@
 ---
 title: pointer & bit byte
 date: 2026-09-24
+tags: CS
 ---
 
 ```c

@@ -1,6 +1,7 @@
 ---
 title: 7.3 example miniprintf
 date: 2026-10-14
+tags: CS
 ---
 
 ```c

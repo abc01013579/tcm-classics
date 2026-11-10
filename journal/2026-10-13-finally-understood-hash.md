@@ -1,6 +1,7 @@
 ---
 title: Finally understood hash
 date: 2026-10-13
+tags: CS
 ---
 
 ```c

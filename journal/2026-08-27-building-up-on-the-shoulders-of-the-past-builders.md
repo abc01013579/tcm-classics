@@ -1,6 +1,7 @@
 ---
 title: Building up on the shoulders of the past builders
 date: 2026-08-27
+tags: CS
 ---
 
 ```c

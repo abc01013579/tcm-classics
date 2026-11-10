@@ -1,6 +1,7 @@
 ---
 title: jsut for fun
 date: 2026-10-13
+tags: CS
 ---
 
 ```c

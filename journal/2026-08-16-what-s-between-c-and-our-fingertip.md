@@ -1,6 +1,7 @@
 ---
 title: what's between c and our fingertip?
 date: 2026-08-16
+tags: CS
 ---
 
 shuiming: 

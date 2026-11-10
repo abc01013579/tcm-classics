@@ -1,6 +1,7 @@
 ---
 title: How to gain knowledge skills and taste as a developer?
 date: 2026-08-30
+tags: CS
 ---
 
 shuiming: as more people depend on Claude code to get jobs done. The issue is going to catch up with us.

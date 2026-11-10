@@ -1,6 +1,7 @@
 ---
 title: GPU - space travel - alphazero
 date: 2026-10-30
+tags: CS
 ---
 
 shuiming.....it reminds me ken thompson: technology advancement is initiated in games.

@@ -1,6 +1,7 @@
 ---
 title: 7-4 exercise  minscanf
 date: 2026-10-14
+tags: CS
 ---
 
 ```c

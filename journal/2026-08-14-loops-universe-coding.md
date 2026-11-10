@@ -1,6 +1,7 @@
 ---
 title: Loops: universe & coding
 date: 2026-08-14
+tags: CS
 ---
 
 shuiming: 各种程序语言中都少不了while for loops, 深根于宇宙运行的节奏中. 一年365天四季十二个月二十四节气七十二候五天二十四时六十分六十秒；地球火星绕太阳转圈圈，etc. 

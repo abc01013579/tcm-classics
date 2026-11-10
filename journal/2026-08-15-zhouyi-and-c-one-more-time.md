@@ -1,6 +1,7 @@
 ---
 title: zhouyi and c one more time
 date: 2026-08-15
+tags: CS
 ---
 
 shuiming: it  is so interesting that zhouyi and c become one.  i am just naturally fall inti them.

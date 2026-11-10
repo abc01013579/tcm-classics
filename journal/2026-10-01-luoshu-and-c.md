@@ -1,6 +1,7 @@
 ---
 title: luoshu and c
 date: 2026-10-01
+tags: CS
 ---
 
 ```c

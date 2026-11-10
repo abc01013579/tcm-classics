@@ -1,6 +1,7 @@
 ---
 title: K&R2 exercise 7-8: print a set of files
 date: 2026-10-16
+tags: CS
 ---
 
 ```c

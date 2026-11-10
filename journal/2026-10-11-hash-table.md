@@ -1,6 +1,7 @@
 ---
 title: Hash table
 date: 2026-10-11
+tags: CS
 ---
 
 shuiming….. Hash table in deta…

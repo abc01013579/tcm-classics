@@ -1,6 +1,7 @@
 ---
 title: 7-5 exercise calculator with scanf and sscanf
 date: 2026-10-14
+tags: CS
 ---
 
 ```c

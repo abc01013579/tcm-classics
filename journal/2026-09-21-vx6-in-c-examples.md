@@ -1,6 +1,7 @@
 ---
 title: vx6 in c examples
 date: 2026-09-21
+tags: CS
 ---
 
 win@DESKTOP-MEIH88T:~/webdev-projects/git$ ds

@@ -1,6 +1,7 @@
 ---
 title: code ~/unix-v6/ken/main.c & nami.c
 date: 2026-10-05
+tags: CS
 ---
 
 ```c

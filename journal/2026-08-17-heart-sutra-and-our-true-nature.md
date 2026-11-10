@@ -1,6 +1,7 @@
 ---
 title: heart sutra and our true nature
 date: 2026-08-17
+tags: 人尽天年
 ---
 
 shuiming:

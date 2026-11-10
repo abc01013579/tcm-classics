@@ -1,6 +1,7 @@
 ---
 title: pointer is very interesting
 date: 2026-09-19
+tags: CS
 ---
 
 shuiming...int a = 42 underneath, there is memory address assigned to it.?

@@ -1,6 +1,7 @@
 ---
 title: c and heart sutra
 date: 2026-08-17
+tags: CS
 ---
 
 shuiming:

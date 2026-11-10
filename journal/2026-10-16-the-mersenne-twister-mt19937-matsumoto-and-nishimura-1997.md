@@ -1,6 +1,7 @@
 ---
 title: The Mersenne Twister, MT19937 (Matsumoto and Nishimura, 1997)
 date: 2026-10-16
+tags: CS
 ---
 
 ```c

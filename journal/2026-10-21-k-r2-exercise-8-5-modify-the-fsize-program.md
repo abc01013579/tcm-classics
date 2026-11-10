@@ -1,6 +1,7 @@
 ---
 title: K&R2 Exercise 8-5. Modify the fsize program
 date: 2026-10-21
+tags: CS
 ---
 
 ```c

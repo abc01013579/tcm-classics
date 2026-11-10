@@ -1,6 +1,7 @@
 ---
 title: Pointer again
 date: 2026-09-24
+tags: CS
 ---
 
 shuiming….. 详解 int *p = &a

@@ -1,6 +1,7 @@
 ---
 title: shuiming: it's interesting to veiw the fundation of modern digital world
 date: 2026-08-10
+tags: CS
 ---
 
 cc:

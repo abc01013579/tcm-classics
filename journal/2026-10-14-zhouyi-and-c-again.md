@@ -1,6 +1,7 @@
 ---
 title: zhouyi and c again
 date: 2026-10-14
+tags: CS
 ---
 
 shuiming.....one thing is almost identical for zhouyi and c is that each gua and yao  just like each variable and function are individually exists. when you let go the burden of carry them as a whole, things get lighter and suddenly every line makes its own sense.

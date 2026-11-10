@@ -1,6 +1,7 @@
 ---
 title: youtube and cs iphone
 date: 2026-10-30
+tags: CS
 ---
 
 shuiming.....i watched a lot youtube videos and learned a lot cs.

@@ -1,6 +1,7 @@
 ---
 title: top 10 functions and idioms  in cc-c.c
 date: 2026-10-22
+tags: CS
 ---
 
 ```c

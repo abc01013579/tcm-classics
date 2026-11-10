@@ -1,6 +1,7 @@
 ---
 title: How a Thunderstorm Happens — From Cumulus Cloud to Lightning and Thunder
 date: 2026-08-07
+tags: 人尽天年
 ---
 
 ## 1. The Life Cycle of a Thunderstorm

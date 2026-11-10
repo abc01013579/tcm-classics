@@ -1,6 +1,7 @@
 ---
 title: research = re + search : in c
 date: 2026-08-24
+tags: CS
 ---
 
 ```c

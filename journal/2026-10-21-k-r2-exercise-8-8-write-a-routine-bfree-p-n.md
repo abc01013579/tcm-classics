@@ -1,6 +1,7 @@
 ---
 title: K&R2 Exercise 8-8. Write a routine bfree(p,n)
 date: 2026-10-21
+tags: CS
 ---
 
 ```c

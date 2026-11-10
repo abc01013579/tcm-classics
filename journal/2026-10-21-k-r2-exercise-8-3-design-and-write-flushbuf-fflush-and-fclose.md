@@ -1,6 +1,7 @@
 ---
 title: K&R2 Exercise 8-3. Design and write _flushbuf, fflush, and fclose
 date: 2026-10-21
+tags: CS
 ---
 
 ```c

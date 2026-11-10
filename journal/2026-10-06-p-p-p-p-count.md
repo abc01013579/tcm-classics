@@ -1,6 +1,7 @@
 ---
 title: p *p &p p->count
 date: 2026-10-06
+tags: CS
 ---
 
 ```c

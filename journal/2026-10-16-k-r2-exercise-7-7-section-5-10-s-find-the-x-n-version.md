@@ -1,6 +1,7 @@
 ---
 title: K&R2 exercise 7-7: section 5.10's find (the -x -n version)
 date: 2026-10-16
+tags: CS
 ---
 
 ```c

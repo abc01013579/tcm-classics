@@ -1,6 +1,7 @@
 ---
 title: What is buffer?
 date: 2026-10-23
+tags: CS
 ---
 
 cc…. A buffer is a block of memory set aside to hold data for a while. It's a waiting room: data goes in from one side and is taken out from the other.

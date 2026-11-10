@@ -1,6 +1,7 @@
 ---
 title: zhouyi 0x version
 date: 2026-09-27
+tags: CS
 ---
 
 周易 · 0x 版

@@ -1,6 +1,7 @@
 ---
 title: getch and ungetch
 date: 2026-10-13
+tags: CS
 ---
 
 ```c

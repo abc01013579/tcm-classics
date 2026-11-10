@@ -1,6 +1,7 @@
 ---
 title: LLMs vs David Silver and Yann LeCun
 date: 2026-10-30
+tags: CS
 ---
 
 shuiming.....what do you think david silver? alpha zero go player, no human data. deep learner.

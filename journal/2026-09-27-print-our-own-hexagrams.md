@@ -1,6 +1,7 @@
 ---
 title: print our own hexagrams
 date: 2026-09-27
+tags: CS
 ---
 
 ```c

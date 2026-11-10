@@ -1,6 +1,7 @@
 ---
 title: int main(int argc, char *argv[])
 date: 2026-10-02
+tags: CS
 ---
 
 ```c

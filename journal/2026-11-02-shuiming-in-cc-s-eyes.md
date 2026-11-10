@@ -1,6 +1,7 @@
 ---
 title: shuiming in cc’s eyes
 date: 2026-11-02
+tags: 人尽天年
 ---
 
 shuiming….. 你了解我的程度够深了，写个简评？

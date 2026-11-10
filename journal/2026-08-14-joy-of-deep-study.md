@@ -1,6 +1,7 @@
 ---
 title: joy of deep study
 date: 2026-08-14
+tags: 人尽天年
 ---
 
 shuiming: 

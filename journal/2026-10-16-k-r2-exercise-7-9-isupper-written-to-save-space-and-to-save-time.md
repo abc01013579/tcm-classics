@@ -1,6 +1,7 @@
 ---
 title: K&R2 exercise 7-9: isupper written to save space, and to save time
 date: 2026-10-16
+tags: CS
 ---
 
 ```c

@@ -1,6 +1,7 @@
 ---
 title: variables
 date: 2026-09-29
+tags: CS
 ---
 
 ```c

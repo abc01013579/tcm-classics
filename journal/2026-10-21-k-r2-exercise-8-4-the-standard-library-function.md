@@ -1,6 +1,7 @@
 ---
 title: K&R2 Exercise 8-4. The standard library function
 date: 2026-10-21
+tags: CS
 ---
 
 ```c

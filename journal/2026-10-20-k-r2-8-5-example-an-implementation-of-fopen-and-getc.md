@@ -1,6 +1,7 @@
 ---
 title: K&R2 8.5 Example -- An Implementation of Fopen and Getc
 date: 2026-10-20
+tags: CS
 ---
 
 ```c

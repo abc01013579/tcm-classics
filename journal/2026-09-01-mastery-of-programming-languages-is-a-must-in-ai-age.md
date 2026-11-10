@@ -1,6 +1,7 @@
 ---
 title: Mastery of Programming languages is a Must in AI age
 date: 2026-09-01
+tags: CS
 ---
 
 shuiming: i found most people use you and other agents to write code. I mainly use you to learn cs. I don't believe Jensen Huang's view--wasting time to study python, learning programming languages is more important than ever, because without mastering the languages, a developer doesn't have the needed insights to team up with you.

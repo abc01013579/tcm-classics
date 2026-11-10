@@ -1,6 +1,7 @@
 ---
 title: heart sutra
 date: 2026-09-27
+tags: 人尽天年
 ---
 
 shuiming.....my website is simply reduced into 5 classic chinese books which are roots of my existence. zhouyi divination journal shopping list DCA  calculator is expressions of it.

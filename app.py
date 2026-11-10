@@ -221,24 +221,38 @@ def logout():
     return redirect(url_for("journal_index"))
 
 
+# Fixed journal categories, shown as filter links on /journal. SPY-RSI
+# matches by title; CS and 人尽天年 come from each entry's `tags:` line.
+JOURNAL_TAGS = ("SPY-RSI", "CS", "人尽天年")
+
+
 @app.route("/journal")
 def journal_index():
     tag = request.args.get("tag", "").strip()
     entries = core.JOURNAL
     if tag:
-        entries = [e for e in entries if tag.lower() in e["title"].lower()]
-    return render_template("journal_index.html", entries=entries, tag=tag)
+        t = tag.lower()
+        if t in ("cs", "人尽天年"):
+            entries = [e for e in entries if t in (x.lower() for x in e.get("tags", []))]
+        else:
+            entries = [e for e in entries if t in e["title"].lower()]
+    return render_template(
+        "journal_index.html", entries=entries, tag=tag, journal_tags=JOURNAL_TAGS
+    )
 
 
 @app.route("/journal/new", methods=["GET", "POST"])
 @login_required
 def journal_new():
     error = None
-    form = {"title": "", "date": date.today().isoformat(), "body": "", "body_en": ""}
+    form = {"title": "", "date": date.today().isoformat(), "tag": "", "body": "", "body_en": ""}
 
     if request.method == "POST":
         form["title"] = request.form.get("title", "").strip()
         form["date"] = request.form.get("date", "").strip()
+        form["tag"] = request.form.get("tag", "").strip()
+        if form["tag"] not in JOURNAL_TAGS:
+            form["tag"] = ""
         form["body"] = request.form.get("body", "").strip()
         form["body_en"] = request.form.get("body_en", "").strip()
         photo = request.files.get("photo")
@@ -265,7 +279,8 @@ def journal_new():
                     if form["body_en"]:
                         form["body_en"] += media_md
 
-                content = f"---\ntitle: {form['title']}\ndate: {form['date']}\n---\n\n{form['body']}\n"
+                tag_line = f"tags: {form['tag']}\n" if form["tag"] else ""
+                content = f"---\ntitle: {form['title']}\ndate: {form['date']}\n{tag_line}---\n\n{form['body']}\n"
                 if form["body_en"]:
                     content += f"\n<!--en-->\n\n{form['body_en']}\n"
                 path.write_text(content, encoding="utf-8")
@@ -285,7 +300,7 @@ def journal_new():
                 finally:
                     core.reload_journal()
 
-    return render_template("journal_new.html", error=error, form=form)
+    return render_template("journal_new.html", error=error, form=form, journal_tags=JOURNAL_TAGS)
 
 
 @app.route("/journal/<slug>")

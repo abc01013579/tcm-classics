@@ -1,6 +1,7 @@
 ---
 title: pp *pp **pp in gdb
 date: 2026-10-12
+tags: CS
 ---
 
 ```c
