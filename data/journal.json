@@ -45,6 +45,15 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-10-阿弥陀佛",
+    "date": "2026-11-10",
+    "title": "阿弥陀佛",
+    "body_text": "无量光无量寿\n\n![阿弥陀佛](/static/journal/2026-11-10-阿弥陀佛.webp)",
+    "html": "<p>无量光无量寿</p>\n<p><img alt=\"阿弥陀佛\" src=\"/static/journal/2026-11-10-阿弥陀佛.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-09-define-lifemax-120",
     "date": "2026-11-09",
     "title": "#define LIFEMAX 120",
