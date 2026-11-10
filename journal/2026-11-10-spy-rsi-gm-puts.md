@@ -7,7 +7,7 @@ The End of My Put-Writing Business
 
 For three years, writing puts worked well. I wrote them on just three stocks, collected premiums each month, and most contracts expired worthless. It felt like a steady business.
 
-Then came GM. I wrote 20 puts the month GM went bankrupt. The stock fell toward zero, and I lost $68,000 on that single trade. It put my put-writing business to a full stop.
+Then came GM. I wrote 20 puts the month GM went bankrupt. The stock fell toward zero, and I lost $68,000 on that single trade. It brought my put-writing business to a full stop.
 
 The chart shows how fast it happened: from the 90s near $95 down to $0.27 in 2009. Shareholders of the old GM were wiped out, and the new GM that relisted in 2010 was a different company.
 
