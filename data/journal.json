@@ -6,8 +6,8 @@
     "tags": [
       "SPY-RSI"
     ],
-    "body_text": "BRK/B is a better investment than average index funds. Its holdings are better quality than average stocks. Any one can DCA it no matter what. Reading Warren Buffett’s annual letters to his investors is the best way to understand what is business.\n\n![BRK/B](/static/journal/2026-11-10-brk-b.webp)",
-    "html": "<p>BRK/B is a better investment than average index funds. Its holdings are better quality than average stocks. Any one can DCA it no matter what. Reading Warren Buffett’s annual letters to his investors is the best way to understand what is business.</p>\n<p><img alt=\"BRK/B\" src=\"/static/journal/2026-11-10-brk-b.webp\" /></p>",
+    "body_text": "BRK/B is a better investment than average index funds. Its holdings are better quality than average stocks. Any one can DCA it no matter what. Reading Warren Buffett’s [annual letters to his investors](https://www.berkshirehathaway.com/letters/letters.html) is the best way to understand what is business.\n\n![BRK/B](/static/journal/2026-11-10-brk-b.webp)",
+    "html": "<p>BRK/B is a better investment than average index funds. Its holdings are better quality than average stocks. Any one can DCA it no matter what. Reading Warren Buffett’s <a href=\"https://www.berkshirehathaway.com/letters/letters.html\">annual letters to his investors</a> is the best way to understand what is business.</p>\n<p><img alt=\"BRK/B\" src=\"/static/journal/2026-11-10-brk-b.webp\" /></p>",
     "bilingual": false,
     "pairs": null
   },
