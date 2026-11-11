@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-11-amzn",
+    "date": "2026-11-11",
+    "title": "AMZN",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "From an online bookstore to a $2 trillion giant online retailer and AWS, it’s a miracle. Jeff Bezos takes a long term view on his undertaking. It is part of people’s daily life.\n\n![AMZN](/static/journal/2026-11-11-amzn.webp)",
+    "html": "<p>From an online bookstore to a $2 trillion giant online retailer and AWS, it’s a miracle. Jeff Bezos takes a long term view on his undertaking. It is part of people’s daily life.</p>\n<p><img alt=\"AMZN\" src=\"/static/journal/2026-11-11-amzn.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-11-tsm",
     "date": "2026-11-11",
     "title": "TSM",
