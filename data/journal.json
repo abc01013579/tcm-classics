@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-12-jensen-s-last-day",
+    "date": "2026-11-12",
+    "title": "Jensen’s last day",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "What a sudden change: 30+ years building a great company ended today. His last day: 11-12-2026. Politics and business. Election. GPU. China. US.\n\n![Jensen’s last day](/static/journal/2026-11-12-jensen-s-last-day.webp)",
+    "html": "<p>What a sudden change: 30+ years building a great company ended today. His last day: 11-12-2026. Politics and business. Election. GPU. China. US.</p>\n<p><img alt=\"Jensen’s last day\" src=\"/static/journal/2026-11-12-jensen-s-last-day.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-12-nvda-rsi-30",
     "date": "2026-11-12",
     "title": "NVDA-RSI-30",
