@@ -108,6 +108,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-17-spy-rsi-exit-10-sh-732-86",
+    "date": "2026-11-17",
+    "title": "SPY-RSI: exit 10 sh @ 732.86",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "```\nSPY exit — 10 sh @ 732.8556\nEntry: 738.0899 · P/L: −$52.34 (−$5.23/sh, −0.71%)\nRules followed: yes (discretionary exit, free fall)\n```\n\nThe swing-day read held for the first half hour, then the market broke down into a free fall. The RSI exit (1H above 50) never came; I cut the trade instead. SPY traded at 728.51 shortly after: staying in would have cost another $43.",
+    "html": "<pre><code>SPY exit — 10 sh @ 732.8556\nEntry: 738.0899 · P/L: −$52.34 (−$5.23/sh, −0.71%)\nRules followed: yes (discretionary exit, free fall)\n</code></pre>\n<p>The swing-day read held for the first half hour, then the market broke down into a free fall. The RSI exit (1H above 50) never came; I cut the trade instead. SPY traded at 728.51 shortly after: staying in would have cost another $43.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-17-spy-rsi-march-2000",
     "date": "2026-11-17",
     "title": "SPY-RSI: March 2000",
