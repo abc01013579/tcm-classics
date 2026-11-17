@@ -96,6 +96,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-17-who-moves-the-market",
+    "date": "2026-11-17",
+    "title": "Who moves the market",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "**shuiming:** Who are behind the market motions?\n\n**CC:** Several groups, moving the market in different ways:\n\n- **Steady buyers.** Passive funds and 401k paychecks flow in every two weeks whatever the price: DCA at national scale. Companies buying back their own shares (about $940B for the S&P 500 in 2024) are one of the largest net buyers, pausing in blackout windows around earnings.\n- **Institutions with views.** Pensions, mutual funds and sovereign funds are big and slow, rebalancing at month and quarter ends. Hedge funds are leveraged, so when losses hit they cut risk together: the forced selling of 2008 and 2020.\n- **Mechanical traders.** Trend followers and volatility-targeting funds sell automatically when volatility rises and buy back when it calms, speeding up crashes like 2020 and August 2024. Options dealers hedge what the public buys; with 0DTE options that hedging can move the index within hours.\n- **Liquidity providers.** High-frequency market makers handle roughly half of daily volume. They supply the 1-cent spread but not the direction, and they step back in panics.\n- **Retail.** About 20% of volume in recent years, heavy in options; a big factor in TSLA and NVDA, less in SPY.\n- **Central banks.** They set the cost of leverage. Fed buying ended the 2020 crash; a Bank of Japan hike set off August 2024.\n\nThe long-run trend comes from steady flows: paychecks and buybacks. The crashes come from forced flows: leverage, margin calls and mechanical sellers all needing out at once. The first hour shows which group is in control.",
+    "html": "<p><strong>shuiming:</strong> Who are behind the market motions?</p>\n<p><strong>CC:</strong> Several groups, moving the market in different ways:</p>\n<ul>\n<li><strong>Steady buyers.</strong> Passive funds and 401k paychecks flow in every two weeks whatever the price: DCA at national scale. Companies buying back their own shares (about $940B for the S&amp;P 500 in 2024) are one of the largest net buyers, pausing in blackout windows around earnings.</li>\n<li><strong>Institutions with views.</strong> Pensions, mutual funds and sovereign funds are big and slow, rebalancing at month and quarter ends. Hedge funds are leveraged, so when losses hit they cut risk together: the forced selling of 2008 and 2020.</li>\n<li><strong>Mechanical traders.</strong> Trend followers and volatility-targeting funds sell automatically when volatility rises and buy back when it calms, speeding up crashes like 2020 and August 2024. Options dealers hedge what the public buys; with 0DTE options that hedging can move the index within hours.</li>\n<li><strong>Liquidity providers.</strong> High-frequency market makers handle roughly half of daily volume. They supply the 1-cent spread but not the direction, and they step back in panics.</li>\n<li><strong>Retail.</strong> About 20% of volume in recent years, heavy in options; a big factor in TSLA and NVDA, less in SPY.</li>\n<li><strong>Central banks.</strong> They set the cost of leverage. Fed buying ended the 2020 crash; a Bank of Japan hike set off August 2024.</li>\n</ul>\n<p>The long-run trend comes from steady flows: paychecks and buybacks. The crashes come from forced flows: leverage, margin calls and mechanical sellers all needing out at once. The first hour shows which group is in control.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-17-匪夷所思-cl-went-negative-40",
     "date": "2026-11-17",
     "title": "匪夷所思 CL went negative $40",
