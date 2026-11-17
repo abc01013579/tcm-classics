@@ -36,6 +36,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-17-purple-my-favorite-color",
+    "date": "2026-11-17",
+    "title": "Purple: my favorite color",
+    "tags": [
+      "人尽天年"
+    ],
+    "body_text": "Beaty often comes in a simple way.\n\n![Purple: my favorite color](/static/journal/2026-11-17-purple-my-favorite-color.webp)",
+    "html": "<p>Beaty often comes in a simple way.</p>\n<p><img alt=\"Purple: my favorite color\" src=\"/static/journal/2026-11-17-purple-my-favorite-color.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-17-spy-rsi-2008-2009",
     "date": "2026-11-17",
     "title": "SPY-RSI: 2008-2009",
