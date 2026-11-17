@@ -1,8 +1,10 @@
 import hashlib
+import hmac
 import os
 import re
 import subprocess
 import sys
+import time
 from datetime import date
 from functools import wraps
 from pathlib import Path
@@ -22,6 +24,8 @@ import build_journal
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-only-insecure-secret-key")
+# Cap request bodies (photo uploads) so one request can't exhaust the free-tier box.
+app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024
 
 # Short hash of style.css, appended as ?v=... to its URL in base.html, so a
 # changed stylesheet gets a new URL and browsers/Cloudflare can't keep serving
@@ -202,16 +206,41 @@ def fuxingjue():
     return render_template("fuxingjue.html", doc=core.FUXINGJUE)
 
 
+# Global (not per-IP) login throttle: client IPs arrive via proxy headers that
+# can be spoofed by hitting the onrender.com URL directly, so per-IP limits
+# would be bypassable. Single user, so a global cap is enough: at most
+# LOGIN_MAX_FAILS wrong passwords per LOGIN_WINDOW seconds, then all logins
+# (even correct ones) are refused until the window clears.
+LOGIN_MAX_FAILS = 10
+LOGIN_WINDOW = 15 * 60
+_login_fails = []
+
+
+def _safe_next(url):
+    # Only same-site paths: "/x" yes; "//evil.com", "https://evil.com", "/\evil.com" no.
+    if url and url.startswith("/") and not url.startswith(("//", "/\\")):
+        return url
+    return url_for("journal_new")
+
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     error = None
-    next_url = request.values.get("next") or url_for("journal_new")
+    next_url = _safe_next(request.values.get("next"))
     if request.method == "POST":
-        next_url = request.form.get("next") or next_url
-        if JOURNAL_PASSWORD and request.form.get("password") == JOURNAL_PASSWORD:
+        now = time.time()
+        _login_fails[:] = [t for t in _login_fails if now - t < LOGIN_WINDOW]
+        password = request.form.get("password", "")
+        if len(_login_fails) >= LOGIN_MAX_FAILS:
+            error = "尝试次数过多，请十五分钟后再试。"
+        elif JOURNAL_PASSWORD and hmac.compare_digest(
+            password.encode(), JOURNAL_PASSWORD.encode()
+        ):
             session["authed"] = True
             return redirect(next_url)
-        error = "密码错误"
+        else:
+            _login_fails.append(now)
+            error = "密码错误"
     return render_template("login.html", error=error, next=next_url)
 
 
@@ -263,8 +292,16 @@ def journal_new():
         if photo and photo.filename:
             photo_ext = secure_filename(photo.filename).rsplit(".", 1)[-1].lower()
 
+        try:
+            # Round-trip so only a real YYYY-MM-DD gets into the file name (no "../").
+            date_ok = date.fromisoformat(form["date"]).isoformat() == form["date"]
+        except ValueError:
+            date_ok = False
+
         if not form["title"] or not form["date"] or not form["body"]:
             error = "标题、日期、正文都不能为空。"
+        elif not date_ok:
+            error = "日期格式需为 YYYY-MM-DD。"
         elif photo and photo.filename and photo_ext not in ALLOWED_PHOTO_EXTS:
             error = "照片格式需为 jpg/jpeg/png/gif/webp。"
         else:
