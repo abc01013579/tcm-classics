@@ -96,6 +96,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-17-spy-rsi-entry-10-sh-738-09",
+    "date": "2026-11-17",
+    "title": "SPY-RSI: entry 10 sh @ 738.09",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "```\nSPY entry — 10 sh @ 738.09\nRSI(14): 24 trigger (Mon) · ~38 at entry · time frame: 1h\n```\n\nTrigger: 1H RSI below 25 yesterday. Exit: 1H RSI above 50. NVDA reports after the close tonight.\n\n![SPY 1H with RSI(14)](/static/journal/2026-11-17-spy-rsi-entry-10-sh-738-09-1h.webp)\n\n![SPY-RSI: entry 10 sh @ 738.09](/static/journal/2026-11-17-spy-rsi-entry-10-sh-738-09.webp)",
+    "html": "<pre><code>SPY entry — 10 sh @ 738.09\nRSI(14): 24 trigger (Mon) · ~38 at entry · time frame: 1h\n</code></pre>\n<p>Trigger: 1H RSI below 25 yesterday. Exit: 1H RSI above 50. NVDA reports after the close tonight.</p>\n<p><img alt=\"SPY 1H with RSI(14)\" src=\"/static/journal/2026-11-17-spy-rsi-entry-10-sh-738-09-1h.webp\" /></p>\n<p><img alt=\"SPY-RSI: entry 10 sh @ 738.09\" src=\"/static/journal/2026-11-17-spy-rsi-entry-10-sh-738-09.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-17-spy-rsi-march-2000",
     "date": "2026-11-17",
     "title": "SPY-RSI: March 2000",
