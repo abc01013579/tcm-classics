@@ -287,10 +287,12 @@ def journal_new():
             form["tag"] = ""
         form["body"] = request.form.get("body", "").strip()
         form["body_en"] = request.form.get("body_en", "").strip()
-        photo = request.files.get("photo")
-        photo_ext = ""
-        if photo and photo.filename:
-            photo_ext = secure_filename(photo.filename).rsplit(".", 1)[-1].lower()
+        # Up to two optional photos, appended to the body in field order.
+        photos = []
+        for field in ("photo", "photo2"):
+            f = request.files.get(field)
+            if f and f.filename:
+                photos.append((f, secure_filename(f.filename).rsplit(".", 1)[-1].lower()))
 
         try:
             # Round-trip so only a real YYYY-MM-DD gets into the file name (no "../").
@@ -302,7 +304,7 @@ def journal_new():
             error = "标题、日期、正文都不能为空。"
         elif not date_ok:
             error = "日期格式需为 YYYY-MM-DD。"
-        elif photo and photo.filename and photo_ext not in ALLOWED_PHOTO_EXTS:
+        elif any(ext not in ALLOWED_PHOTO_EXTS for _, ext in photos):
             error = "照片格式需为 jpg/jpeg/png/gif/webp。"
         else:
             slug = f"{form['date']}-{_slugify(form['title']) or 'entry'}"
@@ -310,10 +312,11 @@ def journal_new():
             if path.exists():
                 error = "这个日期和标题已经有一篇随笔了，换个标题试试。"
             else:
-                photo_path = None
-                if photo and photo.filename:
-                    photo_path = PHOTO_DIR / f"{slug}.{photo_ext}"
-                    photo.save(photo_path)
+                photo_paths = []
+                for n, (f, ext) in enumerate(photos, 1):
+                    photo_path = PHOTO_DIR / (f"{slug}.{ext}" if n == 1 else f"{slug}-{n}.{ext}")
+                    f.save(photo_path)
+                    photo_paths.append(photo_path)
                     media_md = f"\n\n![{form['title']}](/static/journal/{photo_path.name})"
                     form["body"] += media_md
                     if form["body_en"]:
@@ -324,7 +327,7 @@ def journal_new():
                 if form["body_en"]:
                     content += f"\n<!--en-->\n\n{form['body_en']}\n"
                 path.write_text(content, encoding="utf-8")
-                extra_paths = tuple(p for p in (photo_path,) if p)
+                extra_paths = tuple(photo_paths)
 
                 try:
                     build_journal.build()
