@@ -36,6 +36,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-17-spy-rsi-2008-2009",
+    "date": "2026-11-17",
+    "title": "SPY-RSI: 2008-2009",
+    "tags": [
+      "SPY-RSI"
+    ],
+    "body_text": "**shuiming:** 2008-2009?\n\n**CC:** SPY peaked at $156.48 on October 9, 2007 and closed at $68.11 on March 9, 2009: −56.5% over 17 months. The first year was a grind. After Lehman failed on September 15, 2008, forced selling took over: the failed TARP vote on September 29 cost 7.8% in a day, and October 13 gained 14.5%, the best day of the crisis, with another 33% still to fall. The low came with no good news; the selling simply ran out. Price got back above the 2007 peak on March 14, 2013, five and a half years later.\n\n![SPY-RSI: 2008-2009](/static/journal/2026-11-17-spy-rsi-2008-2009.webp)\n\n9/11 recovered in a month; 2000 and 2008 took years. In 2008 every bounce looked like the bottom until March 2009.",
+    "html": "<p><strong>shuiming:</strong> 2008-2009?</p>\n<p><strong>CC:</strong> SPY peaked at $156.48 on October 9, 2007 and closed at $68.11 on March 9, 2009: −56.5% over 17 months. The first year was a grind. After Lehman failed on September 15, 2008, forced selling took over: the failed TARP vote on September 29 cost 7.8% in a day, and October 13 gained 14.5%, the best day of the crisis, with another 33% still to fall. The low came with no good news; the selling simply ran out. Price got back above the 2007 peak on March 14, 2013, five and a half years later.</p>\n<p><img alt=\"SPY-RSI: 2008-2009\" src=\"/static/journal/2026-11-17-spy-rsi-2008-2009.webp\" /></p>\n<p>9/11 recovered in a month; 2000 and 2008 took years. In 2008 every bounce looked like the bottom until March 2009.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-17-spy-rsi-9-11",
     "date": "2026-11-17",
     "title": "SPY-RSI: 9/11",
