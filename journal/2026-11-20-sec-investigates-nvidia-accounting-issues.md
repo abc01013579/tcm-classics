@@ -1,9 +1,10 @@
 ---
-title: SEC investigates NVIDIA accounting issues
+title: NVDA −12%: SEC accounting probe
 date: 2026-11-20
+tags: SPY-RSI
 ---
 
-Unbelievable. What’s the impact on whole AI industry?
+Unbelievable. What’s the impact on the whole AI industry?
 
 ![SEC investigates NVIDIA accounting issues](/static/journal/2026-11-20-sec-investigates-nvidia-accounting-issues.webp)
 
