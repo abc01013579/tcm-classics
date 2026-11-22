@@ -8,4 +8,6 @@ After election SPY had suffered a huge loss. Trillions dollars were lost. NVDA a
 
 This kind of free-falling market is a corner case test for DCA. It clears any delusional urges.
 
+For an investor, it is ok to see his account balance go down 20%, but it is not ok if he gets wiped out.
+
 ![SPY: a brutal week](/static/journal/2026-11-21-spy-a-brutal-week.webp)
