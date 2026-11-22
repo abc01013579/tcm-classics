@@ -253,6 +253,7 @@ def logout():
 # Fixed journal categories, shown as filter links on /journal. Each comes
 # from an entry's `tags:` line.
 JOURNAL_TAGS = ("DCA", "CS", "人尽天年")
+JOURNAL_PAGE_SIZE = 50
 
 
 @app.route("/journal")
@@ -265,8 +266,17 @@ def journal_index():
             return t in (x.lower() for x in e.get("tags", []))
 
         entries = [e for e in entries if tagged(e)]
+
+    pages = max(1, -(-len(entries) // JOURNAL_PAGE_SIZE))
+    page = min(max(request.args.get("page", 1, type=int), 1), pages)
+    start = (page - 1) * JOURNAL_PAGE_SIZE
     return render_template(
-        "journal_index.html", entries=entries, tag=tag, journal_tags=JOURNAL_TAGS
+        "journal_index.html",
+        entries=entries[start:start + JOURNAL_PAGE_SIZE],
+        tag=tag,
+        journal_tags=JOURNAL_TAGS,
+        page=page,
+        pages=pages,
     )
 
 

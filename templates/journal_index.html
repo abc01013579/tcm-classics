@@ -23,6 +23,14 @@
         </li>
       {% endfor %}
     </ul>
+    {% if pages > 1 %}
+      {% set q = {'tag': tag} if tag else {} %}
+      <p class="journal-pager no-print">
+        {% if page > 1 %}<a href="{{ url_for('journal_index', page=page - 1, **q) }}">« 上一页</a> · {% endif %}
+        第 {{ page }} / {{ pages }} 页
+        {% if page < pages %} · <a href="{{ url_for('journal_index', page=page + 1, **q) }}">下一页 »</a>{% endif %}
+      </p>
+    {% endif %}
   {% else %}
     <p class="hint">还没有随笔，敬请期待。</p>
   {% endif %}

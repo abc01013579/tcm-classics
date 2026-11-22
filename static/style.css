@@ -439,6 +439,11 @@ h1 {
   color: var(--accent);
 }
 
+.journal-pager {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 .journal-date {
   color: var(--muted);
   font-size: 0.85rem;
