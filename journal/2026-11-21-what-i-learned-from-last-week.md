@@ -15,4 +15,4 @@ tags: DCA
 5. **Temperament over IQ.** Graham's Mr. Market, Chapter 8. A free fall clears any delusional urges.
 6. **You can't tell the kind of drop while you're in it.** 9/11 recovered in a month, 2020 in five months; 2000 and 2008 took years.
 
-**shuiming:** Survival first, then growth. 无咎.
+**shuiming:** Survival first, then growth. 无咎. DCA works. It is all a value investor needs.
