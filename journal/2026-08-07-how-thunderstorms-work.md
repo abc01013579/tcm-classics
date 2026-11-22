@@ -8,9 +8,9 @@ tags: 人尽天年
 
 A single thunderstorm cell typically lasts only 30 to 60 minutes from start to finish, moving through three distinct stages.
 
-- **Developing stage**: warm, moist air near the ground rises and cools, building a cumulus cloud that grows taller as the updraft strengthens. Little to no rain falls yet.
-- **Mature stage**: the updraft keeps feeding the storm, but precipitation now begins falling out, creating a downdraft alongside it. Cloud tops can reach 12 to 18 km (40,000–60,000 ft). This is the most dangerous stage — hail, heavy rain, frequent lightning, damaging wind, and tornadoes are most likely here.
-- **Dissipating stage**: the downdraft overwhelms the updraft, and the gust front at the surface pushes outward, cutting the storm off from the warm moist air it needs to survive. What's left is light rain and a fading anvil-shaped cloud top.
+- Developing stage: warm, moist air near the ground rises and cools, building a cumulus cloud that grows taller as the updraft strengthens. Little to no rain falls yet.
+- Mature stage: the updraft keeps feeding the storm, but precipitation now begins falling out, creating a downdraft alongside it. Cloud tops can reach 12 to 18 km (40,000–60,000 ft). This is the most dangerous stage — hail, heavy rain, frequent lightning, damaging wind, and tornadoes are most likely here.
+- Dissipating stage: the downdraft overwhelms the updraft, and the gust front at the surface pushes outward, cutting the storm off from the warm moist air it needs to survive. What's left is light rain and a fading anvil-shaped cloud top.
 
 ## 2. How Clouds Get "Charged": The Physics of Lightning
 
@@ -32,7 +32,7 @@ Based on NASA satellite observations (including the Optical Transient Detector),
 
 ## 5. Staying Safe: The 30-30 Rule
 
-The US National Weather Service keeps its safety guidance simple: "When thunder roars, go indoors" — if you can hear thunder, you're already within striking distance. More specifically, the **30-30 rule**: start counting as soon as you see lightning; if thunder follows within 30 seconds, the storm is close enough to be dangerous and you should seek shelter immediately. Stay sheltered until at least 30 minutes after the last thunderclap — don't leave just because the rain has stopped, since trailing lightning at the tail end of a storm can still be deadly.
+The US National Weather Service keeps its safety guidance simple: "When thunder roars, go indoors" — if you can hear thunder, you're already within striking distance. More specifically, the 30-30 rule: start counting as soon as you see lightning; if thunder follows within 30 seconds, the storm is close enough to be dangerous and you should seek shelter immediately. Stay sheltered until at least 30 minutes after the last thunderclap — don't leave just because the rain has stopped, since trailing lightning at the tail end of a storm can still be deadly.
 
 ## Summary
 

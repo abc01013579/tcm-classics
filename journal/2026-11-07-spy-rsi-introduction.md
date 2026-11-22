@@ -8,12 +8,12 @@ A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 20
 
 ## Rules
 
-- **Time frames:** daily, 4h, 1h, each tracked separately.
-- **Entry:** RSI(14) < 30.
-- **Exit:** RSI(14) > 50.
-- **Size:** start with 10 shares; add only as profits grow.
-- **No leverage.**
-- **No post, no trade:** every entry and exit is posted here in real time.
+- Time frames: daily, 4h, 1h, each tracked separately.
+- Entry: RSI(14) < 30.
+- Exit: RSI(14) > 50.
+- Size: start with 10 shares; add only as profits grow.
+- No leverage.
+- No post, no trade: every entry and exit is posted here in real time.
 
 ## Log format
 

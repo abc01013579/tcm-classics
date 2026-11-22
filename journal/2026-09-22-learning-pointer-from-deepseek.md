@@ -36,7 +36,7 @@ int *p = &x;
 
 So `p` is not `42`. `p` is the location of `x`.
 
-**Layer 1: Dereferencing**
+Layer 1: Dereferencing
 
 ```c
 *p = 99;   // go to the address stored in p, write 99 there
@@ -44,7 +44,7 @@ So `p` is not `42`. `p` is the location of `x`.
 
 Now `x` becomes `99`.
 
-**Layer 2: Type matters**
+Layer 2: Type matters
 
 `int *p` means:
 
@@ -55,7 +55,7 @@ That second point is where many pointer bugs start.
 
 ---
 
-**First deep issue — arrays are not pointers**
+First deep issue — arrays are not pointers
 
 This is one of the most misunderstood parts of C:
 
@@ -73,17 +73,17 @@ printf("%zu\n", sizeof p);   // size of a pointer
 
 Tell me which direction you want to go deeper:
 
-- **A:** Pointer arithmetic and array decay
-- **B:** Pointers to pointers and dynamic memory
-- **C:** Function pointers and callbacks
-- **D:** Undefined behavior, aliasing, `const`, `restrict`
-- **E:** What happens at the assembly/memory level
+- A: Pointer arithmetic and array decay
+- B: Pointers to pointers and dynamic memory
+- C: Function pointers and callbacks
+- D: Undefined behavior, aliasing, `const`, `restrict`
+- E: What happens at the assembly/memory level
 
 Which one?
 
 shuiming:  pointer arrays and pointers to pointers
 
-Let’s go deeper on **pointer arrays** (arrays of pointers) and **pointers to pointers**.
+Let’s go deeper on pointer arrays (arrays of pointers) and pointers to pointers.
 
 We’ll peel this onion layer by layer, from raw memory layout to common traps.
 
@@ -109,12 +109,12 @@ int **pp;    // pointer to a pointer to int
 `pp` is a single variable that can hold the address of a pointer to `int`.
 It occupies `sizeof(int**)` bytes (same as any pointer).
 
-**Key difference:**
+Key difference:
 
 - `p` is an array object (not a pointer variable).
 - `pp` is a pointer variable.
 
-But in **most expressions**, the array `p` *decays* to a pointer to its first element.
+But in most expressions, the array `p` *decays* to a pointer to its first element.
 The first element of `p` is of type `int*`, so decayed `p` has type `int **`.
 
 So:
@@ -124,7 +124,7 @@ int *p[5];
 int **pp = p;   // valid! p decays to &p[0], type int**
 ```
 
-This is the first deep link: **an array of pointers is often manipulated through a pointer-to-pointer.**
+This is the first deep link: an array of pointers is often manipulated through a pointer-to-pointer.
 
 ---
 
@@ -152,7 +152,7 @@ arr (array of 3 pointer slots):
 ```
 
 `arr` itself is a contiguous block of 3 pointer-sized cells.
-The integers they point to are **not necessarily contiguous**.
+The integers they point to are not necessarily contiguous.
 
 ### Pointer to pointer
 
@@ -179,7 +179,7 @@ ppx (variable)  ->  px (variable)  ->  x
 
 ## Layer 2 – Why use double pointers?
 
-The most common reason: **to let a function modify a pointer variable** (not just what it points to).
+The most common reason: to let a function modify a pointer variable (not just what it points to).
 
 ### Example: allocate memory inside a function
 
@@ -211,7 +211,7 @@ void make_string(char **s) {
 In `main(int argc, char **argv)`:
 
 - `argv` is a pointer to `char*` (i.e., `char **`).
-- But conceptually, it represents an **array of pointers to strings**.
+- But conceptually, it represents an array of pointers to strings.
 
 Memory for `argv[3]`:
 
@@ -228,9 +228,9 @@ argv (char**)
  "program"        "arg1"           "arg2"
 ```
 
-`argv` can also be written as `char *argv[]` in the parameter list, but in a function parameter it **decays** to `char **argv`.
+`argv` can also be written as `char *argv[]` in the parameter list, but in a function parameter it decays to `char **argv`.
 
-The same pattern is used when you build a **dynamic array of strings**:
+The same pattern is used when you build a dynamic array of strings:
 
 ```c
 char **lines = malloc(n * sizeof(char*));
@@ -253,7 +253,7 @@ int **p = a;   // ERROR: incompatible pointer type
 
 Why?
 `a` decays to a pointer to its first element.
-The first element of `a` is an **array of 4 ints** (`int[4]`).
+The first element of `a` is an array of 4 ints (`int[4]`).
 So the decayed type is `int (*)[4]` (pointer to array of 4 ints), not `int**`.
 
 ### Memory layout of `int a[2][3]`:
@@ -296,7 +296,7 @@ But never `int **a`.
 
 ## Layer 5 – Simulating a 2D array with `int**`
 
-You **can** create a structure that **looks like** a 2D array using pointers-to-pointers:
+You can create a structure that looks like a 2D array using pointers-to-pointers:
 
 ```c
 int rows = 3, cols = 4;
@@ -306,7 +306,7 @@ for (int i = 0; i < rows; i++)
 ```
 
 Now `mat[i][j]` works.
-But the memory layout is **jagged**, not contiguous:
+But the memory layout is jagged, not contiguous:
 
 ```
 mat (int**)
@@ -320,7 +320,7 @@ mat (int**)
 ```
 
 This is useful when each row may have a different length (ragged array).
-But it is **not interchangeable** with a true contiguous 2D array.
+But it is not interchangeable with a true contiguous 2D array.
 
 ---
 
@@ -356,7 +356,7 @@ The last line tries to access the next `int*` after `p` in memory — dangerous 
 ## Layer 7 – Complex declarations
 
 Reading `int *(*fp)(int)` etc. can be hard.
-Practice with the **spiral rule** or **right-left rule**.
+Practice with the spiral rule or right-left rule.
 
 For our topic:
 
@@ -371,20 +371,20 @@ These distinctions matter when passing to functions or allocating.
 
 ## Common mistakes with pointers-to-pointers
 
-1. **Forgetting to allocate the pointer array before allocating rows.**
+1. Forgetting to allocate the pointer array before allocating rows.
    ```c
    int **mat;          // uninitialized
    mat[0] = malloc(10 * sizeof(int)); // CRASH
    ```
-2. **Confusing `int**` with 2D array** (already covered).
-3. **Memory leaks:** not freeing row pointers before freeing the array of pointers.
+2. Confusing `int**` with 2D array (already covered).
+3. Memory leaks: not freeing row pointers before freeing the array of pointers.
    ```c
    for (int i = 0; i < rows; i++)
        free(mat[i]);
    free(mat);
    ```
-4. **Dangling pointers:** storing the address of a local variable in a double pointer.
-5. **Wrong level of indirection in `scanf`:**
+4. Dangling pointers: storing the address of a local variable in a double pointer.
+5. Wrong level of indirection in `scanf`:
    ```c
    int x;
    int *px = &x;
@@ -398,11 +398,11 @@ These distinctions matter when passing to functions or allocating.
 
 We can go further into:
 
-- **A:** `const` with pointers-to-pointers (`const int **` vs `int **` are incompatible)
-- **B:** Function pointers and arrays of function pointers
-- **C:** Building a dynamic 2D array that is contiguous but accessible as `a[i][j]`
-- **D:** How the CPU/assembly handles multi-level indirection
-- **E:** The strict aliasing rule and why `int**` and `float**` don't mix
+- A: `const` with pointers-to-pointers (`const int **` vs `int **` are incompatible)
+- B: Function pointers and arrays of function pointers
+- C: Building a dynamic 2D array that is contiguous but accessible as `a[i][j]`
+- D: How the CPU/assembly handles multi-level indirection
+- E: The strict aliasing rule and why `int**` and `float**` don't mix
 
 Which layer do you want to peel next?
 

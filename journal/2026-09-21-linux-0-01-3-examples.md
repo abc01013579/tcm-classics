@@ -131,7 +131,7 @@ struct task_struct {
 };
 ```
 
-That last bit is the giveaway: in 0.01 there was **no proper LDT allocator** — every task struct just embedded its own `ldt[3]` and `tss`. The "modern" concept of allocating per-process GDT/LDT slots came a few releases later.
+That last bit is the giveaway: in 0.01 there was no proper LDT allocator — every task struct just embedded its own `ldt[3]` and `tss`. The "modern" concept of allocating per-process GDT/LDT slots came a few releases later.
 
 ---
 

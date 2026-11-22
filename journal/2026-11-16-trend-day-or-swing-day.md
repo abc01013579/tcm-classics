@@ -12,8 +12,8 @@ shuiming: First, assume a trend day or a swing day, based on market reading and 
 
 CC: A hypothesis, a matching playbook, and a check that can say you're wrong. The two tools are opposites: ORB follows the move, RSI fades it. That is why the classification comes first. Each assumption gets an invalidation point, written down before the open:
 
-- **Trend day is wrong** when price comes back inside the opening range and stays there. It is a swing day.
-- **Swing day is wrong** when price breaks the range on expanding volume and RSI stays pinned instead of turning. Stop fading it.
+- Trend day is wrong when price comes back inside the opening range and stays there. It is a swing day.
+- Swing day is wrong when price breaks the range on expanding volume and RSI stays pinned instead of turning. Stop fading it.
 
 shuiming: No rigid rules can catch the essence of the market. Being water is an art, not a science.
 

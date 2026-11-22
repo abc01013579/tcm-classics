@@ -13,7 +13,7 @@ Wealth whispers, repeats.
 
 win@DESKTOP-MEIH88T:~/webdev-projects/deepseek-api-01$ python3 groq-01.py "write a pythod code for shellsort alogrthm."
 
-Here’s a clean, well‑commented implementation of **Shell sort** in Python.
+Here’s a clean, well‑commented implementation of Shell sort in Python.
 Shell sort is a general‑purpose sorting algorithm that works by sorting elements that are far apart and gradually reducing the gap between them. It’s essentially a family of insertion sorts with diminishing stride lengths, which gives it a better average‑case performance than plain insertion sort (≈ O(n log n) for many gap sequences).
 
 ```python
@@ -89,14 +89,14 @@ if __name__ == "__main__":
 ```
 
 ### How the algorithm works
-1. **Gap selection** – We start with a relatively large gap (`n//2`) and keep halving it until it becomes 1. When the gap is 1, the algorithm degenerates to a regular insertion sort, but the list is already **almost** sorted, so that final pass is cheap.
-2. **Gapped insertion sort** – For each element at index `i`, we compare it with the element `gap` positions before it (`i-gap`). If the earlier element is larger, we shift it forward. This “insertion” proceeds backward in steps of `gap` until we find the correct spot.
-3. **Repeat** – After a full pass with the current gap, we shrink the gap and repeat. Each pass makes the array more locally ordered, accelerating the next pass.
+1. Gap selection – We start with a relatively large gap (`n//2`) and keep halving it until it becomes 1. When the gap is 1, the algorithm degenerates to a regular insertion sort, but the list is already almost sorted, so that final pass is cheap.
+2. Gapped insertion sort – For each element at index `i`, we compare it with the element `gap` positions before it (`i-gap`). If the earlier element is larger, we shift it forward. This “insertion” proceeds backward in steps of `gap` until we find the correct spot.
+3. Repeat – After a full pass with the current gap, we shrink the gap and repeat. Each pass makes the array more locally ordered, accelerating the next pass.
 
 ### Why Shell sort?
-- **In‑place**: Only O(1) extra memory.
-- **Simple**: No recursion or auxiliary data structures.
-- **Adaptive**: Works well on partially ordered data; the final insertion‑sort pass runs fast.
-- **Performance**: With good gap sequences, typical runtime is around O(n log n), though the worst case can be O(n²) for the naïve halving gaps.
+- In‑place: Only O(1) extra memory.
+- Simple: No recursion or auxiliary data structures.
+- Adaptive: Works well on partially ordered data; the final insertion‑sort pass runs fast.
+- Performance: With good gap sequences, typical runtime is around O(n log n), though the worst case can be O(n²) for the naïve halving gaps.
 
 Feel free to swap the gap sequence (e.g., `gap = gap * 5 // 4` for Tokuda’s sequence) if you need tighter theoretical guarantees. Happy sorting!

@@ -10,10 +10,10 @@ Cursor is an "AI-native" code editor built as a fork of Microsoft's Visual Studi
 
 ## 2. Company Background
 
-- **Developer**: Anysphere Inc., San Francisco. Founded 2022.
-- **Founders**: Michael Truell, Sualeh Asif, Arvid Lunnemark, and Aman Sanger — four friends from MIT with backgrounds in MIT CSAIL research, Google internships, and OpenAI's startup accelerator.
+- Developer: Anysphere Inc., San Francisco. Founded 2022.
+- Founders: Michael Truell, Sualeh Asif, Arvid Lunnemark, and Aman Sanger — four friends from MIT with backgrounds in MIT CSAIL research, Google internships, and OpenAI's startup accelerator.
 - Cursor launched publicly in March 2023 after the team graduated from OpenAI's accelerator program.
-- **Funding history**:
+- Funding history:
     - Oct 2023 — $8M seed round, led by OpenAI's Startup Fund
     - Jun 2025 — $900M round led by Thrive Capital, Andreessen Horowitz, Accel, and DST Global → $9.9B valuation
     - Nov 2025 — $2.3B Series D → $29.3B valuation
@@ -23,31 +23,31 @@ Cursor is an "AI-native" code editor built as a fork of Microsoft's Visual Studi
 ## 3. Key Features (as of 2026)
 
 - Smart multi-line/full-line code completions with deep codebase context.
-- **Agent Mode**: autonomous task execution — writes code, runs terminal commands/migrations, checks for errors, and self-corrects.
-- **Composer**, Cursor's own in-house coding model, redesigned in "Composer 2.0" around an agent-centric UI rather than a file-centric one.
-- **Background Agents/Cloud Agents** (introduced with Cursor v3.0, early 2026): let agents run long tasks asynchronously, off the local machine.
-- **Multi-model picker**: switch between Claude models, GPT-4o/5-class models, and Gemini within the same project.
-- **BugBot**: automated PR reviewer that posts review comments on pull requests before a human reviewer looks at them, catching regressions early.
+- Agent Mode: autonomous task execution — writes code, runs terminal commands/migrations, checks for errors, and self-corrects.
+- Composer, Cursor's own in-house coding model, redesigned in "Composer 2.0" around an agent-centric UI rather than a file-centric one.
+- Background Agents/Cloud Agents (introduced with Cursor v3.0, early 2026): let agents run long tasks asynchronously, off the local machine.
+- Multi-model picker: switch between Claude models, GPT-4o/5-class models, and Gemini within the same project.
+- BugBot: automated PR reviewer that posts review comments on pull requests before a human reviewer looks at them, catching regressions early.
 - Real-time collaborative editing (Google-Docs-style) combined with AI chat for reviewing/explaining/suggesting changes together.
 
 ## 4. Pricing (as of mid-2026, credit-based)
 
 Cursor moved from flat-rate subscriptions to a usage-credit model in June 2025 — each plan includes a dollar amount of API/model usage credit, and cost-per-request varies by which underlying model is used.
 
-- **Hobby (Free)**: limited requests, slower responses, no credit card required
-- **Pro**: $20/month
-- **Pro+**: ~$60/user/month
-- **Ultra**: ~$200/user/month
-- **Teams**: $40/user/month
-- **Enterprise**: custom pricing via sales
+- Hobby (Free): limited requests, slower responses, no credit card required
+- Pro: $20/month
+- Pro+: ~$60/user/month
+- Ultra: ~$200/user/month
+- Teams: $40/user/month
+- Enterprise: custom pricing via sales
 
 ## 5. How Cursor Compares
 
-**vs. GitHub Copilot**: Copilot is an AI pair-programmer bolted onto many IDEs/GitHub itself — most widely distributed, cheapest paid tier (~$10/mo Pro), best free tier. Cursor is a full standalone AI-native IDE with deeper codebase understanding and multi-file agentic editing baked into the core.
+vs. GitHub Copilot: Copilot is an AI pair-programmer bolted onto many IDEs/GitHub itself — most widely distributed, cheapest paid tier (~$10/mo Pro), best free tier. Cursor is a full standalone AI-native IDE with deeper codebase understanding and multi-file agentic editing baked into the core.
 
-**vs. Claude Code**: Claude Code is a terminal/IDE/desktop/Slack-based agentic assistant built for autonomous, multi-step coding tasks; it rewards terminal fluency. Cursor rewards visual-diff, in-editor workflows; its base paid tier is priced roughly on par with Claude Code Pro at $20/mo.
+vs. Claude Code: Claude Code is a terminal/IDE/desktop/Slack-based agentic assistant built for autonomous, multi-step coding tasks; it rewards terminal fluency. Cursor rewards visual-diff, in-editor workflows; its base paid tier is priced roughly on par with Claude Code Pro at $20/mo.
 
-**General takeaway**: all three (Cursor, Copilot, Claude Code) are now agentic systems capable of multi-file edits, autonomous planning, and PR creation — the differentiator is mostly workflow (IDE-centric vs. terminal-centric vs. platform-embedded) and ecosystem lock-in rather than raw capability.
+General takeaway: all three (Cursor, Copilot, Claude Code) are now agentic systems capable of multi-file edits, autonomous planning, and PR creation — the differentiator is mostly workflow (IDE-centric vs. terminal-centric vs. platform-embedded) and ecosystem lock-in rather than raw capability.
 
 ## 6. Notes / Considerations
 

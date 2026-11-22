@@ -10,48 +10,48 @@ Claude Code is Anthropic's agentic coding tool — not a chat window that spits 
 
 ## 2. Company Background (Anthropic)
 
-- **Founded**: 2021, San Francisco. Co-founder and CEO: Dario Amodei. Built as an AI safety and research company focused on reliable, interpretable, steerable AI systems.
-- **Scale (2026)**: roughly 2,300 employees (up from ~1,100 in 2024), serving about 300,000 customers.
-- **Funding history** has moved very fast:
+- Founded: 2021, San Francisco. Co-founder and CEO: Dario Amodei. Built as an AI safety and research company focused on reliable, interpretable, steerable AI systems.
+- Scale (2026): roughly 2,300 employees (up from ~1,100 in 2024), serving about 300,000 customers.
+- Funding history has moved very fast:
     - March 2025 — raised at a $61.5 billion valuation
     - September 2025 — raised at $183 billion
     - February 2026 — Series G, $30 billion raised at a $380 billion valuation
     - April 2026 — Series H, $65 billion raised at a $965 billion post-money valuation, led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital
-- **Revenue**: run-rate revenue crossed $47 billion in 2026.
+- Revenue: run-rate revenue crossed $47 billion in 2026.
 - Anthropic confidentially filed for an IPO in mid-2026 following the Series H round.
 
 ## 3. Key Features (as of 2026)
 
-- **Agentic multi-file editing** — plans work, edits across directories, runs commands/tests, self-corrects.
-- **Subagents** — nested sub-agents up to 3 levels deep for layered task decomposition, with `fallbackModel` configuration for resilient model chains and scoped permissions enforcing least privilege per sub-agent.
-- **Routines / Auto Mode / Ultrathink** — modes for longer autonomous runs and deeper reasoning on hard problems.
-- **`/ultrareview`** — a multi-agent cloud code review command.
-- **Hooks and Plugins** — customizable automation points and an extensible plugin system.
-- **Marketplace** — a registry of community-contributed tools: linters, formatters, custom slash commands, specialized refactoring utilities.
-- **Desktop app** (redesigned April 14, 2026, macOS and Windows) — not just a terminal wrapper, but a dedicated environment for running multiple agents in parallel.
+- Agentic multi-file editing — plans work, edits across directories, runs commands/tests, self-corrects.
+- Subagents — nested sub-agents up to 3 levels deep for layered task decomposition, with `fallbackModel` configuration for resilient model chains and scoped permissions enforcing least privilege per sub-agent.
+- Routines / Auto Mode / Ultrathink — modes for longer autonomous runs and deeper reasoning on hard problems.
+- `/ultrareview` — a multi-agent cloud code review command.
+- Hooks and Plugins — customizable automation points and an extensible plugin system.
+- Marketplace — a registry of community-contributed tools: linters, formatters, custom slash commands, specialized refactoring utilities.
+- Desktop app (redesigned April 14, 2026, macOS and Windows) — not just a terminal wrapper, but a dedicated environment for running multiple agents in parallel.
 
 ## 4. Pricing (as of 2026)
 
 Unlike Cursor's usage-credit model, Claude Code rides on Anthropic's Claude subscription tiers:
 
-- **Pro**: $20/month (or $17/month billed annually) — covers most individual developers
-- **Max 5x**: $100/month — 5x the Pro usage capacity
-- **Max 20x**: $200/month — 20x the Pro usage capacity
-- **Team**: seats start at $20/seat/month (Standard); Claude Code itself requires a Premium seat at $100/seat/month, 5-seat minimum
-- **Enterprise**: adds a 500K context window, HIPAA readiness, and compliance tooling; custom pricing through Anthropic sales
-- **API (pay-as-you-go)**: no monthly minimum, charged per token (Sonnet-tier models start around $3/MTok input, $15/MTok output)
+- Pro: $20/month (or $17/month billed annually) — covers most individual developers
+- Max 5x: $100/month — 5x the Pro usage capacity
+- Max 20x: $200/month — 20x the Pro usage capacity
+- Team: seats start at $20/seat/month (Standard); Claude Code itself requires a Premium seat at $100/seat/month, 5-seat minimum
+- Enterprise: adds a 500K context window, HIPAA readiness, and compliance tooling; custom pricing through Anthropic sales
+- API (pay-as-you-go): no monthly minimum, charged per token (Sonnet-tier models start around $3/MTok input, $15/MTok output)
 
 On May 6, 2026, Anthropic doubled the usage limits on Claude Code across all paid plans (Pro, Max, Team, Enterprise) — roughly twice as much work per session before hitting a usage cap.
 
 ## 5. How It Compares
 
-**vs. GitHub Copilot**: Copilot is the most widely distributed option, embedded directly across GitHub and a broad range of IDEs, and is the only one of the three with a genuinely useful free tier — it wins on price and reach for individuals who mainly want fast in-flow completions.
+vs. GitHub Copilot: Copilot is the most widely distributed option, embedded directly across GitHub and a broad range of IDEs, and is the only one of the three with a genuinely useful free tier — it wins on price and reach for individuals who mainly want fast in-flow completions.
 
-**vs. Cursor**: Cursor is a full AI-native IDE (a VS Code fork) with AI baked into every layer of editing — best for project-level edits inside an AI-first editor. Claude Code instead lives in the terminal, IDE, desktop app, and even Slack, and is built specifically for autonomous, multi-step work.
+vs. Cursor: Cursor is a full AI-native IDE (a VS Code fork) with AI baked into every layer of editing — best for project-level edits inside an AI-first editor. Claude Code instead lives in the terminal, IDE, desktop app, and even Slack, and is built specifically for autonomous, multi-step work.
 
-**Benchmarks and sentiment**: Claude Code scores 80.8% on SWE-bench Verified, ahead of both Cursor and Copilot on that benchmark. By early 2026 it also had the highest "most loved" developer rating among the three — 46%, versus Cursor's 19% and Copilot's 9%.
+Benchmarks and sentiment: Claude Code scores 80.8% on SWE-bench Verified, ahead of both Cursor and Copilot on that benchmark. By early 2026 it also had the highest "most loved" developer rating among the three — 46%, versus Cursor's 19% and Copilot's 9%.
 
-**In practice, people mix all three**: a March 2026 developer survey found 29 of 99 respondents running all three tools at once, reaching for whichever one fits the task at hand — Copilot for fast completions, Cursor for in-editor project work, Claude Code for understanding legacy systems or reasoning at the architecture level.
+In practice, people mix all three: a March 2026 developer survey found 29 of 99 respondents running all three tools at once, reaching for whichever one fits the task at hand — Copilot for fast completions, Cursor for in-editor project work, Claude Code for understanding legacy systems or reasoning at the architecture level.
 
 ## Summary
 
