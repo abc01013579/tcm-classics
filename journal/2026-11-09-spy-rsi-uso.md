@@ -1,5 +1,5 @@
 ---
-title: SPY-RSI: USO
+title: SPY: USO
 date: 2026-11-09
 tags: DCA
 ---
@@ -12,4 +12,4 @@ It isn't illegal; the prospectus explains it all. But many people bought it beli
 
 I traded CL futures myself for years and roughly broke even, losing on commissions and spreads. USO taught the same lesson at a larger scale: in futures-based products, time works against you. With SPY, time works for you.
 
-![SPY-RSI: USO](/static/journal/2026-11-09-spy-rsi-uso.webp)
+![SPY: USO](/static/journal/2026-11-09-spy-rsi-uso.webp)

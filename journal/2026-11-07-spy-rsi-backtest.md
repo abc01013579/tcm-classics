@@ -1,5 +1,5 @@
 ---
-title: SPY-RSI backtest
+title: SPY backtest
 date: 2026-11-07
 tags: DCA
 ---

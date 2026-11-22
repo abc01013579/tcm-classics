@@ -1,5 +1,5 @@
 ---
-title: SPY-RSI: INTC Two Bubbles
+title: SPY: INTC Two Bubbles
 date: 2026-11-10
 tags: DCA
 ---
@@ -14,4 +14,4 @@ Then reality returned. Intel lost 45% of its value in October, its worst month s
 
 Internet in 2000; AI and politics in 2026. The technology changes, the promoters change, but the crowd's urge doesn't. A real revolution can still produce a bubble in the stocks around it. That's why I DCA into broad, steady holdings and keep my trading to SPY-RSI with clear rules.
 
-![SPY-RSI: INTC Two Bubbles](/static/journal/2026-11-10-spy-rsi-intc-two-bubbles.webp)
+![SPY: INTC Two Bubbles](/static/journal/2026-11-10-spy-rsi-intc-two-bubbles.webp)

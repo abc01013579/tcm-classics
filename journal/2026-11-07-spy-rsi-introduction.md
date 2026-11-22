@@ -1,5 +1,5 @@
 ---
-title: SPY-RSI introduction
+title: SPY introduction
 date: 2026-11-07
 tags: DCA
 ---
