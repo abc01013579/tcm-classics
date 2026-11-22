@@ -1,7 +1,7 @@
 ---
 title: Earning beats but stock went down
 date: 2026-11-18
-tags: SPY-RSI
+tags: DCA
 ---
 
 CEO replacement issue is hanging over NVDA. Follow its progress.

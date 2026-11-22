@@ -1,7 +1,7 @@
 ---
 title: Taiwan Chinese went to China
 date: 2026-11-13
-tags: SPY-RSI
+tags: DCA
 ---
 
 shuiming…..many Taiwan Chinese citizens went to China: Kaifu Li , Andrew Yao etc.

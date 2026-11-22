@@ -1,7 +1,7 @@
 ---
 title: power of compounding
 date: 2026-08-09
-tags: SPY-RSI
+tags: DCA
 ---
 
 shuiming:

@@ -1,7 +1,7 @@
 ---
 title: Buffett and TSM
 date: 2026-11-14
-tags: SPY-RSI
+tags: DCA
 ---
 
 Berkshire bought about $4 billion of TSM in late 2022 and sold nearly all of it a few months later. Buffett called TSMC one of the best-managed companies in the world. His reason for selling was not the business but the location: Taiwan, and the risk of conflict with China.

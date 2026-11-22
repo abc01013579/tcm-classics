@@ -1,7 +1,7 @@
 ---
 title: trend day or swing day
 date: 2026-11-16
-tags: SPY-RSI
+tags: DCA
 ---
 
 **shuiming:** RSI alone is not enough for the system; it has to be combined with other observations. As a short-term trader, I have to take part in the huge swings of the opening hour. Selective entry on a trend day can work out fine.

@@ -1,7 +1,7 @@
 ---
 title: Jensen returns as CEO?
 date: 2026-11-17
-tags: SPY-RSI
+tags: DCA
 ---
 
 Lots moving parts in NVDA. It’s ok to bet some money on Jensen’s return as CEO.

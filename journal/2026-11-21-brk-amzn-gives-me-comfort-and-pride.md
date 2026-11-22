@@ -1,7 +1,7 @@
 ---
 title: BRK AMZN gives me comfort and pride
 date: 2026-11-21
-tags: SPY-RSI
+tags: DCA
 ---
 
 Both of them are in my DCA list. Owned by fully funded account. Survival first then growth. 无咎.

@@ -13,8 +13,7 @@ date: 2026-07-16
 The filename (minus .md) becomes the entry's URL slug.
 
 Optional `tags: CS` (comma-separated for several) after `date:` puts the
-entry under /journal?tag=CS. Journal tags: SPY-RSI, CS, 人尽天年. An entry
-with "SPY-RSI" in its title needs no tag -- that filter also matches titles.
+entry under /journal?tag=CS. Journal tags: DCA, CS, 人尽天年.
 
 Optional bilingual entries: put an `<!--en-->` marker on its own line
 after the Chinese body, followed by an English translation. Paragraphs

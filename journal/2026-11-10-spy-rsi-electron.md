@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI: election
 date: 2026-11-10
+tags: DCA
 ---
 
 Same election, same stock. Huge swings. 

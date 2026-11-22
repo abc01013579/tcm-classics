@@ -251,8 +251,8 @@ def logout():
 
 
 # Fixed journal categories, shown as filter links on /journal. Each comes
-# from an entry's `tags:` line; SPY-RSI also matches any title containing it.
-JOURNAL_TAGS = ("SPY-RSI", "CS", "人尽天年")
+# from an entry's `tags:` line.
+JOURNAL_TAGS = ("DCA", "CS", "人尽天年")
 
 
 @app.route("/journal")
@@ -264,10 +264,7 @@ def journal_index():
         def tagged(e):
             return t in (x.lower() for x in e.get("tags", []))
 
-        if t in ("cs", "人尽天年"):
-            entries = [e for e in entries if tagged(e)]
-        else:
-            entries = [e for e in entries if tagged(e) or t in e["title"].lower()]
+        entries = [e for e in entries if tagged(e)]
     return render_template(
         "journal_index.html", entries=entries, tag=tag, journal_tags=JOURNAL_TAGS
     )

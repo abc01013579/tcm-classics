@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI: INTC Two Bubbles
 date: 2026-11-10
+tags: DCA
 ---
 
 In the 1990s, Intel was the heart of the PC and internet revolution. As a broker, I watched it climb quietly for years, then run straight up into the 2000 peak near $75. Within two years it was below $15. Then it drifted for two decades, a great company whose stock went nowhere.

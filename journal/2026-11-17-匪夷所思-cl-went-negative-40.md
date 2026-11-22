@@ -1,7 +1,7 @@
 ---
 title: 匪夷所思 CL went negative $40
 date: 2026-11-17
-tags: SPY-RSI
+tags: DCA
 ---
 
 One of the most weird things happened in crude oil futures market. May 2020 crude oil futures went negative $40. Many Chinese traders lost billions of dollars.

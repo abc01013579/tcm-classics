@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI introduction
 date: 2026-11-07
+tags: DCA
 ---
 
 A separate bucket, apart from the DCA core (TSM, AMZN, BRK/B, Vanguard Target 2045). The core compounds and is never timed. This bucket tests one rule: buy SPY when it is oversold, sell when it recovers.

@@ -1,7 +1,7 @@
 ---
 title: TSM gets tested too
 date: 2026-11-21
-tags: SPY-RSI
+tags: DCA
 ---
 
 Even TSM could not be free from NVDA fallout. It creates a buying opportunity. DCA it as things unfold.

@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI: GM Puts
 date: 2026-11-10
+tags: DCA
 ---
 
 The End of My Put-Writing Business

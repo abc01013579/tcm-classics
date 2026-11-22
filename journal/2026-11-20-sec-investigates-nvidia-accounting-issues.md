@@ -1,7 +1,7 @@
 ---
 title: NVDA −12%: SEC accounting probe
 date: 2026-11-20
-tags: SPY-RSI
+tags: DCA
 ---
 
 Unbelievable. What’s the impact on the whole AI industry?

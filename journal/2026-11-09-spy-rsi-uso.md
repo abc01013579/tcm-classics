@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI: USO
 date: 2026-11-09
+tags: DCA
 ---
 
 USO is sold as a way to own oil, but it doesn't hold a single barrel. It holds futures contracts, and every month it must sell the expiring one and buy the next. When later months cost more, each roll loses a little money. Year after year, those small losses add up.

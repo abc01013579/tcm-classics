@@ -1,6 +1,7 @@
 ---
 title: SPY-RSI backtest
 date: 2026-11-07
+tags: DCA
 ---
 
 Backtest of the rules in the introduction: buy SPY when RSI(14) < 30, sell when RSI(14) > 50. Fill at the signal bar's close, no costs.
