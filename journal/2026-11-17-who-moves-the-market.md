@@ -4,9 +4,9 @@ date: 2026-11-17
 tags: DCA
 ---
 
-**shuiming:** Who are behind the market motions?
+shuiming: Who are behind the market motions?
 
-**CC:** Several groups, moving the market in different ways:
+CC: Several groups, moving the market in different ways:
 
 - **Steady buyers.** Passive funds and 401k paychecks flow in every two weeks whatever the price: DCA at national scale. Companies buying back their own shares (about $940B for the S&P 500 in 2024) are one of the largest net buyers, pausing in blackout windows around earnings.
 - **Institutions with views.** Pensions, mutual funds and sovereign funds are big and slow, rebalancing at month and quarter ends. Hedge funds are leveraged, so when losses hit they cut risk together: the forced selling of 2008 and 2020.
