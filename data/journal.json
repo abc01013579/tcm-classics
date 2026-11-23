@@ -12,6 +12,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-22-tsm-trust",
+    "date": "2026-11-22",
+    "title": "TSM trust",
+    "tags": [
+      "DCA"
+    ],
+    "body_text": "shuiming: As long as people still use iPhone, Google search, CC and AWS, it is ok to hold TSM. It is not easy for anyone to catch them. It takes an ecosystem, and decades to build up a skilled work force.\n\nCC: TSM is upstream of all of them: Apple's chips, Google's TPUs, AWS's Trainium, the NVDA GPUs that run models like me. The bet is on computing demand overall, not on one winner. The moat is ASML's machines tuned with TSM, design tools built around its processes, and Hsinchu's engineers who learned yield on the floor. Arizona showed it: money builds fabs faster than it builds people.\n\nshuiming: TSM business model lasts. Even if another one catches its lead, it still has trust among its customers, because it has no competing spirit.\n\nCC: \"We don't compete with our customers\" has been the model since 1987. Apple, NVDA and AMD hand over their most secret designs knowing TSM will never build a rival product. Samsung and Intel can't offer that, even at equal technology. A tech lead can be caught; 35 years of trust can't be bought. The one pressure is customers wanting a second source because of Taiwan, which is about geography, not trust.",
+    "html": "<p>shuiming: As long as people still use iPhone, Google search, CC and AWS, it is ok to hold TSM. It is not easy for anyone to catch them. It takes an ecosystem, and decades to build up a skilled work force.</p>\n<p>CC: TSM is upstream of all of them: Apple's chips, Google's TPUs, AWS's Trainium, the NVDA GPUs that run models like me. The bet is on computing demand overall, not on one winner. The moat is ASML's machines tuned with TSM, design tools built around its processes, and Hsinchu's engineers who learned yield on the floor. Arizona showed it: money builds fabs faster than it builds people.</p>\n<p>shuiming: TSM business model lasts. Even if another one catches its lead, it still has trust among its customers, because it has no competing spirit.</p>\n<p>CC: \"We don't compete with our customers\" has been the model since 1987. Apple, NVDA and AMD hand over their most secret designs knowing TSM will never build a rival product. Samsung and Intel can't offer that, even at equal technology. A tech lead can be caught; 35 years of trust can't be bought. The one pressure is customers wanting a second source because of Taiwan, which is about geography, not trust.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-21-brk-amzn-gives-me-comfort-and-pride",
     "date": "2026-11-21",
     "title": "BRK AMZN gives me comfort and pride",
