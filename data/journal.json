@@ -12,6 +12,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-23-世事无常",
+    "date": "2026-11-23",
+    "title": "世事无常",
+    "tags": [
+      "DCA"
+    ],
+    "body_text": "Jensen Huang returned to NVDA as CEO. Who could predict it?\n\n![世事无常](/static/journal/2026-11-23-世事无常.webp)",
+    "html": "<p>Jensen Huang returned to NVDA as CEO. Who could predict it?</p>\n<p><img alt=\"世事无常\" src=\"/static/journal/2026-11-23-世事无常.webp\" /></p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-22-conviction-dca-works",
     "date": "2026-11-22",
     "title": "Conviction: DCA works",
