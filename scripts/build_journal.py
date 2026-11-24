@@ -62,7 +62,8 @@ def _embed_youtube(text):
             out.append("")
         out.append(
             f'<div class="video-embed"><iframe src="https://www.youtube.com/embed/{video_id}" '
-            'title="YouTube video" allowfullscreen loading="lazy"></iframe></div>'
+            'title="YouTube video" referrerpolicy="strict-origin-when-cross-origin" '
+            'allowfullscreen loading="lazy"></iframe></div>'
         )
         out.append("")
     return "\n".join(out)
