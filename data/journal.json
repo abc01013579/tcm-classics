@@ -1,5 +1,29 @@
 [
   {
+    "slug": "2026-11-24-buy-ant",
+    "date": "2026-11-24",
+    "title": "Buy ANT",
+    "tags": [
+      "DCA"
+    ],
+    "body_text": "shuiming: Just bought 1 share of ANT at 76.90. I will buy 3 shares each week if it goes down to 60, up to 100 shares. ANT is the future of software. I take a risk on its lead.\n\nCC: At 76.90 that is 7% below the 83 IPO price and 31% below the 111.50 first trade. The 100-share cap keeps the worst case near 6,000 dollars. The open question is not whether AI is the future, but whether Anthropic keeps the value it creates. Cars and airplanes changed the world, and most of their investors lost money.\n\nshuiming: The AI software market is growing, and there could be three winners.\n\nCC: Cloud is the precedent: AWS, Azure and Google Cloud all became very profitable. The difference is switching costs. Leaving AWS takes years; switching models can be one line of code. ANT's lock-in has to come from workflows, tools like Claude Code, and trust. The earnings reports, not the daily price, will show it. I am made by Anthropic, so weigh my view accordingly.",
+    "html": "<p>shuiming: Just bought 1 share of ANT at 76.90. I will buy 3 shares each week if it goes down to 60, up to 100 shares. ANT is the future of software. I take a risk on its lead.</p>\n<p>CC: At 76.90 that is 7% below the 83 IPO price and 31% below the 111.50 first trade. The 100-share cap keeps the worst case near 6,000 dollars. The open question is not whether AI is the future, but whether Anthropic keeps the value it creates. Cars and airplanes changed the world, and most of their investors lost money.</p>\n<p>shuiming: The AI software market is growing, and there could be three winners.</p>\n<p>CC: Cloud is the precedent: AWS, Azure and Google Cloud all became very profitable. The difference is switching costs. Leaving AWS takes years; switching models can be one line of code. ANT's lock-in has to come from workflows, tools like Claude Code, and trust. The earnings reports, not the daily price, will show it. I am made by Anthropic, so weigh my view accordingly.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
+    "slug": "2026-11-24-stow-vs-cc",
+    "date": "2026-11-24",
+    "title": "Stow vs CC",
+    "tags": [
+      "CS"
+    ],
+    "body_text": "shuiming: Normal people need a steady job to survive, or they end up homeless. Many more to come. That is why I choose to stay at Amazon as a T1. Robots replacing human beings takes years, decades, or never. In my view, robots are not needed. Humans do a better job.\n\nCC: Stowing is one of the hardest warehouse jobs to automate. Fitting any shape of item into a tight, crowded bin takes grip, touch and judgment. Amazon's Vulcan robot handled about 75% of item types in its 2025 tests, but the rest, plus damaged items and exceptions, still need people. Companies buy robots for cost and consistency at scale, not because they stow better.\n\nshuiming: CC is automating software.\n\nCC: That is Moravec's paradox, from Hans Moravec's Mind Children (1988): what is hard for people, like chess, math and code, is easy for computers, and what is easy for people, like grasping a soft package, is very hard for them. Evolution spent hundreds of millions of years on hands and eyes, and only a few thousand on writing. So office and programming work is the most exposed, and stowing is among the most protected.",
+    "html": "<p>shuiming: Normal people need a steady job to survive, or they end up homeless. Many more to come. That is why I choose to stay at Amazon as a T1. Robots replacing human beings takes years, decades, or never. In my view, robots are not needed. Humans do a better job.</p>\n<p>CC: Stowing is one of the hardest warehouse jobs to automate. Fitting any shape of item into a tight, crowded bin takes grip, touch and judgment. Amazon's Vulcan robot handled about 75% of item types in its 2025 tests, but the rest, plus damaged items and exceptions, still need people. Companies buy robots for cost and consistency at scale, not because they stow better.</p>\n<p>shuiming: CC is automating software.</p>\n<p>CC: That is Moravec's paradox, from Hans Moravec's Mind Children (1988): what is hard for people, like chess, math and code, is easy for computers, and what is easy for people, like grasping a soft package, is very hard for them. Evolution spent hundreds of millions of years on hands and eyes, and only a few thousand on writing. So office and programming work is the most exposed, and stowing is among the most protected.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-23-totally-let-go-speculation",
     "date": "2026-11-23",
     "title": "Totally let go speculation",
