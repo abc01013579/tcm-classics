@@ -1,6 +1,7 @@
 ---
-title: Python and Guido Van Rossum
+title: Python and Guido van Rossum
 date: 2026-11-25
+tags: CS
 ---
 
 Learn from masters:
