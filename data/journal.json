@@ -12,6 +12,18 @@
     "pairs": null
   },
   {
+    "slug": "2026-11-25-unix-c-and-linux",
+    "date": "2026-11-25",
+    "title": "Unix, C and Linux",
+    "tags": [
+      "CS"
+    ],
+    "body_text": "Learn from masters:\n\nAT&T Archives: The UNIX Operating System\n\nThe 1982 Bell Labs film: Ken Thompson, Dennis Ritchie and Brian Kernighan explain Unix, pipes and small tools.\nhttps://www.youtube.com/watch?v=tc4ROCJYbm0\n\nVCF East 2019: Ken Thompson interviewed by Brian Kernighan\n\nHow Thompson came to Bell Labs, how Unix began, and his chess machine.\nhttps://www.youtube.com/watch?v=EY6q5dv_B-o\n\n\"C\" Programming Language: Brian Kernighan - Computerphile\n\nWhere C came from: BCPL, then B, then C.\nhttps://www.youtube.com/watch?v=de2Hsvxaf8M\n\nThe Mind Behind Linux | Linus Torvalds | TED\n\nHow he works and thinks, and his two creations, Linux and Git.\nhttps://www.youtube.com/watch?v=o8NPllzkFhE",
+    "html": "<p>Learn from masters:</p>\n<p>AT&amp;T Archives: The UNIX Operating System</p>\n<p>The 1982 Bell Labs film: Ken Thompson, Dennis Ritchie and Brian Kernighan explain Unix, pipes and small tools.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/tc4ROCJYbm0\" title=\"YouTube video\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>\n\n<p>VCF East 2019: Ken Thompson interviewed by Brian Kernighan</p>\n<p>How Thompson came to Bell Labs, how Unix began, and his chess machine.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/EY6q5dv_B-o\" title=\"YouTube video\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>\n\n<p>\"C\" Programming Language: Brian Kernighan - Computerphile</p>\n<p>Where C came from: BCPL, then B, then C.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/de2Hsvxaf8M\" title=\"YouTube video\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>\n\n<p>The Mind Behind Linux | Linus Torvalds | TED</p>\n<p>How he works and thinks, and his two creations, Linux and Git.</p>\n<div class=\"video-embed\"><iframe src=\"https://www.youtube.com/embed/o8NPllzkFhE\" title=\"YouTube video\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-24-buy-ant",
     "date": "2026-11-24",
     "title": "Buy ANT",
