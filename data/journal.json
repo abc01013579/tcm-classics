@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-27-unix-v6-structure",
+    "date": "2026-11-27",
+    "title": "Unix V6 structure",
+    "tags": [
+      "CS"
+    ],
+    "body_text": "Reading the Unix V6 kernel, 1975, PDP-11. About 11,600 lines, the whole thing.\n\nFour parts:\n\nken/ — Ken Thompson's core. Processes, system calls, file system.\n\ndmr/ — Dennis Ritchie's drivers. Disks, tapes, terminals, and bio.c, the buffer cache.\n\nconf/ — assembly glue. Boot, traps, context switch, device tables.\n\n*.h — shared structs. user.h, proc.h, inode.h, buf.h. No modules, no interfaces, just globals everyone touches.\n\nOne read() call:\n\nuser program → trap → trap.c → sysent[] → sys2.c → rdwri.c → bio.c → rk.c → disk → interrupt → wakeup.\n\nThe build links it all into one file, /rkunix. That file only ever lived on a real PDP-11.\n\nSmall enough to read in a week. Still the shape of every Unix since.",
+    "html": "<p>Reading the Unix V6 kernel, 1975, PDP-11. About 11,600 lines, the whole thing.</p>\n<p>Four parts:</p>\n<p>ken/ — Ken Thompson's core. Processes, system calls, file system.</p>\n<p>dmr/ — Dennis Ritchie's drivers. Disks, tapes, terminals, and bio.c, the buffer cache.</p>\n<p>conf/ — assembly glue. Boot, traps, context switch, device tables.</p>\n<p>*.h — shared structs. user.h, proc.h, inode.h, buf.h. No modules, no interfaces, just globals everyone touches.</p>\n<p>One read() call:</p>\n<p>user program → trap → trap.c → sysent[] → sys2.c → rdwri.c → bio.c → rk.c → disk → interrupt → wakeup.</p>\n<p>The build links it all into one file, /rkunix. That file only ever lived on a real PDP-11.</p>\n<p>Small enough to read in a week. Still the shape of every Unix since.</p>",
+    "bilingual": false,
+    "pairs": null
+  },
+  {
     "slug": "2026-11-25-ai-learn-from-masters",
     "date": "2026-11-25",
     "title": "AI, learn from masters",
